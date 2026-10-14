@@ -1,0 +1,124 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 900,
+  "height": 420,
+  "padding": {
+    "left": 25,
+    "right": 120,
+    "top": 20,
+    "bottom": 25
+  },
+  "autosize": "pad",
+  "background": "#FFFFFF",
+  "data": [
+    {
+      "name": "tree",
+      "url": "../data/bird_taxonomy.csv",
+      "format": {"type": "csv"},
+      "transform": [
+        {
+          "type": "stratify",
+          "key": "id",
+          "parentKey": "parent"
+        },
+        {
+          "type": "tree",
+          "method": "tidy",
+          "size": [{"signal": "height"}, {"signal": "width - 120"}],
+          "as": ["y", "x", "depth", "children"]
+        }
+      ]
+    },
+    {
+    "name": "links",
+    "source": "tree",
+    "transform": [
+        {
+        "type": "treelinks"
+        },
+        {
+        "type": "linkpath",
+        "orient": "horizontal",
+        "shape": "diagonal",
+        "sourceX": "source.x",
+        "sourceY": "source.y",
+        "targetX": "target.x",
+        "targetY": "target.y"
+        }
+     ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "branchColour",
+      "type": "ordinal",
+      "domain": ["parrot", "songbird", "root"],
+      "range": ["#398BA3", "#E96B73", "#A69B92"]
+    }
+  ],
+  "marks": [
+    {
+      "type": "path",
+      "from": {"data": "links"},
+      "encode": {
+        "update": {
+          "path": {"field": "path"},
+          "stroke": {
+            "scale": "branchColour",
+            "field": "target.group"
+          },
+          "strokeWidth": {"value": 1.6},
+          "strokeOpacity": {"value": 0.65},
+          "fill": {"value": null}
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "from": {"data": "tree"},
+      "encode": {
+        "enter": {
+          "size": {"value": 95},
+          "stroke": {"value": "#FFFFFF"},
+          "strokeWidth": {"value": 1.5}
+        },
+        "update": {
+          "x": {"field": "x"},
+          "y": {"field": "y"},
+          "fill": {
+            "scale": "branchColour",
+            "field": "group"
+          },
+          "tooltip": {
+            "signal": "{'Name': datum.label, 'Rank': datum.rank}"
+          }
+        }
+      }
+    },
+      {
+        "type": "text",
+        "from": {"data": "tree"},
+        "encode": {
+            "enter": {
+            "font": {"value": "Arial"},
+            "fontSize": {"value": 12},
+            "baseline": {"value": "bottom"},
+            "align": {"value": "left"},
+            "dx": {"value": 6},
+            "dy": {"value": -9}
+            },
+            "update": {
+            "x": {"field": "x"},
+            "y": {"field": "y"},
+            "text": {"field": "label"},
+            "fill": {
+                "signal": "datum.rank === 'Species' ? '#302D32' : '#6C6260'"
+            },
+            "fontWeight": {
+                "signal": "datum.rank === 'Species' ? 'bold' : 'normal'"
+            }
+            }
+        }
+        }
+  ]
+}

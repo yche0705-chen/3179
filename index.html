@@ -51,7 +51,7 @@
         </figure>
 
       </article>
-      
+
       <!-- VISUALISATION 2: REASONS FOR KEEPING BIRDS -->
       <article class="visualisation-block reasons-visualisation">
 
@@ -131,6 +131,38 @@
       </article>
     </section>
 
+    <hr class="section-divider">
+    <!-- SECTION 2: SPECIES AND ORIGINS -->
+    <section class="story-section chapter-section">
+
+      <p class="section-label">
+        02 / WHERE DO OUR FEATHERED FRIENDS COME FROM?
+      </p>
+
+      <article class="visualisation-block taxonomy-visualisation">
+
+        <h2>Meet Our Feathered Companions</h2>
+
+        <p class="description">
+          From colourful parrots to small songbirds,
+          familiar pet birds belong to different biological families.
+          How closely are they classified?
+        </p>
+
+        <figure class="taxonomy-chart">
+          <figcaption>
+            Taxonomic classification of six commonly kept pet bird species
+          </figcaption>
+
+          <div id="bird_taxonomy"></div>
+
+        </figure>
+
+      </article>
+
+    </section>
+
+
   </main>
 
   <footer>
@@ -155,6 +187,12 @@
     vegaEmbed(
       "#bird_household_waffle",
       "js/bird_household_waffle.vg.json",
+      { actions: false }
+    ).catch(console.error);
+
+    vegaEmbed(
+      "#bird_taxonomy",
+      "js/bird_taxonomy.vg.json",
       { actions: false }
     ).catch(console.error);
 

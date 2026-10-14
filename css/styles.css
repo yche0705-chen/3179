@@ -31,7 +31,7 @@ body {
 ========================= */
 
 .hero {
-  padding: 90px 24px 75px;
+  padding: 70px 24px 50px;
   background: linear-gradient(
     135deg,
     #FFF9F0 0%,
@@ -113,10 +113,18 @@ h2 {
 
 .description {
   max-width: 65ch;
-  margin: 16px 0 32px;
+  margin: 16px 0 14px;
   color: var(--muted-text);
   font-size: 16px;
   line-height: 1.65;
+}
+
+.section-divider {
+  width: calc(100% - 48px);
+  max-width: 1032px;
+  margin: 10px auto;
+  border: none;
+  border-top: 1px solid var(--rule);
 }
 
 
@@ -448,6 +456,45 @@ h2 {
 .waffle-key.three {
   background: var(--lavender);
 }
+
+
+/* =========================
+   SECTION 2: TAXONOMIC TREE
+========================= */
+
+.taxonomy-chart {
+  width: 100%;
+  margin: 0;
+  padding: 24px 28px 20px;
+  background: #FFFFFF;
+  border: 1px solid #E7E0D8;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(48, 45, 50, 0.045);
+}
+
+.taxonomy-chart figcaption {
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#bird_taxonomy {
+  width: 100%;
+  overflow-x: auto;
+}
+
+#bird_taxonomy .vega-embed {
+  display: block;
+  min-width: 900px;
+}
+
+@media (max-width: 720px) {
+  .taxonomy-chart {
+    padding: 20px 14px;
+  }
+}
+
 
 /* =========================
    FOOTER

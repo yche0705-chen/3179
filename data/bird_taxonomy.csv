@@ -1,0 +1,20 @@
+id,parent,label,rank,group
+aves,,Birds,Class,root
+psittaciformes,aves,Parrots,Order,parrot
+passeriformes,aves,Songbirds,Order,songbird
+psittaculidae,psittaciformes,Psittaculidae,Family,parrot
+cacatuidae,psittaciformes,Cacatuidae,Family,parrot
+fringillidae,passeriformes,Fringillidae,Family,songbird
+estrildidae,passeriformes,Estrildidae,Family,songbird
+melopsittacus,psittaculidae,Melopsittacus,Genus,parrot
+trichoglossus,psittaculidae,Trichoglossus,Genus,parrot
+agapornis,psittaculidae,Agapornis,Genus,parrot
+nymphicus,cacatuidae,Nymphicus,Genus,parrot
+serinus,fringillidae,Serinus,Genus,songbird
+taeniopygia,estrildidae,Taeniopygia,Genus,songbird
+budgerigar,melopsittacus,Budgerigar,Species,parrot
+lorikeet,trichoglossus,Rainbow lorikeet,Species,parrot
+lovebird,agapornis,Peach-faced lovebird,Species,parrot
+cockatiel,nymphicus,Cockatiel,Species,parrot
+canary,serinus,Canary,Species,songbird
+zebra_finch,taeniopygia,Zebra finch,Species,songbird
