@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Birds as Pets | FIT3179 DV2</title>
+  <title>Birds as Pets | FIT3179 Data Visualisation 2</title>
 
   <!-- Vega-Lite libraries -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
@@ -27,10 +27,8 @@
   </header>
 
   <main>
-
-    <!-- SECTION 1 -->
-    <section class="story-section">
-
+    <!-- SECTION 1: BIRDS IN AUSTRALIAN HOMES -->
+    <section class="story-section chapter-section">
       <p class="section-label">01 / BIRDS IN AUSTRALIAN HOMES</p>
 
       <h2>Why do Australians keep pet birds?</h2>
@@ -42,46 +40,72 @@
         </p>
 
         <div class="visual-row">
-
-        <!-- Chart: spans two columns -->
-        <div class="chart-card">
-
-            <div class="chart-header">
-            <h3>Reasons for getting pet birds, 2022–2025</h3>
-
-            <div class="chart-legend">
+          <figure class="chart-card">
+            <figcaption class="chart-header">
+              <h3>Reasons for getting pet birds</h3>
+              <div class="chart-legend">
                 <span class="legend-item">
-                <span class="legend-dot teal"></span>
-                2022
+                  <span class="legend-dot teal"></span>
+                  2022
                 </span>
-
                 <span class="legend-item">
-                <span class="legend-diamond coral"></span>
-                2025
+                  <span class="legend-diamond coral"></span>
+                  2025
                 </span>
-            </div>
-            </div>
-
+              </div>
+            </figcaption>
             <div id="bird_reasons"></div>
+          </figure>
 
-        </div>
-
-        <!-- Annotation: spans one column -->
-        <aside class="insight-panel">
-            <p class="insight-label">KEY INSIGHT</p>
-
-            <h3>+10 Owners</h3>
-
-            <p>
-            Mental health became a more commonly reported
-            reason for getting pet birds between 2022 and 2025.
+          <aside class="insight-panel">
+            <p class="insight-label">Key insight</p>
+            <p class="insight-stat">
+              <span class="insight-number">10</span>
+              <span class="stat-unit">percentage point<br>increase</span>
             </p>
-        </aside>
-
+            <p class="insight-copy">
+              Mental health became a more commonly reported
+              reason for getting pet birds between 2022 and 2025.
+            </p>
+          </aside>
         </div>
+      </article>
 
-        </section>
+      <!-- VISUALISATION 2: HOUSEHOLD BIRD COUNTS -->
+      <article class="visualisation-block household-visualisation">
+        <h2>One bird, or a whole flock?</h2>
+        <p class="description">
+          Not every bird-owning household keeps just one bird.
+          Many keep several feathered companions.
+          But how common is it to keep multiple birds?
+        </p>
 
+        <div class="household-layout">
+          <aside class="household-narrative">
+            <p class="insight-label">A closer look</p>
+            <p class="household-stat">69%</p>
+            <h3>keep two or more birds</h3>
+            <p>
+              Most Australian bird-owning households
+              have more than one feathered companion.
+            </p>
+            <p class="household-note">
+              Each square represents 1% of bird-owning households.
+            </p>
+          </aside>
+
+          <figure class="household-chart">
+          <figcaption>Birds per bird-owning household, 2025</figcaption>
+            <div id="bird_household_waffle"></div>
+            <div class="waffle-legend" aria-label="Waffle chart legend">
+              <span><i class="waffle-key one"></i> 1 bird — 31%</span>
+              <span><i class="waffle-key two"></i> 2 birds — 30%</span>
+              <span><i class="waffle-key three"></i> 3 or more birds — 39%</span>
+            </div>
+          </figure>
+        </div>
+      </article>
+    </section>
 
   </main>
 
@@ -96,7 +120,12 @@
       "js/bird_reasons.vg.json",
       { actions: false }
     ).catch(console.error);
-  </script>
 
+    vegaEmbed(
+      "#bird_household_waffle",
+      "js/bird_household_waffle.vg.json",
+      { actions: false }
+    ).catch(console.error);
+  </script>
 </body>
 </html>

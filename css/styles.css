@@ -1,12 +1,18 @@
 
 :root {
   --cream: #FAF7F0;
-  --pink: #E96B73;
+  --coral: #E96B73;
   --yellow: #E7B83E;
   --teal: #398BA3;
   --lavender: #9B83BD;
   --text: #302D32;
+  --muted-text: #6C6260;
+  --rule: #DED6CC;
 }
+
+/* =========================
+   GLOBAL
+========================= */
 
 * {
   box-sizing: border-box;
@@ -16,12 +22,15 @@ body {
   margin: 0;
   background: var(--cream);
   color: var(--text);
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
 }
 
+/* =========================
+   HERO
+========================= */
+
 .hero {
-  text-align: center;
   padding: 90px 24px 75px;
   background: linear-gradient(
     135deg,
@@ -29,81 +38,107 @@ body {
     #FCE7EE 55%,
     #FFF2C9 100%
   );
+  text-align: center;
+}
+
+.eyebrow,
+.section-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
 }
 
 .eyebrow {
-  font-size: 12px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-transform: uppercase;
   color: #9D617A;
 }
 
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
 h1 {
-  font-family: Georgia, serif;
+  margin: 20px 0;
   font-size: clamp(36px, 5vw, 64px);
   line-height: 1.15;
-  margin: 20px 0;
 }
 
 .subtitle {
-  font-size: 18px;
   color: #766965;
+  font-size: 18px;
 }
 
+
+/* =========================
+   SECTION STRUCTURE
+========================= */
+
 .story-section {
-  max-width: 1280px;
-  margin: 75px auto;
+  max-width: 1080px;
+  margin: 60px auto;
   padding: 0 24px;
 }
 
 .section-label {
+  margin: 0;
   color: #AD6483;
-  font-size: 13px;
-  font-weight: bold;
-  letter-spacing: 1.5px;
+}
+
+.visualisation-block {
+  min-width: 0;
+}
+
+.visualisation-block + .visualisation-block {
+  margin-top: 65px;
+  padding-top: 0;
+  border-top: none;
 }
 
 h2 {
-  font-family: Georgia, serif;
-  font-size: 32px;
   margin: 12px 0;
+  font-size: 32px;
+  line-height: 1.25;
 }
 
+.visualisation-subtitle {
+  margin: 4px 0 0;
+  color: #766965;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+}
 
 .description {
-  max-width: 60ch;
+  max-width: 65ch;
+  margin: 16px 0 32px;
+  color: var(--muted-text);
   font-size: 16px;
   line-height: 1.65;
-  color: #6C6260;
-  margin: 20px 0 32px;
 }
+
+/* =========================
+   VISUALISATION 1
+   Reasons for getting birds
+========================= */
 
 .visual-row {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
-  align-items: start;
+  grid-template-columns: minmax(0, 2fr) minmax(260px, 0.85fr);
+  gap: 22px;
+  align-items: stretch;
 }
 
-/* Chart takes 2 of the 3 columns */
 .chart-card {
-  grid-column: span 2;
   min-width: 0;
-  max-width: none;
-  padding: 30px;
+  margin: 0;
+  padding: 24px 24px 20px;
+  overflow: hidden;
   background: #FFFFFF;
   border: 1px solid #E7E0D8;
   border-radius: 16px;
-}
-
-/* Annotation takes 1 column */
-.insight-panel {
-  grid-column: span 1;
-  min-width: 0;
-  padding: 30px;
-  background: #FFF0D4;
-  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(48, 45, 50, 0.045);
 }
 
 .chart-header {
@@ -111,91 +146,376 @@ h2 {
   justify-content: space-between;
   align-items: center;
   gap: 24px;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 
 .chart-header h3 {
-  font-family: Arial, sans-serif;
+  margin: 0;
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 600;
-  color: #302D32;
-  margin: 0;
+  line-height: 1.35;
 }
 
 .chart-legend {
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   gap: 20px;
-  flex-shrink: 0;
 }
 
 .legend-item {
   display: inline-flex;
   align-items: center;
   gap: 7px;
+  color: var(--text);
   font-size: 13px;
-  color: #302D32;
+}
+
+.legend-dot,
+.legend-diamond {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
 }
 
 .legend-dot {
-  width: 11px;
-  height: 11px;
   border-radius: 50%;
-  display: inline-block;
 }
 
 .legend-diamond {
-  width: 10px;
-  height: 10px;
   transform: rotate(45deg);
-  display: inline-block;
 }
 
 .teal {
-  background: #398BA3;
+  background: var(--teal);
 }
 
 .coral {
-  background: #E96B73;
+  background: var(--coral);
 }
 
 #bird_reasons {
   width: 100%;
-  overflow-x: auto;
+  min-height: 270px;
 }
 
+#bird_reasons .vega-embed,
+#bird_reasons canvas,
+#bird_reasons svg {
+  max-width: 100%;
+}
+
+/* Visualisation 1 annotation */
+
+.insight-panel {
+  display: flex;
+  min-width: 0;
+  padding: 26px;
+  flex-direction: column;
+  justify-content: center;
+  background: #FFF0D4;
+  border-radius: 16px;
+}
 
 .insight-label {
+  margin: 0 0 14px;
+  color: #A75D45;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 1.5px;
-  color: #A75D45;
-  margin: 0 0 12px;
+  text-transform: uppercase;
 }
 
-.insight-panel h3 {
-  font-family: Georgia, serif;
-  font-size: 44px;
-  line-height: 1.1;
-  color: #302D32;
-  margin: 0 0 16px;
+.insight-stat {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0 0 22px;
+  color: var(--text);
 }
 
-.insight-panel p:not(.insight-label) {
+.insight-number {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(58px, 5vw, 76px);
+  font-weight: 700;
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+}
+
+.stat-unit {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+}
+
+.insight-copy {
+  margin: 0;
+  color: #493C39;
   font-size: 15px;
   line-height: 1.65;
-  color: #493C39;
+}
+
+/* =========================
+   VISUALISATION 2
+   Birds per household
+========================= */
+
+.household-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr);
+  gap: 48px;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 8px;
+}
+
+.household-visualisation {
+  margin-top: 50px !important;
+}
+
+/* Left annotation */
+
+.household-narrative {
+  width: 100%;
+  min-width: 0;
+}
+
+.household-stat {
+  margin: 0;
+  color: var(--coral);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(70px, 7vw, 86px);
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: -0.045em;
+}
+
+.household-narrative h3 {
+  margin: 8px 0 16px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.household-narrative > p:not(
+  .insight-label
+):not(
+  .household-stat
+):not(
+  .household-note
+) {
+  max-width: 36ch;
+  margin: 0;
+  color: #5F5654;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.household-note {
+  margin: 16px 0 0;
+  padding-top: 11px;
+  border-top: 1px solid var(--rule);
+  color: #756A67;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Right waffle chart */
+
+.household-chart {
+  width: 100%;
+  min-width: 0;
   margin: 0;
 }
 
+.household-chart figcaption {
+  margin-bottom: 14px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+#bird_household_waffle {
+  width: 100%;
+  min-width: 0;
+}
+
+#bird_household_waffle .vega-embed {
+  width: 100%;
+}
+
+#bird_household_waffle canvas,
+#bird_household_waffle svg {
+  max-width: 100%;
+}
+
+/* Waffle legend */
+
+.waffle-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin-top: 10px;
+  color: var(--text);
+  font-size: 12px;
+}
+
+.waffle-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.waffle-key {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  flex: 0 0 auto;
+  border-radius: 2px;
+}
+
+.waffle-key.one {
+  background: var(--teal);
+}
+
+.waffle-key.two {
+  background: var(--yellow);
+}
+
+.waffle-key.three {
+  background: var(--lavender);
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  padding: 28px 24px;
+  color: #756A67;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* =========================
+   RESPONSIVE: TABLET
+========================= */
 
 @media (max-width: 950px) {
+
   .visual-row {
     grid-template-columns: 1fr;
   }
 
-  .chart-card,
   .insight-panel {
-    grid-column: 1;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 28px;
+    align-items: center;
+  }
+
+  .insight-panel .insight-label {
+    grid-column: 1 / -1;
+  }
+
+  .insight-panel .insight-stat {
+    margin-bottom: 0;
+  }
+}
+
+/* =========================
+   RESPONSIVE: SMALL TABLET
+========================= */
+
+@media (max-width: 850px) {
+
+  .household-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .household-chart {
+    width: 100%;
+  }
+}
+
+/* =========================
+   RESPONSIVE: MOBILE
+========================= */
+
+@media (max-width: 720px) {
+
+  .hero {
+    padding: 66px 20px 56px;
+  }
+
+  .story-section {
+    margin: 46px auto;
+    padding: 0 18px;
+  }
+
+  h2 {
+    font-size: 29px;
+  }
+
+  .description {
+    margin-bottom: 26px;
+  }
+
+  .chart-card {
+    padding: 22px 18px 18px;
+  }
+
+  .chart-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .insight-panel {
+    display: block;
+    padding: 24px;
+  }
+
+  .insight-panel .insight-stat {
+    margin-bottom: 20px;
+  }
+
+  .visualisation-block + .visualisation-block {
+    margin-top: 45px;
+    padding-top: 0;
+  }
+
+  .household-stat {
+    font-size: clamp(68px, 20vw, 82px);
+  }
+
+  .household-narrative h3 {
+    font-size: clamp(23px, 7vw, 26px);
+  }
+}
+
+/* =========================
+   RESPONSIVE: SMALL MOBILE
+========================= */
+
+@media (max-width: 420px) {
+
+  .chart-legend {
+    gap: 14px;
+  }
+
+  .insight-stat {
+    align-items: flex-end;
+  }
+
+  .waffle-legend {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
   }
 }

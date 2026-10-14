@@ -1,0 +1,58 @@
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": "200",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "background": null,
+  "data": {
+    "url": "data/bird_household_waffle.csv"
+  },
+  "mark": {
+    "type": "rect",
+    "cornerRadius": 3,
+    "stroke": "#FFFFFF",
+    "strokeWidth": 2
+  },
+  "encoding": {
+    "x": {
+      "field": "column",
+      "type": "ordinal",
+      "sort": "ascending",
+      "axis": null
+    },
+    "y": {
+      "field": "row",
+      "type": "ordinal",
+      "sort": "ascending",
+      "axis": null
+    },
+    "color": {
+      "field": "category",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "1 bird",
+          "2 birds",
+          "3 or more birds"
+        ],
+        "range": [
+          "#398BA3",
+          "#E7B83E",
+          "#9B83BD"
+        ]
+      },
+      "legend": null
+    },
+    "tooltip": [
+      {"field": "category", "title": "Birds kept"},
+      {"field": "percentage", "title": "Households (%)"}
+    ]
+  },
+  "config": {
+    "view": {"stroke": null}
+  }
+}

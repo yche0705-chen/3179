@@ -1,18 +1,18 @@
 
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 540,
-  "height": 300,
+  "width": "container",
+  "height": 270,
   "background": null,
   "autosize": {
     "type": "fit",
     "contains": "padding"
   },
   "padding": {
-    "top": 10,
+    "top": 6,
     "left": 10,
     "right": 20,
-    "bottom": 10
+    "bottom": 6
   },
   "data": {
     "url": "data/bird_ownership_reasons.csv"
