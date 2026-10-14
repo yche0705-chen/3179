@@ -4,43 +4,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Birds as Pets | FIT3179 DV2</title>
 
+  <!-- Vega-Lite libraries -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+  <!-- Our stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-  <h1>Birds as Pets in Australia</h1>
-  <p>Exploring bird ownership, species and wild distributions.</p>
 
-  <div id="chart1"></div>
+  <header class="hero">
+    <p class="eyebrow">FIT3179 · Data Visualisation 2</p>
+    <h1>Birds as Pets in Australia</h1>
+    <p class="subtitle">
+      Exploring bird ownership, species and wild distributions.
+    </p>
+  </header>
 
+  <main>
+
+    <!-- SECTION 1 -->
+    <section class="story-section">
+
+      <p class="section-label">01 / BIRDS IN AUSTRALIAN HOMES</p>
+
+      <h2>Why do Australians keep pet birds?</h2>
+
+        <p class="description">
+        Australians keep birds for companionship, relaxation
+        and personal interests. But have their motivations
+        changed between 2022 and 2025?
+        </p>
+
+        <div class="visual-row">
+
+        <!-- Chart: spans two columns -->
+        <div class="chart-card">
+
+            <div class="chart-header">
+            <h3>Reasons for getting pet birds, 2022–2025</h3>
+
+            <div class="chart-legend">
+                <span class="legend-item">
+                <span class="legend-dot teal"></span>
+                2022
+                </span>
+
+                <span class="legend-item">
+                <span class="legend-diamond coral"></span>
+                2025
+                </span>
+            </div>
+            </div>
+
+            <div id="bird_reasons"></div>
+
+        </div>
+
+        <!-- Annotation: spans one column -->
+        <aside class="insight-panel">
+            <p class="insight-label">KEY INSIGHT</p>
+
+            <h3>+10 Owners</h3>
+
+            <p>
+            Mental health became a more commonly reported
+            reason for getting pet birds between 2022 and 2025.
+            </p>
+        </aside>
+
+        </div>
+
+        </section>
+
+
+  </main>
+
+  <footer>
+    <p>FIT3179 Data Visualisation 2 · 2026</p>
+  </footer>
+
+  <!-- Embed Vega-Lite chart -->
   <script>
-    const spec = {
-      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-      "width": 450,
-      "height": 250,
-      "data": {
-        "values": [
-          {"species": "Budgerigar", "value": 10},
-          {"species": "Cockatiel", "value": 7},
-          {"species": "Canary", "value": 4}
-        ]
-      },
-      "mark": "bar",
-      "encoding": {
-        "x": {"field": "species", "type": "nominal"},
-        "y": {"field": "value", "type": "quantitative"},
-        "tooltip": [
-          {"field": "species", "type": "nominal"},
-          {"field": "value", "type": "quantitative"}
-        ]
-      }
-    };
-
-    vegaEmbed("#chart1", spec, {actions: false})
-      .catch(console.error);
+    vegaEmbed(
+      "#bird_reasons",
+      "js/bird_reasons.vg.json",
+      { actions: false }
+    ).catch(console.error);
   </script>
+
 </body>
 </html>

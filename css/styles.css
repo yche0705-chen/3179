@@ -1,0 +1,201 @@
+
+:root {
+  --cream: #FAF7F0;
+  --pink: #E96B73;
+  --yellow: #E7B83E;
+  --teal: #398BA3;
+  --lavender: #9B83BD;
+  --text: #302D32;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.hero {
+  text-align: center;
+  padding: 90px 24px 75px;
+  background: linear-gradient(
+    135deg,
+    #FFF9F0 0%,
+    #FCE7EE 55%,
+    #FFF2C9 100%
+  );
+}
+
+.eyebrow {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #9D617A;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(36px, 5vw, 64px);
+  line-height: 1.15;
+  margin: 20px 0;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #766965;
+}
+
+.story-section {
+  max-width: 1280px;
+  margin: 75px auto;
+  padding: 0 24px;
+}
+
+.section-label {
+  color: #AD6483;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 32px;
+  margin: 12px 0;
+}
+
+
+.description {
+  max-width: 60ch;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #6C6260;
+  margin: 20px 0 32px;
+}
+
+.visual-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+/* Chart takes 2 of the 3 columns */
+.chart-card {
+  grid-column: span 2;
+  min-width: 0;
+  max-width: none;
+  padding: 30px;
+  background: #FFFFFF;
+  border: 1px solid #E7E0D8;
+  border-radius: 16px;
+}
+
+/* Annotation takes 1 column */
+.insight-panel {
+  grid-column: span 1;
+  min-width: 0;
+  padding: 30px;
+  background: #FFF0D4;
+  border-radius: 16px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 12px;
+}
+
+.chart-header h3 {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #302D32;
+  margin: 0;
+}
+
+.chart-legend {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  color: #302D32;
+}
+
+.legend-dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.legend-diamond {
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  display: inline-block;
+}
+
+.teal {
+  background: #398BA3;
+}
+
+.coral {
+  background: #E96B73;
+}
+
+#bird_reasons {
+  width: 100%;
+  overflow-x: auto;
+}
+
+
+.insight-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #A75D45;
+  margin: 0 0 12px;
+}
+
+.insight-panel h3 {
+  font-family: Georgia, serif;
+  font-size: 44px;
+  line-height: 1.1;
+  color: #302D32;
+  margin: 0 0 16px;
+}
+
+.insight-panel p:not(.insight-label) {
+  font-size: 15px;
+  line-height: 1.65;
+  color: #493C39;
+  margin: 0;
+}
+
+
+@media (max-width: 950px) {
+  .visual-row {
+    grid-template-columns: 1fr;
+  }
+
+  .chart-card,
+  .insight-panel {
+    grid-column: 1;
+  }
+}

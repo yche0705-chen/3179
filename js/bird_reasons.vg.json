@@ -1,0 +1,150 @@
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 540,
+  "height": 300,
+  "background": null,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "padding": {
+    "top": 10,
+    "left": 10,
+    "right": 20,
+    "bottom": 10
+  },
+  "data": {
+    "url": "data/bird_ownership_reasons.csv"
+  },
+  "transform": [
+    {
+      "calculate": "toString(datum.year)",
+      "as": "year_label"
+    }
+  ],
+  "encoding": {
+    "y": {
+      "field": "reason",
+      "type": "nominal",
+      "sort": [
+        "Companionship",
+        "Hobby",
+        "Relaxation",
+        "For mental health",
+        "For their eggs"
+      ],
+      "title": null,
+      "axis": {
+        "labelFontSize": 13,
+        "labelColor": "#302D32",
+        "labelPadding": 15,
+        "labelLimit": 180,
+        "ticks": false,
+        "domain": false
+      }
+    }
+  },
+  "layer": [
+    {
+      "transform": [
+        {
+          "pivot": "year_label",
+          "value": "percentage",
+          "groupby": ["reason"]
+        }
+      ],
+      "mark": {
+        "type": "rule",
+        "stroke": "#C7C7C7",
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "x": {
+          "field": "2022",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 45],
+            "nice": false
+          },
+          "title": "Percentage of bird owners (%)",
+          "axis": {
+            "grid": true,
+            "tickCount": 6,
+            "labelFontSize": 12,
+            "titleFontSize": 12,
+            "titlePadding": 15
+          }
+        },
+        "x2": {
+          "field": "2025"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 170,
+        "stroke": "#FFFFFF",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {
+          "field": "percentage",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 45],
+            "nice": false
+          }
+        },
+        "color": {
+          "field": "year_label",
+          "type": "nominal",
+          "scale": {
+            "domain": ["2022", "2025"],
+            "range": ["#398BA3", "#E96B73"]
+          },
+          "legend": null
+        },
+        "shape": {
+          "field": "year_label",
+          "type": "nominal",
+          "scale": {
+            "domain": ["2022", "2025"],
+            "range": ["circle", "diamond"]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "reason",
+            "title": "Reason"
+          },
+          {
+            "field": "year_label",
+            "title": "Year"
+          },
+          {
+            "field": "percentage",
+            "title": "Bird owners",
+            "format": ".0f"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#302D32",
+      "titleColor": "#302D32",
+      "gridColor": "#EEE8E2",
+      "gridWidth": 1,
+      "domain": false
+    },
+    "font": "Arial"
+  }
+}
