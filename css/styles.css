@@ -53,9 +53,12 @@ body {
   color: #9D617A;
 }
 
-h1,
-h2 {
+h1 {
   font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -90,9 +93,7 @@ h1 {
 }
 
 .visualisation-block + .visualisation-block {
-  margin-top: 65px;
-  padding-top: 0;
-  border-top: none;
+  margin-top: 40px;
 }
 
 h2 {
@@ -117,6 +118,68 @@ h2 {
   font-size: 16px;
   line-height: 1.65;
 }
+
+
+/* =========================
+   PET OWNERSHIP COMPARISON
+========================= */
+
+.pet-comparison-chart {
+  width: 100%;
+  margin: 0;
+  padding: 24px 30px 20px;
+  background: #FFFFFF;
+  border: 1px solid #E7E0D8;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(48, 45, 50, 0.045);
+}
+
+.pet-comparison-chart figcaption {
+  margin: 0 0 20px;
+  color: var(--text);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+#pet_ownership_comparison {
+  width: 100%;
+  min-width: 0;
+}
+
+#pet_ownership_comparison .vega-embed {
+  width: 100%;
+}
+
+#pet_ownership_comparison canvas,
+#pet_ownership_comparison svg {
+  max-width: 100%;
+}
+
+.chart-footnote,
+.chart-source {
+  margin: 10px 0 0;
+  color: var(--muted-text);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.chart-source a {
+  color: var(--teal);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+@media (max-width: 720px) {
+  .pet-comparison-chart {
+    padding: 20px 14px;
+  }
+
+  .pet-comparison-chart figcaption {
+    font-size: 16px;
+  }
+}
+
 
 /* =========================
    VISUALISATION 1
@@ -270,10 +333,6 @@ h2 {
   align-items: center;
   width: 100%;
   padding-bottom: 8px;
-}
-
-.household-visualisation {
-  margin-top: 50px !important;
 }
 
 /* Left annotation */
@@ -487,7 +546,6 @@ footer {
 
   .visualisation-block + .visualisation-block {
     margin-top: 45px;
-    padding-top: 0;
   }
 
   .household-stat {

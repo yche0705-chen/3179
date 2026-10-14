@@ -31,6 +31,30 @@
     <section class="story-section chapter-section">
       <p class="section-label">01 / BIRDS IN AUSTRALIAN HOMES</p>
 
+      <!-- VISUALISATION 1: PET OWNERSHIP COMPARISON -->
+      <article class="visualisation-block pet-comparison-visualisation">
+
+        <h2>Where do birds stand among Australia's favourite pets?</h2>
+
+        <p class="description">
+          Dogs and cats are familiar companions in Australian homes,
+          but birds are also part of the picture.
+          How does bird ownership compare with other types of pets?
+        </p>
+
+        <figure class="pet-comparison-chart">
+          <figcaption>
+            Australian households owning each type of pet, 2025
+          </figcaption>
+
+          <div id="pet_ownership_comparison"></div>
+        </figure>
+
+      </article>
+      
+      <!-- VISUALISATION 2: REASONS FOR KEEPING BIRDS -->
+      <article class="visualisation-block reasons-visualisation">
+
       <h2>Why do Australians keep pet birds?</h2>
 
         <p class="description">
@@ -114,7 +138,14 @@
   </footer>
 
   <!-- Embed Vega-Lite chart -->
+
   <script>
+     vegaEmbed(
+      "#pet_ownership_comparison",
+      "js/pet_ownership_comparison.vg.json",
+      { actions: false }
+    ).catch(console.error);
+
     vegaEmbed(
       "#bird_reasons",
       "js/bird_reasons.vg.json",
@@ -126,6 +157,7 @@
       "js/bird_household_waffle.vg.json",
       { actions: false }
     ).catch(console.error);
+
   </script>
 </body>
 </html>

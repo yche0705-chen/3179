@@ -1,0 +1,120 @@
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 280,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/pet_ownership_comparison.csv"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "size": 22,
+        "cornerRadiusEnd": 3
+      },
+      "encoding": {
+        "y": {
+          "field": "pet_type",
+          "type": "nominal",
+          "sort": "-x",
+          "axis": {
+            "title": null,
+            "labelFont": "Arial",
+            "labelFontSize": 14,
+            "labelColor": "#302D32",
+            "labelPadding": 12,
+            "ticks": false,
+            "domain": false
+          }
+        },
+        "x": {
+          "field": "percentage",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 55],
+            "nice": false
+          },
+          "axis": {
+            "title": "Percentage of Australian households",
+            "titleFont": "Arial",
+            "titleFontSize": 13,
+            "titlePadding": 14,
+            "labelFont": "Arial",
+            "labelFontSize": 12,
+            "grid": true,
+            "gridColor": "#E7E0D8",
+            "gridOpacity": 0.7,
+            "domain": false,
+            "ticks": false,
+            "values": [0, 10, 20, 30, 40, 50],
+            "labelExpr": "datum.value + '%'"
+          }
+        },
+        "color": {
+          "condition": {
+            "test": "datum.pet_type === 'Birds'",
+            "value": "#E96B73"
+          },
+          "value": "#B8B0AC"
+        },
+        "tooltip": [
+          {
+            "field": "pet_type",
+            "type": "nominal",
+            "title": "Pet type"
+          },
+          {
+            "field": "percentage",
+            "type": "quantitative",
+            "title": "Australian households",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 8,
+        "font": "Arial",
+        "fontSize": 13,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "y": {
+          "field": "pet_type",
+          "type": "nominal",
+          "sort": "-x"
+        },
+        "x": {
+          "field": "percentage",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "percentage",
+          "type": "quantitative",
+          "format": ".1f"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.pet_type === 'Birds'",
+            "value": "#E96B73"
+          },
+          "value": "#302D32"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}
