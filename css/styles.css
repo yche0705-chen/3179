@@ -606,6 +606,46 @@ h2 {
 
 
 /* =========================
+   SEASONAL OBSERVATION HEATMAPS
+========================= */
+
+.bird-seasonal-visualisation {
+  margin-top: 55px;
+}
+
+.bird-seasonal-chart {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 24px 0;
+}
+
+#bird_seasonal_heatmaps {
+  width: 100%;
+  overflow-x: auto;
+}
+
+#bird_seasonal_heatmaps .vega-embed {
+  display: block;
+  width: max-content;
+  max-width: none;
+}
+
+.bird-seasonal-chart .chart-footnote {
+  margin-top: 18px;
+  font-size: 13px;
+  color: #6C6260;
+}
+
+.bird-seasonal-chart .chart-source {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #756A67;
+}
+
+
+
+/* =========================
    STATE CHOROPLETH + ANNOTATIONS
 ========================= */
 

@@ -1,0 +1,128 @@
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": null,
+  "padding": 5,
+  "data": {
+    "url": "data/bird_monthly_counts.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "month_date": "date",
+        "observation_count": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "calculate": "year(datum.month_date)",
+      "as": "observation_year"
+    },
+    {
+      "calculate": "month(datum.month_date) + 1",
+      "as": "observation_month"
+    }
+  ],
+  "facet": {
+    "column": {
+      "field": "species",
+      "type": "nominal",
+      "sort": ["Budgerigar", "Cockatiel"],
+      "header": {
+        "title": null,
+        "labelFont": "Arial",
+        "labelFontSize": 17,
+        "labelFontWeight": "bold",
+        "labelColor": "#302D32",
+        "labelPadding": 14
+      }
+    }
+  },
+  "spec": {
+    "width": 480,
+    "height": 270,
+    "mark": {
+      "type": "rect",
+      "stroke": "#FAF7F0",
+      "strokeWidth": 2,
+      "cornerRadius": 2
+    },
+    "encoding": {
+      "x": {
+        "field": "observation_month",
+        "type": "ordinal",
+        "sort": "ascending",
+        "title": "Month",
+        "axis": {
+          "labelExpr": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value - 1]",
+          "labelAngle": 0,
+          "labelFontSize": 10,
+          "labelColor": "#6C6260",
+          "titleColor": "#302D32",
+          "ticks": false,
+          "domain": false
+        }
+      },
+      "y": {
+        "field": "observation_year",
+        "type": "ordinal",
+        "sort": "ascending",
+        "title": null,
+        "axis": {
+          "labelColor": "#6C6260",
+          "labelFontSize": 11,
+          "ticks": false,
+          "domain": false
+        }
+      },
+      "color": {
+        "field": "observation_count",
+        "type": "quantitative",
+        "title": "Recorded observations",
+        "scale": {
+          "scheme": "blues",
+          "domainMin": 0
+        },
+        "legend": {
+          "orient": "bottom",
+          "direction": "horizontal",
+          "gradientLength": 240,
+          "titleFont": "Arial",
+          "labelFont": "Arial",
+          "titleColor": "#302D32",
+          "labelColor": "#6C6260"
+        }
+      },
+      "tooltip": [
+        {
+          "field": "species",
+          "type": "nominal",
+          "title": "Species"
+        },
+        {
+          "field": "month_date",
+          "type": "temporal",
+          "title": "Month",
+          "format": "%B %Y"
+        },
+        {
+          "field": "observation_count",
+          "type": "quantitative",
+          "title": "Recorded observations",
+          "format": ","
+        }
+      ]
+    }
+  },
+  "resolve": {
+    "scale": {
+      "color": "shared"
+    }
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial"
+  }
+}

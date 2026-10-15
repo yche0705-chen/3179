@@ -194,6 +194,30 @@
 
       </article>
 
+    <!-- VISUALISATION: SEASONAL OBSERVATION HEATMAPS -->
+    <article class="visualisation-block bird-seasonal-visualisation">
+
+      <h2>When Are Wild Birds Most Frequently Observed?</h2>
+
+      <p class="description">
+        Do wild bird observations follow similar seasonal patterns
+        each year? Compare monthly records of budgerigars and
+        cockatiels between 2016 and 2025.
+      </p>
+
+      <figure class="bird-seasonal-chart">
+        <div id="bird_seasonal_heatmaps"></div>
+
+        <figcaption class="chart-footnote">
+          Darker colours indicate more recorded observations.
+          Hover over a cell to view the monthly count.
+        </figcaption>
+
+      </figure>
+
+    </article>
+
+
     <article class="visualisation-block bird-state-visualisation">
       <h2>Where Are Wild Bird Observations Most Common?</h2>
 
@@ -282,6 +306,14 @@
         bind: document.getElementById("bird_map_controls")
       }
     ).catch(console.error);
+
+
+    vegaEmbed(
+      "#bird_seasonal_heatmaps",
+      "js/bird_seasonal_heatmaps.vg.json",
+      { actions: false }
+    ).catch(console.error);
+
 
     vegaEmbed(
       "#bird_state_choropleth",
