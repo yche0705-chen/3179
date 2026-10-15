@@ -497,6 +497,114 @@ h2 {
 
 
 /* =========================
+   INTERACTIVE MAP + TIMELINE
+========================= */
+
+.bird-map-visualisation {
+  margin-top: 55px;
+}
+
+.bird-map-card {
+  width: 100%;
+  margin: 0;
+  padding: 28px 24px 20px;
+  background: #FFFFFF;
+  border: 1px solid #E7E0D8;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(48, 45, 50, 0.045);
+}
+
+#bird_map_timeline {
+  width: 100%;
+  overflow-x: auto;
+}
+
+#bird_map_timeline .vega-embed {
+  display: block;
+  min-width: 0;
+}
+
+.map-instruction {
+  margin: 18px 0 10px;
+  color: var(--teal);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.bird-map-card .chart-footnote,
+.bird-map-card .chart-source {
+  color: var(--muted-text);
+  font-size: 13px;
+  line-height: 1.6;
+}
+/* Bird map species selector */
+#bird_map_timeline .vega-bindings {
+  margin-bottom: 20px;
+}
+
+#bird_map_timeline .vega-bind {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#bird_map_timeline .vega-bind select {
+  padding: 8px 12px;
+  border: 1px solid #DED6CC;
+  border-radius: 6px;
+  background: #FFFFFF;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+@media (max-width: 720px) {
+  .bird-map-card {
+    padding: 20px 14px;
+  }
+}
+
+.map-bottom-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.bird-map-card .map-instruction {
+  justify-self: start;
+  width: 100%;
+  max-width: 500px;
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #398BA3;
+  text-align: left;
+}
+
+#bird_map_controls {
+  flex-shrink: 0;
+}
+
+@media (max-width: 750px) {
+  .map-bottom-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bird-map-card .map-instruction {
+    text-align: left;
+  }
+}
+
+/* =========================
    FOOTER
 ========================= */
 

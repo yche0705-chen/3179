@@ -1,0 +1,300 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "#FFFFFF",
+  "padding": 12,
+  "params": [
+    {
+      "name": "selectedSpecies",
+      "value": "Budgerigar",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Budgerigar",
+          "Cockatiel"
+        ],
+        "name": "Species: "
+      }
+    }
+  ],
+  "hconcat": [
+    {
+      "title": {
+        "text": "Recorded observation locations",
+        "anchor": "start",
+        "font": "Arial",
+        "fontSize": 16,
+        "color": "#302D32"
+      },
+      "width": 480,
+      "height": 420,
+      "projection": {
+        "type": "mercator",
+        "center": [
+          134,
+          -26
+        ],
+        "scale": 620,
+        "translate": [240, 210]
+      },
+      "layer": [
+        {
+          "data": {
+            "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+            "format": {
+              "type": "topojson",
+              "feature": "countries"
+            }
+          },
+          "transform": [
+            {
+              "filter": "datum.id == '036' || datum.id == 36"
+            }
+          ],
+          "mark": {
+            "type": "geoshape",
+            "fill": "#F1EDE6",
+            "stroke": "#B6AAA0",
+            "strokeWidth": 0.8
+          }
+        },
+        {
+          "data": {
+            "url": "data/bird_points.csv",
+            "format": {
+              "type": "csv",
+              "parse": {
+                "month_date": "date",
+                "latitude": "number",
+                "longitude": "number"
+              }
+            }
+          },
+          "transform": [
+            {
+              "filter": "datum.species === selectedSpecies"
+            },
+            {
+              "calculate": "year(datum.month_date)",
+              "as": "observation_year"
+            },
+            {
+              "filter": {
+                "param": "timeBrush"
+              }
+            }
+          ],
+          "mark": {
+            "type": "circle",
+            "size": 17,
+            "opacity": 0.55,
+            "color": "#398BA3",
+            "stroke": null
+          },
+          "encoding": {
+            "longitude": {
+              "field": "longitude",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "latitude",
+              "type": "quantitative"
+            },
+            "tooltip": [
+              {
+                "field": "species",
+                "title": "Species"
+              },
+              {
+                "field": "date",
+                "title": "Date"
+              },
+              {
+                "field": "state_name",
+                "title": "State"
+              },
+              {
+                "field": "observation_year",
+                "title": "Year"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "vconcat": [
+        {
+          "title": {
+            "text": "Monthly observations in selected period",
+            "anchor": "start",
+            "font": "Arial",
+            "fontSize": 16,
+            "color": "#302D32"
+          },
+          "width": 400,
+          "height": 280,
+          "data": {
+            "url": "data/bird_monthly_counts.csv",
+            "format": {
+              "type": "csv",
+              "parse": {
+                "month_date": "date",
+                "observation_count": "number"
+              }
+            }
+          },
+          "transform": [
+            {
+              "filter": "datum.species === selectedSpecies"
+            }
+          ],
+          "mark": {
+            "type": "area",
+            "line": {
+              "color": "#398BA3",
+              "strokeWidth": 1.8
+            },
+            "color": "#A9D4DE",
+            "opacity": 0.85
+          },
+          "encoding": {
+            "x": {
+              "field": "month_date",
+              "type": "temporal",
+              "title": null,
+              "scale": {
+                "domain": {
+                  "param": "timeBrush"
+                }
+              },
+              "axis": {
+                "format": "%Y",
+                "tickCount": 5,
+                "labelAngle": 0
+              }
+            },
+            "y": {
+              "field": "observation_count",
+              "type": "quantitative",
+              "title": "Recorded observations"
+            },
+            "tooltip": [
+              {
+                "field": "month_date",
+                "type": "temporal",
+                "title": "Month",
+                "format": "%b %Y"
+              },
+              {
+                "field": "observation_count",
+                "type": "quantitative",
+                "title": "Records",
+                "format": ","
+              }
+            ]
+          }
+        },
+        {
+          "title": {
+            "text": "Drag to select a time range",
+            "anchor": "start",
+            "font": "Arial",
+            "fontSize": 13,
+            "color": "#6C6260"
+          },
+          "width": 400,
+          "height": 85,
+          "data": {
+            "url": "data/bird_monthly_counts.csv",
+            "format": {
+              "type": "csv",
+              "parse": {
+                "month_date": "date",
+                "observation_count": "number"
+              }
+            }
+          },
+          "transform": [
+            {
+              "filter": "datum.species === selectedSpecies"
+            }
+          ],
+          "params": [
+            {
+              "name": "timeBrush",
+              "select": {
+                "type": "interval",
+                "encodings": [
+                  "x"
+                ]
+              }
+            }
+          ],
+          "mark": {
+            "type": "line",
+            "line": {
+              "color": "#398BA3",
+              "strokeWidth": 1.4
+            },
+            "color": "#A9D4DE",
+            "opacity": 0.85
+          },
+          "encoding": {
+            "x": {
+              "field": "month_date",
+              "type": "temporal",
+              "title": null,
+              "axis": {
+                "format": "%Y",
+                "tickCount": 5,
+                "labelAngle": 0
+              }
+            },
+            "y": {
+              "field": "observation_count",
+              "type": "quantitative",
+              "title": null,
+              "axis": {
+                "tickCount": 3
+              }
+            },
+            "tooltip": [
+              {
+                "field": "month_date",
+                "type": "temporal",
+                "title": "Month",
+                "format": "%b %Y"
+              },
+              {
+                "field": "observation_count",
+                "type": "quantitative",
+                "title": "Records",
+                "format": ","
+              }
+            ]
+          }
+        }
+      ],
+      "spacing": 26
+    }
+  ],
+  "spacing": 18,
+  "align": "all",
+  "center": false,
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial",
+    "axis": {
+      "labelColor": "#6C6260",
+      "titleColor": "#302D32",
+      "gridColor": "#EEE9E3"
+    }
+  }
+}

@@ -160,6 +160,40 @@
 
       </article>
 
+      <!-- VISUALISATION: INTERACTIVE BIRD OBSERVATION MAP -->
+      <article class="visualisation-block bird-map-visualisation">
+
+        <h2>Where Are Australia's Wild Birds Observed?</h2>
+
+        <p class="description">
+          Budgerigars and cockatiels are familiar pet birds,
+          but where are they recorded in the wild?
+          Explore their observation locations and how recorded
+          sightings vary between 2016 and 2025.
+        </p>
+
+        <figure class="bird-map-card">
+
+        <!-- Map and timelines -->
+        <div id="bird_map_timeline"></div>
+
+        <!-- Bottom row -->
+        <div class="map-bottom-row">
+
+          <!-- Vega-Lite species selector goes here -->
+          <div id="bird_map_controls"></div>
+
+          <!-- Instruction text -->
+          <p class="map-instruction">
+            Select a species, then drag across the timeline to filter the locations.<br>
+            Double-click the timeline to reset.
+          </p>
+
+        </div>
+      </figure>
+
+      </article>
+
     </section>
 
 
@@ -194,6 +228,15 @@
       "#bird_taxonomy",
       "js/bird_taxonomy.vg.json",
       { actions: false }
+    ).catch(console.error);
+
+    vegaEmbed(
+      "#bird_map_timeline",
+      "js/bird_map_timeline.vg.json",
+      {
+        actions: false,
+        bind: document.getElementById("bird_map_controls")
+      }
     ).catch(console.error);
 
   </script>
