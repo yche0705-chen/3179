@@ -194,6 +194,50 @@
 
       </article>
 
+    <article class="visualisation-block bird-state-visualisation">
+      <h2>Where Are Wild Bird Observations Most Common?</h2>
+
+      <p class="description">
+        Recorded observations of budgerigars and cockatiels vary
+        across Australian states and territories. Select a species
+        to explore the geographic differences.
+      </p>
+
+      <div class="bird-state-layout">
+
+        <!-- Left: choropleth map -->
+        <figure class="bird-state-chart">
+          <div id="bird_state_choropleth"></div>
+          <div id="bird_state_controls"></div>
+        </figure>
+
+        <!-- Right: annotations -->
+        <aside class="bird-state-narrative">
+          <p class="insight-label">A closer look</p>
+
+          <p class="bird-state-stat">14,634</p>
+          <h3>Budgerigar observations in Queensland</h3>
+          <p class="bird-state-copy">
+            Queensland recorded the highest number of wild
+            budgerigar observations among Australian states
+            and territories.
+          </p>
+
+          <div class="bird-state-separator"></div>
+
+          <p class="bird-state-stat">20,545</p>
+          <h3>Cockatiel observations in Queensland</h3>
+          <p class="bird-state-copy">
+            Queensland also recorded the highest number
+            of wild cockatiel observations.
+          </p>
+
+        </aside>
+
+      </div>
+    </article>
+
+
     </section>
 
 
@@ -239,6 +283,14 @@
       }
     ).catch(console.error);
 
+    vegaEmbed(
+      "#bird_state_choropleth",
+      "js/bird_state_choropleth.vg.json?v=4",
+      {
+        actions: false,
+        bind: document.getElementById("bird_state_controls")
+      }
+    ).catch(console.error);
   </script>
 </body>
 </html>

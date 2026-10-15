@@ -604,6 +604,107 @@ h2 {
   }
 }
 
+
+/* =========================
+   STATE CHOROPLETH + ANNOTATIONS
+========================= */
+
+.bird-state-layout {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  align-items: center;
+  width: 100%;
+}
+
+/* Map occupies 2 of 3 columns */
+.bird-state-chart {
+  grid-column: span 2;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+}
+
+#bird_state_choropleth {
+  width: 100%;
+  min-width: 0;
+}
+
+#bird_state_choropleth .vega-embed {
+  max-width: 100%;
+}
+
+#bird_state_choropleth canvas,
+#bird_state_choropleth svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Annotation occupies 1 column */
+.bird-state-narrative {
+  grid-column: span 1;
+  min-width: 0;
+  align-self: center;
+}
+
+/* Numbers */
+.bird-state-stat {
+  margin: 0;
+  color: var(--coral);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(36px, 3.5vw, 52px);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+/* Annotation headings */
+.bird-state-narrative h3 {
+  margin: 8px 0 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+/* Description */
+.bird-state-copy {
+  margin: 0;
+  color: #5F5654;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Divider */
+.bird-state-separator {
+  border-top: 1px solid var(--rule);
+  margin: 24px 0;
+}
+
+/* Source note */
+.bird-state-note {
+  margin: 20px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--rule);
+  color: #756A67;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 850px) {
+  .bird-state-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .bird-state-chart,
+  .bird-state-narrative {
+    grid-column: 1;
+  }
+}
+
+
 /* =========================
    FOOTER
 ========================= */

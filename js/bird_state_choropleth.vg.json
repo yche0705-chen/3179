@@ -1,0 +1,145 @@
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "#FFFFFF",
+  "width": 460,
+  "height": 430,
+  "padding": 12,
+
+  "title": {
+    "text": "Recorded Wild Bird Observations by State",
+    "anchor": "start",
+    "font": "Arial",
+    "fontSize": 16,
+    "color": "#302D32"
+  },
+
+  "params": [
+    {
+      "name": "selectedSpecies",
+      "value": "Budgerigar",
+      "bind": {
+        "input": "select",
+        "options": ["Budgerigar", "Cockatiel"],
+        "name": "Species: "
+      }
+    }
+  ],
+
+  "projection": {
+    "type": "mercator",
+    "center": [134, -26],
+    "scale": 520,
+    "translate": [230, 215]
+  },
+
+  "layer": [
+    {
+      "data": {
+        "url": "data/australia_states.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#F1EDE6",
+        "stroke": "#FFFFFF",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "url": "data/bird_state_counts.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "observation_count": "number"
+          }
+        }
+      },
+
+      "transform": [
+        {
+          "filter": "datum.species === selectedSpecies"
+        },
+        {
+          "lookup": "state",
+          "from": {
+            "data": {
+              "url": "data/australia_states.geojson",
+              "format": {
+                "type": "json",
+                "property": "features"
+              }
+            },
+            "key": "properties.state"
+          },
+          "as": "geo"
+        }
+      ],
+
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#FFFFFF",
+        "strokeWidth": 1.2
+      },
+
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        },
+
+        "color": {
+          "field": "observation_count",
+          "type": "quantitative",
+          "title": "Recorded observations",
+          "scale": {
+            "domain": [0, 21000],
+            "range": [
+              "#E6F3F5",
+              "#398BA3",
+              "#14556B"
+            ]
+          },
+          "legend": {
+            "orient": "right",
+            "gradientLength": 220,
+            "titleFont": "Arial",
+            "labelFont": "Arial",
+            "titleColor": "#302D32",
+            "labelColor": "#6C6260"
+          }
+        },
+
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State / Territory"
+          },
+          {
+            "field": "species",
+            "type": "nominal",
+            "title": "Species"
+          },
+          {
+            "field": "observation_count",
+            "type": "quantitative",
+            "title": "Recorded observations",
+            "format": ","
+          }
+        ]
+      }
+    }
+  ],
+
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial"
+  }
+}
