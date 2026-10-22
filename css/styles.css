@@ -190,7 +190,7 @@ h2 {
 
 
 /* =========================
-   VISUALISATION 1
+   VISUALISATION 2
    Reasons for getting birds
 ========================= */
 
@@ -330,7 +330,7 @@ h2 {
 }
 
 /* =========================
-   VISUALISATION 2
+   VISUALISATION 3
    Birds per household
 ========================= */
 
@@ -591,6 +591,31 @@ h2 {
 
 #bird_map_controls {
   flex-shrink: 0;
+}
+
+.map-control-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.dot-map-legend {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--muted-text);
+  font-size: 12px;
+}
+
+.dot-map-key {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  flex-shrink: 0;
+  background: var(--teal);
+  border-radius: 50%;
+  opacity: 0.55;
 }
 
 @media (max-width: 750px) {

@@ -80,7 +80,11 @@
         "type": "quantitative",
         "title": "Recorded observations",
         "scale": {
-          "scheme": "blues",
+          "range": [
+            "#E6F3F5",
+            "#398BA3",
+            "#14556B"
+          ],
           "domainMin": 0
         },
         "legend": {

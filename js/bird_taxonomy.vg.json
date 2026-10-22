@@ -4,7 +4,7 @@
   "height": 420,
   "padding": {
     "left": 25,
-    "right": 120,
+    "right": 40,
     "top": 20,
     "bottom": 25
   },
@@ -24,7 +24,7 @@
         {
           "type": "tree",
           "method": "tidy",
-          "size": [{"signal": "height"}, {"signal": "width - 120"}],
+          "size": [{"signal": "height"}, {"signal": "width - 150"}],
           "as": ["y", "x", "depth", "children"]
         }
       ]
@@ -104,8 +104,8 @@
             "fontSize": {"value": 12},
             "baseline": {"value": "bottom"},
             "align": {"value": "left"},
-            "dx": {"value": 6},
-            "dy": {"value": -9}
+            "dx": {"value": -3},
+            "dy": {"value": -12}
             },
             "update": {
             "x": {"field": "x"},

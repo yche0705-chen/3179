@@ -7,7 +7,7 @@
   "padding": 12,
 
   "title": {
-    "text": "Recorded Wild Bird Observations by State",
+    "text": "Wild Bird Observation Density by State",
     "anchor": "start",
     "font": "Arial",
     "fontSize": 16,
@@ -65,6 +65,14 @@
           "filter": "datum.species === selectedSpecies"
         },
         {
+          "calculate": "datum.state === 'New South Wales' ? 801150 : datum.state === 'Victoria' ? 227444 : datum.state === 'Queensland' ? 1729742 : datum.state === 'South Australia' ? 984321 : datum.state === 'Western Australia' ? 2527013 : datum.state === 'Tasmania' ? 68401 : datum.state === 'Northern Territory' ? 1347791 : datum.state === 'Australian Capital Territory' ? 2358 : null",
+          "as": "area_km2"
+        },
+        {
+          "calculate": "datum.observation_count / datum.area_km2 * 1000",
+          "as": "observation_density"
+        },
+        {
           "lookup": "state",
           "from": {
             "data": {
@@ -80,6 +88,7 @@
         }
       ],
 
+
       "mark": {
         "type": "geoshape",
         "stroke": "#FFFFFF",
@@ -93,11 +102,11 @@
         },
 
         "color": {
-          "field": "observation_count",
+          "field": "observation_density",
           "type": "quantitative",
-          "title": "Recorded observations",
+          "title": "Observations per 1,000 km²",
           "scale": {
-            "domain": [0, 21000],
+            "domain": [0, 15],
             "range": [
               "#E6F3F5",
               "#398BA3",
@@ -107,6 +116,7 @@
           "legend": {
             "orient": "right",
             "gradientLength": 220,
+            "format": ".1f",
             "titleFont": "Arial",
             "labelFont": "Arial",
             "titleColor": "#302D32",
@@ -114,6 +124,7 @@
           }
         },
 
+        
         "tooltip": [
           {
             "field": "state",
@@ -128,8 +139,14 @@
           {
             "field": "observation_count",
             "type": "quantitative",
-            "title": "Recorded observations",
+            "title": "Total observations",
             "format": ","
+          },
+          {
+            "field": "observation_density",
+            "type": "quantitative",
+            "title": "Observations per 1,000 km²",
+            "format": ".2f"
           }
         ]
       }

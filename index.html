@@ -183,6 +183,12 @@
           <!-- Vega-Lite species selector goes here -->
           <div id="bird_map_controls"></div>
 
+          <div class="dot-map-legend" aria-label="Dot map legend">
+            <span class="dot-map-key"></span>
+            <span>1 dot = 1 recorded observation</span>
+          </div>
+        </div>
+
           <!-- Instruction text -->
           <p class="map-instruction">
             Select a species, then drag across the timeline to filter the locations.<br>
@@ -219,12 +225,11 @@
 
 
     <article class="visualisation-block bird-state-visualisation">
-      <h2>Where Are Wild Bird Observations Most Common?</h2>
+      <h2>Where Are Wild Bird Observations Most Concentrated?</h2>
 
       <p class="description">
-        Recorded observations of budgerigars and cockatiels vary
-        across Australian states and territories. Select a species
-        to explore the geographic differences.
+        Recorded observations of budgerigars and cockatiels vary in 
+        density across Australian states and territories. 
       </p>
 
       <div class="bird-state-layout">
@@ -307,13 +312,11 @@
       }
     ).catch(console.error);
 
-
     vegaEmbed(
       "#bird_seasonal_heatmaps",
       "js/bird_seasonal_heatmaps.vg.json",
       { actions: false }
     ).catch(console.error);
-
 
     vegaEmbed(
       "#bird_state_choropleth",
