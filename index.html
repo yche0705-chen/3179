@@ -20,9 +20,9 @@
 
   <header class="hero">
     <p class="eyebrow">FIT3179 · Data Visualisation 2</p>
-    <h1>Birds as Pets in Australia</h1>
+    <h1>From the Wild to Our Homes</h1>
     <p class="subtitle">
-      Exploring bird ownership, species and wild distributions.
+      Exploring Australia's feathered companions.
     </p>
   </header>
 
@@ -81,15 +81,11 @@
             <div id="bird_reasons"></div>
           </figure>
 
-          <aside class="insight-panel">
-            <p class="insight-label">Key insight</p>
-            <p class="insight-stat">
-              <span class="insight-number">10</span>
-              <span class="stat-unit">percentage point<br>increase</span>
-            </p>
-            <p class="insight-copy">
-              Mental health became a more commonly reported
-              reason for getting pet birds between 2022 and 2025.
+          <aside class="insight-panel annotation-panel">
+            <p class="insight-label">Why it matters</p>
+            <h3 class="annotation-title">Motivation rose ten percentage points.</h3>
+            <p class="annotation-evidence">
+              Mental health gained importance between 2022 and 2025.
             </p>
           </aside>
         </div>
@@ -105,21 +101,20 @@
         </p>
 
         <div class="household-layout">
-          <aside class="household-narrative">
-            <p class="insight-label">A closer look</p>
-            <p class="household-stat">69%</p>
-            <h3>keep two or more birds</h3>
-            <p>
-              Most Australian bird-owning households
-              have more than one feathered companion.
+          <aside class="household-narrative annotation-panel">
+            <p class="insight-label">Household pattern</p>
+            <h3 class="annotation-title">69% keep two or more birds.</h3>
+            <p class="annotation-evidence">
+              Most bird-owning households keep feathered companions together.
             </p>
-            <p class="household-note">
-              Each square represents 1% of bird-owning households.
-            </p>
+            <div class="household-note reading-note reading-note-stacked">
+              <span class="reading-note-label">HOW TO READ</span>
+              <p>Each square represents 1% of bird-owning households.</p>
+            </div>
           </aside>
 
-          <figure class="household-chart">
-          <figcaption>Birds per bird-owning household, 2025</figcaption>
+          <figure class="household-chart visual-card">
+            <figcaption>Birds per bird-owning household, 2025</figcaption>
             <div id="bird_household_waffle"></div>
             <div class="waffle-legend" aria-label="Waffle chart legend">
               <span><i class="waffle-key one"></i> 1 bird — 31%</span>
@@ -136,12 +131,12 @@
     <section class="story-section chapter-section">
 
       <p class="section-label">
-        02 / WHERE DO OUR FEATHERED FRIENDS COME FROM?
+        02 / SPECIES AND RELATIONSHIPS
       </p>
 
       <article class="visualisation-block taxonomy-visualisation">
 
-        <h2>Meet Our Feathered Companions</h2>
+        <h2>Meet our feathered companions</h2>
 
         <p class="description">
           From colourful parrots to small songbirds,
@@ -160,115 +155,242 @@
 
       </article>
 
+    </section>
+
+    <hr class="section-divider">
+    <!-- SECTION 3: WILD GEOGRAPHY -->
+    <section class="story-section chapter-section">
+
+      <p class="section-label">03 / BEYOND THE CAGE: BIRDS IN THE WILD</p>
+
       <!-- VISUALISATION: INTERACTIVE BIRD OBSERVATION MAP -->
       <article class="visualisation-block bird-map-visualisation">
 
-        <h2>Where Are Australia's Wild Birds Observed?</h2>
+        <h2>Where has each bird been recorded?</h2>
 
         <p class="description">
-          Budgerigars and cockatiels are familiar pet birds,
-          but where are they recorded in the wild?
-          Explore their observation locations and how recorded
-          sightings vary between 2016 and 2025.
+          Start with individual observation locations. Brush the timeline
+          to see how each species' recorded range changes over time.
         </p>
+
+        <!-- Controls and legend -->
+        <div class="map-bottom-row">
+
+          <div class="map-toolbar-group">
+            <span class="map-toolbar-label">SPECIES</span>
+            <div id="bird_map_controls"></div>
+          </div>
+
+          <div class="map-toolbar-group map-toolbar-group-right">
+            <span class="map-toolbar-label">DOT KEY</span>
+            <div class="dot-map-legend" aria-label="Dot map legend">
+              <span class="dot-map-key"></span>
+              <span>1 dot = 1 recorded observation</span>
+            </div>
+          </div>
+        </div>
 
         <figure class="bird-map-card">
 
         <!-- Map and timelines -->
         <div id="bird_map_timeline"></div>
 
-        <!-- Bottom row -->
-        <div class="map-bottom-row">
-
-          <!-- Vega-Lite species selector goes here -->
-          <div id="bird_map_controls"></div>
-
-          <div class="dot-map-legend" aria-label="Dot map legend">
-            <span class="dot-map-key"></span>
-            <span>1 dot = 1 recorded observation</span>
-          </div>
-        </div>
-
-          <!-- Instruction text -->
-          <p class="map-instruction">
-            Select a species, then drag across the timeline to filter the locations.<br>
-            Double-click the timeline to reset.
+        <figcaption class="bird-map-caption reading-note">
+          <span class="bird-map-caption-label reading-note-label">HOW TO READ</span>
+          <p>
+            Dots show individual records; brush the timeline to filter years.
           </p>
-
-        </div>
+        </figcaption>
       </figure>
 
       </article>
 
-    <!-- VISUALISATION: SEASONAL OBSERVATION HEATMAPS -->
-    <article class="visualisation-block bird-seasonal-visualisation">
-
-      <h2>When Are Wild Birds Most Frequently Observed?</h2>
-
-      <p class="description">
-        Do wild bird observations follow similar seasonal patterns
-        each year? Compare monthly records of budgerigars and
-        cockatiels between 2016 and 2025.
-      </p>
-
-      <figure class="bird-seasonal-chart">
-        <div id="bird_seasonal_heatmaps"></div>
-
-        <figcaption class="chart-footnote">
-          Darker colours indicate more recorded observations.
-          Hover over a cell to view the monthly count.
-        </figcaption>
-
-      </figure>
-
-    </article>
-
-
     <article class="visualisation-block bird-state-visualisation">
-      <h2>Where Are Wild Bird Observations Most Concentrated?</h2>
+      <h2>Does state size change the geographic story?</h2>
 
       <p class="description">
-        Recorded observations of budgerigars and cockatiels vary in 
-        density across Australian states and territories. 
+        Raw totals favour large states. Area-adjusted density reveals
+        where sightings are concentrated relative to land area.
       </p>
+
+      <div class="map-bottom-row state-map-toolbar">
+        <div class="map-toolbar-group">
+          <span class="map-toolbar-label">SPECIES</span>
+          <div id="bird_state_controls"></div>
+        </div>
+
+        <div class="state-density-legend" aria-label="Observation density legend">
+          <span class="map-toolbar-label">OBSERVATIONS PER 1,000 KM²</span>
+          <div class="state-density-scale" aria-hidden="true">
+            <span class="state-density-gradient"></span>
+            <span class="state-density-ticks">
+              <span>0</span>
+              <span>20</span>
+              <span>45</span>
+            </span>
+          </div>
+        </div>
+      </div>
 
       <div class="bird-state-layout">
 
         <!-- Left: choropleth map -->
-        <figure class="bird-state-chart">
+        <figure class="bird-state-chart visual-card">
+          <figcaption class="chart-title">Area-adjusted observation density</figcaption>
           <div id="bird_state_choropleth"></div>
-          <div id="bird_state_controls"></div>
         </figure>
 
         <!-- Right: annotations -->
-        <aside class="bird-state-narrative">
-          <p class="insight-label">A closer look</p>
+        <aside class="bird-state-narrative annotation-panel">
+          <p class="insight-label">How the ranking changes</p>
 
-          <p class="bird-state-stat">14,634</p>
-          <h3>Budgerigar observations in Queensland</h3>
-          <p class="bird-state-copy">
-            Queensland recorded the highest number of wild
-            budgerigar observations among Australian states
-            and territories.
+          <div class="state-highlight">
+            <span>RAW LEADER · QUEENSLAND</span>
+            <strong id="state-total-highlight">14,634</strong>
+            <p>recorded observations</p>
+          </div>
+
+          <div class="state-highlight">
+            <span>DENSITY LEADER · ACT</span>
+            <strong id="state-density-highlight">16.1</strong>
+            <p>observations per 1,000 km²</p>
+          </div>
+
+          <h3 class="annotation-title">Area adjustment changes the leader.</h3>
+          <p class="annotation-evidence">
+            Queensland leads totals. ACT leads area-adjusted density.
           </p>
 
-          <div class="bird-state-separator"></div>
-
-          <p class="bird-state-stat">20,545</p>
-          <h3>Cockatiel observations in Queensland</h3>
-          <p class="bird-state-copy">
-            Queensland also recorded the highest number
-            of wild cockatiel observations.
-          </p>
+          <div class="state-reading-note reading-note reading-note-stacked">
+            <span class="reading-note-label">HOW TO READ</span>
+            <p>Read colour as density, not total abundance.</p>
+          </div>
 
         </aside>
 
       </div>
     </article>
 
+    <!-- VISUALISATION: SEASONAL OBSERVATION HEATMAPS -->
+    <article class="visualisation-block bird-seasonal-visualisation">
+
+      <h2>Are monthly peaks consistent every year?</h2>
+
+      <p class="description">
+        The heatmap tests whether busy months repeat consistently.
+        Compare timing, intensity and unusual years across both species.
+      </p>
+
+      <figure class="bird-seasonal-chart">
+        <figcaption class="heatmap-card-header">
+          <span>MONTHLY OBSERVATION CALENDAR</span>
+          <p>Monthly recorded observations · 2016–2025</p>
+        </figcaption>
+
+        <div id="bird_seasonal_heatmaps"></div>
+
+        <div class="heatmap-insights" aria-label="Heatmap findings">
+          <div class="heatmap-insight annotation-panel annotation-panel-compact">
+            <span>Budgerigar</span>
+            <h3 class="annotation-title">August peaks most often.</h3>
+            <p class="annotation-evidence">It leads in five of ten years.</p>
+          </div>
+
+          <div class="heatmap-insight annotation-panel annotation-panel-compact">
+            <span>Cockatiel</span>
+            <h3 class="annotation-title">Peaks shift across winter and spring.</h3>
+            <p class="annotation-evidence">October leads in four years.</p>
+          </div>
+        </div>
+
+        <div class="chart-footnote heatmap-footnote reading-note">
+          <span class="reading-note-label">HOW TO READ</span>
+          <p>Darker cells indicate more observations. Hover for exact counts.</p>
+        </div>
+
+      </figure>
+
+    </article>
+
+    <!-- SEASONAL VOLATILITY PROPORTIONAL SYMBOL MAP -->
+    <article class="visualisation-block bird-symbol-visualisation">
+
+      <h2>Where does season make the greatest difference?</h2>
+
+      <p class="description">
+        Circle size measures each state's seasonal swing.
+        Colour identifies the season with the most observations.
+      </p>
+
+      <figure class="bird-symbol-card">
+        <div class="bird-symbol-toolbar">
+          <div class="map-toolbar-group">
+            <span class="map-toolbar-label">SPECIES</span>
+            <div id="bird_symbol_controls"></div>
+          </div>
+
+          <div class="bird-symbol-legends">
+            <div class="bird-season-legend" aria-label="Peak season legend">
+              <span class="bird-symbol-legend-title">PEAK SEASON</span>
+              <span><i class="season-key summer"></i>Summer</span>
+              <span><i class="season-key autumn"></i>Autumn</span>
+              <span><i class="season-key winter"></i>Winter</span>
+              <span><i class="season-key spring"></i>Spring</span>
+            </div>
+
+            <div class="bird-symbol-legend" aria-label="Seasonal swing legend">
+              <span class="bird-symbol-legend-title">SEASONAL SWING</span>
+              <span class="bird-symbol-legend-item">
+                <i class="bird-symbol-legend-circle small"></i>500
+              </span>
+              <span class="bird-symbol-legend-item">
+                <i class="bird-symbol-legend-circle medium"></i>3,000
+              </span>
+              <span class="bird-symbol-legend-item">
+                <i class="bird-symbol-legend-circle large"></i>7,500
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bird-symbol-layout">
+          <div class="bird-symbol-chart-area">
+            <div id="bird_seasonal_symbol_map"></div>
+          </div>
+
+          <figcaption class="bird-symbol-annotation annotation-panel">
+            <p class="insight-label">Largest seasonal swing</p>
+            <h3 class="annotation-title">Queensland varies most.</h3>
+            <p class="annotation-evidence">
+              Both species reach their Queensland peak in winter.
+            </p>
+            <div class="bird-symbol-hover-note reading-note reading-note-stacked">
+              <span class="reading-note-label">HOW TO READ</span>
+              <p>Size shows change. Colour shows peak season.</p>
+            </div>
+          </figcaption>
+        </div>
+
+      </figure>
+
+    </article>
 
     </section>
 
+    <hr class="section-divider">
+    <!-- SECTION 4: RETURN TO PET OWNERSHIP -->
+    <section class="story-section chapter-section companion-choice-section">
+
+      <p class="section-label">04 / CHOOSING A FEATHERED COMPANION</p>
+
+      <div class="companion-choice-card">
+        <p class="insight-label">Back to pet ownership</p>
+        <h2>Wild presence does not determine pet suitability</h2>
+        <p>Natural distribution provides context, not ownership guidance.</p>
+        <p>Lifespan, size and care needs matter more.</p>
+      </div>
+
+    </section>
 
   </main>
 
@@ -305,7 +427,7 @@
 
     vegaEmbed(
       "#bird_map_timeline",
-      "js/bird_map_timeline.vg.json",
+      "js/bird_map_timeline.vg.json?v=5",
       {
         actions: false,
         bind: document.getElementById("bird_map_controls")
@@ -314,18 +436,46 @@
 
     vegaEmbed(
       "#bird_seasonal_heatmaps",
-      "js/bird_seasonal_heatmaps.vg.json",
+      "js/bird_seasonal_heatmaps.vg.json?v=2",
       { actions: false }
     ).catch(console.error);
 
+
     vegaEmbed(
       "#bird_state_choropleth",
-      "js/bird_state_choropleth.vg.json?v=4",
+      "js/bird_state_choropleth.vg.json?v=8",
       {
         actions: false,
         bind: document.getElementById("bird_state_controls")
       }
+    ).then(({ view }) => {
+      const stateHighlights = {
+        Budgerigar: { total: "14,634", density: "16.1" },
+        Cockatiel: { total: "20,545", density: "44.5" }
+      };
+
+      const updateStateHighlights = (species) => {
+        const values = stateHighlights[species];
+        if (!values) return;
+        document.getElementById("state-total-highlight").textContent = values.total;
+        document.getElementById("state-density-highlight").textContent = values.density;
+      };
+
+      view.addSignalListener("selectedSpecies", (_, species) => {
+        updateStateHighlights(species);
+      });
+      updateStateHighlights(view.signal("selectedSpecies"));
+    }).catch(console.error);
+
+    vegaEmbed(
+      "#bird_seasonal_symbol_map",
+      "js/bird_seasonal_symbol_map.vg.json?v=3",
+      {
+        actions: false,
+        bind: document.getElementById("bird_symbol_controls")
+      }
     ).catch(console.error);
+
   </script>
 </body>
 </html>

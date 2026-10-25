@@ -1,18 +1,14 @@
 
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "background": "#FFFFFF",
-  "width": 460,
-  "height": 430,
-  "padding": 12,
-
-  "title": {
-    "text": "Wild Bird Observation Density by State",
-    "anchor": "start",
-    "font": "Arial",
-    "fontSize": 16,
-    "color": "#302D32"
+  "background": null,
+  "width": "container",
+  "height": 360,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
   },
+  "padding": 0,
 
   "params": [
     {
@@ -27,10 +23,7 @@
   ],
 
   "projection": {
-    "type": "mercator",
-    "center": [134, -26],
-    "scale": 520,
-    "translate": [230, 215]
+    "type": "mercator"
   },
 
   "layer": [
@@ -106,22 +99,15 @@
           "type": "quantitative",
           "title": "Observations per 1,000 km²",
           "scale": {
-            "domain": [0, 15],
+            "type": "sqrt",
+            "domain": [0, 45],
             "range": [
               "#E6F3F5",
               "#398BA3",
               "#14556B"
             ]
           },
-          "legend": {
-            "orient": "right",
-            "gradientLength": 220,
-            "format": ".1f",
-            "titleFont": "Arial",
-            "labelFont": "Arial",
-            "titleColor": "#302D32",
-            "labelColor": "#6C6260"
-          }
+          "legend": null
         },
 
         

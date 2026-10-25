@@ -1,0 +1,65 @@
+species,state,state_name,season,observation_count,longitude,latitude
+Budgerigar,NSW,New South Wales,Summer,917,146.0,-32.0
+Budgerigar,NSW,New South Wales,Autumn,929,146.0,-32.0
+Budgerigar,NSW,New South Wales,Winter,1264,146.0,-32.0
+Budgerigar,NSW,New South Wales,Spring,3394,146.0,-32.0
+Budgerigar,VIC,Victoria,Summer,383,144.0,-37.3
+Budgerigar,VIC,Victoria,Autumn,27,144.0,-37.3
+Budgerigar,VIC,Victoria,Winter,7,144.0,-37.3
+Budgerigar,VIC,Victoria,Spring,562,144.0,-37.3
+Budgerigar,QLD,Queensland,Summer,776,144.5,-21.6
+Budgerigar,QLD,Queensland,Autumn,3256,144.5,-21.6
+Budgerigar,QLD,Queensland,Winter,8253,144.5,-21.6
+Budgerigar,QLD,Queensland,Spring,2349,144.5,-21.6
+Budgerigar,SA,South Australia,Summer,606,135.0,-30.3
+Budgerigar,SA,South Australia,Autumn,618,135.0,-30.3
+Budgerigar,SA,South Australia,Winter,2286,135.0,-30.3
+Budgerigar,SA,South Australia,Spring,2684,135.0,-30.3
+Budgerigar,WA,Western Australia,Summer,476,122.4,-25.7
+Budgerigar,WA,Western Australia,Autumn,1692,122.4,-25.7
+Budgerigar,WA,Western Australia,Winter,2484,122.4,-25.7
+Budgerigar,WA,Western Australia,Spring,1482,122.4,-25.7
+Budgerigar,TAS,Tasmania,Summer,0,146.5,-42.0
+Budgerigar,TAS,Tasmania,Autumn,0,146.5,-42.0
+Budgerigar,TAS,Tasmania,Winter,0,146.5,-42.0
+Budgerigar,TAS,Tasmania,Spring,0,146.5,-42.0
+Budgerigar,NT,Northern Territory,Summer,936,133.4,-19.8
+Budgerigar,NT,Northern Territory,Autumn,2761,133.4,-19.8
+Budgerigar,NT,Northern Territory,Winter,3818,133.4,-19.8
+Budgerigar,NT,Northern Territory,Spring,1743,133.4,-19.8
+Budgerigar,ACT,Australian Capital Territory,Summer,23,149.13,-35.29
+Budgerigar,ACT,Australian Capital Territory,Autumn,8,149.13,-35.29
+Budgerigar,ACT,Australian Capital Territory,Winter,2,149.13,-35.29
+Budgerigar,ACT,Australian Capital Territory,Spring,5,149.13,-35.29
+Cockatiel,NSW,New South Wales,Summer,1502,146.0,-32.0
+Cockatiel,NSW,New South Wales,Autumn,2162,146.0,-32.0
+Cockatiel,NSW,New South Wales,Winter,1755,146.0,-32.0
+Cockatiel,NSW,New South Wales,Spring,5706,146.0,-32.0
+Cockatiel,VIC,Victoria,Summer,572,144.0,-37.3
+Cockatiel,VIC,Victoria,Autumn,208,144.0,-37.3
+Cockatiel,VIC,Victoria,Winter,102,144.0,-37.3
+Cockatiel,VIC,Victoria,Spring,1241,144.0,-37.3
+Cockatiel,QLD,Queensland,Summer,2124,144.5,-21.6
+Cockatiel,QLD,Queensland,Autumn,4917,144.5,-21.6
+Cockatiel,QLD,Queensland,Winter,8741,144.5,-21.6
+Cockatiel,QLD,Queensland,Spring,4763,144.5,-21.6
+Cockatiel,SA,South Australia,Summer,239,135.0,-30.3
+Cockatiel,SA,South Australia,Autumn,139,135.0,-30.3
+Cockatiel,SA,South Australia,Winter,434,135.0,-30.3
+Cockatiel,SA,South Australia,Spring,524,135.0,-30.3
+Cockatiel,WA,Western Australia,Summer,256,122.4,-25.7
+Cockatiel,WA,Western Australia,Autumn,851,122.4,-25.7
+Cockatiel,WA,Western Australia,Winter,1912,122.4,-25.7
+Cockatiel,WA,Western Australia,Spring,1236,122.4,-25.7
+Cockatiel,TAS,Tasmania,Summer,1,146.5,-42.0
+Cockatiel,TAS,Tasmania,Autumn,0,146.5,-42.0
+Cockatiel,TAS,Tasmania,Winter,0,146.5,-42.0
+Cockatiel,TAS,Tasmania,Spring,0,146.5,-42.0
+Cockatiel,NT,Northern Territory,Summer,524,133.4,-19.8
+Cockatiel,NT,Northern Territory,Autumn,1310,133.4,-19.8
+Cockatiel,NT,Northern Territory,Winter,2823,133.4,-19.8
+Cockatiel,NT,Northern Territory,Spring,1866,133.4,-19.8
+Cockatiel,ACT,Australian Capital Territory,Summer,77,149.13,-35.29
+Cockatiel,ACT,Australian Capital Territory,Autumn,17,149.13,-35.29
+Cockatiel,ACT,Australian Capital Territory,Winter,6,149.13,-35.29
+Cockatiel,ACT,Australian Capital Territory,Spring,5,149.13,-35.29

@@ -12,49 +12,44 @@
           "Budgerigar",
           "Cockatiel"
         ],
-        "name": "Species: "
+        "name": ""
       }
     }
   ],
   "hconcat": [
     {
       "title": {
-        "text": "Recorded observation locations",
+        "text": "Observation locations",
         "anchor": "start",
         "font": "Arial",
-        "fontSize": 16,
+        "fontSize": 17,
         "color": "#302D32"
       },
-      "width": 480,
-      "height": 420,
+      "width": 600,
+      "height": 400,
       "projection": {
         "type": "mercator",
         "center": [
           134,
           -26
         ],
-        "scale": 620,
-        "translate": [240, 210]
+        "scale": 520,
+        "translate": [300, 190]
       },
       "layer": [
         {
           "data": {
-            "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+            "url": "data/australia_states.geojson",
             "format": {
-              "type": "topojson",
-              "feature": "countries"
+              "type": "json",
+              "property": "features"
             }
           },
-          "transform": [
-            {
-              "filter": "datum.id == '036' || datum.id == 36"
-            }
-          ],
           "mark": {
             "type": "geoshape",
             "fill": "#F1EDE6",
-            "stroke": "#B6AAA0",
-            "strokeWidth": 0.8
+            "stroke": "#D0C8BF",
+            "strokeWidth": 0.65
           }
         },
         {
@@ -85,10 +80,12 @@
           ],
           "mark": {
             "type": "circle",
-            "size": 17,
-            "opacity": 0.55,
+            "size": 11,
+            "opacity": 0.48,
             "color": "#398BA3",
-            "stroke": null
+            "stroke": "#FFFFFF",
+            "strokeWidth": 0.25,
+            "clip": true
           },
           "encoding": {
             "longitude": {
@@ -125,14 +122,14 @@
       "vconcat": [
         {
           "title": {
-            "text": "Monthly observations in selected period",
+            "text": "Monthly pattern",
             "anchor": "start",
             "font": "Arial",
-            "fontSize": 16,
-            "color": "#302D32"
+            "fontSize": 14,
+            "color": "#5F5654"
           },
-          "width": 400,
-          "height": 280,
+          "width": 250,
+          "height": 260,
           "data": {
             "url": "data/bird_monthly_counts.csv",
             "format": {
@@ -196,14 +193,14 @@
         },
         {
           "title": {
-            "text": "Drag to select a time range",
+            "text": "Drag to filter years",
             "anchor": "start",
             "font": "Arial",
             "fontSize": 13,
             "color": "#6C6260"
           },
-          "width": 400,
-          "height": 85,
+          "width": 250,
+          "height": 75,
           "data": {
             "url": "data/bird_monthly_counts.csv",
             "format": {
@@ -275,10 +272,10 @@
           }
         }
       ],
-      "spacing": 26
+      "spacing": 16
     }
   ],
-  "spacing": 18,
+  "spacing": 16,
   "align": "all",
   "center": false,
   "resolve": {

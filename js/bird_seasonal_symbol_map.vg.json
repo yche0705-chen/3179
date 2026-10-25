@@ -1,0 +1,139 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A proportional symbol map showing seasonal volatility and peak season by Australian state.",
+  "background": null,
+  "width": 630,
+  "height": 440,
+  "padding": 8,
+  "autosize": {"type": "pad", "contains": "padding"},
+  "params": [
+    {
+      "name": "selectedSpecies",
+      "value": "Budgerigar",
+      "bind": {
+        "input": "select",
+        "options": ["Budgerigar", "Cockatiel"],
+        "name": "SPECIES"
+      }
+    }
+  ],
+  "projection": {
+    "type": "mercator",
+    "center": [134, -26],
+    "scale": 535,
+    "translate": [315, 212]
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/australia_states.geojson",
+        "format": {"type": "json", "property": "features"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#F1EEE8",
+        "stroke": "#D5CEC6",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "url": "data/bird_seasonal_symbols.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "observation_count": "number",
+            "longitude": "number",
+            "latitude": "number"
+          }
+        }
+      },
+      "transform": [
+        {"filter": "datum.species === selectedSpecies"},
+        {
+          "joinaggregate": [
+            {"op": "max", "field": "observation_count", "as": "peak_count"},
+            {"op": "min", "field": "observation_count", "as": "low_count"}
+          ],
+          "groupby": ["state"]
+        },
+        {"calculate": "datum.peak_count - datum.low_count", "as": "seasonal_swing"},
+        {"filter": "datum.observation_count === datum.peak_count && datum.peak_count > 0"}
+      ],
+      "mark": {
+        "type": "circle",
+        "opacity": 0.82,
+        "stroke": "#FFFFFF",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"},
+        "size": {
+          "field": "seasonal_swing",
+          "type": "quantitative",
+          "scale": {"type": "sqrt", "domain": [0, 8000], "range": [45, 4200]},
+          "legend": null
+        },
+        "color": {
+          "field": "season",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Summer", "Autumn", "Winter", "Spring"],
+            "range": ["#E96B73", "#D89A32", "#398BA3", "#6B9E58"]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "state_name", "type": "nominal", "title": "State / Territory"},
+          {"field": "species", "type": "nominal", "title": "Species"},
+          {"field": "season", "type": "nominal", "title": "Peak season"},
+          {"field": "peak_count", "type": "quantitative", "title": "Peak observations", "format": ","},
+          {"field": "low_count", "type": "quantitative", "title": "Lowest observations", "format": ","},
+          {"field": "seasonal_swing", "type": "quantitative", "title": "Seasonal swing", "format": ","}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/bird_seasonal_symbols.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "observation_count": "number",
+            "longitude": "number",
+            "latitude": "number"
+          }
+        }
+      },
+      "transform": [
+        {"filter": "datum.species === selectedSpecies"},
+        {
+          "joinaggregate": [
+            {"op": "max", "field": "observation_count", "as": "peak_count"},
+            {"op": "min", "field": "observation_count", "as": "low_count"}
+          ],
+          "groupby": ["state"]
+        },
+        {"calculate": "datum.peak_count - datum.low_count", "as": "seasonal_swing"},
+        {"filter": "datum.observation_count === datum.peak_count && datum.seasonal_swing >= 250"}
+      ],
+      "mark": {
+        "type": "text",
+        "font": "Arial",
+        "fontSize": 11,
+        "fontWeight": 700,
+        "color": "#FFFFFF"
+      },
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"},
+        "text": {"field": "state", "type": "nominal"}
+      }
+    }
+  ],
+  "config": {
+    "font": "Arial",
+    "view": {"stroke": null}
+  }
+}

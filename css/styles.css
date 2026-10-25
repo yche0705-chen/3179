@@ -8,6 +8,9 @@
   --text: #302D32;
   --muted-text: #6C6260;
   --rule: #DED6CC;
+  --layout-gap: 24px;
+  --section-space: 52px;
+  --visual-space: 44px;
 }
 
 /* =========================
@@ -24,6 +27,11 @@ body {
   color: var(--text);
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  overflow-x: clip;
 }
 
 /* =========================
@@ -31,7 +39,7 @@ body {
 ========================= */
 
 .hero {
-  padding: 70px 24px 50px;
+  padding: 64px 24px 48px;
   background: linear-gradient(
     135deg,
     #FFF9F0 0%,
@@ -62,12 +70,13 @@ h2 {
 }
 
 h1 {
-  margin: 20px 0;
+  margin: 14px 0 12px;
   font-size: clamp(36px, 5vw, 64px);
   line-height: 1.15;
 }
 
 .subtitle {
+  margin: 0;
   color: #766965;
   font-size: 18px;
 }
@@ -79,12 +88,12 @@ h1 {
 
 .story-section {
   max-width: 1080px;
-  margin: 60px auto;
+  margin: var(--section-space) auto;
   padding: 0 24px;
 }
 
 .section-label {
-  margin: 0;
+  margin: 0 0 10px;
   color: #AD6483;
 }
 
@@ -93,13 +102,15 @@ h1 {
 }
 
 .visualisation-block + .visualisation-block {
-  margin-top: 40px;
+  margin-top: var(--visual-space);
 }
 
 h2 {
-  margin: 12px 0;
-  font-size: 32px;
-  line-height: 1.25;
+  max-width: 30ch;
+  margin: 8px 0 10px;
+  font-size: clamp(28px, 3vw, 32px);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
 
 .visualisation-subtitle {
@@ -113,16 +124,16 @@ h2 {
 
 .description {
   max-width: 65ch;
-  margin: 16px 0 14px;
+  margin: 0 0 16px;
   color: var(--muted-text);
   font-size: 16px;
-  line-height: 1.65;
+  line-height: 1.6;
 }
 
 .section-divider {
   width: calc(100% - 48px);
   max-width: 1032px;
-  margin: 10px auto;
+  margin: 0 auto;
   border: none;
   border-top: 1px solid var(--rule);
 }
@@ -132,10 +143,20 @@ h2 {
    PET OWNERSHIP COMPARISON
 ========================= */
 
+.visual-card {
+  min-width: 0;
+  padding: 24px;
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid #E7E0D8;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(48, 45, 50, 0.045);
+}
+
 .pet-comparison-chart {
   width: 100%;
   margin: 0;
-  padding: 24px 30px 20px;
+  padding: 24px;
   background: #FFFFFF;
   border: 1px solid #E7E0D8;
   border-radius: 16px;
@@ -143,11 +164,27 @@ h2 {
 }
 
 .pet-comparison-chart figcaption {
-  margin: 0 0 20px;
+  margin: 0 0 18px;
   color: var(--text);
   font-size: 18px;
   font-weight: 600;
   line-height: 1.35;
+}
+
+.chart-title,
+.pet-comparison-chart figcaption,
+.taxonomy-chart figcaption,
+.household-chart figcaption,
+.chart-header h3 {
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.chart-title {
+  margin: 0 0 12px;
 }
 
 #pet_ownership_comparison {
@@ -196,9 +233,17 @@ h2 {
 
 .visual-row {
   display: grid;
-  grid-template-columns: minmax(0, 2fr) minmax(260px, 0.85fr);
-  gap: 22px;
-  align-items: stretch;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--layout-gap);
+  align-items: start;
+}
+
+.visual-row > .chart-card {
+  grid-column: span 2;
+}
+
+.visual-row > .insight-panel {
+  grid-column: span 1;
 }
 
 .chart-card {
@@ -217,7 +262,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   gap: 24px;
-  margin-bottom: 6px;
+  margin-bottom: 14px;
 }
 
 .chart-header h3 {
@@ -283,19 +328,20 @@ h2 {
 .insight-panel {
   display: flex;
   min-width: 0;
-  padding: 26px;
+  padding: 24px 0 24px 20px;
   flex-direction: column;
   justify-content: center;
-  background: #FFF0D4;
-  border-radius: 16px;
+  background: transparent;
+  border-radius: 0;
 }
 
 .insight-label {
-  margin: 0 0 14px;
+  margin: 0 0 12px;
   color: #A75D45;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: 1.5px;
+  line-height: 1.3;
+  letter-spacing: 1.1px;
   text-transform: uppercase;
 }
 
@@ -336,9 +382,9 @@ h2 {
 
 .household-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr);
-  gap: 48px;
-  align-items: center;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--layout-gap);
+  align-items: start;
   width: 100%;
   padding-bottom: 8px;
 }
@@ -346,6 +392,7 @@ h2 {
 /* Left annotation */
 
 .household-narrative {
+  grid-column: span 1;
   width: 100%;
   min-width: 0;
 }
@@ -374,6 +421,8 @@ h2 {
   .household-stat
 ):not(
   .household-note
+):not(
+  .annotation-evidence
 ) {
   max-width: 36ch;
   margin: 0;
@@ -384,24 +433,20 @@ h2 {
 
 .household-note {
   margin: 16px 0 0;
-  padding-top: 11px;
-  border-top: 1px solid var(--rule);
-  color: #756A67;
-  font-size: 13px;
-  line-height: 1.5;
 }
 
 /* Right waffle chart */
 
 .household-chart {
+  grid-column: span 2;
   width: 100%;
   min-width: 0;
   margin: 0;
 }
 
 .household-chart figcaption {
-  margin-bottom: 14px;
-  font-size: 17px;
+  margin-bottom: 16px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.35;
 }
@@ -465,7 +510,7 @@ h2 {
 .taxonomy-chart {
   width: 100%;
   margin: 0;
-  padding: 24px 28px 20px;
+  padding: 24px;
   background: #FFFFFF;
   border: 1px solid #E7E0D8;
   border-radius: 16px;
@@ -473,7 +518,7 @@ h2 {
 }
 
 .taxonomy-chart figcaption {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -501,13 +546,13 @@ h2 {
 ========================= */
 
 .bird-map-visualisation {
-  margin-top: 55px;
+  margin-top: 0;
 }
 
 .bird-map-card {
   width: 100%;
   margin: 0;
-  padding: 28px 24px 20px;
+  padding: 24px;
   background: #FFFFFF;
   border: 1px solid #E7E0D8;
   border-radius: 16px;
@@ -516,19 +561,14 @@ h2 {
 
 #bird_map_timeline {
   width: 100%;
-  overflow-x: auto;
+  overflow: hidden;
 }
 
 #bird_map_timeline .vega-embed {
-  display: block;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   min-width: 0;
-}
-
-.map-instruction {
-  margin: 18px 0 10px;
-  color: var(--teal);
-  font-size: 14px;
-  font-weight: 600;
 }
 
 .bird-map-card .chart-footnote,
@@ -538,66 +578,91 @@ h2 {
   line-height: 1.6;
 }
 /* Bird map species selector */
-#bird_map_timeline .vega-bindings {
-  margin-bottom: 20px;
-}
-
-#bird_map_timeline .vega-bind {
+#bird_map_controls .vega-bind,
+#bird_state_controls .vega-bind,
+#bird_symbol_controls .vega-bind {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0;
+  margin: 0;
   font-family: Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 600;
 }
 
-#bird_map_timeline .vega-bind select {
-  padding: 8px 12px;
+#bird_map_controls .vega-bind-name,
+#bird_state_controls .vega-bind-name,
+#bird_symbol_controls .vega-bind-name {
+  display: none;
+}
+
+#bird_map_controls .vega-bind select,
+#bird_state_controls .vega-bind select,
+#bird_symbol_controls .vega-bind select {
+  min-width: 142px;
+  min-height: 40px;
+  padding: 8px 32px 8px 12px;
   border: 1px solid #DED6CC;
-  border-radius: 6px;
+  border-radius: 8px;
   background: #FFFFFF;
   font-family: Arial, sans-serif;
   font-size: 14px;
+  color: var(--text);
 }
 
 @media (max-width: 720px) {
   .bird-map-card {
     padding: 20px 14px;
   }
+
+  #bird_map_timeline {
+    overflow-x: auto;
+  }
+
+  #bird_map_timeline .vega-embed {
+    justify-content: flex-start;
+    width: max-content;
+  }
 }
 
 .map-bottom-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 20px;
   width: 100%;
-  margin-top: 16px;
-}
-
-.bird-map-card .map-instruction {
-  justify-self: start;
-  width: 100%;
-  max-width: 500px;
-  margin: 0;
-
-  font-family: Arial, sans-serif;
-  font-size: 13px;
-  line-height: 1.5;
-  font-weight: 500;
-  color: #398BA3;
-  text-align: left;
+  min-height: 42px;
+  margin: 0 0 12px;
+  padding: 0;
 }
 
 #bird_map_controls {
   flex-shrink: 0;
 }
 
-.map-control-group {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
+.map-toolbar-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.map-toolbar-group-right {
+  justify-content: flex-end;
+}
+
+.map-toolbar-label {
+  color: #5F5B5B;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 1.1px;
+  white-space: nowrap;
+}
+
+.toolbar-note {
+  margin: 0;
+  color: var(--muted-text);
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: right;
 }
 
 .dot-map-legend {
@@ -606,6 +671,7 @@ h2 {
   gap: 7px;
   color: var(--muted-text);
   font-size: 12px;
+  white-space: nowrap;
 }
 
 .dot-map-key {
@@ -618,14 +684,53 @@ h2 {
   opacity: 0.55;
 }
 
+.bird-map-caption {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  margin: 14px 6px 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--rule);
+}
+
+.bird-map-caption-label {
+  color: var(--teal);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 1.1px;
+  white-space: nowrap;
+}
+
+.bird-map-caption p {
+  margin: 0;
+  color: #5F5654;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 @media (max-width: 750px) {
   .map-bottom-row {
-    flex-direction: column;
     align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0;
   }
 
-  .bird-map-card .map-instruction {
+  .map-toolbar-group-right {
+    justify-content: flex-start;
+  }
+
+  .toolbar-note {
     text-align: left;
+  }
+
+  .bird-map-caption {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 
@@ -635,37 +740,139 @@ h2 {
 ========================= */
 
 .bird-seasonal-visualisation {
-  margin-top: 55px;
+  margin-top: 0;
 }
 
 .bird-seasonal-chart {
   width: 100%;
   min-width: 0;
   margin: 0;
-  padding: 24px 0;
+  padding: 24px;
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid #E7E0D8;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(48, 45, 50, 0.045);
+}
+
+.heatmap-card-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 0 0 18px;
+}
+
+.heatmap-card-header span,
+.heatmap-insight > span {
+  color: var(--teal);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.heatmap-card-header p {
+  margin: 0;
+  color: var(--muted-text);
+  font-size: 12px;
 }
 
 #bird_seasonal_heatmaps {
   width: 100%;
-  overflow-x: auto;
+  overflow: hidden;
 }
 
 #bird_seasonal_heatmaps .vega-embed {
-  display: block;
-  width: max-content;
-  max-width: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
 }
 
 .bird-seasonal-chart .chart-footnote {
-  margin-top: 18px;
+  margin-top: 14px;
   font-size: 13px;
   color: #6C6260;
+}
+
+.heatmap-insights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--rule);
+}
+
+.heatmap-insight {
+  min-width: 0;
+  padding: 0 0 0 16px;
+}
+
+.heatmap-insight + .heatmap-insight {
+  padding-left: 16px;
+}
+
+.heatmap-insight strong {
+  display: block;
+  margin-top: 5px;
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.heatmap-insight p {
+  margin: 3px 0 0;
+  color: var(--muted-text);
+  font-size: 12px;
+}
+
+.heatmap-footnote {
+  margin-top: 14px;
 }
 
 .bird-seasonal-chart .chart-source {
   margin-top: 8px;
   font-size: 12px;
   color: #756A67;
+}
+
+@media (max-width: 1000px) {
+  #bird_seasonal_heatmaps {
+    overflow-x: auto;
+  }
+
+  #bird_seasonal_heatmaps .vega-embed {
+    justify-content: flex-start;
+    width: max-content;
+  }
+}
+
+@media (max-width: 720px) {
+  .bird-seasonal-chart {
+    padding: 18px;
+  }
+
+  .heatmap-card-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .heatmap-insights {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .heatmap-insight,
+  .heatmap-insight + .heatmap-insight {
+    padding: 0 0 0 16px;
+  }
+
+  .heatmap-insight + .heatmap-insight {
+    padding-top: 0;
+  }
 }
 
 
@@ -677,8 +884,8 @@ h2 {
 .bird-state-layout {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 28px;
-  align-items: center;
+  gap: var(--layout-gap);
+  align-items: start;
   width: 100%;
 }
 
@@ -688,6 +895,12 @@ h2 {
   width: 100%;
   min-width: 0;
   margin: 0;
+}
+
+.bird-state-chart .vega-embed {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 #bird_state_choropleth {
@@ -709,41 +922,123 @@ h2 {
 .bird-state-narrative {
   grid-column: span 1;
   min-width: 0;
-  align-self: center;
+  align-self: start;
+  margin-top: 0;
+  padding-left: 20px;
 }
 
-/* Numbers */
-.bird-state-stat {
-  margin: 0;
-  color: var(--coral);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(36px, 3.5vw, 52px);
+.state-map-toolbar {
+  flex-wrap: wrap;
+}
+
+.state-density-legend {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  min-width: 0;
+}
+
+.state-density-scale {
+  width: 172px;
+  min-width: 0;
+}
+
+.state-density-gradient {
+  display: block;
+  width: 100%;
+  height: 8px;
+  background: linear-gradient(90deg, #E6F3F5, #398BA3, #14556B);
+  border-radius: 999px;
+}
+
+.state-density-ticks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+  color: var(--muted-text);
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.state-highlight {
+  padding: 12px 0 14px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.state-highlight:first-of-type {
+  padding-top: 4px;
+}
+
+.state-highlight > span {
+  display: block;
+  color: var(--teal);
+  font-size: 10px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.3;
+  letter-spacing: 0.9px;
 }
 
-/* Annotation headings */
-.bird-state-narrative h3 {
-  margin: 8px 0 12px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 19px;
-  font-weight: 600;
-  line-height: 1.35;
+.state-highlight strong {
+  display: block;
+  margin-top: 3px;
+  color: var(--coral);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 34px;
+  line-height: 1;
+  letter-spacing: -0.025em;
 }
 
-/* Description */
-.bird-state-copy {
-  margin: 0;
-  color: #5F5654;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
+.state-highlight p {
+  margin: 4px 0 0;
+  color: var(--muted-text);
+  font-size: 12px;
+  line-height: 1.4;
 }
 
-/* Divider */
-.bird-state-separator {
+.bird-state-narrative.annotation-panel .annotation-title {
+  margin-top: 16px;
+}
+
+.state-comparison-step {
+  padding: 2px 0 18px;
+}
+
+.state-comparison-step + .state-comparison-step {
+  padding-top: 18px;
   border-top: 1px solid var(--rule);
-  margin: 24px 0;
+}
+
+.state-comparison-step > span {
+  color: var(--teal);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.state-comparison-step strong {
+  display: block;
+  margin-top: 5px;
+  color: var(--text);
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.state-comparison-step p {
+  margin: 5px 0 0;
+  color: #5F5654;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.state-comparison-focus strong {
+  color: var(--coral);
+}
+
+.state-reading-note {
+  margin-top: 14px;
+  padding-top: 14px;
 }
 
 /* Source note */
@@ -767,6 +1062,387 @@ h2 {
   .bird-state-narrative {
     grid-column: 1;
   }
+
+  .bird-state-narrative {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 20px;
+  }
+
+  .state-map-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .state-density-legend {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+  }
+}
+
+
+
+/* =========================
+   SEASONAL VOLATILITY SYMBOL MAP
+========================= */
+
+.bird-symbol-card {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.bird-symbol-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 0 0 12px;
+  padding: 0;
+}
+
+#bird_symbol_controls {
+  margin: 0;
+}
+
+.bird-symbol-legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 46px;
+  color: #625B59;
+  font-size: 12px;
+}
+
+.bird-symbol-legends {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+}
+
+.bird-season-legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #625B59;
+  font-size: 12px;
+}
+
+.bird-season-legend > span:not(.bird-symbol-legend-title) {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.season-key {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.season-key.summer {
+  background: #E96B73;
+}
+
+.season-key.autumn {
+  background: #D89A32;
+}
+
+.season-key.winter {
+  background: #398BA3;
+}
+
+.season-key.spring {
+  background: #6B9E58;
+}
+
+.bird-symbol-legend-title {
+  color: #5F5B5B;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+.bird-symbol-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.bird-symbol-legend-circle {
+  display: inline-block;
+  flex: 0 0 auto;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  background: rgba(108, 98, 96, 0.38);
+  box-shadow: 0 0 0 1px #D2D9DA;
+}
+
+.bird-symbol-legend-circle.small {
+  width: 12px;
+  height: 12px;
+}
+
+.bird-symbol-legend-circle.medium {
+  width: 25px;
+  height: 25px;
+}
+
+.bird-symbol-legend-circle.large {
+  width: 38px;
+  height: 38px;
+}
+
+.bird-symbol-chart-area {
+  width: 100%;
+  min-width: 0;
+  padding: 14px;
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid #E7E0D8;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(48, 45, 50, 0.045);
+}
+
+.bird-symbol-layout {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--layout-gap);
+  align-items: start;
+}
+
+.bird-symbol-chart-area {
+  grid-column: span 2;
+}
+
+.bird-symbol-annotation {
+  grid-column: span 1;
+}
+
+#bird_seasonal_symbol_map {
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+#bird_seasonal_symbol_map .vega-embed {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.bird-symbol-annotation {
+  display: flex;
+  margin: 0;
+  padding: 24px 0 24px 20px;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 0;
+  background: transparent;
+}
+
+.bird-symbol-annotation .insight-label {
+  margin-bottom: 16px;
+}
+
+.bird-symbol-insight-stat {
+  margin: 0;
+  color: var(--coral);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.bird-symbol-annotation h3 {
+  margin: 7px 0 8px;
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.bird-symbol-annotation > p:not(.insight-label):not(.bird-symbol-insight-stat):not(.annotation-evidence) {
+  margin: 0;
+  color: #5F5654;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.bird-symbol-hover-note {
+  margin: 16px 0 0;
+}
+
+/* =========================
+   CHAPTER 4: COMPANION CHOICE
+========================= */
+
+.companion-choice-section {
+  margin-bottom: var(--section-space);
+}
+
+.companion-choice-card {
+  max-width: 760px;
+  margin-top: 20px;
+  padding: 34px 38px;
+  background: #FFF0D4;
+  border-radius: 16px;
+}
+
+.companion-choice-card .insight-label {
+  margin-bottom: 10px;
+}
+
+.companion-choice-card h2 {
+  max-width: 22ch;
+  margin: 0 0 16px;
+  font-size: clamp(26px, 3vw, 36px);
+}
+
+.companion-choice-card p:not(.insight-label) {
+  margin: 5px 0 0;
+  color: #5F5654;
+  font-size: 15px;
+}
+
+@media (max-width: 720px) {
+  .companion-choice-card {
+    padding: 26px 22px;
+  }
+}
+
+@media (max-width: 920px) {
+  .bird-symbol-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .bird-symbol-chart-area,
+  .bird-symbol-annotation {
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 720px) {
+  .bird-symbol-toolbar,
+  .bird-symbol-legends,
+  .bird-season-legend {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .bird-symbol-legends {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .bird-season-legend,
+  .bird-symbol-legend {
+    flex-wrap: wrap;
+  }
+
+  #bird_seasonal_symbol_map .vega-embed {
+    justify-content: flex-start;
+    width: max-content;
+  }
+
+  #bird_seasonal_symbol_map {
+    overflow-x: auto;
+  }
+
+  .bird-symbol-annotation {
+    padding: 20px 0 20px 20px;
+  }
+
+  .bird-symbol-layout {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+}
+
+/* Shared hierarchy for chart labels and annotations */
+.annotation-panel {
+  min-width: 0;
+  padding-left: 20px;
+  border-left: 3px solid var(--coral);
+  background: transparent;
+}
+
+.annotation-panel-compact {
+  padding: 0 0 0 16px;
+}
+
+.annotation-panel .insight-label,
+.annotation-panel > span {
+  margin: 0 0 7px;
+  color: #A75D45;
+}
+
+.annotation-panel .annotation-title {
+  margin: 0;
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.annotation-panel .annotation-evidence {
+  margin: 7px 0 0;
+  color: #5F5654;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.heatmap-insight > span {
+  color: #A75D45;
+}
+
+.reading-note {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  padding-top: 11px;
+  border-top: 1px solid var(--rule);
+}
+
+.reading-note-stacked {
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
+
+.reading-note-label {
+  color: var(--teal);
+  white-space: nowrap;
+}
+
+.reading-note p {
+  margin: 0;
+  color: var(--muted-text);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.insight-label,
+.map-toolbar-label,
+.bird-map-caption-label,
+.reading-note-label,
+.bird-symbol-legend-title,
+.heatmap-card-header span,
+.heatmap-insight > span,
+.state-comparison-step > span {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
 }
 
 
@@ -791,19 +1467,13 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .visual-row > .chart-card,
+  .visual-row > .insight-panel {
+    grid-column: 1;
+  }
+
   .insight-panel {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    column-gap: 28px;
-    align-items: center;
-  }
-
-  .insight-panel .insight-label {
-    grid-column: 1 / -1;
-  }
-
-  .insight-panel .insight-stat {
-    margin-bottom: 0;
+    display: block;
   }
 }
 
@@ -818,7 +1488,9 @@ footer {
     gap: 30px;
   }
 
+  .household-narrative,
   .household-chart {
+    grid-column: 1;
     width: 100%;
   }
 }
@@ -829,21 +1501,25 @@ footer {
 
 @media (max-width: 720px) {
 
+  .visual-card {
+    padding: 18px;
+  }
+
   .hero {
-    padding: 66px 20px 56px;
+    padding: 52px 20px 40px;
   }
 
   .story-section {
-    margin: 46px auto;
+    margin: 44px auto;
     padding: 0 18px;
   }
 
   h2 {
-    font-size: 29px;
+    font-size: 27px;
   }
 
   .description {
-    margin-bottom: 26px;
+    margin-bottom: 18px;
   }
 
   .chart-card {
@@ -858,7 +1534,7 @@ footer {
 
   .insight-panel {
     display: block;
-    padding: 24px;
+    padding: 24px 0 24px 20px;
   }
 
   .insight-panel .insight-stat {
@@ -866,7 +1542,7 @@ footer {
   }
 
   .visualisation-block + .visualisation-block {
-    margin-top: 45px;
+    margin-top: 42px;
   }
 
   .household-stat {
