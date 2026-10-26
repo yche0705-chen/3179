@@ -2,10 +2,10 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A proportional symbol map showing seasonal volatility and peak season by Australian state.",
   "background": null,
-  "width": 630,
-  "height": 440,
-  "padding": 8,
-  "autosize": {"type": "pad", "contains": "padding"},
+  "width": 530,
+  "height": 320,
+  "padding": 0,
+  "autosize": {"type": "fit", "contains": "padding"},
   "params": [
     {
       "name": "selectedSpecies",
@@ -20,8 +20,8 @@
   "projection": {
     "type": "mercator",
     "center": [134, -26],
-    "scale": 535,
-    "translate": [315, 212]
+    "scale": 430,
+    "translate": [265, 154]
   },
   "layer": [
     {

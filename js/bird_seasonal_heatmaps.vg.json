@@ -40,8 +40,8 @@
     }
   },
   "spec": {
-    "width": 450,
-    "height": 250,
+    "width": 550,
+    "height": 220,
     "mark": {
       "type": "rect",
       "stroke": "#FAF7F0",
@@ -88,15 +88,7 @@
           ],
           "domainMin": 0
         },
-        "legend": {
-          "orient": "bottom",
-          "direction": "horizontal",
-          "gradientLength": 240,
-          "titleFont": "Arial",
-          "labelFont": "Arial",
-          "titleColor": "#302D32",
-          "labelColor": "#6C6260"
-        }
+        "legend": null
       },
       "tooltip": [
         {

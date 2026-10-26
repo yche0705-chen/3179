@@ -1,0 +1,165 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "width": "container",
+  "height": 280,
+  "background": null,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "padding": {
+    "top": 0,
+    "right": 56,
+    "bottom": 0,
+    "left": 0
+  },
+
+  "data": {
+    "url": "data/bird_size_lollipop.csv"
+  },
+
+  "transform": [
+    {
+      "calculate": "0",
+      "as": "zero"
+    },
+    {
+      "calculate": "datum.common_name === 'Rainbow lorikeet' ? 1 : datum.common_name === 'Cockatiel' ? 2 : datum.common_name === 'Peach-faced lovebird' ? 3 : datum.common_name === 'Budgerigar' ? 4 : datum.common_name === 'Canary' ? 5 : 6",
+      "as": "order"
+    },
+    {
+      "calculate": "format(datum.adult_mass_g, '.1f') + ' g'",
+      "as": "mass_label"
+    }
+  ],
+
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "strokeWidth": 3,
+        "opacity": 0.45
+      },
+      "encoding": {
+        "y": {
+          "field": "common_name",
+          "type": "nominal",
+          "sort": {"field": "order", "order": "ascending"},
+          "axis": {
+            "title": null,
+            "labelFont": "Arial",
+            "labelFontSize": 13,
+            "labelColor": "#302D32",
+            "labelPadding": 10,
+            "ticks": false,
+            "domain": false
+          }
+        },
+        "x": {
+          "field": "zero",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 135]
+          }
+        },
+        "x2": {
+          "field": "adult_mass_g"
+        },
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Parrots", "Songbirds"],
+            "range": ["#398BA3", "#E96B73"]
+          },
+          "legend": null
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 280,
+        "stroke": "#302D32",
+        "strokeWidth": 1.6
+      },
+      "encoding": {
+        "y": {
+          "field": "common_name",
+          "type": "nominal",
+          "sort": {"field": "order", "order": "ascending"}
+        },
+        "x": {
+          "field": "adult_mass_g",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 135]
+          },
+          "axis": {
+            "title": "Adult body mass (g)",
+            "titleFont": "Arial",
+            "titleFontSize": 14,
+            "titleFontWeight": "bold",
+            "titleColor": "#302D32",
+            "labelFont": "Arial",
+            "labelFontSize": 12,
+            "labelColor": "#625D5D",
+            "grid": true,
+            "gridColor": "#E7E1DA",
+            "tickColor": "#BEB6AE",
+            "domainColor": "#BEB6AE",
+            "values": [0, 20, 40, 60, 80, 100, 120]
+          }
+        },
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Parrots", "Songbirds"],
+            "range": ["#398BA3", "#E96B73"]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "common_name", "type": "nominal", "title": "Species"},
+          {"field": "group", "type": "nominal", "title": "Group"},
+          {"field": "adult_mass_g", "type": "quantitative", "title": "Adult mass (g)", "format": ".1f"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 12,
+        "font": "Arial",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "color": "#302D32"
+      },
+      "encoding": {
+        "y": {
+          "field": "common_name",
+          "type": "nominal",
+          "sort": {"field": "order", "order": "ascending"}
+        },
+        "x": {
+          "field": "adult_mass_g",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "mass_label"
+        }
+      }
+    }
+  ],
+
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}

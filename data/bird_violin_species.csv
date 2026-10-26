@@ -1,0 +1,707 @@
+species,scientific_name,group,size_group,adult_mass_g,maximum_longevity_years,specimen_origin,data_quality,hagrid,jitter,focus_species,is_focus,plot_y
+Yellow-rumped thornbill,Acanthiza chrysorrhoa,Passerines,Small (≤50 g),9.375,13.1,wild,acceptable,730,-0.062,,0,-0.0353399999999999
+Tasmanian thornbill,Acanthiza ewingii,Passerines,Small (≤50 g),6.95,7.7,wild,acceptable,731,0.264,,0,0.15048
+Western thornbill,Acanthiza inornata,Passerines,Small (≤50 g),7.0,8.9,wild,acceptable,732,-0.299,,0,-0.1704299999999999
+Mountain thornbill,Acanthiza katherina,Passerines,Small (≤50 g),6.85,15.0,wild,acceptable,733,0.026,,0,0.0148199999999999
+Striated thornbill,Acanthiza lineata,Passerines,Small (≤50 g),7.1,23.5,wild,acceptable,734,0.352,,0,0.2006399999999999
+Yellow thornbill,Acanthiza nana,Passerines,Small (≤50 g),6.35,13.8,wild,acceptable,735,-0.211,,0,-0.1202699999999999
+Brown thornbill,Acanthiza pusilla,Passerines,Small (≤50 g),7.6,17.6,wild,acceptable,736,0.114,,0,0.06498
+Buff-rumped thornbill,Acanthiza reguloides,Passerines,Small (≤50 g),7.7,9.5,wild,acceptable,737,0.44,,0,0.2507999999999999
+Chestnut-rumped thornbill,Acanthiza uropygialis,Passerines,Small (≤50 g),6.35,7.0,wild,acceptable,738,-0.123,,0,-0.0701099999999999
+Southern whiteface,Aphelocephala leucopsis,Passerines,Small (≤50 g),12.35,14.3,wild,acceptable,739,0.202,,0,0.1151399999999999
+Western gerygone,Gerygone fusca,Passerines,Small (≤50 g),5.4,6.5,wild,acceptable,740,-0.361,,0,-0.2057699999999999
+Mangrove gerygone,Gerygone levigaster,Passerines,Small (≤50 g),6.2,5.5,wild,acceptable,741,-0.035,,0,-0.01995
+Large-billed gerygone,Gerygone magnirostris,Passerines,Small (≤50 g),6.8,4.1,wild,acceptable,742,0.29,,0,0.1652999999999999
+Brown gerygone,Gerygone mouki,Passerines,Small (≤50 g),5.25,8.9,wild,acceptable,743,-0.273,,0,-0.15561
+Fairy gerygone,Gerygone palpebrosa,Passerines,Small (≤50 g),7.475,4.0,wild,acceptable,744,0.053,,0,0.0302099999999999
+Dusky gerygone,Gerygone tenebrosa,Passerines,Small (≤50 g),7.85,10.6,wild,acceptable,745,0.378,,0,0.2154599999999999
+Fernwren,Oreoscopus gutturalis,Passerines,Small (≤50 g),20.0,4.0,wild,acceptable,746,-0.185,,0,-0.1054499999999999
+Rockwarbler,Origma solitaria,Passerines,Small (≤50 g),14.35,7.0,wild,acceptable,747,0.141,,0,0.0803699999999999
+Pilotbird,Pycnoptilus floccosus,Passerines,Small (≤50 g),31.4,6.5,wild,acceptable,748,-0.422,,0,-0.2405399999999999
+Redthroat,Pyrrholaemus brunneus,Passerines,Small (≤50 g),12.5,9.0,wild,acceptable,749,-0.097,,0,-0.05529
+Yellow-throated scrubwren,Sericornis citreogularis,Passerines,Small (≤50 g),17.4,15.6,wild,acceptable,750,0.229,,0,0.13053
+White-browed scrubwren,Sericornis frontalis,Passerines,Small (≤50 g),13.4,17.6,wild,acceptable,751,-0.334,,0,-0.19038
+Weebill,Smicrornis brevirostris,Passerines,Small (≤50 g),5.35,7.4,wild,acceptable,753,0.317,,0,0.18069
+Great reed-warbler,Acrocephalus arundinaceus,Passerines,Small (≤50 g),30.0,10.1,wild,acceptable,754,-0.246,,0,-0.1402199999999999
+Australian reed warbler,Acrocephalus australis,Passerines,Small (≤50 g),24.2,7.1,wild,acceptable,755,0.079,,0,0.0450299999999999
+Blyth's reed-warbler,Acrocephalus dumetorum,Passerines,Small (≤50 g),11.2,8.0,wild,acceptable,756,0.405,,0,0.23085
+Moustached warbler,Acrocephalus melanopogon,Passerines,Small (≤50 g),10.9,11.2,wild,acceptable,758,0.167,,0,0.09519
+Marsh warbler,Acrocephalus palustris,Passerines,Small (≤50 g),11.5,9.8,wild,acceptable,759,-0.396,,0,-0.22572
+Sedge warbler,Acrocephalus schoenobaenus,Passerines,Small (≤50 g),11.8,11.8,wild,acceptable,760,-0.07,,0,-0.0399
+Eurasian reed-warbler,Acrocephalus scirpaceus,Passerines,Small (≤50 g),12.3,16.9,wild,acceptable,761,0.255,,0,0.1453499999999999
+Seychelles warbler,Acrocephalus sechellensis,Passerines,Small (≤50 g),15.9,17.0,wild,acceptable,762,-0.308,,0,-0.17556
+"Clamorous reed warbler, or Indian great reed warbler",Acrocephalus stentoreus,Passerines,Small (≤50 g),24.2,10.6,wild,acceptable,763,0.018,,0,0.0102599999999999
+Icterine warbler,Hippolais icterina,Passerines,Small (≤50 g),13.2,10.8,wild,acceptable,764,0.343,,0,0.19551
+Melodious warbler,Hippolais polyglotta,Passerines,Small (≤50 g),11.0,8.9,wild,acceptable,765,-0.22,,0,-0.1253999999999999
+"Eastern olivaceous warbler, or Olivaceous warbler",Iduna pallida,Passerines,Small (≤50 g),9.0,7.9,wild,acceptable,766,0.106,,0,0.0604199999999999
+Long-tailed tit,Aegithalos caudatus,Passerines,Small (≤50 g),8.6,11.1,wild,acceptable,767,0.431,,0,0.2456699999999999
+Bushtit,Psaltriparus minimus,Passerines,Small (≤50 g),5.3,9.1,wild,acceptable,768,-0.132,,0,-0.07524
+Eurasian skylark,Alauda arvensis,Passerines,Small (≤50 g),37.5,10.1,wild,acceptable,769,0.194,,0,0.11058
+Horned lark,Eremophila alpestris,Passerines,Small (≤50 g),33.5,8.0,wild,acceptable,770,-0.37,,0,-0.2108999999999999
+Crested lark,Galerida cristata,Passerines,Small (≤50 g),42.9,11.6,wild,acceptable,771,-0.044,,0,-0.0250799999999999
+Wood lark,Lullula arborea,Passerines,Small (≤50 g),26.9,6.0,wild,acceptable,772,0.282,,0,0.1607399999999999
+Dusky woodswallow,Artamus cyanopterus,Passerines,Small (≤50 g),33.0,8.2,wild,acceptable,774,0.044,,0,0.0250799999999999
+Noisy scrubbird,Atrichornis clamosus,Passerines,Small (≤50 g),41.525,7.8,wild,acceptable,775,0.37,,0,0.2108999999999999
+Cedar waxwing,Bombycilla cedrorum,Passerines,Small (≤50 g),30.0,8.2,wild,acceptable,776,-0.194,,0,-0.11058
+Bohemian waxwing,Bombycilla garrulus,Passerines,Medium (50–200 g),54.5,13.5,wild,acceptable,777,0.132,,0,0.07524
+Lapland longspur,Calcarius lapponicus,Passerines,Small (≤50 g),28.35,6.0,wild,acceptable,778,-0.431,,0,-0.2456699999999999
+Smith's longspur,Calcarius pictus,Passerines,Small (≤50 g),26.65,5.0,wild,acceptable,779,-0.106,,0,-0.0604199999999999
+Mckay's bunting,Plectrophenax hyperboreus,Passerines,Small (≤50 g),42.0,4.8,wild,acceptable,780,0.22,,0,0.1253999999999999
+Snow bunting,Plectrophenax nivalis,Passerines,Small (≤50 g),41.8,10.2,wild,acceptable,781,-0.343,,0,-0.19551
+Black-faced cuckooshrike,Coracina novaehollandiae,Passerines,Medium (50–200 g),115.133,9.0,wild,acceptable,782,-0.018,,0,-0.0102599999999999
+Common cicadabird,Coracina tenuirostris,Passerines,Medium (50–200 g),58.5,6.2,wild,acceptable,783,0.308,,0,0.17556
+Varied triller,Lalage leucomela,Passerines,Small (≤50 g),29.45,4.8,wild,acceptable,784,-0.255,,0,-0.1453499999999999
+White-winged triller,Lalage tricolor,Passerines,Small (≤50 g),25.5,3.1,wild,acceptable,785,0.07,,0,0.0399
+Northern cardinal,Cardinalis cardinalis,Passerines,Small (≤50 g),42.6,28.5,unknown,acceptable,786,0.396,,0,0.22572
+Blue bunting,Cyanocompsa parellina,Passerines,Small (≤50 g),15.7,10.8,wild,acceptable,788,0.158,,0,0.0900599999999999
+Lazuli bunting,Passerina amoena,Passerines,Small (≤50 g),15.15,9.9,wild,acceptable,789,-0.405,,0,-0.23085
+Blue grosbeak,Passerina caerulea,Passerines,Small (≤50 g),28.4,10.2,wild,acceptable,790,-0.079,,0,-0.0450299999999999
+Painted bunting,Passerina ciris,Passerines,Small (≤50 g),14.75,12.0,unknown,acceptable,791,0.246,,0,0.1402199999999999
+Indigo bunting,Passerina cyanea,Passerines,Small (≤50 g),15.0,11.0,wild,acceptable,792,-0.317,,0,-0.18069
+Rose-breasted grosbeak,Pheucticus ludovicianus,Passerines,Small (≤50 g),47.325,24.0,unknown,acceptable,793,0.009,,0,0.0051299999999999
+Black-headed grosbeak,Pheucticus melanocephalus,Passerines,Small (≤50 g),42.0,25.0,captivity,acceptable,794,0.334,,0,0.19038
+Western tanager,Piranga ludoviciana,Passerines,Small (≤50 g),30.0,15.3,unknown,acceptable,795,-0.229,,0,-0.13053
+Scarlet tanager,Piranga olivacea,Passerines,Small (≤50 g),29.0,11.9,wild,acceptable,796,0.097,,0,0.05529
+Summer tanager,Piranga rubra,Passerines,Small (≤50 g),40.0,7.9,wild,acceptable,797,0.422,,0,0.2405399999999999
+Dickcissel,Spiza americana,Passerines,Small (≤50 g),33.0,4.8,wild,acceptable,798,-0.141,,0,-0.0803699999999999
+Eurasian treecreeper,Certhia familiaris,Passerines,Small (≤50 g),9.1,8.2,wild,acceptable,801,-0.053,,0,-0.0302099999999999
+Cetti's warbler,Cettia cetti,Passerines,Small (≤50 g),13.3,9.3,wild,acceptable,802,0.273,,0,0.15561
+White-throated dipper,Cinclus cinclus,Passerines,Medium (50–200 g),61.7,10.6,wild,acceptable,803,-0.29,,0,-0.1652999999999999
+American dipper,Cinclus mexicanus,Passerines,Medium (50–200 g),50.2,8.1,wild,acceptable,804,0.035,,0,0.01995
+Golden-headed cisticola,Cisticola exilis,Passerines,Small (≤50 g),7.325,3.6,wild,acceptable,805,0.361,,0,0.2057699999999999
+Red-browed treecreeper,Climacteris erythrops,Passerines,Small (≤50 g),23.3,8.2,wild,acceptable,807,0.123,,0,0.0701099999999999
+Brown treecreeper,Climacteris picumnus,Passerines,Small (≤50 g),29.4,13.9,wild,acceptable,808,-0.44,,0,-0.2507999999999999
+White-winged chough,Corcorax melanoramphos,Passerines,Large (>200 g),364.0,17.6,wild,acceptable,809,-0.114,,0,-0.06498
+Apostlebird,Struthidea cinerea,Passerines,Medium (50–200 g),132.0,25.0,captivity,acceptable,810,0.211,,0,0.1202699999999999
+Western scrub jay,Aphelocoma californica,Passerines,Medium (50–200 g),88.7,15.8,wild,acceptable,811,-0.352,,0,-0.2006399999999999
+Scrub jay,Aphelocoma coerulescens,Passerines,Medium (50–200 g),78.7,15.0,wild,acceptable,812,-0.026,,0,-0.0148199999999999
+Island scrub jay,Aphelocoma insularis,Passerines,Medium (50–200 g),114.0,15.3,wild,acceptable,813,0.299,,0,0.1704299999999999
+Mexican jay,Aphelocoma ultramarina,Passerines,Medium (50–200 g),130.0,25.0,captivity,acceptable,814,-0.264,,0,-0.15048
+"Eurasian crow, or Eurasian jackdaw",Coloeus monedula,Passerines,Large (>200 g),246.0,20.3,wild,acceptable,815,0.062,,0,0.0353399999999999
+Little crow,Corvus bennetti,Passerines,Large (>200 g),396.25,16.4,wild,acceptable,816,0.387,,0,0.2205899999999999
+American crow,Corvus brachyrhynchos,Passerines,Large (>200 g),384.8,20.0,unknown,acceptable,817,-0.176,,0,-0.1003199999999999
+Northwestern crow,Corvus caurinus,Passerines,Large (>200 g),294.0,16.7,wild,acceptable,818,0.15,,0,0.0854999999999999
+Common raven,Corvus corax,Passerines,Large (>200 g),1041.2,69.0,captivity,acceptable,819,-0.414,,0,-0.2359799999999999
+Hooded crow,Corvus cornix,Passerines,Large (>200 g),544.5,16.8,captivity,acceptable,820,-0.088,,0,-0.0501599999999999
+Carrion crow,Corvus corone,Passerines,Large (>200 g),472.7,19.2,wild,acceptable,821,0.238,,0,0.1356599999999999
+Australian raven,Corvus coronoides,Passerines,Large (>200 g),645.0,22.5,wild,acceptable,822,-0.326,,0,-0.1858199999999999
+Chihuahuan raven,Corvus cryptoleucus,Passerines,Large (>200 g),534.0,21.8,wild,acceptable,823,0.0,,0,0.0
+Rook,Corvus frugilegus,Passerines,Large (>200 g),453.5,23.8,wild,acceptable,824,0.326,,0,0.1858199999999999
+Hawaiian crow,Corvus hawaiiensis,Passerines,Large (>200 g),520.0,25.0,wild,acceptable,825,-0.238,,0,-0.1356599999999999
+Little raven,Corvus mellori,Passerines,Large (>200 g),536.75,19.8,wild,acceptable,826,0.088,,0,0.0501599999999999
+Fish crow,Corvus ossifragus,Passerines,Large (>200 g),418.0,14.5,wild,acceptable,828,-0.15,,0,-0.0854999999999999
+Blue jay,Cyanocitta cristata,Passerines,Medium (50–200 g),80.8,26.2,captivity,acceptable,829,0.176,,0,0.1003199999999999
+Steller's jay,Cyanocitta stelleri,Passerines,Medium (50–200 g),99.1,16.1,wild,acceptable,830,-0.387,,0,-0.2205899999999999
+Azure jay,Cyanocorax caeruleus,Passerines,Large (>200 g),272.0,36.0,captivity,acceptable,831,-0.062,,0,-0.0353399999999999
+Eurasian jay,Garrulus glandarius,Passerines,Medium (50–200 g),159.7,17.9,wild,acceptable,833,-0.299,,0,-0.1704299999999999
+Pinyon jay,Gymnorhinus cyanocephalus,Passerines,Medium (50–200 g),105.0,14.6,wild,acceptable,834,0.026,,0,0.0148199999999999
+Spotted nutcracker,Nucifraga caryocatactes,Passerines,Medium (50–200 g),183.0,19.9,wild,acceptable,835,0.352,,0,0.2006399999999999
+Clark's nutcracker,Nucifraga columbiana,Passerines,Medium (50–200 g),130.0,17.4,wild,acceptable,836,-0.211,,0,-0.1202699999999999
+Gray jay,Perisoreus canadensis,Passerines,Medium (50–200 g),70.3,19.2,wild,acceptable,837,0.114,,0,0.06498
+Siberian jay,Perisoreus infaustus,Passerines,Medium (50–200 g),84.4,17.9,wild,acceptable,838,0.44,,0,0.2507999999999999
+Black-billed magpie,Pica hudsonia,Passerines,Medium (50–200 g),177.0,20.0,captivity,acceptable,839,-0.123,,0,-0.0701099999999999
+Eurasian magpie,Pica pica,Passerines,Medium (50–200 g),178.0,21.7,wild,acceptable,841,-0.361,,0,-0.2057699999999999
+Alpine chough,Pyrrhocorax graculus,Passerines,Large (>200 g),211.5,24.4,wild,acceptable,842,-0.035,,0,-0.01995
+Red-billed chough,Pyrrhocorax pyrrhocorax,Passerines,Large (>200 g),277.8,20.3,captivity,acceptable,843,0.29,,0,0.1652999999999999
+Guianan cock-of-the-rock,Rupicola rupicola,Passerines,Medium (50–200 g),195.0,7.0,captivity,acceptable,844,-0.273,,0,-0.15561
+Pied butcherbird,Cracticus nigrogularis,Passerines,Medium (50–200 g),126.65,22.2,wild,acceptable,845,0.053,,0,0.0302099999999999
+Grey butcherbird,Cracticus torquatus,Passerines,Medium (50–200 g),80.675,20.2,wild,acceptable,847,-0.185,,0,-0.1054499999999999
+Black currawong,Strepera fuliginosa,Passerines,Large (>200 g),343.0,24.0,wild,acceptable,848,0.141,,0,0.0803699999999999
+Pied currawong,Strepera graculina,Passerines,Large (>200 g),283.5,24.2,wild,acceptable,849,-0.422,,0,-0.2405399999999999
+Grey currawong,Strepera versicolor,Passerines,Large (>200 g),400.0,19.6,wild,acceptable,850,-0.097,,0,-0.05529
+Eastern bristlebird,Dasyornis brachypterus,Passerines,Small (≤50 g),41.5,4.8,wild,acceptable,851,0.229,,0,0.13053
+Mistletoebird,Dicaeum hirundinaceum,Passerines,Small (≤50 g),8.8,9.7,wild,acceptable,852,-0.334,,0,-0.19038
+Spangled drongo,Dicrurus bracteatus,Passerines,Medium (50–200 g),82.25,7.9,wild,acceptable,853,-0.009,,0,-0.0051299999999999
+Saltmarsh sharp-tailed sparrow,Ammodramus caudacutus,Passerines,Small (≤50 g),16.5,10.0,wild,acceptable,855,-0.246,,0,-0.1402199999999999
+Henslow's sparrow,Ammodramus henslowii,Passerines,Small (≤50 g),12.5,6.5,wild,acceptable,856,0.079,,0,0.0450299999999999
+Le Conte's sparrow,Ammodramus leconteii,Passerines,Small (≤50 g),13.4,4.1,wild,acceptable,857,0.405,,0,0.23085
+Seaside sparrow,Ammodramus maritimus,Passerines,Small (≤50 g),20.0,9.0,wild,acceptable,858,-0.158,,0,-0.0900599999999999
+Nelson's sharp-tailed sparrow,Ammodramus nelsoni,Passerines,Small (≤50 g),15.2,7.1,wild,acceptable,859,0.167,,0,0.09519
+Yellow-breasted bunting,Emberiza aureola,Passerines,Small (≤50 g),19.6,7.0,wild,acceptable,860,-0.396,,0,-0.22572
+Corn bunting,Emberiza calandra,Passerines,Small (≤50 g),48.8,10.6,wild,acceptable,861,-0.07,,0,-0.0399
+Cirl bunting,Emberiza cirlus,Passerines,Small (≤50 g),25.6,6.1,wild,acceptable,862,0.255,,0,0.1453499999999999
+Yellowhammer,Emberiza citrinella,Passerines,Small (≤50 g),29.7,13.2,wild,acceptable,863,-0.308,,0,-0.17556
+Ortolan bunting,Emberiza hortulana,Passerines,Small (≤50 g),19.9,6.8,wild,acceptable,864,0.018,,0,0.0102599999999999
+Black-headed bunting,Emberiza melanocephala,Passerines,Small (≤50 g),28.4,11.0,wild,acceptable,865,0.343,,0,0.19551
+Reed bunting,Emberiza schoeniclus,Passerines,Small (≤50 g),18.4,12.2,wild,acceptable,866,-0.22,,0,-0.1253999999999999
+Gouldian finch,Erythrura gouldiae,Passerines,Small (≤50 g),12.0,6.0,captivity,acceptable,867,0.106,,0,0.0604199999999999
+White-rumped munia,Lonchura striata,Passerines,Small (≤50 g),12.3,10.0,unknown,acceptable,871,-0.37,,0,-0.2108999999999999
+Red-browed finch,Neochmia temporalis,Passerines,Small (≤50 g),11.45,23.4,wild,acceptable,874,-0.282,,0,-0.1607399999999999
+Long-tailed finch,Poephila acuticauda,Passerines,Small (≤50 g),14.0,6.0,wild,acceptable,875,0.044,,0,0.0250799999999999
+Masked finch,Poephila personata,Passerines,Small (≤50 g),13.375,6.9,wild,acceptable,877,-0.194,,0,-0.11058
+Beautiful firetail,Stagonopleura bella,Passerines,Small (≤50 g),14.0,4.5,wild,acceptable,878,0.132,,0,0.07524
+Diamond firetail,Stagonopleura guttata,Passerines,Small (≤50 g),17.6,5.4,wild,acceptable,879,-0.431,,0,-0.2456699999999999
+Red-eared firetail,Stagonopleura oculata,Passerines,Small (≤50 g),13.0,5.2,wild,acceptable,880,-0.106,,0,-0.0604199999999999
+Zebra finch,Taeniopygia guttata,Passerines,Small (≤50 g),12.0,12.0,unknown,acceptable,882,-0.343,Zebra finch,1,-0.19551
+Common redpoll,Acanthis flammea,Passerines,Small (≤50 g),14.2,12.2,wild,acceptable,883,-0.018,,0,-0.0102599999999999
+Hoary redpoll,Acanthis hornemanni,Passerines,Small (≤50 g),19.25,6.8,wild,acceptable,884,0.308,,0,0.17556
+European goldfinch,Carduelis carduelis,Passerines,Small (≤50 g),16.0,27.0,unknown,acceptable,885,-0.255,,0,-0.1453499999999999
+Common rosefinch,Carpodacus erythrinus,Passerines,Small (≤50 g),24.0,9.0,wild,acceptable,887,0.396,,0,0.22572
+European greenfinch,Chloris chloris,Passerines,Small (≤50 g),26.0,13.6,wild,acceptable,888,-0.167,,0,-0.09519
+Kauai amakihi,Chlorodrepanis stejnegeri,Passerines,Small (≤50 g),16.65,9.0,captivity,acceptable,889,0.158,,0,0.0900599999999999
+Hawaii amakihi,Chlorodrepanis virens,Passerines,Small (≤50 g),13.35,12.0,wild,acceptable,890,-0.405,,0,-0.23085
+Hawfinch,Coccothraustes coccothraustes,Passerines,Medium (50–200 g),56.6,12.6,wild,acceptable,891,-0.079,,0,-0.0450299999999999
+Chaffinch,Fringilla coelebs,Passerines,Small (≤50 g),20.7,29.0,captivity,acceptable,892,0.246,,0,0.1402199999999999
+Brambling,Fringilla montifringilla,Passerines,Small (≤50 g),23.2,14.8,wild,acceptable,893,-0.317,,0,-0.18069
+Cassin's finch,Haemorhous cassinii,Passerines,Small (≤50 g),27.5,7.0,wild,acceptable,894,0.009,,0,0.0051299999999999
+House finch,Haemorhous mexicanus,Passerines,Small (≤50 g),21.4,11.6,wild,acceptable,895,0.334,,0,0.19038
+Purple finch,Haemorhous purpureus,Passerines,Small (≤50 g),25.42,14.0,wild,acceptable,896,-0.229,,0,-0.13053
+Akiapolaau,Hemignathus wilsoni,Passerines,Small (≤50 g),28.0,13.0,wild,acceptable,897,0.097,,0,0.05529
+Evening grosbeak,Hesperiphona vespertina,Passerines,Medium (50–200 g),54.9,17.0,unknown,acceptable,898,0.422,,0,0.2405399999999999
+Apapane,Himatione sanguinea,Passerines,Small (≤50 g),13.4,11.0,captivity,acceptable,899,-0.141,,0,-0.0803699999999999
+Black rosy-finch,Leucosticte atrata,Passerines,Small (≤50 g),24.0,8.6,wild,acceptable,900,0.185,,0,0.1054499999999999
+Brown-capped rosy finch,Leucosticte australis,Passerines,Small (≤50 g),26.6,5.9,wild,acceptable,901,-0.378,,0,-0.2154599999999999
+Gray-crowned rosy-finch,Leucosticte tephrocotis,Passerines,Small (≤50 g),35.7,6.6,wild,acceptable,902,-0.053,,0,-0.0302099999999999
+Eurasian linnet,Linaria cannabina,Passerines,Small (≤50 g),19.5,9.4,wild,acceptable,903,0.273,,0,0.15561
+Twite,Linaria flavirostris,Passerines,Small (≤50 g),15.4,6.1,wild,acceptable,904,-0.29,,0,-0.1652999999999999
+Red crossbill,Loxia curvirostra,Passerines,Small (≤50 g),39.5,16.1,wild,acceptable,905,0.035,,0,0.01995
+Palila,Loxioides bailleui,Passerines,Small (≤50 g),37.85,13.0,wild,acceptable,907,-0.202,,0,-0.1151399999999999
+Akepa,Loxops coccineus,Passerines,Small (≤50 g),10.4,10.0,wild,acceptable,908,0.123,,0,0.0701099999999999
+Anianiau,Magumma parva,Passerines,Small (≤50 g),10.0,9.5,wild,acceptable,909,-0.44,,0,-0.2507999999999999
+Poo-uli,Melamprosops phaeosoma,Passerines,Small (≤50 g),25.5,9.2,wild,acceptable,910,-0.114,,0,-0.06498
+"Akohekohe, or Crested honeycreeper",Palmeria dolei,Passerines,Small (≤50 g),26.2,9.2,wild,acceptable,911,0.211,,0,0.1202699999999999
+Pine grosbeak,Pinicola enucleator,Passerines,Medium (50–200 g),65.3,9.8,wild,acceptable,913,-0.026,,0,-0.0148199999999999
+Eurasian bullfinch,Pyrrhula pyrrhula,Passerines,Small (≤50 g),24.4,17.5,wild,acceptable,914,0.299,,0,0.1704299999999999
+House canary,Serinus canaria,Passerines,Small (≤50 g),24.3,24.0,captivity,acceptable,915,-0.264,Canary,1,-0.15048
+Pine siskin,Spinus pinus,Passerines,Small (≤50 g),12.7,11.0,unknown,acceptable,917,0.387,,0,0.2205899999999999
+Lesser goldfinch,Spinus psaltria,Passerines,Small (≤50 g),9.23,5.7,wild,acceptable,918,-0.176,,0,-0.1003199999999999
+Eurasian siskin,Spinus spinus,Passerines,Small (≤50 g),13.2,13.5,wild,acceptable,919,0.15,,0,0.0854999999999999
+American goldfinch,Spinus tristis,Passerines,Small (≤50 g),12.8,13.0,unknown,acceptable,920,-0.414,,0,-0.2359799999999999
+Laysan finch,Telespiza cantans,Passerines,Small (≤50 g),33.3,12.0,captivity,acceptable,921,-0.088,,0,-0.0501599999999999
+Nihoa finch,Telespiza ultima,Passerines,Small (≤50 g),24.5,12.0,wild,acceptable,922,0.238,,0,0.1356599999999999
+Iiwi,Vestiaria coccinea,Passerines,Small (≤50 g),18.3,8.8,wild,acceptable,923,-0.326,,0,-0.1858199999999999
+Tawny-winged woodcreeper,Dendrocincla anabatina,Passerines,Small (≤50 g),34.4,11.0,wild,acceptable,924,0.0,,0,0.0
+Black-billed treehunter,Thripadectes melanorhynchus,Passerines,Small (≤50 g),44.3,10.0,wild,acceptable,925,0.326,,0,0.1858199999999999
+Red-rumped swallow,Cecropis daurica,Passerines,Small (≤50 g),22.2,9.0,wild,acceptable,926,-0.238,,0,-0.1356599999999999
+Common house-martin and northern house-martin,Delichon urbicum,Passerines,Small (≤50 g),14.5,15.0,wild,acceptable,927,0.088,,0,0.0501599999999999
+Welcome swallow,Hirundo neoxena,Passerines,Small (≤50 g),15.0,11.5,wild,acceptable,928,0.414,,0,0.2359799999999999
+Barn swallow,Hirundo rustica,Passerines,Small (≤50 g),18.3,16.0,unknown,acceptable,929,-0.15,,0,-0.0854999999999999
+Fairy martin,Petrochelidon ariel,Passerines,Small (≤50 g),11.025,5.3,wild,acceptable,930,0.176,,0,0.1003199999999999
+Cave swallow,Petrochelidon fulva,Passerines,Small (≤50 g),20.15,12.2,wild,acceptable,931,-0.387,,0,-0.2205899999999999
+Tree martin,Petrochelidon nigricans,Passerines,Small (≤50 g),15.4,6.1,wild,acceptable,932,-0.062,,0,-0.0353399999999999
+Cliff swallow,Petrochelidon pyrrhonota,Passerines,Small (≤50 g),23.24,11.8,wild,acceptable,933,0.264,,0,0.15048
+Purple martin,Progne subis,Passerines,Small (≤50 g),45.0,13.8,wild,acceptable,934,-0.299,,0,-0.1704299999999999
+Bank swallow,Riparia riparia,Passerines,Small (≤50 g),12.7,10.1,wild,acceptable,935,0.026,,0,0.0148199999999999
+Southern rough-winged swallow,Stelgidopteryx ruficollis,Passerines,Small (≤50 g),16.0,5.9,wild,acceptable,936,0.352,,0,0.2006399999999999
+Northern rough-winged swallow,Stelgidopteryx serripennis,Passerines,Small (≤50 g),15.7,5.9,wild,acceptable,937,-0.211,,0,-0.1202699999999999
+Tree swallow,Tachycineta bicolor,Passerines,Small (≤50 g),19.0,12.1,wild,acceptable,938,0.114,,0,0.06498
+Violet-green swallow,Tachycineta thalassina,Passerines,Small (≤50 g),14.2,9.1,wild,acceptable,939,0.44,,0,0.2507999999999999
+Red-winged blackbird,Agelaius phoeniceus,Passerines,Medium (50–200 g),56.7,20.0,unknown,acceptable,940,-0.123,,0,-0.0701099999999999
+Tricolored blackbird,Agelaius tricolor,Passerines,Medium (50–200 g),56.5,13.2,wild,acceptable,941,0.202,,0,0.1151399999999999
+Yellow-shouldered blackbird,Agelaius xanthomus,Passerines,Small (≤50 g),38.4,12.6,wild,acceptable,942,-0.361,,0,-0.2057699999999999
+Bobolink,Dolichonyx oryzivorus,Passerines,Small (≤50 g),35.0,9.0,wild,acceptable,943,-0.035,,0,-0.01995
+Rusty blackbird,Euphagus carolinus,Passerines,Medium (50–200 g),60.8,8.8,wild,acceptable,944,0.29,,0,0.1652999999999999
+Brewer's blackbird,Euphagus cyanocephalus,Passerines,Medium (50–200 g),64.55,12.5,wild,acceptable,945,-0.273,,0,-0.15561
+Bullock's oriole,Icterus bullockii,Passerines,Small (≤50 g),36.62,8.9,wild,acceptable,946,0.053,,0,0.0302099999999999
+Hooded oriole,Icterus cucullatus,Passerines,Small (≤50 g),24.3,6.0,wild,acceptable,947,0.378,,0,0.2154599999999999
+Baltimore oriole,Icterus galbula,Passerines,Small (≤50 g),32.9,14.0,unknown,acceptable,948,-0.185,,0,-0.1054499999999999
+Jamaican oriole,Icterus leucopteryx,Passerines,Small (≤50 g),36.9,12.2,wild,acceptable,949,0.141,,0,0.0803699999999999
+Scott's oriole,Icterus parisorum,Passerines,Small (≤50 g),36.2,6.4,wild,acceptable,950,-0.422,,0,-0.2405399999999999
+Spot-breasted oriole,Icterus pectoralis,Passerines,Small (≤50 g),46.5,11.6,wild,acceptable,951,-0.097,,0,-0.05529
+Orchard oriole,Icterus spurius,Passerines,Small (≤50 g),21.0,17.7,captivity,acceptable,952,0.229,,0,0.13053
+Brown-headed cowbird,Molothrus ater,Passerines,Small (≤50 g),38.1,16.9,wild,acceptable,954,-0.009,,0,-0.0051299999999999
+Common grackle,Quiscalus quiscula,Passerines,Medium (50–200 g),111.0,23.1,wild,acceptable,957,0.079,,0,0.0450299999999999
+Eastern meadowlark,Sturnella magna,Passerines,Medium (50–200 g),94.71,12.6,wild,acceptable,958,0.405,,0,0.23085
+Western meadowlark,Sturnella neglecta,Passerines,Medium (50–200 g),85.0,10.0,captivity,acceptable,959,-0.158,,0,-0.0900599999999999
+Yellow-headed blackbird,Xanthocephalus xanthocephalus,Passerines,Medium (50–200 g),75.75,18.0,unknown,acceptable,960,0.167,,0,0.09519
+Red-backed shrike,Lanius collurio,Passerines,Small (≤50 g),28.4,10.1,wild,acceptable,961,-0.396,,0,-0.22572
+Northern shrike,Lanius excubitor,Passerines,Medium (50–200 g),63.5,12.0,unknown,acceptable,962,-0.07,,0,-0.0399
+Loggerhead shrike,Lanius ludovicianus,Passerines,Small (≤50 g),46.0,12.5,wild,acceptable,963,0.255,,0,0.1453499999999999
+Woodchat shrike,Lanius senator,Passerines,Small (≤50 g),36.0,5.7,wild,acceptable,964,-0.308,,0,-0.17556
+Red-billed leiothrix,Leiothrix lutea,Passerines,Small (≤50 g),21.5,15.0,captivity,acceptable,965,0.018,,0,0.0102599999999999
+Arabian babbler,Turdoides squamiceps,Passerines,Medium (50–200 g),73.5,13.5,wild,acceptable,966,0.343,,0,0.19551
+Bengal jungle babbler,Turdoides striata,Passerines,Medium (50–200 g),66.0,16.5,captivity,acceptable,967,-0.22,,0,-0.1253999999999999
+River warbler,Locustella fluviatilis,Passerines,Small (≤50 g),16.1,6.9,wild,acceptable,968,0.106,,0,0.0604199999999999
+Savi's warbler,Locustella luscinioides,Passerines,Small (≤50 g),13.9,9.8,wild,acceptable,969,0.431,,0,0.2456699999999999
+Common grasshopper-warbler,Locustella naevia,Passerines,Small (≤50 g),13.3,5.9,wild,acceptable,970,-0.132,,0,-0.07524
+Little grassbird,Megalurus gramineus,Passerines,Small (≤50 g),14.3,3.3,wild,acceptable,971,0.194,,0,0.11058
+Tawny grassbird,Megalurus timoriensis,Passerines,Small (≤50 g),24.775,3.2,wild,acceptable,972,-0.37,,0,-0.2108999999999999
+Yellow-breasted boatbill,Machaerirhynchus flaviventer,Passerines,Small (≤50 g),10.5,12.0,wild,acceptable,973,-0.044,,0,-0.0250799999999999
+Grey grasswren,Amytornis barbatus,Passerines,Small (≤50 g),18.2,3.0,wild,acceptable,974,0.282,,0,0.1607399999999999
+Lovely fairywren,Malurus amabilis,Passerines,Small (≤50 g),8.65,12.0,wild,acceptable,975,-0.282,,0,-0.1607399999999999
+Purple-crowned fairywren,Malurus coronatus,Passerines,Small (≤50 g),11.1,5.5,wild,acceptable,976,0.044,,0,0.0250799999999999
+Superb fairywren,Malurus cyaneus,Passerines,Small (≤50 g),10.4,10.5,wild,acceptable,977,0.37,,0,0.2108999999999999
+Red-winged fairywren,Malurus elegans,Passerines,Small (≤50 g),9.75,10.0,wild,acceptable,978,-0.194,,0,-0.11058
+Variegated fairywren,Malurus lamberti,Passerines,Small (≤50 g),8.15,11.0,wild,acceptable,979,0.132,,0,0.07524
+White-winged fairywren,Malurus leucopterus,Passerines,Small (≤50 g),7.4,6.0,wild,acceptable,980,-0.431,,0,-0.2456699999999999
+Red-backed fairywren,Malurus melanocephalus,Passerines,Small (≤50 g),7.9,7.7,wild,acceptable,981,-0.106,,0,-0.0604199999999999
+Blue-breasted fairywren,Malurus pulcherrimus,Passerines,Small (≤50 g),9.2,6.4,wild,acceptable,982,0.22,,0,0.1253999999999999
+Splendid fairywren,Malurus splendens,Passerines,Small (≤50 g),9.3125,11.0,wild,acceptable,983,-0.343,,0,-0.19551
+Southern emu-wren,Stipiturus malachurus,Passerines,Small (≤50 g),7.525,3.7,wild,acceptable,984,-0.018,,0,-0.0102599999999999
+Spiny-cheeked honeyeater,Acanthagenys rufogularis,Passerines,Small (≤50 g),47.8,13.6,wild,acceptable,985,0.308,,0,0.17556
+Western spinebill,Acanthorhynchus superciliosus,Passerines,Small (≤50 g),9.75,10.7,wild,acceptable,986,-0.255,,0,-0.1453499999999999
+Eastern spinebill,Acanthorhynchus tenuirostris,Passerines,Small (≤50 g),9.7875,15.5,wild,acceptable,987,0.07,,0,0.0399
+Red wattlebird,Anthochaera carunculata,Passerines,Medium (50–200 g),102.55,13.3,wild,acceptable,988,0.396,,0,0.22572
+Little wattlebird,Anthochaera chrysoptera,Passerines,Medium (50–200 g),66.075,7.1,wild,acceptable,989,-0.167,,0,-0.09519
+Western wattlebird,Anthochaera lunulata,Passerines,Medium (50–200 g),63.8,11.5,wild,acceptable,990,0.158,,0,0.0900599999999999
+Yellow wattlebird,Anthochaera paradoxa,Passerines,Medium (50–200 g),145.9,9.8,wild,acceptable,991,-0.405,,0,-0.23085
+Rufous-throated honeyeater,Conopophila rufogularis,Passerines,Small (≤50 g),10.8,9.8,wild,acceptable,993,0.246,,0,0.1402199999999999
+Blue-faced honeyeater,Entomyzon cyanotis,Passerines,Medium (50–200 g),101.425,9.1,wild,acceptable,994,-0.317,,0,-0.18069
+Yellow-faced honeyeater,Lichenostomus chrysops,Passerines,Small (≤50 g),17.3,12.6,wild,acceptable,995,0.009,,0,0.0051299999999999
+Purple-gaped honeyeater,Lichenostomus cratitius,Passerines,Small (≤50 g),20.4,13.7,wild,acceptable,996,0.334,,0,0.19038
+Yellow-tinted honeyeater,Lichenostomus flavescens,Passerines,Small (≤50 g),12.4,6.5,wild,acceptable,998,0.097,,0,0.05529
+Fuscous honeyeater,Lichenostomus fuscus,Passerines,Small (≤50 g),17.8,17.6,wild,acceptable,1002,-0.378,,0,-0.2154599999999999
+White-eared honeyeater,Lichenostomus leucotis,Passerines,Small (≤50 g),24.0,12.8,wild,acceptable,1003,-0.053,,0,-0.0302099999999999
+Yellow-tufted honeyeater,Lichenostomus melanops,Passerines,Small (≤50 g),31.85,15.3,wild,acceptable,1004,0.273,,0,0.15561
+Yellow-plumed honeyeater,Lichenostomus ornatus,Passerines,Small (≤50 g),17.6,9.1,wild,acceptable,1005,-0.29,,0,-0.1652999999999999
+White-plumed honeyeater,Lichenostomus penicillatus,Passerines,Small (≤50 g),19.4,15.9,wild,acceptable,1006,0.035,,0,0.01995
+White-gaped honeyeater,Lichenostomus unicolor,Passerines,Small (≤50 g),30.8,12.2,wild,acceptable,1007,0.361,,0,0.2057699999999999
+Singing honeyeater,Lichenostomus virescens,Passerines,Small (≤50 g),23.4,10.5,wild,acceptable,1008,-0.202,,0,-0.1151399999999999
+Brown honeyeater,Lichmera indistincta,Passerines,Small (≤50 g),10.8,13.2,wild,acceptable,1009,0.123,,0,0.0701099999999999
+Yellow-throated miner,Manorina flavigula,Passerines,Medium (50–200 g),52.6,12.1,wild,acceptable,1010,-0.44,,0,-0.2507999999999999
+Noisy miner,Manorina melanocephala,Passerines,Medium (50–200 g),60.575,12.4,wild,acceptable,1011,-0.114,,0,-0.06498
+Bell miner,Manorina melanophrys,Passerines,Small (≤50 g),29.725,13.6,wild,acceptable,1012,0.211,,0,0.1202699999999999
+Graceful honeyeater,Meliphaga gracilis,Passerines,Small (≤50 g),14.75,12.0,wild,acceptable,1013,-0.352,,0,-0.2006399999999999
+Lewin's honeyeater,Meliphaga lewinii,Passerines,Small (≤50 g),34.4,15.9,wild,acceptable,1014,-0.026,,0,-0.0148199999999999
+Yellow-spotted honeyeater,Meliphaga notata,Passerines,Small (≤50 g),26.325,11.2,wild,acceptable,1015,0.299,,0,0.1704299999999999
+Black-headed honeyeater,Melithreptus affinis,Passerines,Small (≤50 g),15.0,8.7,wild,acceptable,1016,-0.264,,0,-0.15048
+White-throated honeyeater,Melithreptus albogularis,Passerines,Small (≤50 g),10.9,10.5,wild,acceptable,1017,0.062,,0,0.0353399999999999
+Brown-headed honeyeater,Melithreptus brevirostris,Passerines,Small (≤50 g),12.825,12.2,wild,acceptable,1018,0.387,,0,0.2205899999999999
+Black-chinned honeyeater,Melithreptus gularis,Passerines,Small (≤50 g),19.5,10.0,wild,acceptable,1019,-0.176,,0,-0.1003199999999999
+White-naped honeyeater,Melithreptus lunatus,Passerines,Small (≤50 g),13.85,12.3,wild,acceptable,1020,0.15,,0,0.0854999999999999
+Red-headed myzomela,Myzomela erythrocephala,Passerines,Small (≤50 g),7.75,7.1,wild,acceptable,1022,-0.088,,0,-0.0501599999999999
+Dusky myzomela,Myzomela obscura,Passerines,Small (≤50 g),12.25,12.0,wild,acceptable,1023,0.238,,0,0.1356599999999999
+Scarlet myzomela,Myzomela sanguinolenta,Passerines,Small (≤50 g),8.1,10.0,wild,acceptable,1024,-0.326,,0,-0.1858199999999999
+Little friarbird,Philemon citreogularis,Passerines,Medium (50–200 g),62.25,10.6,wild,acceptable,1027,-0.238,,0,-0.1356599999999999
+Noisy friarbird,Philemon corniculatus,Passerines,Medium (50–200 g),103.375,9.8,wild,acceptable,1028,0.088,,0,0.0501599999999999
+White-cheeked honeyeater,Phylidonyris niger,Passerines,Small (≤50 g),18.0,11.6,wild,acceptable,1029,0.414,,0,0.2359799999999999
+New holland honeyeater,Phylidonyris novaehollandiae,Passerines,Small (≤50 g),18.5,22.9,wild,acceptable,1030,-0.15,,0,-0.0854999999999999
+Crescent honeyeater,Phylidonyris pyrrhopterus,Passerines,Small (≤50 g),15.525,9.9,wild,acceptable,1031,0.176,,0,0.1003199999999999
+Striped honeyeater,Plectorhyncha lanceolata,Passerines,Small (≤50 g),39.75,4.4,wild,acceptable,1032,-0.387,,0,-0.2205899999999999
+Tawny-breasted honeyeater,Xanthotis flaviventer,Passerines,Small (≤50 g),37.625,9.0,wild,acceptable,1033,-0.062,,0,-0.0353399999999999
+Macleay's honeyeater,Xanthotis macleayanus,Passerines,Small (≤50 g),29.425,8.0,wild,acceptable,1034,0.264,,0,0.15048
+Superb lyrebird,Menura novaehollandiae,Passerines,Large (>200 g),979.95,17.9,wild,acceptable,1035,-0.299,,0,-0.1704299999999999
+Gray catbird,Dumetella carolinensis,Passerines,Small (≤50 g),34.5,17.9,wild,acceptable,1036,0.026,,0,0.0148199999999999
+Pearly-eyed thrasher,Margarops fuscatus,Passerines,Medium (50–200 g),98.6,17.0,wild,acceptable,1037,0.352,,0,0.2006399999999999
+Northern mockingbird,Mimus polyglottos,Passerines,Medium (50–200 g),53.0,20.0,wild,acceptable,1038,-0.211,,0,-0.1202699999999999
+Bendire's thrasher,Toxostoma bendirei,Passerines,Medium (50–200 g),62.2,9.5,wild,acceptable,1039,0.114,,0,0.06498
+Crissal thrasher,Toxostoma crissale,Passerines,Medium (50–200 g),62.7,4.8,wild,acceptable,1040,0.44,,0,0.2507999999999999
+Curve-billed thrasher,Toxostoma curvirostre,Passerines,Medium (50–200 g),80.65,10.8,wild,acceptable,1041,-0.123,,0,-0.0701099999999999
+Le conte's thrasher,Toxostoma lecontei,Passerines,Medium (50–200 g),61.82,5.7,wild,acceptable,1042,0.202,,0,0.1151399999999999
+Long-billed thrasher,Toxostoma longirostre,Passerines,Medium (50–200 g),67.65,7.8,wild,acceptable,1043,-0.361,,0,-0.2057699999999999
+California thrasher,Toxostoma redivivum,Passerines,Medium (50–200 g),84.4,6.9,wild,acceptable,1044,-0.035,,0,-0.01995
+Brown thrasher,Toxostoma rufum,Passerines,Medium (50–200 g),67.0,12.8,wild,acceptable,1045,0.29,,0,0.1652999999999999
+Pied monarch,Arses kaupi,Passerines,Small (≤50 g),13.6,4.0,wild,acceptable,1046,-0.273,,0,-0.15561
+Elepaio,Chasiempis sandwichensis,Passerines,Small (≤50 g),15.0,17.8,wild,acceptable,1047,0.053,,0,0.0302099999999999
+Magpielark,Grallina cyanoleuca,Passerines,Medium (50–200 g),79.9,12.1,wild,acceptable,1048,0.378,,0,0.2154599999999999
+Black-faced monarch,Monarcha melanopsis,Passerines,Small (≤50 g),23.0,5.2,wild,acceptable,1049,-0.185,,0,-0.1054499999999999
+Shining flycatcher,Myiagra alecto,Passerines,Small (≤50 g),24.6,5.2,wild,acceptable,1050,0.141,,0,0.0803699999999999
+Leaden flycatcher,Myiagra rubecula,Passerines,Small (≤50 g),12.65,6.2,wild,acceptable,1051,-0.422,,0,-0.2405399999999999
+Broad-billed flycatcher,Myiagra ruficollis,Passerines,Small (≤50 g),10.225,8.6,wild,acceptable,1052,-0.097,,0,-0.05529
+Red-throated pipit,Anthus cervinus,Passerines,Small (≤50 g),20.9,4.5,wild,acceptable,1053,0.229,,0,0.13053
+Rock pipit,Anthus petrosus,Passerines,Small (≤50 g),22.4,10.9,wild,acceptable,1054,-0.334,,0,-0.19038
+Meadow pipit,Anthus pratensis,Passerines,Small (≤50 g),18.4,13.1,wild,acceptable,1055,-0.009,,0,-0.0051299999999999
+American pipit,Anthus rubescens,Passerines,Small (≤50 g),20.8,5.1,wild,acceptable,1056,0.317,,0,0.18069
+Water pipit,Anthus spinoletta,Passerines,Small (≤50 g),21.2,8.8,wild,acceptable,1057,-0.246,,0,-0.1402199999999999
+Tree pipit,Anthus trivialis,Passerines,Small (≤50 g),23.4,8.8,wild,acceptable,1058,0.079,,0,0.0450299999999999
+White wagtail,Motacilla alba,Passerines,Small (≤50 g),24.1,13.7,wild,acceptable,1059,0.405,,0,0.23085
+Grey wagtail,Motacilla cinerea,Passerines,Small (≤50 g),17.2,8.0,wild,acceptable,1060,-0.158,,0,-0.0900599999999999
+Yellow wagtail,Motacilla flava,Passerines,Small (≤50 g),17.7,8.8,wild,acceptable,1061,0.167,,0,0.09519
+White-rumped shama,Copsychus malabaricus,Passerines,Small (≤50 g),29.35,7.0,wild,acceptable,1062,-0.396,,0,-0.22572
+European robin,Erithacus rubecula,Passerines,Small (≤50 g),17.3,19.3,wild,acceptable,1063,-0.07,,0,-0.0399
+Rufous-tailed scrub-robin,Erythropygia galactotes,Passerines,Small (≤50 g),20.3,7.0,wild,acceptable,1064,0.255,,0,0.1453499999999999
+Collared flycatcher,Ficedula albicollis,Passerines,Small (≤50 g),12.7,9.8,wild,acceptable,1065,-0.308,,0,-0.17556
+European pied flycatcher,Ficedula hypoleuca,Passerines,Small (≤50 g),13.9,15.0,wild,acceptable,1066,0.018,,0,0.0102599999999999
+Thrush nightingale,Luscinia luscinia,Passerines,Small (≤50 g),23.8,8.9,wild,acceptable,1067,0.343,,0,0.19551
+Common nightingale,Luscinia megarhynchos,Passerines,Small (≤50 g),19.7,10.9,wild,acceptable,1068,-0.22,,0,-0.1253999999999999
+Bluethroat,Luscinia svecica,Passerines,Small (≤50 g),17.3,11.4,wild,acceptable,1069,0.106,,0,0.0604199999999999
+Spotted flycatcher,Muscicapa striata,Passerines,Small (≤50 g),15.9,11.8,captivity,acceptable,1070,0.431,,0,0.2456699999999999
+Northern wheatear,Oenanthe oenanthe,Passerines,Small (≤50 g),25.0,10.1,unknown,acceptable,1072,0.194,,0,0.11058
+Black redstart,Phoenicurus ochruros,Passerines,Small (≤50 g),16.5,10.2,wild,acceptable,1073,-0.37,,0,-0.2108999999999999
+Common redstart,Phoenicurus phoenicurus,Passerines,Small (≤50 g),14.6,10.2,wild,acceptable,1074,-0.044,,0,-0.0250799999999999
+Whinchat,Saxicola rubetra,Passerines,Small (≤50 g),16.6,6.9,wild,acceptable,1075,0.282,,0,0.1607399999999999
+Common stonechat and stonechat,Saxicola torquatus,Passerines,Small (≤50 g),10.3,8.8,wild,acceptable,1076,-0.282,,0,-0.1607399999999999
+Purple sunbird,Cinnyris asiaticus,Passerines,Small (≤50 g),8.1,22.0,captivity,acceptable,1077,0.044,,0,0.0250799999999999
+Varied sittella,Daphoenositta chrysoptera,Passerines,Small (≤50 g),11.7,6.9,wild,acceptable,1078,0.37,,0,0.2108999999999999
+Puerto Rican tanager,Nesospingus speculiferus,Passerines,Small (≤50 g),35.2,4.0,wild,acceptable,1079,-0.194,,0,-0.11058
+Crested bellbird,Oreoica gutturalis,Passerines,Medium (50–200 g),63.125,5.0,wild,acceptable,1080,0.132,,0,0.07524
+Black-naped oriole,Oriolus chinensis,Passerines,Medium (50–200 g),82.6,29.0,captivity,acceptable,1081,-0.431,,0,-0.2456699999999999
+Eurasian golden-oriole,Oriolus oriolus,Passerines,Medium (50–200 g),79.0,14.8,wild,acceptable,1082,-0.106,,0,-0.0604199999999999
+Black-hooded oriole,Oriolus xanthornus,Passerines,Medium (50–200 g),56.3,15.5,captivity,acceptable,1084,-0.343,,0,-0.19551
+Green figbird (hang-nest),Sphecotheres viridis,Passerines,Medium (50–200 g),121.5,18.0,captivity,acceptable,1085,-0.018,,0,-0.0102599999999999
+Chowchilla,Orthonyx spaldingii,Passerines,Medium (50–200 g),145.1,16.5,wild,acceptable,1086,0.308,,0,0.17556
+Grey shrikethrush,Colluricincla harmonica,Passerines,Medium (50–200 g),67.625,14.8,wild,acceptable,1089,0.396,,0,0.22572
+Little shrikethrush,Colluricincla megarhyncha,Passerines,Small (≤50 g),34.05,19.3,wild,acceptable,1090,-0.167,,0,-0.09519
+Crested shriketit,Falcunculus frontatus,Passerines,Small (≤50 g),28.1,11.9,wild,acceptable,1091,0.158,,0,0.0900599999999999
+Gilbert's whistler,Pachycephala inornata,Passerines,Small (≤50 g),30.75,11.0,wild,acceptable,1092,-0.405,,0,-0.23085
+White-breasted whistler,Pachycephala lanioides,Passerines,Small (≤50 g),39.5,15.7,wild,acceptable,1093,-0.079,,0,-0.0450299999999999
+Olive whistler,Pachycephala olivacea,Passerines,Small (≤50 g),41.2,7.8,wild,acceptable,1095,-0.317,,0,-0.18069
+Australian golden whistler,Pachycephala pectoralis,Passerines,Small (≤50 g),32.7,18.0,wild,acceptable,1096,0.009,,0,0.0051299999999999
+Rufous whistler,Pachycephala rufiventris,Passerines,Small (≤50 g),23.125,15.2,wild,acceptable,1097,0.334,,0,0.19038
+Grey whistler,Pachycephala simplex,Passerines,Small (≤50 g),17.5,9.7,wild,acceptable,1098,-0.229,,0,-0.13053
+Bearded parrotbill,Panurus biarmicus,Passerines,Small (≤50 g),13.8,7.1,wild,acceptable,1099,0.097,,0,0.05529
+Greater bird-of-paradise,Paradisaea apoda,Passerines,Medium (50–200 g),172.0,12.1,captivity,acceptable,1100,0.422,,0,0.2405399999999999
+Magnificent riflebird,Ptiloris magnificus,Passerines,Medium (50–200 g),161.0,12.0,wild,acceptable,1101,-0.141,,0,-0.0803699999999999
+Victoria's riflebird,Ptiloris victoriae,Passerines,Medium (50–200 g),86.5,8.9,wild,acceptable,1102,0.185,,0,0.1054499999999999
+Spotted pardalote,Pardalotus punctatus,Passerines,Small (≤50 g),8.875,4.0,wild,acceptable,1103,-0.378,,0,-0.2154599999999999
+Forty-spotted pardalote,Pardalotus quadragintus,Passerines,Small (≤50 g),10.7,3.5,wild,acceptable,1104,-0.053,,0,-0.0302099999999999
+Striated pardalote,Pardalotus striatus,Passerines,Small (≤50 g),11.775,6.0,wild,acceptable,1105,0.273,,0,0.15561
+Tufted titmouse,Baeolophus bicolor,Passerines,Small (≤50 g),21.0,13.3,wild,acceptable,1106,-0.29,,0,-0.1652999999999999
+"Plain titmouse, or Oak titmouse",Baeolophus inornatus,Passerines,Small (≤50 g),15.9,9.0,wild,acceptable,1107,0.035,,0,0.01995
+Bridled titmouse,Baeolophus wollweberi,Passerines,Small (≤50 g),10.4,6.6,wild,acceptable,1108,0.361,,0,0.2057699999999999
+Blue tit,Cyanistes caeruleus,Passerines,Small (≤50 g),10.3,14.6,wild,acceptable,1109,-0.202,,0,-0.1151399999999999
+Crested tit,Lophophanes cristatus,Passerines,Small (≤50 g),11.1,11.6,wild,acceptable,1110,0.123,,0,0.0701099999999999
+Great tit,Parus major,Passerines,Small (≤50 g),17.9,15.4,wild,acceptable,1111,-0.44,,0,-0.2507999999999999
+Coal tit,Periparus ater,Passerines,Small (≤50 g),9.2,9.5,wild,acceptable,1112,-0.114,,0,-0.06498
+Black-capped chickadee,Poecile atricapillus,Passerines,Small (≤50 g),10.4,12.4,wild,acceptable,1113,0.211,,0,0.1202699999999999
+Carolina chickadee,Poecile carolinensis,Passerines,Small (≤50 g),10.25,10.9,wild,acceptable,1114,-0.352,,0,-0.2006399999999999
+"Siberian tit, or Gray-headed chickadee",Poecile cinctus,Passerines,Small (≤50 g),12.5,9.0,wild,acceptable,1115,-0.026,,0,-0.0148199999999999
+Mountain chickadee,Poecile gambeli,Passerines,Small (≤50 g),11.5,10.1,wild,acceptable,1116,0.299,,0,0.1704299999999999
+Boreal chickadee,Poecile hudsonicus,Passerines,Small (≤50 g),10.0,7.0,wild,acceptable,1117,-0.264,,0,-0.15048
+Willow tit,Poecile montanus,Passerines,Small (≤50 g),11.1,11.3,wild,acceptable,1118,0.062,,0,0.0353399999999999
+Marsh tit,Poecile palustris,Passerines,Small (≤50 g),11.2,13.2,wild,acceptable,1119,0.387,,0,0.2205899999999999
+Chestnut-backed chickadee,Poecile rufescens,Passerines,Small (≤50 g),9.8,9.5,wild,acceptable,1120,-0.176,,0,-0.1003199999999999
+Mexican chickadee,Poecile sclateri,Passerines,Small (≤50 g),11.0,10.1,wild,acceptable,1121,0.15,,0,0.0854999999999999
+Canada warbler,Cardellina canadensis,Passerines,Small (≤50 g),10.0,8.0,wild,acceptable,1122,-0.414,,0,-0.2359799999999999
+Wilson's warbler,Cardellina pusilla,Passerines,Small (≤50 g),7.0,8.9,wild,acceptable,1123,-0.088,,0,-0.0501599999999999
+Red-faced warbler,Cardellina rubrifrons,Passerines,Small (≤50 g),9.8,3.0,wild,acceptable,1124,0.238,,0,0.1356599999999999
+Kentucky warbler,Geothlypis formosa,Passerines,Small (≤50 g),14.0,6.9,wild,acceptable,1125,-0.326,,0,-0.1858199999999999
+Mourning warbler,Geothlypis philadelphia,Passerines,Small (≤50 g),10.0,7.9,wild,acceptable,1126,0.0,,0,0.0
+Macgillivray's warbler,Geothlypis tolmiei,Passerines,Small (≤50 g),10.4,9.0,wild,acceptable,1127,0.326,,0,0.1858199999999999
+Common yellowthroat,Geothlypis trichas,Passerines,Small (≤50 g),9.5,11.5,wild,acceptable,1128,-0.238,,0,-0.1356599999999999
+Worm-eating warbler,Helmitheros vermivorum,Passerines,Small (≤50 g),12.5,8.1,wild,acceptable,1129,0.088,,0,0.0501599999999999
+Yellow-breasted chat,Icteria virens,Passerines,Small (≤50 g),26.0,8.9,wild,acceptable,1130,0.414,,0,0.2359799999999999
+Orange-crowned warbler,Leiothlypis celata,Passerines,Small (≤50 g),9.2,8.6,wild,acceptable,1131,-0.15,,0,-0.0854999999999999
+Lucy's warbler,Leiothlypis luciae,Passerines,Small (≤50 g),6.6,5.8,wild,acceptable,1132,0.176,,0,0.1003199999999999
+Tennessee warbler,Leiothlypis peregrina,Passerines,Small (≤50 g),8.5,6.4,wild,acceptable,1133,-0.387,,0,-0.2205899999999999
+Nashville warbler,Leiothlypis ruficapilla,Passerines,Small (≤50 g),7.5,10.2,wild,acceptable,1134,-0.062,,0,-0.0353399999999999
+Virginia's warbler,Leiothlypis virginiae,Passerines,Small (≤50 g),8.2,6.2,wild,acceptable,1135,0.264,,0,0.15048
+Swainson's warbler,Limnothlypis swainsonii,Passerines,Small (≤50 g),13.5,9.9,wild,acceptable,1136,-0.299,,0,-0.1704299999999999
+Black-and-white warbler,Mniotilta varia,Passerines,Small (≤50 g),10.9,12.2,wild,acceptable,1137,0.026,,0,0.0148199999999999
+Painted redstart,Myioborus pictus,Passerines,Small (≤50 g),9.75,6.6,wild,acceptable,1138,0.352,,0,0.2006399999999999
+Louisiana waterthrush,Parkesia motacilla,Passerines,Small (≤50 g),22.5,11.9,wild,acceptable,1139,-0.211,,0,-0.1202699999999999
+Northern waterthrush,Parkesia noveboracensis,Passerines,Small (≤50 g),16.3,8.9,wild,acceptable,1140,0.114,,0,0.06498
+Prothonotary warbler,Protonotaria citrea,Passerines,Small (≤50 g),14.3,8.1,wild,acceptable,1141,0.44,,0,0.2507999999999999
+Ovenbird,Seiurus aurocapilla,Passerines,Small (≤50 g),18.8,11.0,wild,acceptable,1142,-0.123,,0,-0.0701099999999999
+Adelaide's warbler,Setophaga adelaidae,Passerines,Small (≤50 g),7.0,10.6,wild,acceptable,1143,0.202,,0,0.1151399999999999
+Northern parula,Setophaga americana,Passerines,Small (≤50 g),7.9,7.0,wild,acceptable,1144,-0.361,,0,-0.2057699999999999
+Black-throated blue warbler,Setophaga caerulescens,Passerines,Small (≤50 g),10.2,10.0,wild,acceptable,1145,-0.035,,0,-0.01995
+Bay-breasted warbler,Setophaga castanea,Passerines,Small (≤50 g),11.5,4.9,wild,acceptable,1146,0.29,,0,0.1652999999999999
+Cerulean warbler,Setophaga cerulea,Passerines,Small (≤50 g),8.625,6.0,wild,acceptable,1147,-0.273,,0,-0.15561
+Golden-cheeked warbler,Setophaga chrysoparia,Passerines,Small (≤50 g),10.2,11.0,wild,acceptable,1148,0.053,,0,0.0302099999999999
+Hooded warbler,Setophaga citrina,Passerines,Small (≤50 g),10.6,8.2,wild,acceptable,1149,0.378,,0,0.2154599999999999
+Yellow-rumped (myrtle) warbler,Setophaga coronata,Passerines,Small (≤50 g),12.0,10.0,wild,acceptable,1150,-0.185,,0,-0.1054499999999999
+Prairie warbler,Setophaga discolor,Passerines,Small (≤50 g),7.0,10.3,wild,acceptable,1151,0.141,,0,0.0803699999999999
+Yellow-throated warbler,Setophaga dominica,Passerines,Small (≤50 g),9.7,6.1,wild,acceptable,1152,-0.422,,0,-0.2405399999999999
+Blackburnian warbler,Setophaga fusca,Passerines,Small (≤50 g),9.0,8.2,wild,acceptable,1153,-0.097,,0,-0.05529
+Kirtland's warbler,Setophaga kirtlandii,Passerines,Small (≤50 g),15.5,9.0,wild,acceptable,1154,0.229,,0,0.13053
+Magnolia warbler,Setophaga magnolia,Passerines,Small (≤50 g),7.5,8.0,wild,acceptable,1155,-0.334,,0,-0.19038
+Hermit warbler,Setophaga occidentalis,Passerines,Small (≤50 g),10.0,9.1,wild,acceptable,1156,-0.009,,0,-0.0051299999999999
+"Palm warbler, or Western palm warbler",Setophaga palmarum,Passerines,Small (≤50 g),10.3,6.6,wild,acceptable,1157,0.317,,0,0.18069
+Chestnut-sided warbler,Setophaga pensylvanica,Passerines,Small (≤50 g),9.0,6.9,wild,acceptable,1158,-0.246,,0,-0.1402199999999999
+Yellow warbler,Setophaga petechia,Passerines,Small (≤50 g),9.8,11.0,wild,acceptable,1159,0.079,,0,0.0450299999999999
+Pine warbler,Setophaga pinus,Passerines,Small (≤50 g),11.8,10.2,unknown,acceptable,1160,0.405,,0,0.23085
+American redstart,Setophaga ruticilla,Passerines,Small (≤50 g),8.5,10.1,wild,acceptable,1161,-0.158,,0,-0.0900599999999999
+Blackpoll warbler,Setophaga striata,Passerines,Small (≤50 g),15.0,8.1,wild,acceptable,1162,0.167,,0,0.09519
+Townsend's warbler,Setophaga townsendi,Passerines,Small (≤50 g),8.85,10.7,wild,acceptable,1164,-0.07,,0,-0.0399
+Black-throated green warbler,Setophaga virens,Passerines,Small (≤50 g),9.0,6.0,unknown,acceptable,1165,0.255,,0,0.1453499999999999
+Golden-winged warbler,Vermivora chrysoptera,Passerines,Small (≤50 g),8.8,7.9,wild,acceptable,1166,-0.308,,0,-0.17556
+Blue-winged warbler,Vermivora cyanoptera,Passerines,Small (≤50 g),8.9,9.0,wild,acceptable,1167,0.018,,0,0.0102599999999999
+Rufous-crowned sparrow,Aimophila ruficeps,Passerines,Small (≤50 g),18.8,5.1,wild,acceptable,1168,0.343,,0,0.19551
+Grasshopper sparrow,Ammodramus savannarum,Passerines,Small (≤50 g),17.6,9.1,wild,acceptable,1169,-0.22,,0,-0.1253999999999999
+Black-throated sparrow,Amphispiza bilineata,Passerines,Small (≤50 g),13.5,6.0,wild,acceptable,1170,0.106,,0,0.0604199999999999
+Olive sparrow,Arremonops rufivirgatus,Passerines,Small (≤50 g),22.4,8.2,wild,acceptable,1171,0.431,,0,0.2456699999999999
+Sage sparrow,Artemisiospiza belli,Passerines,Small (≤50 g),17.1,9.1,wild,acceptable,1172,-0.132,,0,-0.07524
+Lark bunting,Calamospiza melanocorys,Passerines,Small (≤50 g),32.6,4.8,wild,acceptable,1173,0.194,,0,0.11058
+Lark sparrow,Chondestes grammacus,Passerines,Small (≤50 g),27.1,7.8,wild,acceptable,1174,-0.37,,0,-0.2108999999999999
+Dark-eyed junco,Junco hyemalis,Passerines,Small (≤50 g),19.0,11.3,wild,acceptable,1175,-0.044,,0,-0.0250799999999999
+Yellow-eyed junco,Junco phaeonotus,Passerines,Small (≤50 g),20.0,6.6,wild,acceptable,1176,0.282,,0,0.1607399999999999
+Swamp sparrow,Melospiza georgiana,Passerines,Small (≤50 g),16.1,7.8,wild,acceptable,1177,-0.282,,0,-0.1607399999999999
+Lincoln's sparrow,Melospiza lincolnii,Passerines,Small (≤50 g),17.35,7.6,wild,acceptable,1178,0.044,,0,0.0250799999999999
+Song sparrow,Melospiza melodia,Passerines,Small (≤50 g),22.7,11.3,wild,acceptable,1179,0.37,,0,0.2108999999999999
+Abert's towhee,Melozone aberti,Passerines,Small (≤50 g),46.0,8.6,wild,acceptable,1180,-0.194,,0,-0.11058
+California towhee,Melozone crissalis,Passerines,Small (≤50 g),47.0,12.8,wild,acceptable,1181,0.132,,0,0.07524
+Canyon towhee,Melozone fusca,Passerines,Small (≤50 g),44.4,12.8,wild,acceptable,1182,-0.431,,0,-0.2456699999999999
+Savannah sparrow,Passerculus sandwichensis,Passerines,Small (≤50 g),20.2,18.0,captivity,acceptable,1183,-0.106,,0,-0.0604199999999999
+Fox sparrow,Passerella iliaca,Passerines,Small (≤50 g),35.5,10.3,wild,acceptable,1184,0.22,,0,0.1253999999999999
+Bachman's sparrow,Peucaea aestivalis,Passerines,Small (≤50 g),19.6,3.9,wild,acceptable,1185,-0.343,,0,-0.19551
+Green-tailed towhee,Pipilo chlorurus,Passerines,Small (≤50 g),28.88,7.7,wild,acceptable,1186,-0.018,,0,-0.0102599999999999
+Eastern towhee,Pipilo erythrophthalmus,Passerines,Small (≤50 g),39.4,12.3,wild,acceptable,1187,0.308,,0,0.17556
+Spotted towhee,Pipilo maculatus,Passerines,Small (≤50 g),40.4,11.0,wild,acceptable,1188,-0.255,,0,-0.1453499999999999
+Vesper sparrow,Pooecetes gramineus,Passerines,Small (≤50 g),25.7,7.9,wild,acceptable,1189,0.07,,0,0.0399
+Brewer's sparrow,Spizella breweri,Passerines,Small (≤50 g),11.0,6.2,wild,acceptable,1190,0.396,,0,0.22572
+Clay-colored sparrow,Spizella pallida,Passerines,Small (≤50 g),11.45,6.9,wild,acceptable,1191,-0.167,,0,-0.09519
+Chipping sparrow,Spizella passerina,Passerines,Small (≤50 g),12.2,11.8,wild,acceptable,1192,0.158,,0,0.0900599999999999
+Field sparrow,Spizella pusilla,Passerines,Small (≤50 g),12.5,10.3,wild,acceptable,1193,-0.405,,0,-0.23085
+American tree sparrow,Spizelloides arborea,Passerines,Small (≤50 g),16.6,10.8,wild,acceptable,1194,-0.079,,0,-0.0450299999999999
+White-throated sparrow,Zonotrichia albicollis,Passerines,Small (≤50 g),21.1,14.9,wild,acceptable,1195,0.246,,0,0.1402199999999999
+Golden-crowned sparrow,Zonotrichia atricapilla,Passerines,Small (≤50 g),31.55,10.5,wild,acceptable,1196,-0.317,,0,-0.18069
+White-crowned sparrow,Zonotrichia leucophrys,Passerines,Small (≤50 g),25.82,13.3,wild,acceptable,1197,0.009,,0,0.0051299999999999
+Harris's sparrow,Zonotrichia querula,Passerines,Small (≤50 g),33.1,11.7,wild,acceptable,1198,0.334,,0,0.19038
+House sparrow,Passer domesticus,Passerines,Small (≤50 g),25.3,23.0,unknown,acceptable,1199,-0.229,,0,-0.13053
+Spanish sparrow,Passer hispaniolensis,Passerines,Small (≤50 g),24.2,11.2,wild,acceptable,1200,0.097,,0,0.05529
+Eurasian tree sparrow,Passer montanus,Passerines,Small (≤50 g),20.5,13.1,wild,acceptable,1202,-0.141,,0,-0.0803699999999999
+Rock sparrow,Petronia petronia,Passerines,Small (≤50 g),30.2,7.0,wild,acceptable,1203,0.185,,0,0.1054499999999999
+Southern scrub robin,Drymodes brunneopygia,Passerines,Small (≤50 g),33.95,9.7,wild,acceptable,1204,-0.378,,0,-0.2154599999999999
+Eastern yellow robin,Eopsaltria australis,Passerines,Small (≤50 g),20.25,14.7,wild,acceptable,1205,-0.053,,0,-0.0302099999999999
+White-breasted robin,Eopsaltria georgiana,Passerines,Small (≤50 g),19.15,18.3,wild,acceptable,1206,0.273,,0,0.15561
+Western yellow robin,Eopsaltria griseogularis,Passerines,Small (≤50 g),19.875,8.8,wild,acceptable,1207,-0.29,,0,-0.1652999999999999
+Hooded robin,Melanodryas cucullata,Passerines,Small (≤50 g),21.575,9.6,wild,acceptable,1208,0.035,,0,0.01995
+Jacky winter,Microeca fascinans,Passerines,Small (≤50 g),14.7583,5.3,wild,acceptable,1210,-0.202,,0,-0.1151399999999999
+Lemon-bellied flyrobin,Microeca flavigaster,Passerines,Small (≤50 g),12.0,4.1,wild,acceptable,1211,0.123,,0,0.0701099999999999
+Red-capped robin,Petroica goodenovii,Passerines,Small (≤50 g),8.875,5.5,wild,acceptable,1212,-0.44,,0,-0.2507999999999999
+Flame robin,Petroica phoenicea,Passerines,Small (≤50 g),13.0,10.9,wild,acceptable,1213,-0.114,,0,-0.06498
+Rose robin,Petroica rosea,Passerines,Small (≤50 g),8.2,6.1,wild,acceptable,1215,-0.352,,0,-0.2006399999999999
+White-browed robin,Poecilodryas superciliosa,Passerines,Small (≤50 g),19.9,9.0,wild,acceptable,1216,-0.026,,0,-0.0148199999999999
+Pale-yellow robin,Tregellasia capito,Passerines,Small (≤50 g),13.9,13.2,wild,acceptable,1217,0.299,,0,0.1704299999999999
+White-faced robin,Tregellasia leucops,Passerines,Small (≤50 g),15.975,18.0,wild,acceptable,1218,-0.264,,0,-0.15048
+"Common chiffchaff, or Eurasian chiffchaff",Phylloscopus collybita,Passerines,Small (≤50 g),8.3,8.0,wild,acceptable,1220,0.387,,0,0.2205899999999999
+Wood warbler,Phylloscopus sibillatrix,Passerines,Small (≤50 g),9.2,10.2,wild,acceptable,1221,-0.176,,0,-0.1003199999999999
+Willow warbler,Phylloscopus trochilus,Passerines,Small (≤50 g),8.7,11.8,wild,acceptable,1222,0.15,,0,0.0854999999999999
+Blue-backed manakin,Chiroxiphia pareola,Passerines,Small (≤50 g),16.9,14.0,wild,acceptable,1223,-0.414,,0,-0.2359799999999999
+Noisy pitta,Pitta versicolor,Passerines,Medium (50–200 g),90.75,6.0,wild,acceptable,1225,0.238,,0,0.1356599999999999
+"White-billed buffalo weaver, or African ox birds",Bubalornis albirostris,Passerines,Medium (50–200 g),61.9,20.0,captivity,acceptable,1226,-0.326,,0,-0.1858199999999999
+Village weaver,Ploceus cucullatus,Passerines,Small (≤50 g),36.2,24.0,captivity,acceptable,1227,0.0,,0,0.0
+Red-billed quelea,Quelea quelea,Passerines,Small (≤50 g),17.5,10.0,wild,acceptable,1228,0.326,,0,0.1858199999999999
+Blue-grey gnatcatcher,Polioptila caerulea,Passerines,Small (≤50 g),6.5,4.2,wild,acceptable,1229,-0.238,,0,-0.1356599999999999
+California gnatcatcher,Polioptila californica,Passerines,Small (≤50 g),6.0,8.0,wild,acceptable,1230,0.088,,0,0.0501599999999999
+Chestnut-crowned babbler,Pomatostomus ruficeps,Passerines,Medium (50–200 g),57.8,8.3,wild,acceptable,1232,-0.15,,0,-0.0854999999999999
+White-browed babbler,Pomatostomus superciliosus,Passerines,Small (≤50 g),43.2,14.4,wild,acceptable,1233,0.176,,0,0.1003199999999999
+Grey-crowned babbler,Pomatostomus temporalis,Passerines,Medium (50–200 g),71.0,13.3,wild,acceptable,1234,-0.387,,0,-0.2205899999999999
+Hedge sparrow,Prunella modularis,Passerines,Small (≤50 g),20.2,20.8,wild,acceptable,1236,0.264,,0,0.15048
+Eastern whipbird,Psophodes olivaceus,Passerines,Medium (50–200 g),68.0,12.3,wild,acceptable,1237,-0.299,,0,-0.1704299999999999
+Green catbird,Ailuroedus crassirostris,Passerines,Large (>200 g),207.0,14.9,wild,acceptable,1238,0.026,,0,0.0148199999999999
+Spotted catbird,Ailuroedus melanotis,Passerines,Large (>200 g),202.0,10.4,wild,acceptable,1239,0.352,,0,0.2006399999999999
+Satin bowerbird,Ptilonorhynchus violaceus,Passerines,Large (>200 g),213.0,25.1,wild,acceptable,1240,-0.211,,0,-0.1202699999999999
+Tooth-billed bowerbird,Scenopoeetes dentirostris,Passerines,Medium (50–200 g),167.25,22.0,wild,acceptable,1241,0.114,,0,0.06498
+Regent bowerbird,Sericulus chrysocephalus,Passerines,Medium (50–200 g),100.0,17.2,wild,acceptable,1242,0.44,,0,0.2507999999999999
+Red-whiskered bulbul,Pycnonotus jocosus,Passerines,Small (≤50 g),27.7,11.1,wild,acceptable,1243,-0.123,,0,-0.0701099999999999
+White-spectacled bulbul,Pycnonotus xanthopygos,Passerines,Small (≤50 g),38.1,8.8,wild,acceptable,1244,0.202,,0,0.1151399999999999
+Ruby-crowned kinglet,Regulus calendula,Passerines,Small (≤50 g),6.75,5.6,wild,acceptable,1245,-0.361,,0,-0.2057699999999999
+Goldcrest,Regulus regulus,Passerines,Small (≤50 g),5.6,7.0,wild,acceptable,1246,-0.035,,0,-0.01995
+Golden-crowned kinglet,Regulus satrapa,Passerines,Small (≤50 g),5.5,6.3,wild,acceptable,1247,0.29,,0,0.1652999999999999
+Verdin,Auriparus flaviceps,Passerines,Small (≤50 g),6.8,5.6,wild,acceptable,1248,-0.273,,0,-0.15561
+Eurasian penduline-tit,Remiz pendulinus,Passerines,Small (≤50 g),9.3,7.2,wild,acceptable,1249,0.053,,0,0.0302099999999999
+Willie wagtail,Rhipidura leucophrys,Passerines,Small (≤50 g),27.0,9.4,wild,acceptable,1250,0.378,,0,0.2154599999999999
+Rufous fantail,Rhipidura rufifrons,Passerines,Small (≤50 g),10.2,9.1,wild,acceptable,1252,0.141,,0,0.0803699999999999
+Red-breasted nuthatch,Sitta canadensis,Passerines,Small (≤50 g),11.2,7.5,wild,acceptable,1254,-0.097,,0,-0.05529
+White-breasted nuthatch,Sitta carolinensis,Passerines,Small (≤50 g),20.5,9.8,wild,acceptable,1255,0.229,,0,0.13053
+"Wood nuthatch, or Eurasian nuthatch",Sitta europaea,Passerines,Small (≤50 g),20.4,12.9,wild,acceptable,1256,-0.334,,0,-0.19038
+Brown-headed nuthatch,Sitta pusilla,Passerines,Small (≤50 g),10.8,5.8,wild,acceptable,1257,-0.009,,0,-0.0051299999999999
+Pygmy nuthatch,Sitta pygmaea,Passerines,Small (≤50 g),10.7,8.2,wild,acceptable,1258,0.317,,0,0.18069
+Crested myna,Acridotheres cristatellus,Passerines,Medium (50–200 g),116.5,13.0,captivity,acceptable,1259,-0.246,,0,-0.1402199999999999
+Long-tailed glossy starling,Lamprotornis caudatus,Passerines,Medium (50–200 g),121.0,17.8,captivity,acceptable,1260,0.079,,0,0.0450299999999999
+Hildebrandt's starling,Lamprotornis hildebrandti,Passerines,Medium (50–200 g),55.8,16.9,captivity,acceptable,1261,0.405,,0,0.23085
+Superb starling,Lamprotornis superbus,Passerines,Medium (50–200 g),64.9,25.0,captivity,acceptable,1262,-0.158,,0,-0.0900599999999999
+Bali mynah,Leucopsar rothschildi,Passerines,Medium (50–200 g),95.0,25.0,captivity,acceptable,1263,0.167,,0,0.09519
+European starling,Sturnus vulgaris,Passerines,Medium (50–200 g),74.0,22.9,wild,acceptable,1264,-0.396,,0,-0.22572
+Wrentit,Chamaea fasciata,Passerines,Small (≤50 g),14.7,12.6,wild,acceptable,1265,-0.07,,0,-0.0399
+Blackcap,Sylvia atricapilla,Passerines,Small (≤50 g),16.7,13.8,wild,acceptable,1266,0.255,,0,0.1453499999999999
+Garden warbler,Sylvia borin,Passerines,Small (≤50 g),24.6,24.0,captivity,acceptable,1267,-0.308,,0,-0.17556
+"Common whitethroat, or Whitethroat",Sylvia communis,Passerines,Small (≤50 g),17.7,9.0,wild,acceptable,1268,0.018,,0,0.0102599999999999
+Lesser whitethroat,Sylvia curruca,Passerines,Small (≤50 g),11.4,9.0,wild,acceptable,1269,0.343,,0,0.19551
+Sardinian warbler,Sylvia melanocephala,Passerines,Small (≤50 g),11.7,8.3,wild,acceptable,1270,-0.22,,0,-0.1253999999999999
+Barred warbler,Sylvia nisoria,Passerines,Small (≤50 g),22.5,11.9,wild,acceptable,1271,0.106,,0,0.0604199999999999
+Dusky antbird,Cercomacra tyrannina,Passerines,Small (≤50 g),16.3,13.0,wild,acceptable,1272,0.431,,0,0.2456699999999999
+Spotted antbird,Hylophylax naevioides,Passerines,Small (≤50 g),17.8,14.0,wild,acceptable,1274,0.194,,0,0.11058
+Small tree finch,Camarhynchus parvulus,Passerines,Small (≤50 g),13.2,15.0,wild,acceptable,1275,-0.37,,0,-0.2108999999999999
+Medium tree finch,Camarhynchus pauper,Passerines,Small (≤50 g),16.0,12.0,wild,acceptable,1276,-0.044,,0,-0.0250799999999999
+Bananaquit,Coereba flaveola,Passerines,Small (≤50 g),10.1,8.6,wild,acceptable,1277,0.282,,0,0.1607399999999999
+Purple honeycreeper,Cyanerpes caeruleus,Passerines,Small (≤50 g),12.0,17.0,captivity,acceptable,1278,-0.282,,0,-0.1607399999999999
+Gray-headed tanager,Eucometis penicillata,Passerines,Small (≤50 g),27.0,10.0,wild,acceptable,1279,0.044,,0,0.0250799999999999
+Small ground finch,Geospiza fuliginosa,Passerines,Small (≤50 g),14.5,15.0,wild,acceptable,1280,0.37,,0,0.2108999999999999
+Puerto rican bullfinch,Loxigilla portoricensis,Passerines,Small (≤50 g),32.1,15.6,wild,acceptable,1281,-0.194,,0,-0.11058
+White-collared seedeater,Sporophila torqueola,Passerines,Small (≤50 g),8.7,11.7,wild,acceptable,1282,0.132,,0,0.07524
+Blue-grey tanager,Thraupis episcopus,Passerines,Small (≤50 g),35.0,9.5,wild,acceptable,1283,-0.431,,0,-0.2456699999999999
+Cactus wren,Campylorhynchus brunneicapillus,Passerines,Small (≤50 g),38.9,7.3,wild,acceptable,1284,-0.106,,0,-0.0604199999999999
+Bewick's wren,Thryomanes bewickii,Passerines,Small (≤50 g),9.8,8.0,wild,acceptable,1286,-0.343,,0,-0.19551
+Carolina wren,Thryothorus ludovicianus,Passerines,Small (≤50 g),17.5,9.2,wild,acceptable,1287,-0.018,,0,-0.0102599999999999
+House wren,Troglodytes aedon,Passerines,Small (≤50 g),9.7,9.0,wild,acceptable,1288,0.308,,0,0.17556
+Winter wren,Troglodytes troglodytes,Passerines,Small (≤50 g),9.1,7.0,unknown,acceptable,1289,-0.255,,0,-0.1453499999999999
+Bicknell's thrush,Catharus bicknelli,Passerines,Small (≤50 g),27.5,11.9,wild,acceptable,1290,0.07,,0,0.0399
+Veery,Catharus fuscescens,Passerines,Small (≤50 g),28.8,10.1,wild,acceptable,1291,0.396,,0,0.22572
+Hermit thrush,Catharus guttatus,Passerines,Small (≤50 g),27.8,10.8,wild,acceptable,1292,-0.167,,0,-0.09519
+Grey-cheeked thrush,Catharus minimus,Passerines,Small (≤50 g),24.8,7.3,wild,acceptable,1293,0.158,,0,0.0900599999999999
+Swainson's thrush,Catharus ustulatus,Passerines,Small (≤50 g),27.9,11.0,unknown,acceptable,1294,-0.405,,0,-0.23085
+Wood thrush,Hylocichla mustelina,Passerines,Small (≤50 g),43.3,10.2,wild,acceptable,1295,-0.079,,0,-0.0450299999999999
+Varied thrush,Ixoreus naevius,Passerines,Medium (50–200 g),78.5,5.6,wild,acceptable,1296,0.246,,0,0.1402199999999999
+Mountain bluebird,Sialia currucoides,Passerines,Small (≤50 g),29.6,9.0,wild,acceptable,1297,-0.317,,0,-0.18069
+Western bluebird,Sialia mexicana,Passerines,Small (≤50 g),26.5,8.7,wild,acceptable,1298,0.009,,0,0.0051299999999999
+Eastern bluebird,Sialia sialis,Passerines,Small (≤50 g),30.5,10.5,wild,acceptable,1299,0.334,,0,0.19038
+Clay-colored robin,Turdus grayi,Passerines,Medium (50–200 g),74.0,9.6,wild,acceptable,1300,-0.229,,0,-0.13053
+Redwing,Turdus iliacus,Passerines,Medium (50–200 g),61.2,18.8,wild,acceptable,1301,0.097,,0,0.05529
+"Common blackbird, or Eurasian blackbird",Turdus merula,Passerines,Medium (50–200 g),103.2,21.8,wild,acceptable,1302,0.422,,0,0.2405399999999999
+American robin,Turdus migratorius,Passerines,Medium (50–200 g),75.5,17.0,unknown,acceptable,1303,-0.141,,0,-0.0803699999999999
+Song thrush,Turdus philomelos,Passerines,Medium (50–200 g),67.8,17.7,wild,acceptable,1304,0.185,,0,0.1054499999999999
+Fieldfare,Turdus pilaris,Passerines,Medium (50–200 g),106.0,18.1,wild,acceptable,1305,-0.378,,0,-0.2154599999999999
+Red-legged thrush,Turdus plumbeus,Passerines,Medium (50–200 g),75.3,14.6,wild,acceptable,1306,-0.053,,0,-0.0302099999999999
+Ring ouzel,Turdus torquatus,Passerines,Medium (50–200 g),109.0,9.1,wild,acceptable,1307,0.273,,0,0.15561
+Mistle thrush,Turdus viscivorus,Passerines,Medium (50–200 g),117.5,21.2,wild,acceptable,1308,-0.29,,0,-0.1652999999999999
+Russet-tailed thrush,Zoothera heinei,Passerines,Medium (50–200 g),111.0,1.0,wild,acceptable,1309,0.035,,0,0.01995
+Bassian thrush,Zoothera lunulata,Passerines,Medium (50–200 g),129.5,0.6,wild,acceptable,1310,0.361,,0,0.2057699999999999
+Northern beardless tyrannulet,Camptostoma imberbe,Passerines,Small (≤50 g),7.4,5.8,wild,acceptable,1311,-0.202,,0,-0.1151399999999999
+Olive-sided flycatcher,Contopus cooperi,Passerines,Small (≤50 g),32.8,11.1,wild,acceptable,1312,0.123,,0,0.0701099999999999
+Western wood pewee,Contopus sordidulus,Passerines,Small (≤50 g),12.8,8.1,wild,acceptable,1313,-0.44,,0,-0.2507999999999999
+Eastern wood pewee,Contopus virens,Passerines,Small (≤50 g),13.9,8.2,wild,acceptable,1314,-0.114,,0,-0.06498
+Caribbean elaenia,Elaenia martinica,Passerines,Small (≤50 g),20.9,13.6,wild,acceptable,1315,0.211,,0,0.1202699999999999
+Alder flycatcher,Empidonax alnorum,Passerines,Small (≤50 g),13.5,9.1,wild,acceptable,1316,-0.352,,0,-0.2006399999999999
+Pacific-slope flycatcher,Empidonax difficilis,Passerines,Small (≤50 g),11.0,6.9,wild,acceptable,1317,-0.026,,0,-0.0148199999999999
+Hammond's flycatcher,Empidonax hammondii,Passerines,Small (≤50 g),10.4,7.0,wild,acceptable,1319,-0.264,,0,-0.15048
+Least flycatcher,Empidonax minimus,Passerines,Small (≤50 g),10.0,8.0,wild,acceptable,1320,0.062,,0,0.0353399999999999
+Dusky flycatcher,Empidonax oberholseri,Passerines,Small (≤50 g),10.95,9.0,wild,acceptable,1321,0.387,,0,0.2205899999999999
+Willow flycatcher,Empidonax traillii,Passerines,Small (≤50 g),12.6,11.0,wild,acceptable,1322,-0.176,,0,-0.1003199999999999
+Acadian flycatcher,Empidonax virescens,Passerines,Small (≤50 g),12.6,12.1,wild,acceptable,1323,0.15,,0,0.0854999999999999
+Puerto rican flycatcher,Myiarchus antillarum,Passerines,Small (≤50 g),23.4,13.6,wild,acceptable,1324,-0.414,,0,-0.2359799999999999
+Ash-throated flycatcher,Myiarchus cinerascens,Passerines,Small (≤50 g),28.5,11.9,wild,acceptable,1326,0.238,,0,0.1356599999999999
+Great crested flycatcher,Myiarchus crinitus,Passerines,Small (≤50 g),32.1,14.9,wild,acceptable,1327,-0.326,,0,-0.1858199999999999
+Brown-crested flycatcher,Myiarchus tyrannulus,Passerines,Small (≤50 g),35.0,11.0,wild,acceptable,1328,0.0,,0,0.0
+Vermilion flycatcher,Pyrocephalus rubinus,Passerines,Small (≤50 g),12.87,5.5,wild,acceptable,1329,0.326,,0,0.1858199999999999
+Black phoebe,Sayornis nigricans,Passerines,Small (≤50 g),18.25,8.0,wild,acceptable,1330,-0.238,,0,-0.1356599999999999
+Eastern phoebe,Sayornis phoebe,Passerines,Small (≤50 g),19.7,10.3,unknown,acceptable,1331,0.088,,0,0.0501599999999999
+Eastern kingbird,Tyrannus tyrannus,Passerines,Small (≤50 g),39.9,11.1,wild,acceptable,1333,-0.15,,0,-0.0854999999999999
+Western kingbird,Tyrannus verticalis,Passerines,Small (≤50 g),40.7,6.9,wild,acceptable,1334,0.176,,0,0.1003199999999999
+Black-capped vireo,Vireo atricapilla,Passerines,Small (≤50 g),8.65,12.0,wild,acceptable,1335,-0.387,,0,-0.2205899999999999
+Bell's vireo,Vireo bellii,Passerines,Small (≤50 g),10.0,9.1,wild,acceptable,1336,-0.062,,0,-0.0353399999999999
+Yellow-throated vireo,Vireo flavifrons,Passerines,Small (≤50 g),18.0,6.1,wild,acceptable,1337,0.264,,0,0.15048
+Warbling vireo,Vireo gilvus,Passerines,Small (≤50 g),15.0,13.1,wild,acceptable,1338,-0.299,,0,-0.1704299999999999
+White-eyed vireo,Vireo griseus,Passerines,Small (≤50 g),12.0,10.9,wild,acceptable,1339,0.026,,0,0.0148199999999999
+Hutton's vireo,Vireo huttoni,Passerines,Small (≤50 g),11.3,13.5,wild,acceptable,1340,0.352,,0,0.2006399999999999
+Puerto rican vireo,Vireo latimeri,Passerines,Small (≤50 g),12.0,16.8,wild,acceptable,1341,-0.211,,0,-0.1202699999999999
+Red-eyed vireo,Vireo olivaceus,Passerines,Small (≤50 g),17.0,10.2,wild,acceptable,1342,0.114,,0,0.06498
+Philadelphia vireo,Vireo philadelphicus,Passerines,Small (≤50 g),12.0,9.8,wild,acceptable,1343,0.44,,0,0.2507999999999999
+Blue-headed vireo,Vireo solitarius,Passerines,Small (≤50 g),16.0,7.4,wild,acceptable,1344,-0.123,,0,-0.0701099999999999
+Japanese white-eye,Zosterops japonicus,Passerines,Small (≤50 g),11.25,5.1,wild,acceptable,1346,-0.361,,0,-0.2057699999999999
+Silvereye,Zosterops lateralis,Passerines,Small (≤50 g),12.7,18.7,wild,acceptable,1347,-0.035,,0,-0.01995
+Canary white-eye,Zosterops luteus,Passerines,Small (≤50 g),9.775,8.7,wild,acceptable,1348,0.29,,0,0.1652999999999999
+Nyasa loverbird,Agapornis lilianae,Parrots,Small (≤50 g),37.3,19.2,captivity,acceptable,1490,0.308,,0,1.17556
+Red-headed lovebird,Agapornis pullarius,Parrots,Small (≤50 g),43.0,18.0,captivity,acceptable,1491,-0.255,,0,0.85465
+Black-winged lovebird,Agapornis taranta,Parrots,Medium (50–200 g),57.5,14.6,captivity,acceptable,1493,0.396,,0,1.22572
+Australian king parrot,Alisterus scapularis,Parrots,Large (>200 g),232.5,26.6,captivity,acceptable,1494,-0.167,,0,0.90481
+Blue-fronted amazon,Amazona aestiva,Parrots,Large (>200 g),451.0,49.0,captivity,acceptable,1495,0.158,,0,1.09006
+White-fronted parrot,Amazona albifrons,Parrots,Large (>200 g),215.0,25.3,captivity,acceptable,1496,-0.405,,0,0.76915
+Orange-winged amazon,Amazona amazonica,Parrots,Large (>200 g),370.0,30.0,captivity,acceptable,1497,-0.079,,0,0.95497
+Yellow-naped parrot,Amazona auropalliata,Parrots,Large (>200 g),432.16,49.0,captivity,acceptable,1498,0.246,,0,1.14022
+Red-lored parrot,Amazona autumnalis,Parrots,Large (>200 g),416.0,27.0,captivity,acceptable,1499,-0.317,,0,0.81931
+Festive amazon,Amazona festiva,Parrots,Large (>200 g),430.0,24.5,captivity,acceptable,1502,-0.229,,0,0.86947
+Lilac-crowned parrot,Amazona finschi,Parrots,Large (>200 g),302.0,25.8,captivity,acceptable,1503,0.097,,0,1.05529
+St. Vincent parrot,Amazona guildingii,Parrots,Large (>200 g),646.0,28.0,captivity,acceptable,1504,0.422,,0,1.24054
+Yellow-crowned parrot,Amazona ochrocephala,Parrots,Large (>200 g),430.0,56.0,captivity,acceptable,1506,0.185,,0,1.10545
+Red-browed parrot,Amazona rhodocorytha,Parrots,Large (>200 g),511.5,44.0,captivity,acceptable,1508,-0.053,,0,0.96979
+Hyacinth macaw,Anodorhynchus hyacinthinus,Parrots,Large (>200 g),1330.0,38.8,captivity,acceptable,1513,-0.202,,0,0.88486
+Lear's macaw,Anodorhynchus leari,Parrots,Large (>200 g),940.0,38.3,captivity,acceptable,1514,0.123,,0,1.07011
+Red-winged parrot,Aprosmictus erythropterus,Parrots,Medium (50–200 g),136.0,24.4,captivity,acceptable,1515,-0.44,,0,0.7492000000000001
+Great green macaw,Ara ambiguus,Parrots,Large (>200 g),1300.0,29.0,captivity,acceptable,1516,-0.114,,0,0.93502
+Blue-and-yellow macaw,Ara ararauna,Parrots,Large (>200 g),1030.0,43.0,captivity,acceptable,1517,0.211,,0,1.12027
+Red-and-green macaw,Ara chloropterus,Parrots,Large (>200 g),1220.0,50.1,captivity,acceptable,1518,-0.352,,0,0.7993600000000001
+Blue-throated macaw,Ara glaucogularis,Parrots,Large (>200 g),784.0,22.0,captivity,acceptable,1519,-0.026,,0,0.98518
+Scarlet macaw,Ara macao,Parrots,Large (>200 g),1040.0,33.0,captivity,acceptable,1520,0.299,,0,1.17043
+Military macaw,Ara militaris,Parrots,Large (>200 g),1134.0,46.0,captivity,acceptable,1521,-0.264,,0,0.84952
+Red-fronted macaw,Ara rubrogenys,Parrots,Large (>200 g),470.0,23.0,captivity,acceptable,1522,0.062,,0,1.03534
+Chestnut-fronted macaw,Ara severus,Parrots,Large (>200 g),343.0,28.5,captivity,acceptable,1523,0.387,,0,1.22059
+Blue-crowned parakeet,Aratinga acuticaudata,Parrots,Medium (50–200 g),171.0,31.0,captivity,acceptable,1524,-0.176,,0,0.89968
+Golden-capped parakeet,Aratinga auricapillus,Parrots,Medium (50–200 g),130.0,20.9,captivity,acceptable,1525,0.15,,0,1.0855
+Orange-fronted parakeet,Aratinga canicularis,Parrots,Medium (50–200 g),85.0,16.2,captivity,acceptable,1526,-0.414,,0,0.76402
+Red-masked parakeet,Aratinga erythrogenys,Parrots,Medium (50–200 g),151.0,26.2,captivity,acceptable,1528,0.238,,0,1.13566
+Green parakeet,Aratinga holochlora,Parrots,Medium (50–200 g),138.0,21.8,captivity,acceptable,1529,-0.326,,0,0.81418
+Port Lincoln ringneck,Barnardius zonarius,Parrots,Medium (50–200 g),150.0,17.9,captivity,acceptable,1530,0.0,,0,1.0
+Andean parakeet,Bolborhynchus orbygnesius,Parrots,Small (≤50 g),43.1,9.2,captivity,acceptable,1531,0.326,,0,1.18582
+Yellow-chevroned parakeet,Brotogeris chiriri,Parrots,Medium (50–200 g),61.6,19.0,captivity,acceptable,1532,-0.238,,0,0.86434
+Grey-cheeked parakeet,Brotogeris pyrrhoptera,Parrots,Medium (50–200 g),64.0,11.3,captivity,acceptable,1533,0.088,,0,1.05016
+Tui parakeet,Brotogeris sanctithomae,Parrots,Medium (50–200 g),59.0,13.2,captivity,acceptable,1534,0.414,,0,1.23598
+Plain parakeet,Brotogeris tirica,Parrots,Medium (50–200 g),63.0,11.0,captivity,acceptable,1535,-0.15,,0,0.9145
+Canary-winged parakeet,Brotogeris versicolurus,Parrots,Medium (50–200 g),71.6,10.3,captivity,acceptable,1536,0.176,,0,1.10032
+White cockatoo,Cacatua alba,Parrots,Large (>200 g),570.0,26.9,captivity,acceptable,1537,-0.387,,0,0.77941
+Ducorps's cockatoo,Cacatua ducorpsii,Parrots,Large (>200 g),394.0,30.5,captivity,acceptable,1538,-0.062,,0,0.96466
+Sulphur-crested cockatoo,Cacatua galerita,Parrots,Large (>200 g),800.0,57.0,captivity,acceptable,1539,0.264,,0,1.15048
+Pink cockatoo,Cacatua leadbeateri,Parrots,Large (>200 g),390.0,83.0,captivity,acceptable,1542,0.352,,0,1.20064
+Salmon-crested cockatoo,Cacatua moluccensis,Parrots,Large (>200 g),830.0,65.8,captivity,acceptable,1543,-0.211,,0,0.87973
+Blue-eyed cockatoo,Cacatua ophthalmica,Parrots,Large (>200 g),492.0,31.9,captivity,acceptable,1544,0.114,,0,1.06498
+Western corella,Cacatua pastinator,Parrots,Large (>200 g),637.0,26.3,captivity,acceptable,1545,0.44,,0,1.2508
+Little corella,Cacatua sanguinea,Parrots,Large (>200 g),350.0,46.9,captivity,acceptable,1546,-0.123,,0,0.92989
+Yellow-crested cockatoo,Cacatua sulphurea,Parrots,Large (>200 g),340.0,49.7,captivity,acceptable,1547,0.202,,0,1.11514
+Long-billed corella,Cacatua tenuirostris,Parrots,Large (>200 g),567.0,43.0,captivity,acceptable,1548,-0.361,,0,0.79423
+Gang-gang cockatoo,Callocephalon fimbriatum,Parrots,Large (>200 g),256.0,27.5,captivity,acceptable,1549,-0.035,,0,0.98005
+Banksian cockatoo,Calyptorhynchus banksii,Parrots,Large (>200 g),723.7,45.4,captivity,acceptable,1550,0.29,,0,1.1653
+Long-billed black cockatoo,Calyptorhynchus baudinii,Parrots,Large (>200 g),620.0,47.0,captivity,acceptable,1551,-0.273,,0,0.84439
+Yellow-tailed black cockatoo,Calyptorhynchus funereus,Parrots,Large (>200 g),678.5,41.0,captivity,acceptable,1552,0.053,,0,1.03021
+Short-billed black cockatoo,Calyptorhynchus latirostris,Parrots,Large (>200 g),622.925,34.4,wild,acceptable,1554,-0.185,,0,0.89455
+Black lory,Chalcopsitta atra,Parrots,Large (>200 g),260.0,17.5,captivity,acceptable,1555,0.141,,0,1.08037
+Yellow-streaked lory,Chalcopsitta sintillata,Parrots,Medium (50–200 g),190.0,19.7,captivity,acceptable,1556,-0.422,,0,0.75946
+Papuan lorikeet,Charmosyna papou,Parrots,Medium (50–200 g),83.0,11.3,captivity,acceptable,1557,-0.097,,0,0.94471
+Carolina parakeet,Conuropsis carolinensis,Parrots,Medium (50–200 g),100.0,30.0,captivity,acceptable,1558,0.229,,0,1.13053
+Black parrot,Coracopsis nigra,Parrots,Medium (50–200 g),193.5,34.1,captivity,acceptable,1559,-0.334,,0,0.80962
+Vasa parrot,Coracopsis vasa,Parrots,Large (>200 g),525.0,53.9,captivity,acceptable,1560,-0.009,,0,0.99487
+Patagonian conure,Cyanoliseus patagonus,Parrots,Large (>200 g),278.0,19.5,captivity,acceptable,1561,0.317,,0,1.18069
+Spix's macaw,Cyanopsitta spixii,Parrots,Medium (50–200 g),200.0,27.0,captivity,acceptable,1562,-0.246,,0,0.85978
+Yellow-fronted parakeet,Cyanoramphus auriceps,Parrots,Small (≤50 g),46.0,9.3,captivity,acceptable,1563,0.079,,0,1.04503
+Red-fronted parakeet,Cyanoramphus novaezelandiae,Parrots,Medium (50–200 g),92.6,12.4,captivity,acceptable,1564,0.405,,0,1.23085
+Red-fan parrot,Deroptyus accipitrinus,Parrots,Large (>200 g),246.0,21.8,captivity,acceptable,1565,-0.158,,0,0.90994
+Red-shouldered macaw,Diopsittaca nobilis,Parrots,Medium (50–200 g),151.0,22.9,captivity,acceptable,1566,0.167,,0,1.09519
+Eclectus parrot,Eclectus roratus,Parrots,Large (>200 g),440.0,28.5,captivity,acceptable,1567,-0.396,,0,0.77428
+Slender-billed parakeet,Enicognathus leptorhynchus,Parrots,Medium (50–200 g),193.0,15.3,captivity,acceptable,1568,-0.07,,0,0.9601
+Galah,Eolophus roseicapilla,Parrots,Large (>200 g),300.0,40.0,captivity,acceptable,1569,0.255,,0,1.14535
+Red lory,Eos bornea,Parrots,Medium (50–200 g),156.0,24.7,captivity,acceptable,1570,-0.308,,0,0.8244400000000001
+Black-winged lory,Eos cyanogenia,Parrots,Medium (50–200 g),167.0,18.1,captivity,acceptable,1571,0.018,,0,1.01026
+Horned parakeet,Eunymphicus cornutus,Parrots,Medium (50–200 g),130.0,19.7,captivity,acceptable,1575,0.431,,0,1.24567
+Pacific parrotlet,Forpus coelestis,Parrots,Small (≤50 g),26.2,10.4,captivity,acceptable,1576,-0.132,,0,0.92476
+Mexican parrotlet,Forpus cyanopygius,Parrots,Small (≤50 g),33.5,10.5,captivity,acceptable,1577,0.194,,0,1.11058
+Green-rumped parrotlet,Forpus passerinus,Parrots,Small (≤50 g),24.0,11.6,captivity,acceptable,1578,-0.37,,0,0.7891
+Yellow-faced parrotlet,Forpus xanthops,Parrots,Small (≤50 g),27.05,10.5,captivity,acceptable,1579,-0.044,,0,0.97492
+Musk lorikeet,Glossopsitta concinna,Parrots,Medium (50–200 g),70.8,21.3,wild,acceptable,1580,0.282,,0,1.16074
+Purple-crowned lorikeet,Glossopsitta porphyrocephala,Parrots,Small (≤50 g),44.0,12.0,captivity,acceptable,1581,-0.282,,0,0.83926
+Short-tailed parrot,Graydidascalus brachyurus,Parrots,Medium (50–200 g),159.0,13.2,captivity,acceptable,1582,0.044,,0,1.02508
+Golden conure,Guaruba guarouba,Parrots,Large (>200 g),250.0,23.2,captivity,acceptable,1583,0.37,,0,1.2109
+Blue-crowned hanging parrot,Loriculus galgulus,Parrots,Small (≤50 g),28.0,14.3,captivity,acceptable,1584,-0.194,,0,0.88942
+Colasisi,Loriculus philippensis,Parrots,Small (≤50 g),34.9,10.1,captivity,acceptable,1585,0.132,,0,1.07524
+Vernal hanging parrot,Loriculus vernalis,Parrots,Small (≤50 g),35.7,10.1,captivity,acceptable,1586,-0.431,,0,0.7543300000000001
+Purple-naped lory,Lorius domicella,Parrots,Medium (50–200 g),182.0,26.0,captivity,acceptable,1587,-0.106,,0,0.93958
+Chattering lory,Lorius garrulus,Parrots,Medium (50–200 g),143.0,26.6,captivity,acceptable,1588,0.22,,0,1.1254
+Black-capped lory,Lorius lory,Parrots,Medium (50–200 g),177.0,18.5,captivity,acceptable,1589,-0.343,,0,0.80449
+Budgerigar,Melopsittacus undulatus,Parrots,Small (≤50 g),30.0,21.0,captivity,high,1590,-0.018,Budgerigar,1,0.98974
+Monk parakeet,Myiopsitta monachus,Parrots,Medium (50–200 g),81.7,22.1,captivity,acceptable,1591,0.308,,0,1.17556
+Nanday parakeet,Nandayus nenday,Parrots,Medium (50–200 g),128.0,18.7,captivity,acceptable,1592,-0.255,,0,0.85465
+Blue-winged parrot,Neophema chrysostoma,Parrots,Small (≤50 g),46.1,21.0,captivity,acceptable,1594,0.396,,0,1.22572
+Turquoise parrot,Neophema pulchella,Parrots,Small (≤50 g),41.4,21.0,captivity,acceptable,1596,0.158,,0,1.09006
+Scarlet-chested parrot,Neophema splendida,Parrots,Small (≤50 g),38.6,14.0,captivity,acceptable,1597,-0.405,,0,0.76915
+Bourke's parrot,Neopsephotus bourkii,Parrots,Small (≤50 g),45.0,12.6,captivity,acceptable,1598,-0.079,,0,0.95497
+Kea,Nestor notabilis,Parrots,Large (>200 g),867.5,47.0,captivity,acceptable,1600,-0.317,,0,0.81931
+Bluebonnet,Northiella haematogaster,Parrots,Medium (50–200 g),86.2,15.3,captivity,acceptable,1601,0.009,,0,1.00513
+Cockatiel,Nymphicus hollandicus,Parrots,Medium (50–200 g),90.0,35.0,captivity,acceptable,1602,0.334,Cockatiel,1,1.19038
+Ground parrot,Pezoporus wallicus,Parrots,Medium (50–200 g),75.7,7.4,wild,acceptable,1603,-0.229,,0,0.86947
+White-bellied parrot,Pionites leucogaster,Parrots,Medium (50–200 g),155.0,26.0,captivity,acceptable,1605,0.422,,0,1.24054
+Black-headed parrot,Pionites melanocephalus,Parrots,Medium (50–200 g),149.0,22.6,captivity,acceptable,1606,-0.141,,0,0.91963
+Pileated parrot,Pionopsitta pileata,Parrots,Medium (50–200 g),119.0,16.8,captivity,acceptable,1607,0.185,,0,1.10545
+Scaly-headed parrot,Pionus maximiliani,Parrots,Large (>200 g),293.0,16.2,captivity,acceptable,1608,-0.378,,0,0.78454
+Blue-headed parrot,Pionus menstruus,Parrots,Large (>200 g),251.0,20.6,captivity,acceptable,1609,-0.053,,0,0.96979
+Crimson rosella,Platycercus elegans,Parrots,Medium (50–200 g),124.5,26.8,captivity,acceptable,1612,0.035,,0,1.01995
+Eastern rosella,Platycercus eximius,Parrots,Medium (50–200 g),104.0,27.4,captivity,acceptable,1613,0.361,,0,1.20577
+Northern rosella,Platycercus venustus,Parrots,Medium (50–200 g),89.5,19.1,captivity,acceptable,1615,0.123,,0,1.07011
+Brown-headed parrot,Poicephalus cryptoxanthus,Parrots,Medium (50–200 g),140.0,32.1,captivity,acceptable,1616,-0.44,,0,0.7492000000000001
+Red-fronted parrot,Poicephalus gulielmi,Parrots,Large (>200 g),275.0,21.0,captivity,acceptable,1617,-0.114,,0,0.93502
+Brown parrot,Poicephalus meyeri,Parrots,Medium (50–200 g),117.5,34.2,captivity,acceptable,1618,0.211,,0,1.12027
+"Cape parrot, or Brown-necked parrot",Poicephalus robustus,Parrots,Large (>200 g),344.0,29.7,captivity,acceptable,1619,-0.352,,0,0.7993600000000001
+Ruppel's parrot,Poicephalus rueppellii,Parrots,Medium (50–200 g),116.0,34.3,captivity,acceptable,1620,-0.026,,0,0.98518
+Red-bellied parrot,Poicephalus rufiventris,Parrots,Medium (50–200 g),120.0,33.4,captivity,acceptable,1621,0.299,,0,1.17043
+Senegal parrot,Poicephalus senegalus,Parrots,Medium (50–200 g),155.0,40.0,captivity,acceptable,1622,-0.264,,0,0.84952
+Alexandra's parrot,Polytelis alexandrae,Parrots,Medium (50–200 g),104.0,23.9,captivity,acceptable,1623,0.062,,0,1.03534
+Regent parrot,Polytelis anthopeplus,Parrots,Medium (50–200 g),170.0,13.8,captivity,acceptable,1624,0.387,,0,1.22059
+Superb parrot,Polytelis swainsonii,Parrots,Medium (50–200 g),153.0,15.1,captivity,acceptable,1625,-0.176,,0,0.89968
+Blue-winged macaw,Primolius maracana,Parrots,Large (>200 g),256.0,31.0,captivity,acceptable,1626,0.15,,0,1.0855
+Palm cockatoo,Probosciger aterrimus,Parrots,Large (>200 g),841.0,56.3,captivity,acceptable,1627,-0.414,,0,0.76402
+Crimson shining parrot,Prosopeia splendens,Parrots,Large (>200 g),237.25,20.1,captivity,acceptable,1629,0.238,,0,1.13566
+Hooded parrot,Psephotus dissimilis,Parrots,Medium (50–200 g),55.0,18.0,captivity,acceptable,1631,0.0,,0,1.0
+Red-rumped parrot,Psephotus haematonotus,Parrots,Medium (50–200 g),61.4,12.2,captivity,acceptable,1632,0.326,,0,1.18582
+Mulga parrot,Psephotus varius,Parrots,Medium (50–200 g),61.5,11.8,captivity,acceptable,1633,-0.238,,0,0.86434
+Dusky lory,Pseudeos fuscata,Parrots,Medium (50–200 g),149.0,13.4,captivity,acceptable,1634,0.088,,0,1.05016
+Grey-hooded parakeet,Psilopsiagon aymara,Parrots,Small (≤50 g),30.0,8.5,captivity,acceptable,1635,0.414,,0,1.23598
+Red-breasted parakeet,Psittacula alexandri,Parrots,Medium (50–200 g),147.0,23.3,captivity,acceptable,1636,-0.15,,0,0.9145
+Alexandrine parakeet,Psittacula eupatria,Parrots,Large (>200 g),255.0,30.0,captivity,acceptable,1640,0.264,,0,1.15048
+Rose-ringed parakeet,Psittacula krameri,Parrots,Medium (50–200 g),128.0,34.0,captivity,acceptable,1641,-0.299,,0,0.82957
+Large fig parrot,Psittaculirostris desmarestii,Parrots,Medium (50–200 g),117.0,14.9,captivity,acceptable,1642,0.026,,0,1.01482
+Edward's fig parrot,Psittaculirostris edwardsii,Parrots,Medium (50–200 g),118.0,12.0,captivity,acceptable,1643,0.352,,0,1.20064
+Salvadori's fig parrot,Psittaculirostris salvadorii,Parrots,Medium (50–200 g),118.0,12.0,captivity,acceptable,1644,-0.211,,0,0.87973
+Grey parrot,Psittacus erithacus,Parrots,Large (>200 g),333.0,49.7,captivity,acceptable,1645,0.114,,0,1.06498
+Pesquet's parrot,Psittrichas fulgidus,Parrots,Large (>200 g),865.0,25.0,captivity,acceptable,1649,-0.361,,0,0.79423
+Red-capped parrot,Purpureicephalus spurius,Parrots,Medium (50–200 g),116.0,15.3,captivity,acceptable,1650,-0.035,,0,0.98005
+White-eared conure,Pyrrhura leucotis,Parrots,Medium (50–200 g),56.7,18.5,captivity,acceptable,1651,0.29,,0,1.1653
+Crimson-bellied parakeet,Pyrrhura perlata,Parrots,Medium (50–200 g),87.0,14.3,captivity,acceptable,1652,-0.273,,0,0.84439
+Thick-billed parrot,Rhynchopsitta pachyrhyncha,Parrots,Large (>200 g),360.0,33.0,captivity,acceptable,1653,0.053,,0,1.03021
+Kakapo,Strigops habroptila,Parrots,Large (>200 g),1750.0,60.0,captivity,acceptable,1654,0.378,,0,1.21546
+Great-billed parrot,Tanygnathus megalorynchos,Parrots,Large (>200 g),325.0,23.0,captivity,acceptable,1655,-0.185,,0,0.89455
+Blue-backed parrot,Tanygnathus sumatranus,Parrots,Large (>200 g),270.5,14.4,captivity,acceptable,1656,0.141,,0,1.08037
+Scaly-breasted lorikeet,Trichoglossus chlorolepidotus,Parrots,Medium (50–200 g),87.0,33.8,wild,acceptable,1657,-0.422,,0,0.75946
+Olive-headed lorikeet,Trichoglossus euteles,Parrots,Medium (50–200 g),73.7,16.0,captivity,acceptable,1658,-0.097,,0,0.94471
+Rainbow lorikeet,Trichoglossus haematodus,Parrots,Medium (50–200 g),115.1,20.6,wild,acceptable,1659,0.229,Rainbow lorikeet,1,1.13053
+Mindanao lorikeet,Trichoglossus johnstoniae,Parrots,Medium (50–200 g),55.2,17.8,captivity,acceptable,1660,-0.334,,0,0.80962
+Blue-bellied parrot,Triclaria malachitacea,Parrots,Medium (50–200 g),90.0,11.9,captivity,acceptable,1662,0.317,,0,1.18069
+Blue lorikeet,Vini peruviana,Parrots,Small (≤50 g),29.0,18.4,captivity,acceptable,1664,0.079,,0,1.04503

@@ -13,7 +13,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
   <!-- Our stylesheet -->
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css?v=19">
 </head>
 
 <body>
@@ -29,22 +29,21 @@
   <main>
     <!-- SECTION 1: BIRDS IN AUSTRALIAN HOMES -->
     <section class="story-section chapter-section">
-      <p class="section-label">01 / BIRDS IN AUSTRALIAN HOMES</p>
+      <header class="chapter-header">
+        <h2 class="section-label">01 / Birds in Australian homes</h2>
+        <p class="chapter-transition">Begin with how birds compare, why Australians keep them, and how many share each household.</p>
+      </header>
 
       <!-- VISUALISATION 1: PET OWNERSHIP COMPARISON -->
       <article class="visualisation-block pet-comparison-visualisation">
 
         <h2>Where do birds stand among Australia's favourite pets?</h2>
 
-        <p class="description">
-          Dogs and cats are familiar companions in Australian homes,
-          but birds are also part of the picture.
-          How does bird ownership compare with other types of pets?
-        </p>
+        <p class="description">Compare the share of Australian households living with birds and other pets.</p>
 
         <figure class="pet-comparison-chart">
-          <figcaption>
-            Australian households owning each type of pet, 2025
+          <figcaption class="idiom-card-title">
+            Pet-owning households · Australia · 2025
           </figcaption>
 
           <div id="pet_ownership_comparison"></div>
@@ -57,16 +56,12 @@
 
       <h2>Why do Australians keep pet birds?</h2>
 
-        <p class="description">
-        Australians keep birds for companionship, relaxation
-        and personal interests. But have their motivations
-        changed between 2022 and 2025?
-        </p>
+        <p class="description">See how reported motivations changed between 2022 and 2025.</p>
 
         <div class="visual-row">
           <figure class="chart-card">
             <figcaption class="chart-header">
-              <h3>Reasons for getting pet birds</h3>
+              <h3 class="idiom-card-title">Bird-ownership motivations · Australia · 2022 vs 2025</h3>
               <div class="chart-legend">
                 <span class="legend-item">
                   <span class="legend-dot teal"></span>
@@ -82,7 +77,6 @@
           </figure>
 
           <aside class="insight-panel annotation-panel">
-            <p class="insight-label">Why it matters</p>
             <h3 class="annotation-title">Motivation rose ten percentage points.</h3>
             <p class="annotation-evidence">
               Mental health gained importance between 2022 and 2025.
@@ -94,19 +88,22 @@
       <!-- VISUALISATION 2: HOUSEHOLD BIRD COUNTS -->
       <article class="visualisation-block household-visualisation">
         <h2>One bird, or a whole flock?</h2>
-        <p class="description">
-          Not every bird-owning household keeps just one bird.
-          Many keep several feathered companions.
-          But how common is it to keep multiple birds?
-        </p>
+        <p class="description">Explore how many birds Australian bird-owning households kept in 2025.</p>
 
         <div class="household-layout">
           <aside class="household-narrative annotation-panel">
-            <p class="insight-label">Household pattern</p>
-            <h3 class="annotation-title">69% keep two or more birds.</h3>
-            <p class="annotation-evidence">
-              Most bird-owning households keep feathered companions together.
-            </p>
+            <div class="household-main-insight">
+              <p class="household-key-number">69%</p>
+
+              <h3 class="annotation-title">
+                Households keep two or more birds.
+              </h3>
+
+              <p class="annotation-evidence">
+                Multiple-bird homes outnumber single-bird homes.
+              </p>
+            </div>
+
             <div class="household-note reading-note reading-note-stacked">
               <span class="reading-note-label">HOW TO READ</span>
               <p>Each square represents 1% of bird-owning households.</p>
@@ -114,7 +111,7 @@
           </aside>
 
           <figure class="household-chart visual-card">
-            <figcaption>Birds per bird-owning household, 2025</figcaption>
+            <figcaption class="idiom-card-title">Birds per household · Australia · 2025</figcaption>
             <div id="bird_household_waffle"></div>
             <div class="waffle-legend" aria-label="Waffle chart legend">
               <span><i class="waffle-key one"></i> 1 bird — 31%</span>
@@ -129,24 +126,20 @@
     <hr class="section-divider">
     <!-- SECTION 2: SPECIES AND ORIGINS -->
     <section class="story-section chapter-section">
-
-      <p class="section-label">
-        02 / SPECIES AND RELATIONSHIPS
-      </p>
+      <header class="chapter-header">
+        <h2 class="section-label">02 / Species and relationships</h2>
+        <p class="chapter-transition">Meet six familiar companion birds and trace the biological relationships that connect them.</p>
+      </header>
 
       <article class="visualisation-block taxonomy-visualisation">
 
         <h2>Meet our feathered companions</h2>
 
-        <p class="description">
-          From colourful parrots to small songbirds,
-          familiar pet birds belong to different biological families.
-          How closely are they classified?
-        </p>
+        <p class="description">Trace how six familiar companion birds are biologically related.</p>
 
         <figure class="taxonomy-chart">
-          <figcaption>
-            Taxonomic classification of six commonly kept pet bird species
+          <figcaption class="idiom-card-title">
+            Taxonomy · six companion bird species
           </figcaption>
 
           <div id="bird_taxonomy"></div>
@@ -160,18 +153,17 @@
     <hr class="section-divider">
     <!-- SECTION 3: WILD GEOGRAPHY -->
     <section class="story-section chapter-section">
-
-      <p class="section-label">03 / BEYOND THE CAGE: BIRDS IN THE WILD</p>
+      <header class="chapter-header">
+        <h2 class="section-label">03 / Beyond the cage: birds in the wild</h2>
+        <p class="chapter-transition">Follow budgerigars and cockatiels beyond the home to examine where and when Australians recorded them in the wild.</p>
+      </header>
 
       <!-- VISUALISATION: INTERACTIVE BIRD OBSERVATION MAP -->
       <article class="visualisation-block bird-map-visualisation">
 
         <h2>Where has each bird been recorded?</h2>
 
-        <p class="description">
-          Start with individual observation locations. Brush the timeline
-          to see how each species' recorded range changes over time.
-        </p>
+        <p class="description">Explore recorded locations and monthly activity from 2016 to 2025.</p>
 
         <!-- Controls and legend -->
         <div class="map-bottom-row">
@@ -192,8 +184,40 @@
 
         <figure class="bird-map-card">
 
+        <p class="idiom-card-title">
+          Bird observation records · Australia · 2016–2025
+        </p>
+
         <!-- Map and timelines -->
         <div id="bird_map_timeline"></div>
+
+        <div class="dot-map-insights" aria-label="Selected species findings">
+
+        <div class="dot-map-insight annotation-panel annotation-panel-compact">
+          <h3 class="annotation-title" id="dot-map-peak-month">July 2025 was the peak month.</h3>
+          <strong class="dot-map-stat" id="dot-map-peak-count">
+            1,369
+          </strong>
+          <p class="dot-map-stat-caption">Recorded observations</p>
+        </div>
+
+        <div class="dot-map-insight annotation-panel annotation-panel-compact">
+          <h3 class="annotation-title" id="dot-map-peak-year">2022 was the strongest year.</h3>
+          <strong class="dot-map-stat" id="dot-map-year-count">
+            6,835
+          </strong>
+          <p class="dot-map-stat-caption">Recorded observations</p>
+        </div>
+
+        <div class="dot-map-insight annotation-panel annotation-panel-compact">
+          <h3 class="annotation-title" id="dot-map-cluster-state">Queensland has the largest displayed cluster.</h3>
+          <strong class="dot-map-stat" id="dot-map-cluster-count">
+            1,718
+          </strong>
+          <p class="dot-map-stat-caption">Plotted locations</p>
+        </div>
+
+      </div>
 
         <figcaption class="bird-map-caption reading-note">
           <span class="bird-map-caption-label reading-note-label">HOW TO READ</span>
@@ -205,19 +229,28 @@
 
       </article>
 
-    <article class="visualisation-block bird-state-visualisation">
+    <div class="state-map-pair" aria-label="State-level map comparison">
+
+    <article class="visualisation-block bird-state-visualisation state-map-card">
       <h2>Does state size change the geographic story?</h2>
 
-      <p class="description">
-        Raw totals favour large states. Area-adjusted density reveals
-        where sightings are concentrated relative to land area.
-      </p>
+      <p class="description">Compare state observation density after adjusting for land area.</p>
+
+      <p class="idiom-card-title">Observation density · Australian states · 2016–2025</p>
 
       <div class="map-bottom-row state-map-toolbar">
         <div class="map-toolbar-group">
           <span class="map-toolbar-label">SPECIES</span>
           <div id="bird_state_controls"></div>
         </div>
+      </div>
+
+      <div class="bird-state-layout">
+
+        <!-- Left: choropleth map -->
+        <figure class="bird-state-chart visual-card">
+          <div id="bird_state_choropleth"></div>
+        </figure>
 
         <div class="state-density-legend" aria-label="Observation density legend">
           <span class="map-toolbar-label">OBSERVATIONS PER 1,000 KM²</span>
@@ -230,19 +263,13 @@
             </span>
           </div>
         </div>
-      </div>
-
-      <div class="bird-state-layout">
-
-        <!-- Left: choropleth map -->
-        <figure class="bird-state-chart visual-card">
-          <figcaption class="chart-title">Area-adjusted observation density</figcaption>
-          <div id="bird_state_choropleth"></div>
-        </figure>
 
         <!-- Right: annotations -->
         <aside class="bird-state-narrative annotation-panel">
-          <p class="insight-label">How the ranking changes</p>
+          <h3 class="annotation-title">Area adjustment changes the leader.</h3>
+          <p class="annotation-evidence">
+            Queensland leads totals. ACT leads area-adjusted density.
+          </p>
 
           <div class="state-highlight">
             <span>RAW LEADER · QUEENSLAND</span>
@@ -256,77 +283,31 @@
             <p>observations per 1,000 km²</p>
           </div>
 
-          <h3 class="annotation-title">Area adjustment changes the leader.</h3>
-          <p class="annotation-evidence">
-            Queensland leads totals. ACT leads area-adjusted density.
-          </p>
-
-          <div class="state-reading-note reading-note reading-note-stacked">
-            <span class="reading-note-label">HOW TO READ</span>
-            <p>Read colour as density, not total abundance.</p>
-          </div>
-
         </aside>
 
       </div>
     </article>
 
-    <!-- VISUALISATION: SEASONAL OBSERVATION HEATMAPS -->
-    <article class="visualisation-block bird-seasonal-visualisation">
-
-      <h2>Are monthly peaks consistent every year?</h2>
-
-      <p class="description">
-        The heatmap tests whether busy months repeat consistently.
-        Compare timing, intensity and unusual years across both species.
-      </p>
-
-      <figure class="bird-seasonal-chart">
-        <figcaption class="heatmap-card-header">
-          <span>MONTHLY OBSERVATION CALENDAR</span>
-          <p>Monthly recorded observations · 2016–2025</p>
-        </figcaption>
-
-        <div id="bird_seasonal_heatmaps"></div>
-
-        <div class="heatmap-insights" aria-label="Heatmap findings">
-          <div class="heatmap-insight annotation-panel annotation-panel-compact">
-            <span>Budgerigar</span>
-            <h3 class="annotation-title">August peaks most often.</h3>
-            <p class="annotation-evidence">It leads in five of ten years.</p>
-          </div>
-
-          <div class="heatmap-insight annotation-panel annotation-panel-compact">
-            <span>Cockatiel</span>
-            <h3 class="annotation-title">Peaks shift across winter and spring.</h3>
-            <p class="annotation-evidence">October leads in four years.</p>
-          </div>
-        </div>
-
-        <div class="chart-footnote heatmap-footnote reading-note">
-          <span class="reading-note-label">HOW TO READ</span>
-          <p>Darker cells indicate more observations. Hover for exact counts.</p>
-        </div>
-
-      </figure>
-
-    </article>
-
     <!-- SEASONAL VOLATILITY PROPORTIONAL SYMBOL MAP -->
-    <article class="visualisation-block bird-symbol-visualisation">
+    <article class="visualisation-block bird-symbol-visualisation state-map-card">
 
       <h2>Where does season make the greatest difference?</h2>
 
-      <p class="description">
-        Circle size measures each state's seasonal swing.
-        Colour identifies the season with the most observations.
-      </p>
+      <p class="description">Compare seasonal swings and peak seasons across Australian states.</p>
 
       <figure class="bird-symbol-card">
+        <p class="idiom-card-title">Seasonal variation · Australian states · 2016–2025</p>
+
         <div class="bird-symbol-toolbar">
           <div class="map-toolbar-group">
             <span class="map-toolbar-label">SPECIES</span>
             <div id="bird_symbol_controls"></div>
+          </div>
+        </div>
+
+        <div class="bird-symbol-layout">
+          <div class="bird-symbol-chart-area">
+            <div id="bird_seasonal_symbol_map"></div>
           </div>
 
           <div class="bird-symbol-legends">
@@ -351,22 +332,25 @@
               </span>
             </div>
           </div>
-        </div>
-
-        <div class="bird-symbol-layout">
-          <div class="bird-symbol-chart-area">
-            <div id="bird_seasonal_symbol_map"></div>
-          </div>
 
           <figcaption class="bird-symbol-annotation annotation-panel">
-            <p class="insight-label">Largest seasonal swing</p>
             <h3 class="annotation-title">Queensland varies most.</h3>
             <p class="annotation-evidence">
               Both species reach their Queensland peak in winter.
             </p>
-            <div class="bird-symbol-hover-note reading-note reading-note-stacked">
-              <span class="reading-note-label">HOW TO READ</span>
-              <p>Size shows change. Colour shows peak season.</p>
+
+            <div class="season-highlight-grid">
+              <div class="state-highlight">
+                <span>BUDGERIGAR · QUEENSLAND</span>
+                <strong>7,477</strong>
+                <p>seasonal swing · winter peak</p>
+              </div>
+
+              <div class="state-highlight">
+                <span>COCKATIEL · QUEENSLAND</span>
+                <strong>6,617</strong>
+                <p>seasonal swing · winter peak</p>
+              </div>
             </div>
           </figcaption>
         </div>
@@ -375,20 +359,205 @@
 
     </article>
 
+    </div>
+
+    <!-- VISUALISATION: SEASONAL OBSERVATION HEATMAPS -->
+    <article class="visualisation-block bird-seasonal-visualisation">
+
+      <h2>Are monthly peaks consistent every year?</h2>
+
+      <p class="description">Compare when monthly peaks recur across species and years.</p>
+
+      <figure class="bird-seasonal-chart">
+        <figcaption class="idiom-card-title">
+          Monthly observations · two species · 2016–2025
+        </figcaption>
+
+        <div id="bird_seasonal_heatmaps"></div>
+
+        <div class="heatmap-guide-row">
+          <div class="heatmap-colour-legend" aria-label="Recorded observations colour legend">
+            <span class="heatmap-legend-title">RECORDED OBSERVATIONS</span>
+            <span class="heatmap-legend-gradient" aria-hidden="true"></span>
+            <span class="heatmap-legend-ticks" aria-hidden="true">
+              <span>0</span>
+              <span>500</span>
+              <span>1,000</span>
+            </span>
+          </div>
+
+          <div class="heatmap-inline-guide reading-note">
+            <span class="reading-note-label">HOW TO READ</span>
+            <p>Darker cells show more observations. Hover for exact counts.</p>
+          </div>
+        </div>
+
+        <div class="heatmap-insights" aria-label="Heatmap findings">
+          <div class="heatmap-insight annotation-panel annotation-panel-compact">
+            <h3 class="annotation-title">Budgerigar: August leads in five of ten years.</h3>
+            <p class="annotation-evidence">The most frequent monthly peak.</p>
+          </div>
+
+          <div class="heatmap-insight annotation-panel annotation-panel-compact">
+            <h3 class="annotation-title">Cockatiel: October leads in four of ten years.</h3>
+            <p class="annotation-evidence">Peaks shift across winter and spring.</p>
+          </div>
+        </div>
+
+      </figure>
+
+    </article>
+
+    <aside class="chapter-bridge" aria-label="Transition to responsible ownership">
+      <p class="insight-label">What these records cannot tell us</p>
+      <p>Observation records describe occurrence, not abundance or whether a bird suits a household.</p>
+    </aside>
+
     </section>
 
     <hr class="section-divider">
     <!-- SECTION 4: RETURN TO PET OWNERSHIP -->
     <section class="story-section chapter-section companion-choice-section">
+      <header class="companion-choice-intro">
+        <h2 class="section-label">04 / Choosing a feathered companion</h2>
+        <p class="chapter-transition">Wild records show occurrence, while longevity, body size and enrichment reveal the responsibilities of choosing a companion bird.</p>
+      </header>
 
-      <p class="section-label">04 / CHOOSING A FEATHERED COMPANION</p>
+      <div class="companion-story-phase companion-longevity-phase">
+        <article class="visualisation-block bird-violin-visualisation">
+          <h2>How long could the commitment last?</h2>
+
+          <p class="description">Compare maximum recorded longevity across parrots and songbirds.</p>
+
+          <div class="longevity-evidence-card">
+            <p class="idiom-card-title longevity-card-title">
+              Maximum longevity · 706 species
+            </p>
+
+            <figure class="bird-violin-card">
+              <div id="bird_longevity_violin"></div>
+            </figure>
+
+            <aside class="bird-violin-insight annotation-panel">
+              <h3 class="annotation-title">
+                Parrots show higher recorded longevity.
+              </h3>
+
+              <div class="longevity-stat-grid" aria-label="Median maximum recorded longevity">
+                <div class="longevity-stat">
+                  <span>Parrots</span>
+                  <strong>22.95</strong>
+                  <p>years median</p>
+                </div>
+
+                <div class="longevity-stat">
+                  <span>Songbirds</span>
+                  <strong>10.20</strong>
+                  <p>years median</p>
+                </div>
+              </div>
+
+              <div class="reading-note reading-note-stacked longevity-reading-note">
+                <span class="reading-note-label">HOW TO READ</span>
+                <p>Width shows concentration. Lines mark medians.</p>
+                <p>Outlined dots identify familiar species.</p>
+              </div>
+
+              <p class="longevity-caveat">
+                Recorded maxima show potential, not typical pet lifespan.
+              </p>
+            </aside>
+          </div>
+        </article>
+      </div>
+
+      <div class="companion-story-phase companion-practical-phase">
+        <article class="visualisation-block bird-size-visualisation">
+          <h2>How different are these familiar companion birds?</h2>
+
+          <p class="description">Compare adult body mass across six familiar companion species.</p>
+
+          <figure class="bird-size-card visual-card">
+            <figcaption class="idiom-card-title">Adult body mass · six companion bird species</figcaption>
+
+            <div class="companion-chart-layout">
+              <div class="companion-chart-area">
+                <div id="bird-size-lollipop"></div>
+              </div>
+
+              <aside class="annotation-panel companion-chart-insight">
+                <h3 class="annotation-title">
+                  “Small bird” covers a wide size range.
+                </h3>
+                <p class="annotation-evidence">
+                  A lorikeet weighs nearly ten zebra finches.
+                </p>
+
+                <div class="side-chart-key" aria-label="Bird group colour key">
+                  <span><i class="side-key-dot side-key-dot-parrot"></i>Parrots</span>
+                  <span><i class="side-key-dot side-key-dot-songbird"></i>Songbirds</span>
+                </div>
+
+                <div class="reading-note side-reading-note">
+                  <span class="reading-note-label">HOW TO READ</span>
+                  <p>
+                    Each dot represents one bird species.
+                    Longer lines indicate greater adult body mass.
+                    Hover for exact weight.
+                  </p>
+                </div>
+              </aside>
+            </div>
+
+          </figure>
+        </article>
+
+        <article class="visualisation-block bird-care-section">
+          <h2>What does everyday bird care involve?</h2>
+          <p class="description">Review enrichment activities reported by Victorian bird owners in 2023.</p>
+
+          <figure class="bird-final-card visual-card">
+            <figcaption class="idiom-card-title">Enrichment activities · Victoria · 2023</figcaption>
+
+            <div class="companion-chart-layout">
+              <div class="companion-chart-area bird-care-chart-area">
+                <div id="bird_care_radial"></div>
+              </div>
+
+              <aside class="annotation-panel companion-chart-insight">
+                <h3 class="annotation-title">
+                  Exercise leads reported enrichment.
+                </h3>
+                <dl class="care-value-list">
+                  <div><dt>Time to roam</dt><dd>62%</dd></div>
+                  <div><dt>Pet or hold</dt><dd>51%</dd></div>
+                  <div><dt>Toys or puzzles</dt><dd>47%</dd></div>
+                  <div><dt>Play</dt><dd>41%</dd></div>
+                  <div><dt>Training</dt><dd>24%</dd></div>
+                </dl>
+
+                <div class="reading-note side-reading-note">
+                  <span class="reading-note-label">HOW TO READ</span>
+                  <p>
+                    Longer segments indicate more owners reporting that activity.
+                    Multiple responses were allowed.
+                    Hover for activity details.
+                  </p>
+                </div>
+              </aside>
+            </div>
+
+          </figure>
+        </article>
+      </div>
 
       <div class="companion-choice-card">
-        <p class="insight-label">Back to pet ownership</p>
-        <h2>Wild presence does not determine pet suitability</h2>
-        <p>Natural distribution provides context, not ownership guidance.</p>
-        <p>Lifespan, size and care needs matter more.</p>
+        <h2>Choose for the care you can sustain</h2>
+        <p>Recorded longevity suggests a potentially long commitment.</p>
+        <p>Familiar species differ greatly in adult size.</p>
+        <p>Every choice requires regular enrichment and interaction.</p>
       </div>
+
 
     </section>
 
@@ -427,23 +596,59 @@
 
     vegaEmbed(
       "#bird_map_timeline",
-      "js/bird_map_timeline.vg.json?v=5",
+      "js/bird_map_timeline.vg.json?v=10",
       {
         actions: false,
+        renderer: "svg",
         bind: document.getElementById("bird_map_controls")
       }
-    ).catch(console.error);
+    ).then(({ view }) => {
+      const mapFindings = {
+        Budgerigar: {
+          month: "July 2025 was the peak month.",
+          monthCount: "1,369",
+          year: "2022 was the strongest year.",
+          yearCount: "6,835",
+          state: "Queensland has the largest displayed cluster.",
+          stateCount: "1,718"
+        },
+        Cockatiel: {
+          month: "September 2024 was the peak month.",
+          monthCount: "1,291",
+          year: "2024 was the strongest year.",
+          yearCount: "7,506",
+          state: "Queensland has the largest displayed cluster.",
+          stateCount: "2,222"
+        }
+      };
+
+      const updateMapFindings = (species) => {
+        const finding = mapFindings[species];
+        if (!finding) return;
+        document.getElementById("dot-map-peak-month").textContent = finding.month;
+        document.getElementById("dot-map-peak-count").textContent = finding.monthCount;
+        document.getElementById("dot-map-peak-year").textContent = finding.year;
+        document.getElementById("dot-map-year-count").textContent = finding.yearCount;
+        document.getElementById("dot-map-cluster-state").textContent = finding.state;
+        document.getElementById("dot-map-cluster-count").textContent = finding.stateCount;
+      };
+
+      view.addSignalListener("selectedSpecies", (_, species) => {
+        updateMapFindings(species);
+      });
+      updateMapFindings(view.signal("selectedSpecies"));
+    }).catch(console.error);
 
     vegaEmbed(
       "#bird_seasonal_heatmaps",
-      "js/bird_seasonal_heatmaps.vg.json?v=2",
+      "js/bird_seasonal_heatmaps.vg.json?v=6",
       { actions: false }
     ).catch(console.error);
 
 
     vegaEmbed(
       "#bird_state_choropleth",
-      "js/bird_state_choropleth.vg.json?v=8",
+      "js/bird_state_choropleth.vg.json?v=10",
       {
         actions: false,
         bind: document.getElementById("bird_state_controls")
@@ -469,12 +674,32 @@
 
     vegaEmbed(
       "#bird_seasonal_symbol_map",
-      "js/bird_seasonal_symbol_map.vg.json?v=3",
+      "js/bird_seasonal_symbol_map.vg.json?v=6",
       {
         actions: false,
         bind: document.getElementById("bird_symbol_controls")
       }
     ).catch(console.error);
+
+    vegaEmbed(
+      "#bird_longevity_violin",
+      "js/bird_longevity_violin.vg.json?v=4",
+      { actions: false }
+    ).catch(console.error);
+
+    vegaEmbed(
+      "#bird-size-lollipop",
+      "js/bird_size_lollipop.vg.json?v=3",
+      { actions: false, renderer: "svg" }
+    ).catch(console.error);
+
+    vegaEmbed(
+      "#bird_care_radial",
+      "js/bird_care_radial.vg.json?v=2",
+      { actions: false, renderer: "svg" }
+    ).catch(console.error);
+
+
 
   </script>
 </body>

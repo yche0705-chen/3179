@@ -1,0 +1,6 @@
+species,scientific_name,group,longevity_years,plot_y,adult_mass_g,specimen_origin,data_quality
+Budgerigar,Melopsittacus undulatus,Parrots,21.0,1.19,30.0,captivity,high
+Rainbow lorikeet,Trichoglossus haematodus,Parrots,20.6,0.82,115.1,wild,acceptable
+Cockatiel,Nymphicus hollandicus,Parrots,35.0,1.02,90.0,captivity,acceptable
+Canary,Serinus canaria,Passerines,24.0,0.16,24.3,captivity,acceptable
+Zebra finch,Taeniopygia guttata,Passerines,12.0,-0.16,12.0,unknown,acceptable

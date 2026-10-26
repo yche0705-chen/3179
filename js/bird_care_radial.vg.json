@@ -1,0 +1,146 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 430,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "padding": 8,
+  "background": null,
+  "data": {
+    "url": "data/bird_care_enrichment_2023.csv"
+  },
+  "transform": [
+    {
+      "window": [
+        {
+          "op": "row_number",
+          "as": "idx"
+        }
+      ],
+      "sort": [
+        {
+          "field": "percentage",
+          "order": "descending"
+        }
+      ]
+    },
+    {
+      "calculate": "(datum.idx-1)*2*PI/5 + 0.065",
+      "as": "a0"
+    },
+    {
+      "calculate": "datum.idx*2*PI/5 - 0.065",
+      "as": "a1"
+    },
+    {
+      "calculate": "52 + datum.percentage*2.2",
+      "as": "r"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "arc",
+        "opacity": 0.16,
+        "stroke": "#F8F4EF",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "theta": {
+          "field": "a0",
+          "type": "quantitative",
+          "scale": null
+        },
+        "theta2": {
+          "field": "a1"
+        },
+        "radius": {
+          "value": 195
+        },
+        "radius2": {
+          "value": 52
+        },
+        "color": {
+          "value": "#9F9188"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "arc",
+        "stroke": "#FFFFFF",
+        "strokeWidth": 2,
+        "opacity": 0.88
+      },
+      "encoding": {
+        "theta": {
+          "field": "a0",
+          "type": "quantitative",
+          "scale": null
+        },
+        "theta2": {
+          "field": "a1"
+        },
+        "radius": {
+          "field": "r",
+          "type": "quantitative",
+          "scale": null
+        },
+        "radius2": {
+          "value": 52
+        },
+        "color": {
+          "field": "category",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Exercise",
+              "Interaction",
+              "Enrichment",
+              "Learning"
+            ],
+            "range": [
+              "#398BA3",
+              "#E96B73",
+              "#9B83BD",
+              "#E7B83E"
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "title": null
+          }
+        },
+        "tooltip": [
+          {
+            "field": "activity",
+            "title": "Activity"
+          },
+          {
+            "field": "percentage",
+            "title": "Owners (%)"
+          },
+          {
+            "field": "care_note",
+            "title": "Care consideration"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "legend": {
+      "labelFont": "Arial",
+      "labelFontSize": 12,
+      "symbolSize": 110
+    },
+    "title": {
+      "font": "Arial"
+    }
+  }
+}

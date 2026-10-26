@@ -1,0 +1,217 @@
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Interactive parallel coordinates comparison of six companion and aviary bird species using AnAge biological measurements.",
+  "background": "#FFFFFF",
+  "width": 850,
+  "height": 370,
+  "padding": 12,
+
+  "data": {
+    "url": "data/bird_traits_anage.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "adult_mass_g": "number",
+        "maximum_longevity_years": "number",
+        "female_maturity_days": "number"
+      }
+    }
+  },
+
+  "params": [
+    {
+      "name": "focusSpecies",
+      "value": "All species",
+      "bind": {
+        "input": "select",
+        "name": "Highlight species: ",
+        "options": [
+          "All species",
+          "Budgerigar",
+          "Cockatiel",
+          "Zebra finch",
+          "Galah",
+          "Rose-ringed parakeet",
+          "Red-winged parrot"
+        ]
+      }
+    }
+  ],
+
+  "transform": [
+    {
+      "fold": [
+        "adult_mass_g",
+        "maximum_longevity_years",
+        "female_maturity_days"
+      ],
+      "as": ["metric", "raw_value"]
+    },
+    {
+      "calculate": "datum.metric === 'adult_mass_g' ? datum.raw_value / 320 : datum.metric === 'maximum_longevity_years' ? datum.raw_value / 45 : datum.raw_value / 950",
+      "as": "normalized"
+    },
+    {
+      "calculate": "datum.metric === 'adult_mass_g' ? 'Adult mass (g)' : datum.metric === 'maximum_longevity_years' ? 'Max longevity (years)' : 'Female maturity (days)'",
+      "as": "axis_label"
+    }
+  ],
+
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "point": {
+          "filled": true,
+          "size": 65
+        },
+        "interpolate": "linear"
+      },
+
+      "encoding": {
+        "x": {
+          "field": "axis_label",
+          "type": "nominal",
+          "sort": [
+            "Adult mass (g)",
+            "Max longevity (years)",
+            "Female maturity (days)"
+          ],
+          "axis": {
+            "title": null,
+            "labelAngle": 0,
+            "labelFont": "Arial",
+            "labelFontSize": 13,
+            "labelPadding": 14,
+            "labelColor": "#302D32",
+            "domain": false,
+            "ticks": false
+          }
+        },
+
+        "y": {
+          "field": "normalized",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 1]
+          },
+          "axis": {
+            "title": "Position on each trait scale",
+            "values": [0, 0.25, 0.5, 0.75, 1],
+            "labelExpr": "format(datum.value * 100, '.0f') + '%'",
+            "grid": true,
+            "gridColor": "#F1EDE6",
+            "gridWidth": 1,
+            "domain": false,
+            "tickSize": 0,
+            "labelColor": "#6C6260",
+            "titleColor": "#6C6260",
+            "titlePadding": 14
+          }
+        },
+
+        "detail": {
+          "field": "species",
+          "type": "nominal"
+        },
+
+        "order": {
+          "field": "axis_label",
+          "type": "nominal",
+          "sort": [
+            "Adult mass (g)",
+            "Max longevity (years)",
+            "Female maturity (days)"
+          ]
+        },
+
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Parrot",
+              "Songbird"
+            ],
+            "range": [
+              "#398BA3",
+              "#E96B73"
+            ]
+          },
+          "legend": {
+            "title": "Biological group",
+            "orient": "top",
+            "direction": "horizontal",
+            "titleFont": "Arial",
+            "labelFont": "Arial",
+            "titleFontSize": 12,
+            "labelFontSize": 12,
+            "titleColor": "#302D32",
+            "labelColor": "#302D32"
+          }
+        },
+
+        "opacity": {
+          "condition": {
+            "test": "focusSpecies === 'All species' || datum.species === focusSpecies",
+            "value": 0.9
+          },
+          "value": 0.12
+        },
+
+        "strokeWidth": {
+          "condition": {
+            "test": "focusSpecies !== 'All species' && datum.species === focusSpecies",
+            "value": 3.5
+          },
+          "value": 2
+        },
+
+        "tooltip": [
+          {
+            "field": "species",
+            "type": "nominal",
+            "title": "Species"
+          },
+          {
+            "field": "group",
+            "type": "nominal",
+            "title": "Biological group"
+          },
+          {
+            "field": "adult_mass_g",
+            "type": "quantitative",
+            "title": "Adult mass (g)",
+            "format": ",.0f"
+          },
+          {
+            "field": "maximum_longevity_years",
+            "type": "quantitative",
+            "title": "Maximum longevity (years)",
+            "format": ".1f"
+          },
+          {
+            "field": "female_maturity_days",
+            "type": "quantitative",
+            "title": "Female maturity (days)",
+            "format": ",.0f"
+          }
+        ]
+      }
+    }
+  ],
+
+  "config": {
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "labelColor": "#302D32",
+      "titleColor": "#302D32"
+    }
+  }
+}

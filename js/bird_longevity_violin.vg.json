@@ -1,0 +1,4837 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Violin plot trimmed to observed group-specific minimum and maximum species-level longevity values; filled KDE shape and highlighted species.",
+  "background": "#FFFFFF",
+  "width": 840,
+  "height": 360,
+  "padding": 10,
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "longevity_years": 7.4,
+            "y_upper": 1.0,
+            "y_lower": 1.0
+          },
+          {
+            "longevity_years": 7.5,
+            "y_upper": 1.13279,
+            "y_lower": 0.86721
+          },
+          {
+            "longevity_years": 8.0,
+            "y_upper": 1.14537,
+            "y_lower": 0.85463
+          },
+          {
+            "longevity_years": 8.5,
+            "y_upper": 1.1581,
+            "y_lower": 0.8419
+          },
+          {
+            "longevity_years": 9.0,
+            "y_upper": 1.17085,
+            "y_lower": 0.82915
+          },
+          {
+            "longevity_years": 9.5,
+            "y_upper": 1.1835,
+            "y_lower": 0.8165
+          },
+          {
+            "longevity_years": 10.0,
+            "y_upper": 1.19593,
+            "y_lower": 0.80407
+          },
+          {
+            "longevity_years": 10.5,
+            "y_upper": 1.20801,
+            "y_lower": 0.79199
+          },
+          {
+            "longevity_years": 11.0,
+            "y_upper": 1.21964,
+            "y_lower": 0.78036
+          },
+          {
+            "longevity_years": 11.5,
+            "y_upper": 1.23072,
+            "y_lower": 0.76928
+          },
+          {
+            "longevity_years": 12.0,
+            "y_upper": 1.24117,
+            "y_lower": 0.75883
+          },
+          {
+            "longevity_years": 12.5,
+            "y_upper": 1.25093,
+            "y_lower": 0.74907
+          },
+          {
+            "longevity_years": 13.0,
+            "y_upper": 1.25995,
+            "y_lower": 0.74005
+          },
+          {
+            "longevity_years": 13.5,
+            "y_upper": 1.2682,
+            "y_lower": 0.7318
+          },
+          {
+            "longevity_years": 14.0,
+            "y_upper": 1.27565,
+            "y_lower": 0.72435
+          },
+          {
+            "longevity_years": 14.5,
+            "y_upper": 1.28232,
+            "y_lower": 0.71768
+          },
+          {
+            "longevity_years": 15.0,
+            "y_upper": 1.2882,
+            "y_lower": 0.7118
+          },
+          {
+            "longevity_years": 15.5,
+            "y_upper": 1.29331,
+            "y_lower": 0.70669
+          },
+          {
+            "longevity_years": 16.0,
+            "y_upper": 1.29768,
+            "y_lower": 0.70232
+          },
+          {
+            "longevity_years": 16.5,
+            "y_upper": 1.30134,
+            "y_lower": 0.69866
+          },
+          {
+            "longevity_years": 17.0,
+            "y_upper": 1.30431,
+            "y_lower": 0.69569
+          },
+          {
+            "longevity_years": 17.5,
+            "y_upper": 1.30663,
+            "y_lower": 0.69337
+          },
+          {
+            "longevity_years": 18.0,
+            "y_upper": 1.30834,
+            "y_lower": 0.69166
+          },
+          {
+            "longevity_years": 18.5,
+            "y_upper": 1.30945,
+            "y_lower": 0.69055
+          },
+          {
+            "longevity_years": 19.0,
+            "y_upper": 1.30999,
+            "y_lower": 0.69001
+          },
+          {
+            "longevity_years": 19.5,
+            "y_upper": 1.31,
+            "y_lower": 0.69
+          },
+          {
+            "longevity_years": 20.0,
+            "y_upper": 1.30949,
+            "y_lower": 0.69051
+          },
+          {
+            "longevity_years": 20.5,
+            "y_upper": 1.30847,
+            "y_lower": 0.69153
+          },
+          {
+            "longevity_years": 21.0,
+            "y_upper": 1.30698,
+            "y_lower": 0.69302
+          },
+          {
+            "longevity_years": 21.5,
+            "y_upper": 1.30501,
+            "y_lower": 0.69499
+          },
+          {
+            "longevity_years": 22.0,
+            "y_upper": 1.30259,
+            "y_lower": 0.69741
+          },
+          {
+            "longevity_years": 22.5,
+            "y_upper": 1.29973,
+            "y_lower": 0.70027
+          },
+          {
+            "longevity_years": 23.0,
+            "y_upper": 1.29645,
+            "y_lower": 0.70355
+          },
+          {
+            "longevity_years": 23.5,
+            "y_upper": 1.29275,
+            "y_lower": 0.70725
+          },
+          {
+            "longevity_years": 24.0,
+            "y_upper": 1.28865,
+            "y_lower": 0.71135
+          },
+          {
+            "longevity_years": 24.5,
+            "y_upper": 1.28418,
+            "y_lower": 0.71582
+          },
+          {
+            "longevity_years": 25.0,
+            "y_upper": 1.27933,
+            "y_lower": 0.72067
+          },
+          {
+            "longevity_years": 25.5,
+            "y_upper": 1.27413,
+            "y_lower": 0.72587
+          },
+          {
+            "longevity_years": 26.0,
+            "y_upper": 1.26861,
+            "y_lower": 0.73139
+          },
+          {
+            "longevity_years": 26.5,
+            "y_upper": 1.26276,
+            "y_lower": 0.73724
+          },
+          {
+            "longevity_years": 27.0,
+            "y_upper": 1.25662,
+            "y_lower": 0.74338
+          },
+          {
+            "longevity_years": 27.5,
+            "y_upper": 1.25021,
+            "y_lower": 0.74979
+          },
+          {
+            "longevity_years": 28.0,
+            "y_upper": 1.24354,
+            "y_lower": 0.75646
+          },
+          {
+            "longevity_years": 28.5,
+            "y_upper": 1.23664,
+            "y_lower": 0.76336
+          },
+          {
+            "longevity_years": 29.0,
+            "y_upper": 1.22953,
+            "y_lower": 0.77047
+          },
+          {
+            "longevity_years": 29.5,
+            "y_upper": 1.22224,
+            "y_lower": 0.77776
+          },
+          {
+            "longevity_years": 30.0,
+            "y_upper": 1.2148,
+            "y_lower": 0.7852
+          },
+          {
+            "longevity_years": 30.5,
+            "y_upper": 1.20724,
+            "y_lower": 0.79276
+          },
+          {
+            "longevity_years": 31.0,
+            "y_upper": 1.19958,
+            "y_lower": 0.80042
+          },
+          {
+            "longevity_years": 31.5,
+            "y_upper": 1.19187,
+            "y_lower": 0.80813
+          },
+          {
+            "longevity_years": 32.0,
+            "y_upper": 1.18415,
+            "y_lower": 0.81585
+          },
+          {
+            "longevity_years": 32.5,
+            "y_upper": 1.17645,
+            "y_lower": 0.82355
+          },
+          {
+            "longevity_years": 33.0,
+            "y_upper": 1.16882,
+            "y_lower": 0.83118
+          },
+          {
+            "longevity_years": 33.5,
+            "y_upper": 1.16129,
+            "y_lower": 0.83871
+          },
+          {
+            "longevity_years": 34.0,
+            "y_upper": 1.15393,
+            "y_lower": 0.84607
+          },
+          {
+            "longevity_years": 34.5,
+            "y_upper": 1.14677,
+            "y_lower": 0.85323
+          },
+          {
+            "longevity_years": 35.0,
+            "y_upper": 1.13985,
+            "y_lower": 0.86015
+          },
+          {
+            "longevity_years": 35.5,
+            "y_upper": 1.13323,
+            "y_lower": 0.86677
+          },
+          {
+            "longevity_years": 36.0,
+            "y_upper": 1.12694,
+            "y_lower": 0.87306
+          },
+          {
+            "longevity_years": 36.5,
+            "y_upper": 1.12102,
+            "y_lower": 0.87898
+          },
+          {
+            "longevity_years": 37.0,
+            "y_upper": 1.1155,
+            "y_lower": 0.8845
+          },
+          {
+            "longevity_years": 37.5,
+            "y_upper": 1.11042,
+            "y_lower": 0.88958
+          },
+          {
+            "longevity_years": 38.0,
+            "y_upper": 1.10578,
+            "y_lower": 0.89422
+          },
+          {
+            "longevity_years": 38.5,
+            "y_upper": 1.10159,
+            "y_lower": 0.89841
+          },
+          {
+            "longevity_years": 39.0,
+            "y_upper": 1.09787,
+            "y_lower": 0.90213
+          },
+          {
+            "longevity_years": 39.5,
+            "y_upper": 1.09461,
+            "y_lower": 0.90539
+          },
+          {
+            "longevity_years": 40.0,
+            "y_upper": 1.09178,
+            "y_lower": 0.90822
+          },
+          {
+            "longevity_years": 40.5,
+            "y_upper": 1.08937,
+            "y_lower": 0.91063
+          },
+          {
+            "longevity_years": 41.0,
+            "y_upper": 1.08735,
+            "y_lower": 0.91265
+          },
+          {
+            "longevity_years": 41.5,
+            "y_upper": 1.08567,
+            "y_lower": 0.91433
+          },
+          {
+            "longevity_years": 42.0,
+            "y_upper": 1.0843,
+            "y_lower": 0.9157
+          },
+          {
+            "longevity_years": 42.5,
+            "y_upper": 1.08319,
+            "y_lower": 0.91681
+          },
+          {
+            "longevity_years": 43.0,
+            "y_upper": 1.08229,
+            "y_lower": 0.91771
+          },
+          {
+            "longevity_years": 43.5,
+            "y_upper": 1.08155,
+            "y_lower": 0.91845
+          },
+          {
+            "longevity_years": 44.0,
+            "y_upper": 1.08091,
+            "y_lower": 0.91909
+          },
+          {
+            "longevity_years": 44.5,
+            "y_upper": 1.08032,
+            "y_lower": 0.91968
+          },
+          {
+            "longevity_years": 45.0,
+            "y_upper": 1.07974,
+            "y_lower": 0.92026
+          },
+          {
+            "longevity_years": 45.5,
+            "y_upper": 1.07912,
+            "y_lower": 0.92088
+          },
+          {
+            "longevity_years": 46.0,
+            "y_upper": 1.07842,
+            "y_lower": 0.92158
+          },
+          {
+            "longevity_years": 46.5,
+            "y_upper": 1.07761,
+            "y_lower": 0.92239
+          },
+          {
+            "longevity_years": 47.0,
+            "y_upper": 1.07667,
+            "y_lower": 0.92333
+          },
+          {
+            "longevity_years": 47.5,
+            "y_upper": 1.07558,
+            "y_lower": 0.92442
+          },
+          {
+            "longevity_years": 48.0,
+            "y_upper": 1.07432,
+            "y_lower": 0.92568
+          },
+          {
+            "longevity_years": 48.5,
+            "y_upper": 1.07289,
+            "y_lower": 0.92711
+          },
+          {
+            "longevity_years": 49.0,
+            "y_upper": 1.07131,
+            "y_lower": 0.92869
+          },
+          {
+            "longevity_years": 49.5,
+            "y_upper": 1.06957,
+            "y_lower": 0.93043
+          },
+          {
+            "longevity_years": 50.0,
+            "y_upper": 1.06769,
+            "y_lower": 0.93231
+          },
+          {
+            "longevity_years": 50.5,
+            "y_upper": 1.06569,
+            "y_lower": 0.93431
+          },
+          {
+            "longevity_years": 51.0,
+            "y_upper": 1.06358,
+            "y_lower": 0.93642
+          },
+          {
+            "longevity_years": 51.5,
+            "y_upper": 1.0614,
+            "y_lower": 0.9386
+          },
+          {
+            "longevity_years": 52.0,
+            "y_upper": 1.05917,
+            "y_lower": 0.94083
+          },
+          {
+            "longevity_years": 52.5,
+            "y_upper": 1.05689,
+            "y_lower": 0.94311
+          },
+          {
+            "longevity_years": 53.0,
+            "y_upper": 1.05461,
+            "y_lower": 0.94539
+          },
+          {
+            "longevity_years": 53.5,
+            "y_upper": 1.05232,
+            "y_lower": 0.94768
+          },
+          {
+            "longevity_years": 54.0,
+            "y_upper": 1.05006,
+            "y_lower": 0.94994
+          },
+          {
+            "longevity_years": 54.5,
+            "y_upper": 1.04782,
+            "y_lower": 0.95218
+          },
+          {
+            "longevity_years": 55.0,
+            "y_upper": 1.04561,
+            "y_lower": 0.95439
+          },
+          {
+            "longevity_years": 55.5,
+            "y_upper": 1.04345,
+            "y_lower": 0.95655
+          },
+          {
+            "longevity_years": 56.0,
+            "y_upper": 1.04134,
+            "y_lower": 0.95866
+          },
+          {
+            "longevity_years": 56.5,
+            "y_upper": 1.03927,
+            "y_lower": 0.96073
+          },
+          {
+            "longevity_years": 57.0,
+            "y_upper": 1.03726,
+            "y_lower": 0.96274
+          },
+          {
+            "longevity_years": 57.5,
+            "y_upper": 1.03529,
+            "y_lower": 0.96471
+          },
+          {
+            "longevity_years": 58.0,
+            "y_upper": 1.03338,
+            "y_lower": 0.96662
+          },
+          {
+            "longevity_years": 58.5,
+            "y_upper": 1.03151,
+            "y_lower": 0.96849
+          },
+          {
+            "longevity_years": 59.0,
+            "y_upper": 1.0297,
+            "y_lower": 0.9703
+          },
+          {
+            "longevity_years": 59.5,
+            "y_upper": 1.02794,
+            "y_lower": 0.97206
+          },
+          {
+            "longevity_years": 60.0,
+            "y_upper": 1.02624,
+            "y_lower": 0.97376
+          },
+          {
+            "longevity_years": 60.5,
+            "y_upper": 1.0246,
+            "y_lower": 0.9754
+          },
+          {
+            "longevity_years": 61.0,
+            "y_upper": 1.02301,
+            "y_lower": 0.97699
+          },
+          {
+            "longevity_years": 61.5,
+            "y_upper": 1.02149,
+            "y_lower": 0.97851
+          },
+          {
+            "longevity_years": 62.0,
+            "y_upper": 1.02004,
+            "y_lower": 0.97996
+          },
+          {
+            "longevity_years": 62.5,
+            "y_upper": 1.01865,
+            "y_lower": 0.98135
+          },
+          {
+            "longevity_years": 63.0,
+            "y_upper": 1.01733,
+            "y_lower": 0.98267
+          },
+          {
+            "longevity_years": 63.5,
+            "y_upper": 1.01607,
+            "y_lower": 0.98393
+          },
+          {
+            "longevity_years": 64.0,
+            "y_upper": 1.01488,
+            "y_lower": 0.98512
+          },
+          {
+            "longevity_years": 64.5,
+            "y_upper": 1.01376,
+            "y_lower": 0.98624
+          },
+          {
+            "longevity_years": 65.0,
+            "y_upper": 1.0127,
+            "y_lower": 0.9873
+          },
+          {
+            "longevity_years": 65.5,
+            "y_upper": 1.0117,
+            "y_lower": 0.9883
+          },
+          {
+            "longevity_years": 66.0,
+            "y_upper": 1.01076,
+            "y_lower": 0.98924
+          },
+          {
+            "longevity_years": 66.5,
+            "y_upper": 1.00987,
+            "y_lower": 0.99013
+          },
+          {
+            "longevity_years": 67.0,
+            "y_upper": 1.00903,
+            "y_lower": 0.99097
+          },
+          {
+            "longevity_years": 67.5,
+            "y_upper": 1.00824,
+            "y_lower": 0.99176
+          },
+          {
+            "longevity_years": 68.0,
+            "y_upper": 1.0075,
+            "y_lower": 0.9925
+          },
+          {
+            "longevity_years": 68.5,
+            "y_upper": 1.00681,
+            "y_lower": 0.99319
+          },
+          {
+            "longevity_years": 69.0,
+            "y_upper": 1.00616,
+            "y_lower": 0.99384
+          },
+          {
+            "longevity_years": 69.5,
+            "y_upper": 1.00557,
+            "y_lower": 0.99443
+          },
+          {
+            "longevity_years": 70.0,
+            "y_upper": 1.00502,
+            "y_lower": 0.99498
+          },
+          {
+            "longevity_years": 70.5,
+            "y_upper": 1.00452,
+            "y_lower": 0.99548
+          },
+          {
+            "longevity_years": 71.0,
+            "y_upper": 1.00407,
+            "y_lower": 0.99593
+          },
+          {
+            "longevity_years": 71.5,
+            "y_upper": 1.00368,
+            "y_lower": 0.99632
+          },
+          {
+            "longevity_years": 72.0,
+            "y_upper": 1.00334,
+            "y_lower": 0.99666
+          },
+          {
+            "longevity_years": 72.5,
+            "y_upper": 1.00305,
+            "y_lower": 0.99695
+          },
+          {
+            "longevity_years": 73.0,
+            "y_upper": 1.00283,
+            "y_lower": 0.99717
+          },
+          {
+            "longevity_years": 73.5,
+            "y_upper": 1.00266,
+            "y_lower": 0.99734
+          },
+          {
+            "longevity_years": 74.0,
+            "y_upper": 1.00255,
+            "y_lower": 0.99745
+          },
+          {
+            "longevity_years": 74.5,
+            "y_upper": 1.0025,
+            "y_lower": 0.9975
+          },
+          {
+            "longevity_years": 75.0,
+            "y_upper": 1.00251,
+            "y_lower": 0.99749
+          },
+          {
+            "longevity_years": 75.5,
+            "y_upper": 1.00256,
+            "y_lower": 0.99744
+          },
+          {
+            "longevity_years": 76.0,
+            "y_upper": 1.00267,
+            "y_lower": 0.99733
+          },
+          {
+            "longevity_years": 76.5,
+            "y_upper": 1.00282,
+            "y_lower": 0.99718
+          },
+          {
+            "longevity_years": 77.0,
+            "y_upper": 1.003,
+            "y_lower": 0.997
+          },
+          {
+            "longevity_years": 77.5,
+            "y_upper": 1.00322,
+            "y_lower": 0.99678
+          },
+          {
+            "longevity_years": 78.0,
+            "y_upper": 1.00345,
+            "y_lower": 0.99655
+          },
+          {
+            "longevity_years": 78.5,
+            "y_upper": 1.0037,
+            "y_lower": 0.9963
+          },
+          {
+            "longevity_years": 79.0,
+            "y_upper": 1.00396,
+            "y_lower": 0.99604
+          },
+          {
+            "longevity_years": 79.5,
+            "y_upper": 1.00422,
+            "y_lower": 0.99578
+          },
+          {
+            "longevity_years": 80.0,
+            "y_upper": 1.00446,
+            "y_lower": 0.99554
+          },
+          {
+            "longevity_years": 80.5,
+            "y_upper": 1.00468,
+            "y_lower": 0.99532
+          },
+          {
+            "longevity_years": 81.0,
+            "y_upper": 1.00487,
+            "y_lower": 0.99513
+          },
+          {
+            "longevity_years": 81.5,
+            "y_upper": 1.00503,
+            "y_lower": 0.99497
+          },
+          {
+            "longevity_years": 82.0,
+            "y_upper": 1.00514,
+            "y_lower": 0.99486
+          },
+          {
+            "longevity_years": 82.5,
+            "y_upper": 1.00521,
+            "y_lower": 0.99479
+          },
+          {
+            "longevity_years": 83.0,
+            "y_upper": 1.0,
+            "y_lower": 1.0
+          }
+        ]
+      },
+      "mark": {
+        "type": "area",
+        "orient": "vertical",
+        "interpolate": "monotone",
+        "color": "#398BA3",
+        "opacity": 0.48
+      },
+      "encoding": {
+        "x": {
+          "field": "longevity_years",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              85
+            ]
+          },
+          "axis": {
+            "title": "Maximum recorded longevity (years)",
+            "grid": true,
+            "gridColor": "#F0EBE4",
+            "tickCount": 9,
+            "labelFontSize": 12,
+            "labelColor": "#6C6260",
+            "titleColor": "#302D32",
+            "titleFontSize": 13,
+            "titlePadding": 14,
+            "domain": false
+          },
+          "sort": "ascending"
+        },
+        "y": {
+          "field": "y_upper",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              -0.48,
+              1.48
+            ]
+          },
+          "axis": null,
+          "stack": null
+        },
+        "y2": {
+          "field": "y_lower",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "longevity_years": 0.6,
+            "y_upper": 0.0,
+            "y_lower": 0.0
+          },
+          {
+            "longevity_years": 1.0,
+            "y_upper": 0.01189,
+            "y_lower": -0.01189
+          },
+          {
+            "longevity_years": 1.5,
+            "y_upper": 0.01808,
+            "y_lower": -0.01808
+          },
+          {
+            "longevity_years": 2.0,
+            "y_upper": 0.02702,
+            "y_lower": -0.02702
+          },
+          {
+            "longevity_years": 2.5,
+            "y_upper": 0.03931,
+            "y_lower": -0.03931
+          },
+          {
+            "longevity_years": 3.0,
+            "y_upper": 0.05529,
+            "y_lower": -0.05529
+          },
+          {
+            "longevity_years": 3.5,
+            "y_upper": 0.07497,
+            "y_lower": -0.07497
+          },
+          {
+            "longevity_years": 4.0,
+            "y_upper": 0.09793,
+            "y_lower": -0.09793
+          },
+          {
+            "longevity_years": 4.5,
+            "y_upper": 0.12334,
+            "y_lower": -0.12334
+          },
+          {
+            "longevity_years": 5.0,
+            "y_upper": 0.15005,
+            "y_lower": -0.15005
+          },
+          {
+            "longevity_years": 5.5,
+            "y_upper": 0.17678,
+            "y_lower": -0.17678
+          },
+          {
+            "longevity_years": 6.0,
+            "y_upper": 0.20238,
+            "y_lower": -0.20238
+          },
+          {
+            "longevity_years": 6.5,
+            "y_upper": 0.22612,
+            "y_lower": -0.22612
+          },
+          {
+            "longevity_years": 7.0,
+            "y_upper": 0.24765,
+            "y_lower": -0.24765
+          },
+          {
+            "longevity_years": 7.5,
+            "y_upper": 0.26683,
+            "y_lower": -0.26683
+          },
+          {
+            "longevity_years": 8.0,
+            "y_upper": 0.28341,
+            "y_lower": -0.28341
+          },
+          {
+            "longevity_years": 8.5,
+            "y_upper": 0.29675,
+            "y_lower": -0.29675
+          },
+          {
+            "longevity_years": 9.0,
+            "y_upper": 0.30594,
+            "y_lower": -0.30594
+          },
+          {
+            "longevity_years": 9.5,
+            "y_upper": 0.31,
+            "y_lower": -0.31
+          },
+          {
+            "longevity_years": 10.0,
+            "y_upper": 0.30833,
+            "y_lower": -0.30833
+          },
+          {
+            "longevity_years": 10.5,
+            "y_upper": 0.30086,
+            "y_lower": -0.30086
+          },
+          {
+            "longevity_years": 11.0,
+            "y_upper": 0.28805,
+            "y_lower": -0.28805
+          },
+          {
+            "longevity_years": 11.5,
+            "y_upper": 0.27075,
+            "y_lower": -0.27075
+          },
+          {
+            "longevity_years": 12.0,
+            "y_upper": 0.25007,
+            "y_lower": -0.25007
+          },
+          {
+            "longevity_years": 12.5,
+            "y_upper": 0.22727,
+            "y_lower": -0.22727
+          },
+          {
+            "longevity_years": 13.0,
+            "y_upper": 0.20371,
+            "y_lower": -0.20371
+          },
+          {
+            "longevity_years": 13.5,
+            "y_upper": 0.18079,
+            "y_lower": -0.18079
+          },
+          {
+            "longevity_years": 14.0,
+            "y_upper": 0.1597,
+            "y_lower": -0.1597
+          },
+          {
+            "longevity_years": 14.5,
+            "y_upper": 0.14132,
+            "y_lower": -0.14132
+          },
+          {
+            "longevity_years": 15.0,
+            "y_upper": 0.12608,
+            "y_lower": -0.12608
+          },
+          {
+            "longevity_years": 15.5,
+            "y_upper": 0.11391,
+            "y_lower": -0.11391
+          },
+          {
+            "longevity_years": 16.0,
+            "y_upper": 0.10436,
+            "y_lower": -0.10436
+          },
+          {
+            "longevity_years": 16.5,
+            "y_upper": 0.09666,
+            "y_lower": -0.09666
+          },
+          {
+            "longevity_years": 17.0,
+            "y_upper": 0.08994,
+            "y_lower": -0.08994
+          },
+          {
+            "longevity_years": 17.5,
+            "y_upper": 0.08343,
+            "y_lower": -0.08343
+          },
+          {
+            "longevity_years": 18.0,
+            "y_upper": 0.07664,
+            "y_lower": -0.07664
+          },
+          {
+            "longevity_years": 18.5,
+            "y_upper": 0.06951,
+            "y_lower": -0.06951
+          },
+          {
+            "longevity_years": 19.0,
+            "y_upper": 0.06228,
+            "y_lower": -0.06228
+          },
+          {
+            "longevity_years": 19.5,
+            "y_upper": 0.0554,
+            "y_lower": -0.0554
+          },
+          {
+            "longevity_years": 20.0,
+            "y_upper": 0.04931,
+            "y_lower": -0.04931
+          },
+          {
+            "longevity_years": 20.5,
+            "y_upper": 0.04432,
+            "y_lower": -0.04432
+          },
+          {
+            "longevity_years": 21.0,
+            "y_upper": 0.04065,
+            "y_lower": -0.04065
+          },
+          {
+            "longevity_years": 21.5,
+            "y_upper": 0.0383,
+            "y_lower": -0.0383
+          },
+          {
+            "longevity_years": 22.0,
+            "y_upper": 0.03713,
+            "y_lower": -0.03713
+          },
+          {
+            "longevity_years": 22.5,
+            "y_upper": 0.03675,
+            "y_lower": -0.03675
+          },
+          {
+            "longevity_years": 23.0,
+            "y_upper": 0.03665,
+            "y_lower": -0.03665
+          },
+          {
+            "longevity_years": 23.5,
+            "y_upper": 0.03621,
+            "y_lower": -0.03621
+          },
+          {
+            "longevity_years": 24.0,
+            "y_upper": 0.03493,
+            "y_lower": -0.03493
+          },
+          {
+            "longevity_years": 24.5,
+            "y_upper": 0.0325,
+            "y_lower": -0.0325
+          },
+          {
+            "longevity_years": 25.0,
+            "y_upper": 0.02898,
+            "y_lower": -0.02898
+          },
+          {
+            "longevity_years": 25.5,
+            "y_upper": 0.02471,
+            "y_lower": -0.02471
+          },
+          {
+            "longevity_years": 26.0,
+            "y_upper": 0.02023,
+            "y_lower": -0.02023
+          },
+          {
+            "longevity_years": 26.5,
+            "y_upper": 0.0161,
+            "y_lower": -0.0161
+          },
+          {
+            "longevity_years": 27.0,
+            "y_upper": 0.0127,
+            "y_lower": -0.0127
+          },
+          {
+            "longevity_years": 27.5,
+            "y_upper": 0.01016,
+            "y_lower": -0.01016
+          },
+          {
+            "longevity_years": 28.0,
+            "y_upper": 0.00836,
+            "y_lower": -0.00836
+          },
+          {
+            "longevity_years": 28.5,
+            "y_upper": 0.00705,
+            "y_lower": -0.00705
+          },
+          {
+            "longevity_years": 29.0,
+            "y_upper": 0.00596,
+            "y_lower": -0.00596
+          },
+          {
+            "longevity_years": 29.5,
+            "y_upper": 0.0049,
+            "y_lower": -0.0049
+          },
+          {
+            "longevity_years": 30.0,
+            "y_upper": 0.00383,
+            "y_lower": -0.00383
+          },
+          {
+            "longevity_years": 30.5,
+            "y_upper": 0.0028,
+            "y_lower": -0.0028
+          },
+          {
+            "longevity_years": 31.0,
+            "y_upper": 0.0019,
+            "y_lower": -0.0019
+          },
+          {
+            "longevity_years": 31.5,
+            "y_upper": 0.0012,
+            "y_lower": -0.0012
+          },
+          {
+            "longevity_years": 32.0,
+            "y_upper": 0.00073,
+            "y_lower": -0.00073
+          },
+          {
+            "longevity_years": 32.5,
+            "y_upper": 0.00048,
+            "y_lower": -0.00048
+          },
+          {
+            "longevity_years": 33.0,
+            "y_upper": 0.00042,
+            "y_lower": -0.00042
+          },
+          {
+            "longevity_years": 33.5,
+            "y_upper": 0.00051,
+            "y_lower": -0.00051
+          },
+          {
+            "longevity_years": 34.0,
+            "y_upper": 0.00071,
+            "y_lower": -0.00071
+          },
+          {
+            "longevity_years": 34.5,
+            "y_upper": 0.00096,
+            "y_lower": -0.00096
+          },
+          {
+            "longevity_years": 35.0,
+            "y_upper": 0.00122,
+            "y_lower": -0.00122
+          },
+          {
+            "longevity_years": 35.5,
+            "y_upper": 0.00141,
+            "y_lower": -0.00141
+          },
+          {
+            "longevity_years": 36.0,
+            "y_upper": 0.00148,
+            "y_lower": -0.00148
+          },
+          {
+            "longevity_years": 36.5,
+            "y_upper": 0.00141,
+            "y_lower": -0.00141
+          },
+          {
+            "longevity_years": 37.0,
+            "y_upper": 0.00122,
+            "y_lower": -0.00122
+          },
+          {
+            "longevity_years": 37.5,
+            "y_upper": 0.00095,
+            "y_lower": -0.00095
+          },
+          {
+            "longevity_years": 38.0,
+            "y_upper": 0.00068,
+            "y_lower": -0.00068
+          },
+          {
+            "longevity_years": 38.5,
+            "y_upper": 0.00044,
+            "y_lower": -0.00044
+          },
+          {
+            "longevity_years": 39.0,
+            "y_upper": 0.00026,
+            "y_lower": -0.00026
+          },
+          {
+            "longevity_years": 39.5,
+            "y_upper": 0.00014,
+            "y_lower": -0.00014
+          },
+          {
+            "longevity_years": 40.0,
+            "y_upper": 7e-05,
+            "y_lower": -7e-05
+          },
+          {
+            "longevity_years": 40.5,
+            "y_upper": 3e-05,
+            "y_lower": -3e-05
+          },
+          {
+            "longevity_years": 41.0,
+            "y_upper": 1e-05,
+            "y_lower": -1e-05
+          },
+          {
+            "longevity_years": 41.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 42.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 42.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 43.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 43.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 44.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 44.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 45.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 45.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 46.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 46.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 47.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 47.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 48.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 48.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 49.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 49.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 50.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 50.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 51.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 51.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 52.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 52.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 53.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 53.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 54.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 54.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 55.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 55.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 56.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 56.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 57.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 57.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 58.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 58.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 59.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 59.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 60.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 60.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 61.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 61.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 62.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 62.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 63.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 63.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 64.0,
+            "y_upper": 1e-05,
+            "y_lower": -1e-05
+          },
+          {
+            "longevity_years": 64.5,
+            "y_upper": 3e-05,
+            "y_lower": -3e-05
+          },
+          {
+            "longevity_years": 65.0,
+            "y_upper": 7e-05,
+            "y_lower": -7e-05
+          },
+          {
+            "longevity_years": 65.5,
+            "y_upper": 0.00014,
+            "y_lower": -0.00014
+          },
+          {
+            "longevity_years": 66.0,
+            "y_upper": 0.00026,
+            "y_lower": -0.00026
+          },
+          {
+            "longevity_years": 66.5,
+            "y_upper": 0.00044,
+            "y_lower": -0.00044
+          },
+          {
+            "longevity_years": 67.0,
+            "y_upper": 0.00068,
+            "y_lower": -0.00068
+          },
+          {
+            "longevity_years": 67.5,
+            "y_upper": 0.00095,
+            "y_lower": -0.00095
+          },
+          {
+            "longevity_years": 68.0,
+            "y_upper": 0.00122,
+            "y_lower": -0.00122
+          },
+          {
+            "longevity_years": 68.5,
+            "y_upper": 0.00141,
+            "y_lower": -0.00141
+          },
+          {
+            "longevity_years": 69.0,
+            "y_upper": 0.0,
+            "y_lower": 0.0
+          }
+        ]
+      },
+      "mark": {
+        "type": "area",
+        "orient": "vertical",
+        "interpolate": "monotone",
+        "color": "#E96B73",
+        "opacity": 0.48
+      },
+      "encoding": {
+        "x": {
+          "field": "longevity_years",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              85
+            ]
+          },
+          "axis": {
+            "title": "Maximum recorded longevity (years)",
+            "grid": true,
+            "gridColor": "#F0EBE4",
+            "tickCount": 9,
+            "labelFontSize": 12,
+            "labelColor": "#6C6260",
+            "titleColor": "#302D32",
+            "titleFontSize": 13,
+            "titlePadding": 14,
+            "domain": false
+          },
+          "sort": "ascending"
+        },
+        "y": {
+          "field": "y_upper",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              -0.48,
+              1.48
+            ]
+          },
+          "axis": null,
+          "stack": null
+        },
+        "y2": {
+          "field": "y_lower",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "longevity_years": 7.4,
+            "y_upper": 1.0,
+            "y_lower": 1.0
+          },
+          {
+            "longevity_years": 7.5,
+            "y_upper": 1.13279,
+            "y_lower": 0.86721
+          },
+          {
+            "longevity_years": 8.0,
+            "y_upper": 1.14537,
+            "y_lower": 0.85463
+          },
+          {
+            "longevity_years": 8.5,
+            "y_upper": 1.1581,
+            "y_lower": 0.8419
+          },
+          {
+            "longevity_years": 9.0,
+            "y_upper": 1.17085,
+            "y_lower": 0.82915
+          },
+          {
+            "longevity_years": 9.5,
+            "y_upper": 1.1835,
+            "y_lower": 0.8165
+          },
+          {
+            "longevity_years": 10.0,
+            "y_upper": 1.19593,
+            "y_lower": 0.80407
+          },
+          {
+            "longevity_years": 10.5,
+            "y_upper": 1.20801,
+            "y_lower": 0.79199
+          },
+          {
+            "longevity_years": 11.0,
+            "y_upper": 1.21964,
+            "y_lower": 0.78036
+          },
+          {
+            "longevity_years": 11.5,
+            "y_upper": 1.23072,
+            "y_lower": 0.76928
+          },
+          {
+            "longevity_years": 12.0,
+            "y_upper": 1.24117,
+            "y_lower": 0.75883
+          },
+          {
+            "longevity_years": 12.5,
+            "y_upper": 1.25093,
+            "y_lower": 0.74907
+          },
+          {
+            "longevity_years": 13.0,
+            "y_upper": 1.25995,
+            "y_lower": 0.74005
+          },
+          {
+            "longevity_years": 13.5,
+            "y_upper": 1.2682,
+            "y_lower": 0.7318
+          },
+          {
+            "longevity_years": 14.0,
+            "y_upper": 1.27565,
+            "y_lower": 0.72435
+          },
+          {
+            "longevity_years": 14.5,
+            "y_upper": 1.28232,
+            "y_lower": 0.71768
+          },
+          {
+            "longevity_years": 15.0,
+            "y_upper": 1.2882,
+            "y_lower": 0.7118
+          },
+          {
+            "longevity_years": 15.5,
+            "y_upper": 1.29331,
+            "y_lower": 0.70669
+          },
+          {
+            "longevity_years": 16.0,
+            "y_upper": 1.29768,
+            "y_lower": 0.70232
+          },
+          {
+            "longevity_years": 16.5,
+            "y_upper": 1.30134,
+            "y_lower": 0.69866
+          },
+          {
+            "longevity_years": 17.0,
+            "y_upper": 1.30431,
+            "y_lower": 0.69569
+          },
+          {
+            "longevity_years": 17.5,
+            "y_upper": 1.30663,
+            "y_lower": 0.69337
+          },
+          {
+            "longevity_years": 18.0,
+            "y_upper": 1.30834,
+            "y_lower": 0.69166
+          },
+          {
+            "longevity_years": 18.5,
+            "y_upper": 1.30945,
+            "y_lower": 0.69055
+          },
+          {
+            "longevity_years": 19.0,
+            "y_upper": 1.30999,
+            "y_lower": 0.69001
+          },
+          {
+            "longevity_years": 19.5,
+            "y_upper": 1.31,
+            "y_lower": 0.69
+          },
+          {
+            "longevity_years": 20.0,
+            "y_upper": 1.30949,
+            "y_lower": 0.69051
+          },
+          {
+            "longevity_years": 20.5,
+            "y_upper": 1.30847,
+            "y_lower": 0.69153
+          },
+          {
+            "longevity_years": 21.0,
+            "y_upper": 1.30698,
+            "y_lower": 0.69302
+          },
+          {
+            "longevity_years": 21.5,
+            "y_upper": 1.30501,
+            "y_lower": 0.69499
+          },
+          {
+            "longevity_years": 22.0,
+            "y_upper": 1.30259,
+            "y_lower": 0.69741
+          },
+          {
+            "longevity_years": 22.5,
+            "y_upper": 1.29973,
+            "y_lower": 0.70027
+          },
+          {
+            "longevity_years": 23.0,
+            "y_upper": 1.29645,
+            "y_lower": 0.70355
+          },
+          {
+            "longevity_years": 23.5,
+            "y_upper": 1.29275,
+            "y_lower": 0.70725
+          },
+          {
+            "longevity_years": 24.0,
+            "y_upper": 1.28865,
+            "y_lower": 0.71135
+          },
+          {
+            "longevity_years": 24.5,
+            "y_upper": 1.28418,
+            "y_lower": 0.71582
+          },
+          {
+            "longevity_years": 25.0,
+            "y_upper": 1.27933,
+            "y_lower": 0.72067
+          },
+          {
+            "longevity_years": 25.5,
+            "y_upper": 1.27413,
+            "y_lower": 0.72587
+          },
+          {
+            "longevity_years": 26.0,
+            "y_upper": 1.26861,
+            "y_lower": 0.73139
+          },
+          {
+            "longevity_years": 26.5,
+            "y_upper": 1.26276,
+            "y_lower": 0.73724
+          },
+          {
+            "longevity_years": 27.0,
+            "y_upper": 1.25662,
+            "y_lower": 0.74338
+          },
+          {
+            "longevity_years": 27.5,
+            "y_upper": 1.25021,
+            "y_lower": 0.74979
+          },
+          {
+            "longevity_years": 28.0,
+            "y_upper": 1.24354,
+            "y_lower": 0.75646
+          },
+          {
+            "longevity_years": 28.5,
+            "y_upper": 1.23664,
+            "y_lower": 0.76336
+          },
+          {
+            "longevity_years": 29.0,
+            "y_upper": 1.22953,
+            "y_lower": 0.77047
+          },
+          {
+            "longevity_years": 29.5,
+            "y_upper": 1.22224,
+            "y_lower": 0.77776
+          },
+          {
+            "longevity_years": 30.0,
+            "y_upper": 1.2148,
+            "y_lower": 0.7852
+          },
+          {
+            "longevity_years": 30.5,
+            "y_upper": 1.20724,
+            "y_lower": 0.79276
+          },
+          {
+            "longevity_years": 31.0,
+            "y_upper": 1.19958,
+            "y_lower": 0.80042
+          },
+          {
+            "longevity_years": 31.5,
+            "y_upper": 1.19187,
+            "y_lower": 0.80813
+          },
+          {
+            "longevity_years": 32.0,
+            "y_upper": 1.18415,
+            "y_lower": 0.81585
+          },
+          {
+            "longevity_years": 32.5,
+            "y_upper": 1.17645,
+            "y_lower": 0.82355
+          },
+          {
+            "longevity_years": 33.0,
+            "y_upper": 1.16882,
+            "y_lower": 0.83118
+          },
+          {
+            "longevity_years": 33.5,
+            "y_upper": 1.16129,
+            "y_lower": 0.83871
+          },
+          {
+            "longevity_years": 34.0,
+            "y_upper": 1.15393,
+            "y_lower": 0.84607
+          },
+          {
+            "longevity_years": 34.5,
+            "y_upper": 1.14677,
+            "y_lower": 0.85323
+          },
+          {
+            "longevity_years": 35.0,
+            "y_upper": 1.13985,
+            "y_lower": 0.86015
+          },
+          {
+            "longevity_years": 35.5,
+            "y_upper": 1.13323,
+            "y_lower": 0.86677
+          },
+          {
+            "longevity_years": 36.0,
+            "y_upper": 1.12694,
+            "y_lower": 0.87306
+          },
+          {
+            "longevity_years": 36.5,
+            "y_upper": 1.12102,
+            "y_lower": 0.87898
+          },
+          {
+            "longevity_years": 37.0,
+            "y_upper": 1.1155,
+            "y_lower": 0.8845
+          },
+          {
+            "longevity_years": 37.5,
+            "y_upper": 1.11042,
+            "y_lower": 0.88958
+          },
+          {
+            "longevity_years": 38.0,
+            "y_upper": 1.10578,
+            "y_lower": 0.89422
+          },
+          {
+            "longevity_years": 38.5,
+            "y_upper": 1.10159,
+            "y_lower": 0.89841
+          },
+          {
+            "longevity_years": 39.0,
+            "y_upper": 1.09787,
+            "y_lower": 0.90213
+          },
+          {
+            "longevity_years": 39.5,
+            "y_upper": 1.09461,
+            "y_lower": 0.90539
+          },
+          {
+            "longevity_years": 40.0,
+            "y_upper": 1.09178,
+            "y_lower": 0.90822
+          },
+          {
+            "longevity_years": 40.5,
+            "y_upper": 1.08937,
+            "y_lower": 0.91063
+          },
+          {
+            "longevity_years": 41.0,
+            "y_upper": 1.08735,
+            "y_lower": 0.91265
+          },
+          {
+            "longevity_years": 41.5,
+            "y_upper": 1.08567,
+            "y_lower": 0.91433
+          },
+          {
+            "longevity_years": 42.0,
+            "y_upper": 1.0843,
+            "y_lower": 0.9157
+          },
+          {
+            "longevity_years": 42.5,
+            "y_upper": 1.08319,
+            "y_lower": 0.91681
+          },
+          {
+            "longevity_years": 43.0,
+            "y_upper": 1.08229,
+            "y_lower": 0.91771
+          },
+          {
+            "longevity_years": 43.5,
+            "y_upper": 1.08155,
+            "y_lower": 0.91845
+          },
+          {
+            "longevity_years": 44.0,
+            "y_upper": 1.08091,
+            "y_lower": 0.91909
+          },
+          {
+            "longevity_years": 44.5,
+            "y_upper": 1.08032,
+            "y_lower": 0.91968
+          },
+          {
+            "longevity_years": 45.0,
+            "y_upper": 1.07974,
+            "y_lower": 0.92026
+          },
+          {
+            "longevity_years": 45.5,
+            "y_upper": 1.07912,
+            "y_lower": 0.92088
+          },
+          {
+            "longevity_years": 46.0,
+            "y_upper": 1.07842,
+            "y_lower": 0.92158
+          },
+          {
+            "longevity_years": 46.5,
+            "y_upper": 1.07761,
+            "y_lower": 0.92239
+          },
+          {
+            "longevity_years": 47.0,
+            "y_upper": 1.07667,
+            "y_lower": 0.92333
+          },
+          {
+            "longevity_years": 47.5,
+            "y_upper": 1.07558,
+            "y_lower": 0.92442
+          },
+          {
+            "longevity_years": 48.0,
+            "y_upper": 1.07432,
+            "y_lower": 0.92568
+          },
+          {
+            "longevity_years": 48.5,
+            "y_upper": 1.07289,
+            "y_lower": 0.92711
+          },
+          {
+            "longevity_years": 49.0,
+            "y_upper": 1.07131,
+            "y_lower": 0.92869
+          },
+          {
+            "longevity_years": 49.5,
+            "y_upper": 1.06957,
+            "y_lower": 0.93043
+          },
+          {
+            "longevity_years": 50.0,
+            "y_upper": 1.06769,
+            "y_lower": 0.93231
+          },
+          {
+            "longevity_years": 50.5,
+            "y_upper": 1.06569,
+            "y_lower": 0.93431
+          },
+          {
+            "longevity_years": 51.0,
+            "y_upper": 1.06358,
+            "y_lower": 0.93642
+          },
+          {
+            "longevity_years": 51.5,
+            "y_upper": 1.0614,
+            "y_lower": 0.9386
+          },
+          {
+            "longevity_years": 52.0,
+            "y_upper": 1.05917,
+            "y_lower": 0.94083
+          },
+          {
+            "longevity_years": 52.5,
+            "y_upper": 1.05689,
+            "y_lower": 0.94311
+          },
+          {
+            "longevity_years": 53.0,
+            "y_upper": 1.05461,
+            "y_lower": 0.94539
+          },
+          {
+            "longevity_years": 53.5,
+            "y_upper": 1.05232,
+            "y_lower": 0.94768
+          },
+          {
+            "longevity_years": 54.0,
+            "y_upper": 1.05006,
+            "y_lower": 0.94994
+          },
+          {
+            "longevity_years": 54.5,
+            "y_upper": 1.04782,
+            "y_lower": 0.95218
+          },
+          {
+            "longevity_years": 55.0,
+            "y_upper": 1.04561,
+            "y_lower": 0.95439
+          },
+          {
+            "longevity_years": 55.5,
+            "y_upper": 1.04345,
+            "y_lower": 0.95655
+          },
+          {
+            "longevity_years": 56.0,
+            "y_upper": 1.04134,
+            "y_lower": 0.95866
+          },
+          {
+            "longevity_years": 56.5,
+            "y_upper": 1.03927,
+            "y_lower": 0.96073
+          },
+          {
+            "longevity_years": 57.0,
+            "y_upper": 1.03726,
+            "y_lower": 0.96274
+          },
+          {
+            "longevity_years": 57.5,
+            "y_upper": 1.03529,
+            "y_lower": 0.96471
+          },
+          {
+            "longevity_years": 58.0,
+            "y_upper": 1.03338,
+            "y_lower": 0.96662
+          },
+          {
+            "longevity_years": 58.5,
+            "y_upper": 1.03151,
+            "y_lower": 0.96849
+          },
+          {
+            "longevity_years": 59.0,
+            "y_upper": 1.0297,
+            "y_lower": 0.9703
+          },
+          {
+            "longevity_years": 59.5,
+            "y_upper": 1.02794,
+            "y_lower": 0.97206
+          },
+          {
+            "longevity_years": 60.0,
+            "y_upper": 1.02624,
+            "y_lower": 0.97376
+          },
+          {
+            "longevity_years": 60.5,
+            "y_upper": 1.0246,
+            "y_lower": 0.9754
+          },
+          {
+            "longevity_years": 61.0,
+            "y_upper": 1.02301,
+            "y_lower": 0.97699
+          },
+          {
+            "longevity_years": 61.5,
+            "y_upper": 1.02149,
+            "y_lower": 0.97851
+          },
+          {
+            "longevity_years": 62.0,
+            "y_upper": 1.02004,
+            "y_lower": 0.97996
+          },
+          {
+            "longevity_years": 62.5,
+            "y_upper": 1.01865,
+            "y_lower": 0.98135
+          },
+          {
+            "longevity_years": 63.0,
+            "y_upper": 1.01733,
+            "y_lower": 0.98267
+          },
+          {
+            "longevity_years": 63.5,
+            "y_upper": 1.01607,
+            "y_lower": 0.98393
+          },
+          {
+            "longevity_years": 64.0,
+            "y_upper": 1.01488,
+            "y_lower": 0.98512
+          },
+          {
+            "longevity_years": 64.5,
+            "y_upper": 1.01376,
+            "y_lower": 0.98624
+          },
+          {
+            "longevity_years": 65.0,
+            "y_upper": 1.0127,
+            "y_lower": 0.9873
+          },
+          {
+            "longevity_years": 65.5,
+            "y_upper": 1.0117,
+            "y_lower": 0.9883
+          },
+          {
+            "longevity_years": 66.0,
+            "y_upper": 1.01076,
+            "y_lower": 0.98924
+          },
+          {
+            "longevity_years": 66.5,
+            "y_upper": 1.00987,
+            "y_lower": 0.99013
+          },
+          {
+            "longevity_years": 67.0,
+            "y_upper": 1.00903,
+            "y_lower": 0.99097
+          },
+          {
+            "longevity_years": 67.5,
+            "y_upper": 1.00824,
+            "y_lower": 0.99176
+          },
+          {
+            "longevity_years": 68.0,
+            "y_upper": 1.0075,
+            "y_lower": 0.9925
+          },
+          {
+            "longevity_years": 68.5,
+            "y_upper": 1.00681,
+            "y_lower": 0.99319
+          },
+          {
+            "longevity_years": 69.0,
+            "y_upper": 1.00616,
+            "y_lower": 0.99384
+          },
+          {
+            "longevity_years": 69.5,
+            "y_upper": 1.00557,
+            "y_lower": 0.99443
+          },
+          {
+            "longevity_years": 70.0,
+            "y_upper": 1.00502,
+            "y_lower": 0.99498
+          },
+          {
+            "longevity_years": 70.5,
+            "y_upper": 1.00452,
+            "y_lower": 0.99548
+          },
+          {
+            "longevity_years": 71.0,
+            "y_upper": 1.00407,
+            "y_lower": 0.99593
+          },
+          {
+            "longevity_years": 71.5,
+            "y_upper": 1.00368,
+            "y_lower": 0.99632
+          },
+          {
+            "longevity_years": 72.0,
+            "y_upper": 1.00334,
+            "y_lower": 0.99666
+          },
+          {
+            "longevity_years": 72.5,
+            "y_upper": 1.00305,
+            "y_lower": 0.99695
+          },
+          {
+            "longevity_years": 73.0,
+            "y_upper": 1.00283,
+            "y_lower": 0.99717
+          },
+          {
+            "longevity_years": 73.5,
+            "y_upper": 1.00266,
+            "y_lower": 0.99734
+          },
+          {
+            "longevity_years": 74.0,
+            "y_upper": 1.00255,
+            "y_lower": 0.99745
+          },
+          {
+            "longevity_years": 74.5,
+            "y_upper": 1.0025,
+            "y_lower": 0.9975
+          },
+          {
+            "longevity_years": 75.0,
+            "y_upper": 1.00251,
+            "y_lower": 0.99749
+          },
+          {
+            "longevity_years": 75.5,
+            "y_upper": 1.00256,
+            "y_lower": 0.99744
+          },
+          {
+            "longevity_years": 76.0,
+            "y_upper": 1.00267,
+            "y_lower": 0.99733
+          },
+          {
+            "longevity_years": 76.5,
+            "y_upper": 1.00282,
+            "y_lower": 0.99718
+          },
+          {
+            "longevity_years": 77.0,
+            "y_upper": 1.003,
+            "y_lower": 0.997
+          },
+          {
+            "longevity_years": 77.5,
+            "y_upper": 1.00322,
+            "y_lower": 0.99678
+          },
+          {
+            "longevity_years": 78.0,
+            "y_upper": 1.00345,
+            "y_lower": 0.99655
+          },
+          {
+            "longevity_years": 78.5,
+            "y_upper": 1.0037,
+            "y_lower": 0.9963
+          },
+          {
+            "longevity_years": 79.0,
+            "y_upper": 1.00396,
+            "y_lower": 0.99604
+          },
+          {
+            "longevity_years": 79.5,
+            "y_upper": 1.00422,
+            "y_lower": 0.99578
+          },
+          {
+            "longevity_years": 80.0,
+            "y_upper": 1.00446,
+            "y_lower": 0.99554
+          },
+          {
+            "longevity_years": 80.5,
+            "y_upper": 1.00468,
+            "y_lower": 0.99532
+          },
+          {
+            "longevity_years": 81.0,
+            "y_upper": 1.00487,
+            "y_lower": 0.99513
+          },
+          {
+            "longevity_years": 81.5,
+            "y_upper": 1.00503,
+            "y_lower": 0.99497
+          },
+          {
+            "longevity_years": 82.0,
+            "y_upper": 1.00514,
+            "y_lower": 0.99486
+          },
+          {
+            "longevity_years": 82.5,
+            "y_upper": 1.00521,
+            "y_lower": 0.99479
+          },
+          {
+            "longevity_years": 83.0,
+            "y_upper": 1.0,
+            "y_lower": 1.0
+          }
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "interpolate": "monotone",
+        "stroke": "#398BA3",
+        "strokeWidth": 1.25,
+        "opacity": 0.8
+      },
+      "encoding": {
+        "x": {
+          "field": "longevity_years",
+          "type": "quantitative",
+          "sort": "ascending"
+        },
+        "y": {
+          "field": "y_upper",
+          "type": "quantitative"
+        },
+        "order": {
+          "field": "longevity_years",
+          "type": "quantitative",
+          "sort": "ascending"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "longevity_years": 7.4,
+            "y_upper": 1.0,
+            "y_lower": 1.0
+          },
+          {
+            "longevity_years": 7.5,
+            "y_upper": 1.13279,
+            "y_lower": 0.86721
+          },
+          {
+            "longevity_years": 8.0,
+            "y_upper": 1.14537,
+            "y_lower": 0.85463
+          },
+          {
+            "longevity_years": 8.5,
+            "y_upper": 1.1581,
+            "y_lower": 0.8419
+          },
+          {
+            "longevity_years": 9.0,
+            "y_upper": 1.17085,
+            "y_lower": 0.82915
+          },
+          {
+            "longevity_years": 9.5,
+            "y_upper": 1.1835,
+            "y_lower": 0.8165
+          },
+          {
+            "longevity_years": 10.0,
+            "y_upper": 1.19593,
+            "y_lower": 0.80407
+          },
+          {
+            "longevity_years": 10.5,
+            "y_upper": 1.20801,
+            "y_lower": 0.79199
+          },
+          {
+            "longevity_years": 11.0,
+            "y_upper": 1.21964,
+            "y_lower": 0.78036
+          },
+          {
+            "longevity_years": 11.5,
+            "y_upper": 1.23072,
+            "y_lower": 0.76928
+          },
+          {
+            "longevity_years": 12.0,
+            "y_upper": 1.24117,
+            "y_lower": 0.75883
+          },
+          {
+            "longevity_years": 12.5,
+            "y_upper": 1.25093,
+            "y_lower": 0.74907
+          },
+          {
+            "longevity_years": 13.0,
+            "y_upper": 1.25995,
+            "y_lower": 0.74005
+          },
+          {
+            "longevity_years": 13.5,
+            "y_upper": 1.2682,
+            "y_lower": 0.7318
+          },
+          {
+            "longevity_years": 14.0,
+            "y_upper": 1.27565,
+            "y_lower": 0.72435
+          },
+          {
+            "longevity_years": 14.5,
+            "y_upper": 1.28232,
+            "y_lower": 0.71768
+          },
+          {
+            "longevity_years": 15.0,
+            "y_upper": 1.2882,
+            "y_lower": 0.7118
+          },
+          {
+            "longevity_years": 15.5,
+            "y_upper": 1.29331,
+            "y_lower": 0.70669
+          },
+          {
+            "longevity_years": 16.0,
+            "y_upper": 1.29768,
+            "y_lower": 0.70232
+          },
+          {
+            "longevity_years": 16.5,
+            "y_upper": 1.30134,
+            "y_lower": 0.69866
+          },
+          {
+            "longevity_years": 17.0,
+            "y_upper": 1.30431,
+            "y_lower": 0.69569
+          },
+          {
+            "longevity_years": 17.5,
+            "y_upper": 1.30663,
+            "y_lower": 0.69337
+          },
+          {
+            "longevity_years": 18.0,
+            "y_upper": 1.30834,
+            "y_lower": 0.69166
+          },
+          {
+            "longevity_years": 18.5,
+            "y_upper": 1.30945,
+            "y_lower": 0.69055
+          },
+          {
+            "longevity_years": 19.0,
+            "y_upper": 1.30999,
+            "y_lower": 0.69001
+          },
+          {
+            "longevity_years": 19.5,
+            "y_upper": 1.31,
+            "y_lower": 0.69
+          },
+          {
+            "longevity_years": 20.0,
+            "y_upper": 1.30949,
+            "y_lower": 0.69051
+          },
+          {
+            "longevity_years": 20.5,
+            "y_upper": 1.30847,
+            "y_lower": 0.69153
+          },
+          {
+            "longevity_years": 21.0,
+            "y_upper": 1.30698,
+            "y_lower": 0.69302
+          },
+          {
+            "longevity_years": 21.5,
+            "y_upper": 1.30501,
+            "y_lower": 0.69499
+          },
+          {
+            "longevity_years": 22.0,
+            "y_upper": 1.30259,
+            "y_lower": 0.69741
+          },
+          {
+            "longevity_years": 22.5,
+            "y_upper": 1.29973,
+            "y_lower": 0.70027
+          },
+          {
+            "longevity_years": 23.0,
+            "y_upper": 1.29645,
+            "y_lower": 0.70355
+          },
+          {
+            "longevity_years": 23.5,
+            "y_upper": 1.29275,
+            "y_lower": 0.70725
+          },
+          {
+            "longevity_years": 24.0,
+            "y_upper": 1.28865,
+            "y_lower": 0.71135
+          },
+          {
+            "longevity_years": 24.5,
+            "y_upper": 1.28418,
+            "y_lower": 0.71582
+          },
+          {
+            "longevity_years": 25.0,
+            "y_upper": 1.27933,
+            "y_lower": 0.72067
+          },
+          {
+            "longevity_years": 25.5,
+            "y_upper": 1.27413,
+            "y_lower": 0.72587
+          },
+          {
+            "longevity_years": 26.0,
+            "y_upper": 1.26861,
+            "y_lower": 0.73139
+          },
+          {
+            "longevity_years": 26.5,
+            "y_upper": 1.26276,
+            "y_lower": 0.73724
+          },
+          {
+            "longevity_years": 27.0,
+            "y_upper": 1.25662,
+            "y_lower": 0.74338
+          },
+          {
+            "longevity_years": 27.5,
+            "y_upper": 1.25021,
+            "y_lower": 0.74979
+          },
+          {
+            "longevity_years": 28.0,
+            "y_upper": 1.24354,
+            "y_lower": 0.75646
+          },
+          {
+            "longevity_years": 28.5,
+            "y_upper": 1.23664,
+            "y_lower": 0.76336
+          },
+          {
+            "longevity_years": 29.0,
+            "y_upper": 1.22953,
+            "y_lower": 0.77047
+          },
+          {
+            "longevity_years": 29.5,
+            "y_upper": 1.22224,
+            "y_lower": 0.77776
+          },
+          {
+            "longevity_years": 30.0,
+            "y_upper": 1.2148,
+            "y_lower": 0.7852
+          },
+          {
+            "longevity_years": 30.5,
+            "y_upper": 1.20724,
+            "y_lower": 0.79276
+          },
+          {
+            "longevity_years": 31.0,
+            "y_upper": 1.19958,
+            "y_lower": 0.80042
+          },
+          {
+            "longevity_years": 31.5,
+            "y_upper": 1.19187,
+            "y_lower": 0.80813
+          },
+          {
+            "longevity_years": 32.0,
+            "y_upper": 1.18415,
+            "y_lower": 0.81585
+          },
+          {
+            "longevity_years": 32.5,
+            "y_upper": 1.17645,
+            "y_lower": 0.82355
+          },
+          {
+            "longevity_years": 33.0,
+            "y_upper": 1.16882,
+            "y_lower": 0.83118
+          },
+          {
+            "longevity_years": 33.5,
+            "y_upper": 1.16129,
+            "y_lower": 0.83871
+          },
+          {
+            "longevity_years": 34.0,
+            "y_upper": 1.15393,
+            "y_lower": 0.84607
+          },
+          {
+            "longevity_years": 34.5,
+            "y_upper": 1.14677,
+            "y_lower": 0.85323
+          },
+          {
+            "longevity_years": 35.0,
+            "y_upper": 1.13985,
+            "y_lower": 0.86015
+          },
+          {
+            "longevity_years": 35.5,
+            "y_upper": 1.13323,
+            "y_lower": 0.86677
+          },
+          {
+            "longevity_years": 36.0,
+            "y_upper": 1.12694,
+            "y_lower": 0.87306
+          },
+          {
+            "longevity_years": 36.5,
+            "y_upper": 1.12102,
+            "y_lower": 0.87898
+          },
+          {
+            "longevity_years": 37.0,
+            "y_upper": 1.1155,
+            "y_lower": 0.8845
+          },
+          {
+            "longevity_years": 37.5,
+            "y_upper": 1.11042,
+            "y_lower": 0.88958
+          },
+          {
+            "longevity_years": 38.0,
+            "y_upper": 1.10578,
+            "y_lower": 0.89422
+          },
+          {
+            "longevity_years": 38.5,
+            "y_upper": 1.10159,
+            "y_lower": 0.89841
+          },
+          {
+            "longevity_years": 39.0,
+            "y_upper": 1.09787,
+            "y_lower": 0.90213
+          },
+          {
+            "longevity_years": 39.5,
+            "y_upper": 1.09461,
+            "y_lower": 0.90539
+          },
+          {
+            "longevity_years": 40.0,
+            "y_upper": 1.09178,
+            "y_lower": 0.90822
+          },
+          {
+            "longevity_years": 40.5,
+            "y_upper": 1.08937,
+            "y_lower": 0.91063
+          },
+          {
+            "longevity_years": 41.0,
+            "y_upper": 1.08735,
+            "y_lower": 0.91265
+          },
+          {
+            "longevity_years": 41.5,
+            "y_upper": 1.08567,
+            "y_lower": 0.91433
+          },
+          {
+            "longevity_years": 42.0,
+            "y_upper": 1.0843,
+            "y_lower": 0.9157
+          },
+          {
+            "longevity_years": 42.5,
+            "y_upper": 1.08319,
+            "y_lower": 0.91681
+          },
+          {
+            "longevity_years": 43.0,
+            "y_upper": 1.08229,
+            "y_lower": 0.91771
+          },
+          {
+            "longevity_years": 43.5,
+            "y_upper": 1.08155,
+            "y_lower": 0.91845
+          },
+          {
+            "longevity_years": 44.0,
+            "y_upper": 1.08091,
+            "y_lower": 0.91909
+          },
+          {
+            "longevity_years": 44.5,
+            "y_upper": 1.08032,
+            "y_lower": 0.91968
+          },
+          {
+            "longevity_years": 45.0,
+            "y_upper": 1.07974,
+            "y_lower": 0.92026
+          },
+          {
+            "longevity_years": 45.5,
+            "y_upper": 1.07912,
+            "y_lower": 0.92088
+          },
+          {
+            "longevity_years": 46.0,
+            "y_upper": 1.07842,
+            "y_lower": 0.92158
+          },
+          {
+            "longevity_years": 46.5,
+            "y_upper": 1.07761,
+            "y_lower": 0.92239
+          },
+          {
+            "longevity_years": 47.0,
+            "y_upper": 1.07667,
+            "y_lower": 0.92333
+          },
+          {
+            "longevity_years": 47.5,
+            "y_upper": 1.07558,
+            "y_lower": 0.92442
+          },
+          {
+            "longevity_years": 48.0,
+            "y_upper": 1.07432,
+            "y_lower": 0.92568
+          },
+          {
+            "longevity_years": 48.5,
+            "y_upper": 1.07289,
+            "y_lower": 0.92711
+          },
+          {
+            "longevity_years": 49.0,
+            "y_upper": 1.07131,
+            "y_lower": 0.92869
+          },
+          {
+            "longevity_years": 49.5,
+            "y_upper": 1.06957,
+            "y_lower": 0.93043
+          },
+          {
+            "longevity_years": 50.0,
+            "y_upper": 1.06769,
+            "y_lower": 0.93231
+          },
+          {
+            "longevity_years": 50.5,
+            "y_upper": 1.06569,
+            "y_lower": 0.93431
+          },
+          {
+            "longevity_years": 51.0,
+            "y_upper": 1.06358,
+            "y_lower": 0.93642
+          },
+          {
+            "longevity_years": 51.5,
+            "y_upper": 1.0614,
+            "y_lower": 0.9386
+          },
+          {
+            "longevity_years": 52.0,
+            "y_upper": 1.05917,
+            "y_lower": 0.94083
+          },
+          {
+            "longevity_years": 52.5,
+            "y_upper": 1.05689,
+            "y_lower": 0.94311
+          },
+          {
+            "longevity_years": 53.0,
+            "y_upper": 1.05461,
+            "y_lower": 0.94539
+          },
+          {
+            "longevity_years": 53.5,
+            "y_upper": 1.05232,
+            "y_lower": 0.94768
+          },
+          {
+            "longevity_years": 54.0,
+            "y_upper": 1.05006,
+            "y_lower": 0.94994
+          },
+          {
+            "longevity_years": 54.5,
+            "y_upper": 1.04782,
+            "y_lower": 0.95218
+          },
+          {
+            "longevity_years": 55.0,
+            "y_upper": 1.04561,
+            "y_lower": 0.95439
+          },
+          {
+            "longevity_years": 55.5,
+            "y_upper": 1.04345,
+            "y_lower": 0.95655
+          },
+          {
+            "longevity_years": 56.0,
+            "y_upper": 1.04134,
+            "y_lower": 0.95866
+          },
+          {
+            "longevity_years": 56.5,
+            "y_upper": 1.03927,
+            "y_lower": 0.96073
+          },
+          {
+            "longevity_years": 57.0,
+            "y_upper": 1.03726,
+            "y_lower": 0.96274
+          },
+          {
+            "longevity_years": 57.5,
+            "y_upper": 1.03529,
+            "y_lower": 0.96471
+          },
+          {
+            "longevity_years": 58.0,
+            "y_upper": 1.03338,
+            "y_lower": 0.96662
+          },
+          {
+            "longevity_years": 58.5,
+            "y_upper": 1.03151,
+            "y_lower": 0.96849
+          },
+          {
+            "longevity_years": 59.0,
+            "y_upper": 1.0297,
+            "y_lower": 0.9703
+          },
+          {
+            "longevity_years": 59.5,
+            "y_upper": 1.02794,
+            "y_lower": 0.97206
+          },
+          {
+            "longevity_years": 60.0,
+            "y_upper": 1.02624,
+            "y_lower": 0.97376
+          },
+          {
+            "longevity_years": 60.5,
+            "y_upper": 1.0246,
+            "y_lower": 0.9754
+          },
+          {
+            "longevity_years": 61.0,
+            "y_upper": 1.02301,
+            "y_lower": 0.97699
+          },
+          {
+            "longevity_years": 61.5,
+            "y_upper": 1.02149,
+            "y_lower": 0.97851
+          },
+          {
+            "longevity_years": 62.0,
+            "y_upper": 1.02004,
+            "y_lower": 0.97996
+          },
+          {
+            "longevity_years": 62.5,
+            "y_upper": 1.01865,
+            "y_lower": 0.98135
+          },
+          {
+            "longevity_years": 63.0,
+            "y_upper": 1.01733,
+            "y_lower": 0.98267
+          },
+          {
+            "longevity_years": 63.5,
+            "y_upper": 1.01607,
+            "y_lower": 0.98393
+          },
+          {
+            "longevity_years": 64.0,
+            "y_upper": 1.01488,
+            "y_lower": 0.98512
+          },
+          {
+            "longevity_years": 64.5,
+            "y_upper": 1.01376,
+            "y_lower": 0.98624
+          },
+          {
+            "longevity_years": 65.0,
+            "y_upper": 1.0127,
+            "y_lower": 0.9873
+          },
+          {
+            "longevity_years": 65.5,
+            "y_upper": 1.0117,
+            "y_lower": 0.9883
+          },
+          {
+            "longevity_years": 66.0,
+            "y_upper": 1.01076,
+            "y_lower": 0.98924
+          },
+          {
+            "longevity_years": 66.5,
+            "y_upper": 1.00987,
+            "y_lower": 0.99013
+          },
+          {
+            "longevity_years": 67.0,
+            "y_upper": 1.00903,
+            "y_lower": 0.99097
+          },
+          {
+            "longevity_years": 67.5,
+            "y_upper": 1.00824,
+            "y_lower": 0.99176
+          },
+          {
+            "longevity_years": 68.0,
+            "y_upper": 1.0075,
+            "y_lower": 0.9925
+          },
+          {
+            "longevity_years": 68.5,
+            "y_upper": 1.00681,
+            "y_lower": 0.99319
+          },
+          {
+            "longevity_years": 69.0,
+            "y_upper": 1.00616,
+            "y_lower": 0.99384
+          },
+          {
+            "longevity_years": 69.5,
+            "y_upper": 1.00557,
+            "y_lower": 0.99443
+          },
+          {
+            "longevity_years": 70.0,
+            "y_upper": 1.00502,
+            "y_lower": 0.99498
+          },
+          {
+            "longevity_years": 70.5,
+            "y_upper": 1.00452,
+            "y_lower": 0.99548
+          },
+          {
+            "longevity_years": 71.0,
+            "y_upper": 1.00407,
+            "y_lower": 0.99593
+          },
+          {
+            "longevity_years": 71.5,
+            "y_upper": 1.00368,
+            "y_lower": 0.99632
+          },
+          {
+            "longevity_years": 72.0,
+            "y_upper": 1.00334,
+            "y_lower": 0.99666
+          },
+          {
+            "longevity_years": 72.5,
+            "y_upper": 1.00305,
+            "y_lower": 0.99695
+          },
+          {
+            "longevity_years": 73.0,
+            "y_upper": 1.00283,
+            "y_lower": 0.99717
+          },
+          {
+            "longevity_years": 73.5,
+            "y_upper": 1.00266,
+            "y_lower": 0.99734
+          },
+          {
+            "longevity_years": 74.0,
+            "y_upper": 1.00255,
+            "y_lower": 0.99745
+          },
+          {
+            "longevity_years": 74.5,
+            "y_upper": 1.0025,
+            "y_lower": 0.9975
+          },
+          {
+            "longevity_years": 75.0,
+            "y_upper": 1.00251,
+            "y_lower": 0.99749
+          },
+          {
+            "longevity_years": 75.5,
+            "y_upper": 1.00256,
+            "y_lower": 0.99744
+          },
+          {
+            "longevity_years": 76.0,
+            "y_upper": 1.00267,
+            "y_lower": 0.99733
+          },
+          {
+            "longevity_years": 76.5,
+            "y_upper": 1.00282,
+            "y_lower": 0.99718
+          },
+          {
+            "longevity_years": 77.0,
+            "y_upper": 1.003,
+            "y_lower": 0.997
+          },
+          {
+            "longevity_years": 77.5,
+            "y_upper": 1.00322,
+            "y_lower": 0.99678
+          },
+          {
+            "longevity_years": 78.0,
+            "y_upper": 1.00345,
+            "y_lower": 0.99655
+          },
+          {
+            "longevity_years": 78.5,
+            "y_upper": 1.0037,
+            "y_lower": 0.9963
+          },
+          {
+            "longevity_years": 79.0,
+            "y_upper": 1.00396,
+            "y_lower": 0.99604
+          },
+          {
+            "longevity_years": 79.5,
+            "y_upper": 1.00422,
+            "y_lower": 0.99578
+          },
+          {
+            "longevity_years": 80.0,
+            "y_upper": 1.00446,
+            "y_lower": 0.99554
+          },
+          {
+            "longevity_years": 80.5,
+            "y_upper": 1.00468,
+            "y_lower": 0.99532
+          },
+          {
+            "longevity_years": 81.0,
+            "y_upper": 1.00487,
+            "y_lower": 0.99513
+          },
+          {
+            "longevity_years": 81.5,
+            "y_upper": 1.00503,
+            "y_lower": 0.99497
+          },
+          {
+            "longevity_years": 82.0,
+            "y_upper": 1.00514,
+            "y_lower": 0.99486
+          },
+          {
+            "longevity_years": 82.5,
+            "y_upper": 1.00521,
+            "y_lower": 0.99479
+          },
+          {
+            "longevity_years": 83.0,
+            "y_upper": 1.0,
+            "y_lower": 1.0
+          }
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "interpolate": "monotone",
+        "stroke": "#398BA3",
+        "strokeWidth": 1.25,
+        "opacity": 0.8
+      },
+      "encoding": {
+        "x": {
+          "field": "longevity_years",
+          "type": "quantitative",
+          "sort": "ascending"
+        },
+        "y": {
+          "field": "y_lower",
+          "type": "quantitative"
+        },
+        "order": {
+          "field": "longevity_years",
+          "type": "quantitative",
+          "sort": "ascending"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "longevity_years": 0.6,
+            "y_upper": 0.0,
+            "y_lower": 0.0
+          },
+          {
+            "longevity_years": 1.0,
+            "y_upper": 0.01189,
+            "y_lower": -0.01189
+          },
+          {
+            "longevity_years": 1.5,
+            "y_upper": 0.01808,
+            "y_lower": -0.01808
+          },
+          {
+            "longevity_years": 2.0,
+            "y_upper": 0.02702,
+            "y_lower": -0.02702
+          },
+          {
+            "longevity_years": 2.5,
+            "y_upper": 0.03931,
+            "y_lower": -0.03931
+          },
+          {
+            "longevity_years": 3.0,
+            "y_upper": 0.05529,
+            "y_lower": -0.05529
+          },
+          {
+            "longevity_years": 3.5,
+            "y_upper": 0.07497,
+            "y_lower": -0.07497
+          },
+          {
+            "longevity_years": 4.0,
+            "y_upper": 0.09793,
+            "y_lower": -0.09793
+          },
+          {
+            "longevity_years": 4.5,
+            "y_upper": 0.12334,
+            "y_lower": -0.12334
+          },
+          {
+            "longevity_years": 5.0,
+            "y_upper": 0.15005,
+            "y_lower": -0.15005
+          },
+          {
+            "longevity_years": 5.5,
+            "y_upper": 0.17678,
+            "y_lower": -0.17678
+          },
+          {
+            "longevity_years": 6.0,
+            "y_upper": 0.20238,
+            "y_lower": -0.20238
+          },
+          {
+            "longevity_years": 6.5,
+            "y_upper": 0.22612,
+            "y_lower": -0.22612
+          },
+          {
+            "longevity_years": 7.0,
+            "y_upper": 0.24765,
+            "y_lower": -0.24765
+          },
+          {
+            "longevity_years": 7.5,
+            "y_upper": 0.26683,
+            "y_lower": -0.26683
+          },
+          {
+            "longevity_years": 8.0,
+            "y_upper": 0.28341,
+            "y_lower": -0.28341
+          },
+          {
+            "longevity_years": 8.5,
+            "y_upper": 0.29675,
+            "y_lower": -0.29675
+          },
+          {
+            "longevity_years": 9.0,
+            "y_upper": 0.30594,
+            "y_lower": -0.30594
+          },
+          {
+            "longevity_years": 9.5,
+            "y_upper": 0.31,
+            "y_lower": -0.31
+          },
+          {
+            "longevity_years": 10.0,
+            "y_upper": 0.30833,
+            "y_lower": -0.30833
+          },
+          {
+            "longevity_years": 10.5,
+            "y_upper": 0.30086,
+            "y_lower": -0.30086
+          },
+          {
+            "longevity_years": 11.0,
+            "y_upper": 0.28805,
+            "y_lower": -0.28805
+          },
+          {
+            "longevity_years": 11.5,
+            "y_upper": 0.27075,
+            "y_lower": -0.27075
+          },
+          {
+            "longevity_years": 12.0,
+            "y_upper": 0.25007,
+            "y_lower": -0.25007
+          },
+          {
+            "longevity_years": 12.5,
+            "y_upper": 0.22727,
+            "y_lower": -0.22727
+          },
+          {
+            "longevity_years": 13.0,
+            "y_upper": 0.20371,
+            "y_lower": -0.20371
+          },
+          {
+            "longevity_years": 13.5,
+            "y_upper": 0.18079,
+            "y_lower": -0.18079
+          },
+          {
+            "longevity_years": 14.0,
+            "y_upper": 0.1597,
+            "y_lower": -0.1597
+          },
+          {
+            "longevity_years": 14.5,
+            "y_upper": 0.14132,
+            "y_lower": -0.14132
+          },
+          {
+            "longevity_years": 15.0,
+            "y_upper": 0.12608,
+            "y_lower": -0.12608
+          },
+          {
+            "longevity_years": 15.5,
+            "y_upper": 0.11391,
+            "y_lower": -0.11391
+          },
+          {
+            "longevity_years": 16.0,
+            "y_upper": 0.10436,
+            "y_lower": -0.10436
+          },
+          {
+            "longevity_years": 16.5,
+            "y_upper": 0.09666,
+            "y_lower": -0.09666
+          },
+          {
+            "longevity_years": 17.0,
+            "y_upper": 0.08994,
+            "y_lower": -0.08994
+          },
+          {
+            "longevity_years": 17.5,
+            "y_upper": 0.08343,
+            "y_lower": -0.08343
+          },
+          {
+            "longevity_years": 18.0,
+            "y_upper": 0.07664,
+            "y_lower": -0.07664
+          },
+          {
+            "longevity_years": 18.5,
+            "y_upper": 0.06951,
+            "y_lower": -0.06951
+          },
+          {
+            "longevity_years": 19.0,
+            "y_upper": 0.06228,
+            "y_lower": -0.06228
+          },
+          {
+            "longevity_years": 19.5,
+            "y_upper": 0.0554,
+            "y_lower": -0.0554
+          },
+          {
+            "longevity_years": 20.0,
+            "y_upper": 0.04931,
+            "y_lower": -0.04931
+          },
+          {
+            "longevity_years": 20.5,
+            "y_upper": 0.04432,
+            "y_lower": -0.04432
+          },
+          {
+            "longevity_years": 21.0,
+            "y_upper": 0.04065,
+            "y_lower": -0.04065
+          },
+          {
+            "longevity_years": 21.5,
+            "y_upper": 0.0383,
+            "y_lower": -0.0383
+          },
+          {
+            "longevity_years": 22.0,
+            "y_upper": 0.03713,
+            "y_lower": -0.03713
+          },
+          {
+            "longevity_years": 22.5,
+            "y_upper": 0.03675,
+            "y_lower": -0.03675
+          },
+          {
+            "longevity_years": 23.0,
+            "y_upper": 0.03665,
+            "y_lower": -0.03665
+          },
+          {
+            "longevity_years": 23.5,
+            "y_upper": 0.03621,
+            "y_lower": -0.03621
+          },
+          {
+            "longevity_years": 24.0,
+            "y_upper": 0.03493,
+            "y_lower": -0.03493
+          },
+          {
+            "longevity_years": 24.5,
+            "y_upper": 0.0325,
+            "y_lower": -0.0325
+          },
+          {
+            "longevity_years": 25.0,
+            "y_upper": 0.02898,
+            "y_lower": -0.02898
+          },
+          {
+            "longevity_years": 25.5,
+            "y_upper": 0.02471,
+            "y_lower": -0.02471
+          },
+          {
+            "longevity_years": 26.0,
+            "y_upper": 0.02023,
+            "y_lower": -0.02023
+          },
+          {
+            "longevity_years": 26.5,
+            "y_upper": 0.0161,
+            "y_lower": -0.0161
+          },
+          {
+            "longevity_years": 27.0,
+            "y_upper": 0.0127,
+            "y_lower": -0.0127
+          },
+          {
+            "longevity_years": 27.5,
+            "y_upper": 0.01016,
+            "y_lower": -0.01016
+          },
+          {
+            "longevity_years": 28.0,
+            "y_upper": 0.00836,
+            "y_lower": -0.00836
+          },
+          {
+            "longevity_years": 28.5,
+            "y_upper": 0.00705,
+            "y_lower": -0.00705
+          },
+          {
+            "longevity_years": 29.0,
+            "y_upper": 0.00596,
+            "y_lower": -0.00596
+          },
+          {
+            "longevity_years": 29.5,
+            "y_upper": 0.0049,
+            "y_lower": -0.0049
+          },
+          {
+            "longevity_years": 30.0,
+            "y_upper": 0.00383,
+            "y_lower": -0.00383
+          },
+          {
+            "longevity_years": 30.5,
+            "y_upper": 0.0028,
+            "y_lower": -0.0028
+          },
+          {
+            "longevity_years": 31.0,
+            "y_upper": 0.0019,
+            "y_lower": -0.0019
+          },
+          {
+            "longevity_years": 31.5,
+            "y_upper": 0.0012,
+            "y_lower": -0.0012
+          },
+          {
+            "longevity_years": 32.0,
+            "y_upper": 0.00073,
+            "y_lower": -0.00073
+          },
+          {
+            "longevity_years": 32.5,
+            "y_upper": 0.00048,
+            "y_lower": -0.00048
+          },
+          {
+            "longevity_years": 33.0,
+            "y_upper": 0.00042,
+            "y_lower": -0.00042
+          },
+          {
+            "longevity_years": 33.5,
+            "y_upper": 0.00051,
+            "y_lower": -0.00051
+          },
+          {
+            "longevity_years": 34.0,
+            "y_upper": 0.00071,
+            "y_lower": -0.00071
+          },
+          {
+            "longevity_years": 34.5,
+            "y_upper": 0.00096,
+            "y_lower": -0.00096
+          },
+          {
+            "longevity_years": 35.0,
+            "y_upper": 0.00122,
+            "y_lower": -0.00122
+          },
+          {
+            "longevity_years": 35.5,
+            "y_upper": 0.00141,
+            "y_lower": -0.00141
+          },
+          {
+            "longevity_years": 36.0,
+            "y_upper": 0.00148,
+            "y_lower": -0.00148
+          },
+          {
+            "longevity_years": 36.5,
+            "y_upper": 0.00141,
+            "y_lower": -0.00141
+          },
+          {
+            "longevity_years": 37.0,
+            "y_upper": 0.00122,
+            "y_lower": -0.00122
+          },
+          {
+            "longevity_years": 37.5,
+            "y_upper": 0.00095,
+            "y_lower": -0.00095
+          },
+          {
+            "longevity_years": 38.0,
+            "y_upper": 0.00068,
+            "y_lower": -0.00068
+          },
+          {
+            "longevity_years": 38.5,
+            "y_upper": 0.00044,
+            "y_lower": -0.00044
+          },
+          {
+            "longevity_years": 39.0,
+            "y_upper": 0.00026,
+            "y_lower": -0.00026
+          },
+          {
+            "longevity_years": 39.5,
+            "y_upper": 0.00014,
+            "y_lower": -0.00014
+          },
+          {
+            "longevity_years": 40.0,
+            "y_upper": 7e-05,
+            "y_lower": -7e-05
+          },
+          {
+            "longevity_years": 40.5,
+            "y_upper": 3e-05,
+            "y_lower": -3e-05
+          },
+          {
+            "longevity_years": 41.0,
+            "y_upper": 1e-05,
+            "y_lower": -1e-05
+          },
+          {
+            "longevity_years": 41.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 42.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 42.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 43.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 43.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 44.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 44.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 45.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 45.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 46.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 46.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 47.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 47.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 48.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 48.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 49.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 49.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 50.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 50.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 51.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 51.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 52.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 52.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 53.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 53.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 54.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 54.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 55.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 55.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 56.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 56.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 57.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 57.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 58.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 58.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 59.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 59.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 60.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 60.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 61.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 61.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 62.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 62.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 63.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 63.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 64.0,
+            "y_upper": 1e-05,
+            "y_lower": -1e-05
+          },
+          {
+            "longevity_years": 64.5,
+            "y_upper": 3e-05,
+            "y_lower": -3e-05
+          },
+          {
+            "longevity_years": 65.0,
+            "y_upper": 7e-05,
+            "y_lower": -7e-05
+          },
+          {
+            "longevity_years": 65.5,
+            "y_upper": 0.00014,
+            "y_lower": -0.00014
+          },
+          {
+            "longevity_years": 66.0,
+            "y_upper": 0.00026,
+            "y_lower": -0.00026
+          },
+          {
+            "longevity_years": 66.5,
+            "y_upper": 0.00044,
+            "y_lower": -0.00044
+          },
+          {
+            "longevity_years": 67.0,
+            "y_upper": 0.00068,
+            "y_lower": -0.00068
+          },
+          {
+            "longevity_years": 67.5,
+            "y_upper": 0.00095,
+            "y_lower": -0.00095
+          },
+          {
+            "longevity_years": 68.0,
+            "y_upper": 0.00122,
+            "y_lower": -0.00122
+          },
+          {
+            "longevity_years": 68.5,
+            "y_upper": 0.00141,
+            "y_lower": -0.00141
+          },
+          {
+            "longevity_years": 69.0,
+            "y_upper": 0.0,
+            "y_lower": 0.0
+          }
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "interpolate": "monotone",
+        "stroke": "#E96B73",
+        "strokeWidth": 1.25,
+        "opacity": 0.8
+      },
+      "encoding": {
+        "x": {
+          "field": "longevity_years",
+          "type": "quantitative",
+          "sort": "ascending"
+        },
+        "y": {
+          "field": "y_upper",
+          "type": "quantitative"
+        },
+        "order": {
+          "field": "longevity_years",
+          "type": "quantitative",
+          "sort": "ascending"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "longevity_years": 0.6,
+            "y_upper": 0.0,
+            "y_lower": 0.0
+          },
+          {
+            "longevity_years": 1.0,
+            "y_upper": 0.01189,
+            "y_lower": -0.01189
+          },
+          {
+            "longevity_years": 1.5,
+            "y_upper": 0.01808,
+            "y_lower": -0.01808
+          },
+          {
+            "longevity_years": 2.0,
+            "y_upper": 0.02702,
+            "y_lower": -0.02702
+          },
+          {
+            "longevity_years": 2.5,
+            "y_upper": 0.03931,
+            "y_lower": -0.03931
+          },
+          {
+            "longevity_years": 3.0,
+            "y_upper": 0.05529,
+            "y_lower": -0.05529
+          },
+          {
+            "longevity_years": 3.5,
+            "y_upper": 0.07497,
+            "y_lower": -0.07497
+          },
+          {
+            "longevity_years": 4.0,
+            "y_upper": 0.09793,
+            "y_lower": -0.09793
+          },
+          {
+            "longevity_years": 4.5,
+            "y_upper": 0.12334,
+            "y_lower": -0.12334
+          },
+          {
+            "longevity_years": 5.0,
+            "y_upper": 0.15005,
+            "y_lower": -0.15005
+          },
+          {
+            "longevity_years": 5.5,
+            "y_upper": 0.17678,
+            "y_lower": -0.17678
+          },
+          {
+            "longevity_years": 6.0,
+            "y_upper": 0.20238,
+            "y_lower": -0.20238
+          },
+          {
+            "longevity_years": 6.5,
+            "y_upper": 0.22612,
+            "y_lower": -0.22612
+          },
+          {
+            "longevity_years": 7.0,
+            "y_upper": 0.24765,
+            "y_lower": -0.24765
+          },
+          {
+            "longevity_years": 7.5,
+            "y_upper": 0.26683,
+            "y_lower": -0.26683
+          },
+          {
+            "longevity_years": 8.0,
+            "y_upper": 0.28341,
+            "y_lower": -0.28341
+          },
+          {
+            "longevity_years": 8.5,
+            "y_upper": 0.29675,
+            "y_lower": -0.29675
+          },
+          {
+            "longevity_years": 9.0,
+            "y_upper": 0.30594,
+            "y_lower": -0.30594
+          },
+          {
+            "longevity_years": 9.5,
+            "y_upper": 0.31,
+            "y_lower": -0.31
+          },
+          {
+            "longevity_years": 10.0,
+            "y_upper": 0.30833,
+            "y_lower": -0.30833
+          },
+          {
+            "longevity_years": 10.5,
+            "y_upper": 0.30086,
+            "y_lower": -0.30086
+          },
+          {
+            "longevity_years": 11.0,
+            "y_upper": 0.28805,
+            "y_lower": -0.28805
+          },
+          {
+            "longevity_years": 11.5,
+            "y_upper": 0.27075,
+            "y_lower": -0.27075
+          },
+          {
+            "longevity_years": 12.0,
+            "y_upper": 0.25007,
+            "y_lower": -0.25007
+          },
+          {
+            "longevity_years": 12.5,
+            "y_upper": 0.22727,
+            "y_lower": -0.22727
+          },
+          {
+            "longevity_years": 13.0,
+            "y_upper": 0.20371,
+            "y_lower": -0.20371
+          },
+          {
+            "longevity_years": 13.5,
+            "y_upper": 0.18079,
+            "y_lower": -0.18079
+          },
+          {
+            "longevity_years": 14.0,
+            "y_upper": 0.1597,
+            "y_lower": -0.1597
+          },
+          {
+            "longevity_years": 14.5,
+            "y_upper": 0.14132,
+            "y_lower": -0.14132
+          },
+          {
+            "longevity_years": 15.0,
+            "y_upper": 0.12608,
+            "y_lower": -0.12608
+          },
+          {
+            "longevity_years": 15.5,
+            "y_upper": 0.11391,
+            "y_lower": -0.11391
+          },
+          {
+            "longevity_years": 16.0,
+            "y_upper": 0.10436,
+            "y_lower": -0.10436
+          },
+          {
+            "longevity_years": 16.5,
+            "y_upper": 0.09666,
+            "y_lower": -0.09666
+          },
+          {
+            "longevity_years": 17.0,
+            "y_upper": 0.08994,
+            "y_lower": -0.08994
+          },
+          {
+            "longevity_years": 17.5,
+            "y_upper": 0.08343,
+            "y_lower": -0.08343
+          },
+          {
+            "longevity_years": 18.0,
+            "y_upper": 0.07664,
+            "y_lower": -0.07664
+          },
+          {
+            "longevity_years": 18.5,
+            "y_upper": 0.06951,
+            "y_lower": -0.06951
+          },
+          {
+            "longevity_years": 19.0,
+            "y_upper": 0.06228,
+            "y_lower": -0.06228
+          },
+          {
+            "longevity_years": 19.5,
+            "y_upper": 0.0554,
+            "y_lower": -0.0554
+          },
+          {
+            "longevity_years": 20.0,
+            "y_upper": 0.04931,
+            "y_lower": -0.04931
+          },
+          {
+            "longevity_years": 20.5,
+            "y_upper": 0.04432,
+            "y_lower": -0.04432
+          },
+          {
+            "longevity_years": 21.0,
+            "y_upper": 0.04065,
+            "y_lower": -0.04065
+          },
+          {
+            "longevity_years": 21.5,
+            "y_upper": 0.0383,
+            "y_lower": -0.0383
+          },
+          {
+            "longevity_years": 22.0,
+            "y_upper": 0.03713,
+            "y_lower": -0.03713
+          },
+          {
+            "longevity_years": 22.5,
+            "y_upper": 0.03675,
+            "y_lower": -0.03675
+          },
+          {
+            "longevity_years": 23.0,
+            "y_upper": 0.03665,
+            "y_lower": -0.03665
+          },
+          {
+            "longevity_years": 23.5,
+            "y_upper": 0.03621,
+            "y_lower": -0.03621
+          },
+          {
+            "longevity_years": 24.0,
+            "y_upper": 0.03493,
+            "y_lower": -0.03493
+          },
+          {
+            "longevity_years": 24.5,
+            "y_upper": 0.0325,
+            "y_lower": -0.0325
+          },
+          {
+            "longevity_years": 25.0,
+            "y_upper": 0.02898,
+            "y_lower": -0.02898
+          },
+          {
+            "longevity_years": 25.5,
+            "y_upper": 0.02471,
+            "y_lower": -0.02471
+          },
+          {
+            "longevity_years": 26.0,
+            "y_upper": 0.02023,
+            "y_lower": -0.02023
+          },
+          {
+            "longevity_years": 26.5,
+            "y_upper": 0.0161,
+            "y_lower": -0.0161
+          },
+          {
+            "longevity_years": 27.0,
+            "y_upper": 0.0127,
+            "y_lower": -0.0127
+          },
+          {
+            "longevity_years": 27.5,
+            "y_upper": 0.01016,
+            "y_lower": -0.01016
+          },
+          {
+            "longevity_years": 28.0,
+            "y_upper": 0.00836,
+            "y_lower": -0.00836
+          },
+          {
+            "longevity_years": 28.5,
+            "y_upper": 0.00705,
+            "y_lower": -0.00705
+          },
+          {
+            "longevity_years": 29.0,
+            "y_upper": 0.00596,
+            "y_lower": -0.00596
+          },
+          {
+            "longevity_years": 29.5,
+            "y_upper": 0.0049,
+            "y_lower": -0.0049
+          },
+          {
+            "longevity_years": 30.0,
+            "y_upper": 0.00383,
+            "y_lower": -0.00383
+          },
+          {
+            "longevity_years": 30.5,
+            "y_upper": 0.0028,
+            "y_lower": -0.0028
+          },
+          {
+            "longevity_years": 31.0,
+            "y_upper": 0.0019,
+            "y_lower": -0.0019
+          },
+          {
+            "longevity_years": 31.5,
+            "y_upper": 0.0012,
+            "y_lower": -0.0012
+          },
+          {
+            "longevity_years": 32.0,
+            "y_upper": 0.00073,
+            "y_lower": -0.00073
+          },
+          {
+            "longevity_years": 32.5,
+            "y_upper": 0.00048,
+            "y_lower": -0.00048
+          },
+          {
+            "longevity_years": 33.0,
+            "y_upper": 0.00042,
+            "y_lower": -0.00042
+          },
+          {
+            "longevity_years": 33.5,
+            "y_upper": 0.00051,
+            "y_lower": -0.00051
+          },
+          {
+            "longevity_years": 34.0,
+            "y_upper": 0.00071,
+            "y_lower": -0.00071
+          },
+          {
+            "longevity_years": 34.5,
+            "y_upper": 0.00096,
+            "y_lower": -0.00096
+          },
+          {
+            "longevity_years": 35.0,
+            "y_upper": 0.00122,
+            "y_lower": -0.00122
+          },
+          {
+            "longevity_years": 35.5,
+            "y_upper": 0.00141,
+            "y_lower": -0.00141
+          },
+          {
+            "longevity_years": 36.0,
+            "y_upper": 0.00148,
+            "y_lower": -0.00148
+          },
+          {
+            "longevity_years": 36.5,
+            "y_upper": 0.00141,
+            "y_lower": -0.00141
+          },
+          {
+            "longevity_years": 37.0,
+            "y_upper": 0.00122,
+            "y_lower": -0.00122
+          },
+          {
+            "longevity_years": 37.5,
+            "y_upper": 0.00095,
+            "y_lower": -0.00095
+          },
+          {
+            "longevity_years": 38.0,
+            "y_upper": 0.00068,
+            "y_lower": -0.00068
+          },
+          {
+            "longevity_years": 38.5,
+            "y_upper": 0.00044,
+            "y_lower": -0.00044
+          },
+          {
+            "longevity_years": 39.0,
+            "y_upper": 0.00026,
+            "y_lower": -0.00026
+          },
+          {
+            "longevity_years": 39.5,
+            "y_upper": 0.00014,
+            "y_lower": -0.00014
+          },
+          {
+            "longevity_years": 40.0,
+            "y_upper": 7e-05,
+            "y_lower": -7e-05
+          },
+          {
+            "longevity_years": 40.5,
+            "y_upper": 3e-05,
+            "y_lower": -3e-05
+          },
+          {
+            "longevity_years": 41.0,
+            "y_upper": 1e-05,
+            "y_lower": -1e-05
+          },
+          {
+            "longevity_years": 41.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 42.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 42.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 43.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 43.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 44.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 44.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 45.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 45.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 46.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 46.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 47.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 47.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 48.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 48.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 49.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 49.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 50.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 50.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 51.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 51.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 52.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 52.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 53.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 53.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 54.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 54.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 55.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 55.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 56.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 56.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 57.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 57.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 58.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 58.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 59.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 59.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 60.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 60.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 61.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 61.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 62.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 62.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 63.0,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 63.5,
+            "y_upper": 0.0,
+            "y_lower": -0.0
+          },
+          {
+            "longevity_years": 64.0,
+            "y_upper": 1e-05,
+            "y_lower": -1e-05
+          },
+          {
+            "longevity_years": 64.5,
+            "y_upper": 3e-05,
+            "y_lower": -3e-05
+          },
+          {
+            "longevity_years": 65.0,
+            "y_upper": 7e-05,
+            "y_lower": -7e-05
+          },
+          {
+            "longevity_years": 65.5,
+            "y_upper": 0.00014,
+            "y_lower": -0.00014
+          },
+          {
+            "longevity_years": 66.0,
+            "y_upper": 0.00026,
+            "y_lower": -0.00026
+          },
+          {
+            "longevity_years": 66.5,
+            "y_upper": 0.00044,
+            "y_lower": -0.00044
+          },
+          {
+            "longevity_years": 67.0,
+            "y_upper": 0.00068,
+            "y_lower": -0.00068
+          },
+          {
+            "longevity_years": 67.5,
+            "y_upper": 0.00095,
+            "y_lower": -0.00095
+          },
+          {
+            "longevity_years": 68.0,
+            "y_upper": 0.00122,
+            "y_lower": -0.00122
+          },
+          {
+            "longevity_years": 68.5,
+            "y_upper": 0.00141,
+            "y_lower": -0.00141
+          },
+          {
+            "longevity_years": 69.0,
+            "y_upper": 0.0,
+            "y_lower": 0.0
+          }
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "interpolate": "monotone",
+        "stroke": "#E96B73",
+        "strokeWidth": 1.25,
+        "opacity": 0.8
+      },
+      "encoding": {
+        "x": {
+          "field": "longevity_years",
+          "type": "quantitative",
+          "sort": "ascending"
+        },
+        "y": {
+          "field": "y_lower",
+          "type": "quantitative"
+        },
+        "order": {
+          "field": "longevity_years",
+          "type": "quantitative",
+          "sort": "ascending"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "data/bird_violin_species.csv"
+      },
+      "mark": {
+        "type": "circle",
+        "size": 34,
+        "opacity": 0.38
+      },
+      "encoding": {
+        "x": {
+          "field": "maximum_longevity_years",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "plot_y",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Parrots",
+              "Passerines"
+            ],
+            "range": [
+              "#398BA3",
+              "#E96B73"
+            ]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "species",
+            "type": "nominal",
+            "title": "Species"
+          },
+          {
+            "field": "group",
+            "type": "nominal",
+            "title": "Group"
+          },
+          {
+            "field": "maximum_longevity_years",
+            "type": "quantitative",
+            "title": "Maximum recorded years",
+            "format": ".1f"
+          },
+          {
+            "field": "adult_mass_g",
+            "type": "quantitative",
+            "title": "Adult mass (g)",
+            "format": ".1f"
+          },
+          {
+            "field": "specimen_origin",
+            "title": "Record origin"
+          },
+          {
+            "field": "data_quality",
+            "title": "Data quality"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "group": "Parrots",
+            "median": 22.95,
+            "y_low": 0.66,
+            "y_high": 1.34
+          },
+          {
+            "group": "Passerines",
+            "median": 10.2,
+            "y_low": -0.34,
+            "y_high": 0.34
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#302D32",
+        "strokeWidth": 2.5
+      },
+      "encoding": {
+        "x": {
+          "field": "median",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y_low",
+          "type": "quantitative"
+        },
+        "y2": {
+          "field": "y_high"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "data/bird_violin_highlights.csv"
+      },
+      "mark": {
+        "type": "circle",
+        "filled": true,
+        "size": 245,
+        "stroke": "#302D32",
+        "strokeWidth": 2.1,
+        "opacity": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "longevity_years",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "plot_y",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Parrots",
+              "Passerines"
+            ],
+            "range": [
+              "#287A93",
+              "#E15B69"
+            ]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "species",
+            "title": "Featured pet bird"
+          },
+          {
+            "field": "longevity_years",
+            "title": "Maximum recorded years",
+            "format": ".1f"
+          },
+          {
+            "field": "adult_mass_g",
+            "title": "Adult mass (g)",
+            "format": ".1f"
+          },
+          {
+            "field": "specimen_origin",
+            "title": "Record origin"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "name": "PARROTS · 142 SPECIES",
+            "x": 2,
+            "y": 1.42
+          },
+          {
+            "name": "SONGBIRDS · 564 SPECIES",
+            "x": 2,
+            "y": 0.42
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "align": "left",
+        "color": "#302D32"
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "name"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "text": "Median 22.95 yr",
+            "x": 23.9,
+            "y": 1.36
+          },
+          {
+            "text": "Median 10.20 yr",
+            "x": 11.2,
+            "y": 0.36
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "align": "left",
+        "color": "#6C6260"
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "text"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial"
+  }
+}

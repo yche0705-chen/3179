@@ -25,8 +25,8 @@
         "fontSize": 17,
         "color": "#302D32"
       },
-      "width": 600,
-      "height": 400,
+      "width": 700,
+      "height": 360,
       "projection": {
         "type": "mercator",
         "center": [
@@ -34,7 +34,7 @@
           -26
         ],
         "scale": 520,
-        "translate": [300, 190]
+        "translate": [350, 172]
       },
       "layer": [
         {
@@ -128,8 +128,8 @@
             "fontSize": 14,
             "color": "#5F5654"
           },
-          "width": 250,
-          "height": 260,
+          "width": 350,
+          "height": 250,
           "data": {
             "url": "data/bird_monthly_counts.csv",
             "format": {
@@ -199,8 +199,8 @@
             "fontSize": 13,
             "color": "#6C6260"
           },
-          "width": 250,
-          "height": 75,
+          "width": 350,
+          "height": 80,
           "data": {
             "url": "data/bird_monthly_counts.csv",
             "format": {
