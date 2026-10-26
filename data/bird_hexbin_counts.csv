@@ -1,0 +1,325 @@
+group,mass_g,longevity_years,count,species_names
+All birds,368.903453966,79.5,1,Pink cockatoo
+All birds,865.529331533,68.025,1,Common raven
+All birds,766.252532912,64.2,1,Salmon-crested cockatoo
+All birds,1409.03330273,60.375,1,Kakapo
+All birds,368.903453966,56.55,1,Yellow-crowned parrot
+All birds,766.252532912,56.55,2,Palm cockatoo; Sulphur-crested cockatoo
+All birds,531.670204169,52.725,1,Vasa parrot
+All birds,289.129887725,48.9,2,Grey parrot; Yellow-crested cockatoo
+All birds,368.903453966,48.9,1,Yellow-naped parrot
+All birds,470.687272836,48.9,1,Blue-fronted amazon
+All birds,600.55417326,48.9,1,Long-billed black cockatoo
+All birds,766.252532912,48.9,1,Kea
+All birds,977.668577352,48.9,1,Red-and-green macaw
+All birds,326.58997876,45.075,1,Little corella
+All birds,531.670204169,45.075,2,Long-billed corella; Red-browed parrot
+All birds,678.362850111,45.075,1,Banksian cockatoo
+All birds,1104.33674784,45.075,1,Military macaw
+All birds,139.198253376,41.25,1,Senegal parrot
+All birds,289.129887725,41.25,1,Galah
+All birds,600.55417326,41.25,1,Yellow-tailed black cockatoo
+All birds,977.668577352,41.25,1,Blue-and-yellow macaw
+All birds,1247.41623171,41.25,1,Hyacinth macaw
+All birds,96.5837770369,37.425,1,Cockatiel
+All birds,255.966494419,37.425,1,Azure jay
+All birds,865.529331533,37.425,1,Lear's macaw
+All birds,85.5055526097,33.6,1,Scaly-breasted lorikeet
+All birds,109.09731242,33.6,3,Brown parrot; Red-bellied parrot; Ruppel's parrot
+All birds,139.198253376,33.6,2,Brown-headed parrot; Rose-ringed parakeet
+All birds,177.604317771,33.6,2,Black parrot; Blue-crowned parakeet
+All birds,368.903453966,33.6,2,Ducorps's cockatoo; Thick-billed parrot
+All birds,470.687272836,33.6,1,Blue-eyed cockatoo
+All birds,600.55417326,33.6,1,Short-billed black cockatoo
+All birds,977.668577352,33.6,1,Scarlet macaw
+All birds,17.5455120741,29.775,1,European goldfinch
+All birds,22.3864784671,29.775,1,Chaffinch
+All birds,46.4991467116,29.775,1,Northern cardinal
+All birds,75.698008003,29.775,1,Black-naped oriole
+All birds,96.5837770369,29.775,2,Carolina parakeet; Eastern rosella
+All birds,123.232119745,29.775,1,Crimson rosella
+All birds,200.614992885,29.775,1,Spix's macaw
+All birds,255.966494419,29.775,3,Alexandrine parakeet; Blue-winged macaw; Gang-gang cockatoo
+All birds,326.58997876,29.775,3,"Cape parrot, or Brown-necked parrot; Chestnut-fronted macaw; Orange-winged amazon"
+All birds,416.699124894,29.775,2,Eclectus parrot; Red-lored parrot
+All birds,531.670204169,29.775,2,St. Vincent parrot; White cockatoo
+All birds,1104.33674784,29.775,1,Great green macaw
+All birds,7.47819833476,25.95,1,Striated thornbill
+All birds,12.1740882882,25.95,1,Red-browed finch
+All birds,19.8187342745,25.95,1,New holland honeyeater
+All birds,25.2869033521,25.95,3,Garden warbler; House canary; House sparrow
+All birds,41.1656631935,25.95,2,Black-headed grosbeak; Village weaver
+All birds,52.5236441533,25.95,1,Rose-breasted grosbeak
+All birds,67.0153953835,25.95,1,Superb starling
+All birds,85.5055526097,25.95,2,Bali mynah; Blue jay
+All birds,109.09731242,25.95,2,Alexandra's parrot; Common grackle
+All birds,139.198253376,25.95,10,Apostlebird; Black-headed parrot; Chattering lory; Mexican jay; Red lory; Red-breasted parakeet; Red-masked parakeet; Red-shouldered macaw; Red-winged parrot; White-bellied parrot
+All birds,177.604317771,25.95,1,Purple-naped lory
+All birds,226.606964713,25.95,5,Alpine chough; Australian king parrot; Golden conure; Satin bowerbird; White-fronted parrot
+All birds,289.129887725,25.95,3,Great-billed parrot; Lilac-crowned parrot; Pied currawong
+All birds,368.903453966,25.95,2,Black currawong; Festive amazon
+All birds,470.687272836,25.95,3,Hawaiian crow; Red-fronted macaw; Rook
+All birds,600.55417326,25.95,2,Australian raven; Western corella
+All birds,766.252532912,25.95,1,Pesquet's parrot
+All birds,8.44708464605,22.125,1,Purple sunbird
+All birds,13.7513809684,22.125,1,Silvereye
+All birds,17.5455120741,22.125,1,European robin
+All birds,22.3864784671,22.125,1,Hedge sparrow
+All birds,28.5631115263,22.125,1,Budgerigar
+All birds,36.4439338355,22.125,2,Little shrikethrush; Nyasa loverbird
+All birds,46.4991467116,22.125,2,Blue-winged parrot; Turquoise parrot
+All birds,59.3286842928,22.125,6,"Northern mockingbird; Red-winged blackbird; Redwing; White-billed buffalo weaver, or African ox birds; White-eared conure; Yellow-chevroned parakeet"
+All birds,75.698008003,22.125,5,European starling; Gray jay; Grey butcherbird; Monk parakeet; Musk lorikeet
+All birds,96.5837770369,22.125,2,"Common blackbird, or Eurasian blackbird; Northern rosella"
+All birds,123.232119745,22.125,7,Golden-capped parakeet; Green parakeet; Horned parakeet; Mistle thrush; Nanday parakeet; Pied butcherbird; Rainbow lorikeet
+All birds,157.232982627,22.125,4,Black-billed magpie; Eurasian jay; Eurasian magpie; Tooth-billed bowerbird
+All birds,200.614992885,22.125,2,Spotted nutcracker; Yellow-streaked lory
+All birds,255.966494419,22.125,7,"Blue-headed parrot; Crimson shining parrot; Eurasian crow, or Eurasian jackdaw; Patagonian conure; Red-billed chough; Red-fan parrot; Red-fronted parrot"
+All birds,326.58997876,22.125,1,American crow
+All birds,416.699124894,22.125,2,Carrion crow; Grey currawong
+All birds,531.670204169,22.125,2,Chihuahuan raven; Little raven
+All birds,678.362850111,22.125,1,Blue-throated macaw
+All birds,7.47819833476,18.3,1,Mountain thornbill
+All birds,9.54150128459,18.3,1,Brown thornbill
+All birds,12.1740882882,18.3,5,Blue tit; Eastern spinebill; Eurasian reed-warbler; Puerto rican vireo; Purple honeycreeper
+All birds,15.5330299947,18.3,8,Common house-martin and northern house-martin; Elepaio; European pied flycatcher; Seychelles warbler; Small ground finch; Small tree finch; White-browed scrubwren; White-faced robin
+All birds,19.8187342745,18.3,7,Barn swallow; Fuscous honeyeater; Great tit; Savannah sparrow; White-breasted robin; White-plumed honeyeater; Yellow-throated scrubwren
+All birds,25.2869033521,18.3,5,Brambling; Eurasian bullfinch; Orchard oriole; Red-billed leiothrix; Rufous whistler
+All birds,32.2637900223,18.3,8,Australian golden whistler; Blue lorikeet; Gray catbird; Great crested flycatcher; Lewin's honeyeater; Puerto rican bullfinch; Western tanager; Yellow-tufted honeyeater
+All birds,41.1656631935,18.3,4,Brown-headed cowbird; Red crossbill; Red-headed lovebird; White-breasted whistler
+All birds,52.5236441533,18.3,5,Black-hooded oriole; Evening grosbeak; Hildebrandt's starling; Hooded parrot; Mindanao lorikeet
+All birds,67.0153953835,18.3,4,Bengal jungle babbler; Grey shrikethrush; Olive-headed lorikeet; Song thrush
+All birds,85.5055526097,18.3,9,American robin; Bluebonnet; Crimson-bellied parakeet; Eurasian golden-oriole; Orange-fronted parakeet; Scrub jay; Siberian jay; Western scrub jay; Yellow-headed blackbird
+All birds,109.09731242,18.3,11,Fieldfare; Green figbird (hang-nest); Island scrub jay; Large fig parrot; Long-tailed glossy starling; Pearly-eyed thrasher; Pileated parrot; Pinyon jay; Red-capped parrot; Regent bowerbird; Steller's jay
+All birds,139.198253376,18.3,4,Chowchilla; Clark's nutcracker; Port Lincoln ringneck; Superb parrot
+All birds,177.604317771,18.3,3,Black-capped lory; Black-winged lory; Slender-billed parakeet
+All birds,226.606964713,18.3,1,Black lory
+All birds,289.129887725,18.3,2,Northwestern crow; Scaly-headed parrot
+All birds,368.903453966,18.3,2,Little crow; White-winged chough
+All birds,470.687272836,18.3,1,Hooded crow
+All birds,977.668577352,18.3,1,Superb lyrebird
+All birds,6.62044393744,14.475,1,Yellow thornbill
+All birds,8.44708464605,14.475,4,Adelaide's warbler; Dusky gerygone; Nashville warbler; Variegated fairywren
+All birds,10.7777121431,14.475,19,Black-and-white warbler; Black-capped chickadee; Black-capped vireo; Brown honeyeater; Carolina chickadee; Common yellowthroat; Golden-cheeked warbler; Long-tailed tit; Lovely fairywren; Moustached warbler; Red-winged fairywren; Splendid fairywren; Superb fairywren; Western spinebill; White-collared seedeater; Willow warbler; Yellow warbler; Yellow-breasted boatbill; Yellow-rumped thornbill
+All birds,13.7513809684,14.475,26,Acadian flycatcher; American goldfinch; Apapane; Bank swallow; Brown-headed honeyeater; Chipping sparrow; Common redpoll; Crested tit; Dusky myzomela; Eurasian siskin; Field sparrow; Flame robin; Hawaii amakihi; Hutton's vireo; Icterine warbler; Marsh tit; Pale-yellow robin; Pine siskin; Sedge warbler; Southern whiteface; White-eyed vireo; White-naped honeyeater; White-rumped munia; Willow flycatcher; Willow tit; Zebra finch
+All birds,17.5455120741,14.475,19,American tree sparrow; Black redstart; Blackcap; Blue bunting; Blue-backed manakin; Bluethroat; Dusky antbird; Graceful honeyeater; Indigo bunting; Medium tree finch; Painted bunting; Saltmarsh sharp-tailed sparrow; Spotted antbird; Spotted flycatcher; Warbling vireo; Welcome swallow; White-cheeked honeyeater; Wrentit; Yellow-faced honeyeater
+All birds,22.3864784671,14.475,21,"Barred warbler; Caribbean elaenia; Cave swallow; Cliff swallow; Common nightingale; Dark-eyed junco; Eastern yellow robin; Eurasian tree sparrow; House finch; Louisiana waterthrush; Meadow pipit; Ovenbird; Puerto rican flycatcher; Purple-gaped honeyeater; Reed bunting; Rock pipit; Song sparrow; Tree swallow; Tufted titmouse; White-throated sparrow; Wood nuthatch, or Eurasian nuthatch"
+All birds,28.5631115263,14.475,25,Akiapolaau; Ash-throated flycatcher; Bell miner; Bicknell's thrush; Black-headed bunting; Blue-crowned hanging parrot; Brown treecreeper; Crested shriketit; European greenfinch; Gray-headed tanager; Green-rumped parrotlet; Hermit thrush; Nihoa finch; Pacific parrotlet; Purple finch; Red-whiskered bulbul; Scarlet tanager; Spanish sparrow; Swainson's thrush; White wagtail; White-crowned sparrow; White-eared honeyeater; Yellow-faced parrotlet; Yellow-spotted honeyeater; Yellowhammer
+All birds,36.4439338355,14.475,17,Baltimore oriole; Brown-crested flycatcher; Colasisi; Eastern towhee; Fox sparrow; Gilbert's whistler; Harris's sparrow; Jamaican oriole; Laysan finch; Mexican parrotlet; Olive-sided flycatcher; Palila; Scarlet-chested parrot; Tawny-winged woodcreeper; Vernal hanging parrot; White-gaped honeyeater; Yellow-shouldered blackbird
+All birds,46.4991467116,14.475,14,Black-billed treehunter; Bourke's parrot; California towhee; Canyon towhee; Crested lark; Eastern kingbird; Loggerhead shrike; Purple martin; Purple-crowned lorikeet; Spiny-cheeked honeyeater; Spot-breasted oriole; Spotted towhee; White-browed babbler; Wood thrush
+All birds,59.3286842928,14.475,16,Black-winged lovebird; Bohemian waxwing; Brewer's blackbird; Grey-cheeked parakeet; Hawfinch; Little friarbird; Mulga parrot; Noisy miner; Northern shrike; Plain parakeet; Red-rumped parrot; Tricolored blackbird; Tui parakeet; Western wattlebird; White-throated dipper; Yellow-throated miner
+All birds,75.698008003,14.475,9,Arabian babbler; Brown thrasher; Canary-winged parakeet; Curve-billed thrasher; Eastern whipbird; Grey-crowned babbler; Magpielark; Papuan lorikeet; Red-legged thrush
+All birds,96.5837770369,14.475,4,Blue-bellied parrot; Eastern meadowlark; Red wattlebird; Red-fronted parakeet
+All birds,123.232119745,14.475,3,Crested myna; Edward's fig parrot; Salvadori's fig parrot
+All birds,157.232982627,14.475,5,Dusky lory; Greater bird-of-paradise; Magnificent riflebird; Regent parrot; Short-tailed parrot
+All birds,200.614992885,14.475,2,Green catbird; Spotted catbird
+All birds,255.966494419,14.475,1,Blue-backed parrot
+All birds,416.699124894,14.475,1,Fish crow
+All birds,5.86107454854,10.65,6,Brown gerygone; Bushtit; Goldcrest; Golden-crowned kinglet; Weebill; Western gerygone
+All birds,7.47819833476,10.65,8,California gnatcatcher; Chestnut-rumped thornbill; Lucy's warbler; Magnolia warbler; Prairie warbler; Tasmanian thornbill; Western thornbill; Wilson's warbler
+All birds,9.54150128459,10.65,26,"American redstart; Blackburnian warbler; Blue-breasted fairywren; Blue-winged warbler; Buff-rumped thornbill; Cerulean warbler; Chestnut-sided warbler; Coal tit; Common chiffchaff, or Eurasian chiffchaff; Eastern olivaceous warbler, or Olivaceous warbler; Eurasian penduline-tit; Eurasian treecreeper; Golden-winged warbler; House wren; Mistletoebird; Northern parula; Orange-crowned warbler; Red-backed fairywren; Red-headed myzomela; Rose robin; Scarlet myzomela; Tennessee warbler; Townsend's warbler; Virginia's warbler; Winter wren; Wood warbler"
+All birds,12.1740882882,10.65,43,"Akepa; Anianiau; Bananaquit; Bell's vireo; Bewick's wren; Black-throated blue warbler; Blyth's reed-warbler; Boreal chickadee; Brewer's sparrow; Bridled titmouse; Broad-billed flycatcher; Canada warbler; Canary white-eye; Chestnut-backed chickadee; Clay-colored sparrow; Common stonechat and stonechat; Dusky flycatcher; Hammond's flycatcher; Hermit warbler; Hooded warbler; Least flycatcher; Lesser whitethroat; Macgillivray's warbler; Marsh warbler; Melodious warbler; Mexican chickadee; Mountain chickadee; Mourning warbler; Pacific-slope flycatcher; Palm warbler, or Western palm warbler; Philadelphia vireo; Pine warbler; Pygmy nuthatch; Red-breasted nuthatch; Redthroat; Rufous fantail; Rufous-throated honeyeater; Sardinian warbler; Siberian tit, or Gray-headed chickadee; Varied sittella; White-throated honeyeater; Worm-eating warbler; Yellow-rumped (myrtle) warbler"
+All birds,15.5330299947,10.65,24,"Alder flycatcher; Bearded parrotbill; Black-headed honeyeater; Blackpoll warbler; Blue-headed vireo; Cetti's warbler; Collared flycatcher; Common redstart; Crescent honeyeater; Eastern wood pewee; Kentucky warbler; Kirtland's warbler; Lazuli bunting; Long-tailed finch; Masked finch; Nelson's sharp-tailed sparrow; Plain titmouse, or Oak titmouse; Prothonotary warbler; Rockwarbler; Savi's warbler; Swainson's warbler; Swamp sparrow; Violet-green swallow; Western wood pewee"
+All birds,19.8187342745,10.65,29,"Black phoebe; Black-chinned honeyeater; Carolina wren; Common whitethroat, or Whitethroat; Eastern phoebe; Eurasian linnet; Grasshopper sparrow; Grey wagtail; Grey whistler; Hoary redpoll; Iiwi; Kauai amakihi; Lincoln's sparrow; Northern waterthrush; Ortolan bunting; Red-billed quelea; Red-eyed vireo; Rufous-tailed scrub-robin; Sage sparrow; Seaside sparrow; Western yellow robin; Whinchat; White-breasted nuthatch; White-browed robin; Yellow wagtail; Yellow-breasted bunting; Yellow-eyed junco; Yellow-plumed honeyeater; Yellow-throated vireo"
+All birds,25.2869033521,10.65,20,"Akohekohe, or Crested honeycreeper; Australian reed warbler; Black rosy-finch; Clamorous reed warbler, or Indian great reed warbler; Common rosefinch; Grey-cheeked thrush; Hooded oriole; Hooded robin; Northern wheatear; Olive sparrow; Poo-uli; Red-browed treecreeper; Red-rumped swallow; Singing honeyeater; Thrush nightingale; Tree pipit; Vesper sparrow; Water pipit; Western bluebird; Yellow-breasted chat"
+All birds,32.2637900223,10.65,20,Blue grosbeak; Cassin's finch; Cedar waxwing; Dusky woodswallow; Eastern bluebird; Golden-crowned sparrow; Great reed-warbler; Green-tailed towhee; Grey-hooded parakeet; Horned lark; Lark sparrow; Macleay's honeyeater; Mountain bluebird; Pilotbird; Red-backed shrike; Rock sparrow; Southern scrub robin; Veery; White-rumped shama; Willie wagtail
+All birds,41.1656631935,10.65,13,Andean parakeet; Blue-grey tanager; Bobolink; Bullock's oriole; Cactus wren; Eurasian skylark; Noisy scrubbird; Olive whistler; Snow bunting; Summer tanager; Tawny-breasted honeyeater; Western kingbird; White-spectacled bulbul
+All birds,52.5236441533,10.65,4,Abert's towhee; American dipper; Corn bunting; Yellow-fronted parakeet
+All birds,67.0153953835,10.65,7,Bendire's thrasher; Chestnut-crowned babbler; Clay-colored robin; Little wattlebird; Long-billed thrasher; Pine grosbeak; Rusty blackbird
+All birds,85.5055526097,10.65,5,California thrasher; Ground parrot; Spangled drongo; Victoria's riflebird; Western meadowlark
+All birds,109.09731242,10.65,4,Black-faced cuckooshrike; Blue-faced honeyeater; Noisy friarbird; Ring ouzel
+All birds,139.198253376,10.65,1,Yellow wattlebird
+All birds,177.604317771,10.65,1,Guianan cock-of-the-rock
+All birds,6.62044393744,6.825,2,Blue-grey gnatcatcher; Mangrove gerygone
+All birds,8.44708464605,6.825,8,Fairy gerygone; Golden-headed cisticola; Large-billed gerygone; Northern beardless tyrannulet; Ruby-crowned kinglet; Southern emu-wren; Verdin; White-winged fairywren
+All birds,10.7777121431,6.825,10,Black-throated green warbler; Brown-headed nuthatch; Fairy martin; Forty-spotted pardalote; Lesser goldfinch; Painted redstart; Red-capped robin; Red-faced warbler; Spotted pardalote; Yellow-throated warbler
+All birds,13.7513809684,6.825,16,Bay-breasted warbler; Beautiful firetail; Black-throated sparrow; Common grasshopper-warbler; Gouldian finch; Henslow's sparrow; Japanese white-eye; Le Conte's sparrow; Leaden flycatcher; Lemon-bellied flyrobin; Pied monarch; Purple-crowned fairywren; Red-eared firetail; Striated pardalote; Vermilion flycatcher; Yellow-tinted honeyeater
+All birds,17.5455120741,6.825,9,Diamond firetail; Grey grasswren; Jacky winter; Little grassbird; Northern rough-winged swallow; River warbler; Southern rough-winged swallow; Tree martin; Twite
+All birds,22.3864784671,6.825,6,American pipit; Bachman's sparrow; Black-faced monarch; Fernwren; Red-throated pipit; Rufous-crowned sparrow
+All birds,28.5631115263,6.825,9,Brown-capped rosy finch; Cirl bunting; Lapland longspur; Shining flycatcher; Smith's longspur; Tawny grassbird; Varied triller; White-winged triller; Wood lark
+All birds,36.4439338355,6.825,6,Dickcissel; Gray-crowned rosy-finch; Lark bunting; Puerto Rican tanager; Scott's oriole; Woodchat shrike
+All birds,46.4991467116,6.825,3,Eastern bristlebird; Mckay's bunting; Striped honeyeater
+All birds,59.3286842928,6.825,4,Common cicadabird; Crested bellbird; Crissal thrasher; Le conte's thrasher
+All birds,75.698008003,6.825,1,Varied thrush
+All birds,96.5837770369,6.825,1,Noisy pitta
+All birds,109.09731242,3,1,Russet-tailed thrush
+All birds,139.198253376,3,1,Bassian thrush
+Parrots,368.903453966,79.5,1,Pink cockatoo
+Parrots,766.252532912,64.2,1,Salmon-crested cockatoo
+Parrots,1409.03330273,60.375,1,Kakapo
+Parrots,368.903453966,56.55,1,Yellow-crowned parrot
+Parrots,766.252532912,56.55,2,Palm cockatoo; Sulphur-crested cockatoo
+Parrots,531.670204169,52.725,1,Vasa parrot
+Parrots,289.129887725,48.9,2,Grey parrot; Yellow-crested cockatoo
+Parrots,368.903453966,48.9,1,Yellow-naped parrot
+Parrots,470.687272836,48.9,1,Blue-fronted amazon
+Parrots,600.55417326,48.9,1,Long-billed black cockatoo
+Parrots,766.252532912,48.9,1,Kea
+Parrots,977.668577352,48.9,1,Red-and-green macaw
+Parrots,326.58997876,45.075,1,Little corella
+Parrots,531.670204169,45.075,2,Long-billed corella; Red-browed parrot
+Parrots,678.362850111,45.075,1,Banksian cockatoo
+Parrots,1104.33674784,45.075,1,Military macaw
+Parrots,139.198253376,41.25,1,Senegal parrot
+Parrots,289.129887725,41.25,1,Galah
+Parrots,600.55417326,41.25,1,Yellow-tailed black cockatoo
+Parrots,977.668577352,41.25,1,Blue-and-yellow macaw
+Parrots,1247.41623171,41.25,1,Hyacinth macaw
+Parrots,96.5837770369,37.425,1,Cockatiel
+Parrots,865.529331533,37.425,1,Lear's macaw
+Parrots,85.5055526097,33.6,1,Scaly-breasted lorikeet
+Parrots,109.09731242,33.6,3,Brown parrot; Red-bellied parrot; Ruppel's parrot
+Parrots,139.198253376,33.6,2,Brown-headed parrot; Rose-ringed parakeet
+Parrots,177.604317771,33.6,2,Black parrot; Blue-crowned parakeet
+Parrots,368.903453966,33.6,2,Ducorps's cockatoo; Thick-billed parrot
+Parrots,470.687272836,33.6,1,Blue-eyed cockatoo
+Parrots,600.55417326,33.6,1,Short-billed black cockatoo
+Parrots,977.668577352,33.6,1,Scarlet macaw
+Parrots,96.5837770369,29.775,2,Carolina parakeet; Eastern rosella
+Parrots,123.232119745,29.775,1,Crimson rosella
+Parrots,200.614992885,29.775,1,Spix's macaw
+Parrots,255.966494419,29.775,3,Alexandrine parakeet; Blue-winged macaw; Gang-gang cockatoo
+Parrots,326.58997876,29.775,3,"Cape parrot, or Brown-necked parrot; Chestnut-fronted macaw; Orange-winged amazon"
+Parrots,416.699124894,29.775,2,Eclectus parrot; Red-lored parrot
+Parrots,531.670204169,29.775,2,St. Vincent parrot; White cockatoo
+Parrots,1104.33674784,29.775,1,Great green macaw
+Parrots,109.09731242,25.95,1,Alexandra's parrot
+Parrots,139.198253376,25.95,8,Black-headed parrot; Chattering lory; Red lory; Red-breasted parakeet; Red-masked parakeet; Red-shouldered macaw; Red-winged parrot; White-bellied parrot
+Parrots,177.604317771,25.95,1,Purple-naped lory
+Parrots,226.606964713,25.95,3,Australian king parrot; Golden conure; White-fronted parrot
+Parrots,289.129887725,25.95,2,Great-billed parrot; Lilac-crowned parrot
+Parrots,368.903453966,25.95,1,Festive amazon
+Parrots,470.687272836,25.95,1,Red-fronted macaw
+Parrots,600.55417326,25.95,1,Western corella
+Parrots,766.252532912,25.95,1,Pesquet's parrot
+Parrots,28.5631115263,22.125,1,Budgerigar
+Parrots,36.4439338355,22.125,1,Nyasa loverbird
+Parrots,46.4991467116,22.125,2,Blue-winged parrot; Turquoise parrot
+Parrots,59.3286842928,22.125,2,White-eared conure; Yellow-chevroned parakeet
+Parrots,75.698008003,22.125,2,Monk parakeet; Musk lorikeet
+Parrots,96.5837770369,22.125,1,Northern rosella
+Parrots,123.232119745,22.125,5,Golden-capped parakeet; Green parakeet; Horned parakeet; Nanday parakeet; Rainbow lorikeet
+Parrots,200.614992885,22.125,1,Yellow-streaked lory
+Parrots,255.966494419,22.125,5,Blue-headed parrot; Crimson shining parrot; Patagonian conure; Red-fan parrot; Red-fronted parrot
+Parrots,678.362850111,22.125,1,Blue-throated macaw
+Parrots,32.2637900223,18.3,1,Blue lorikeet
+Parrots,41.1656631935,18.3,1,Red-headed lovebird
+Parrots,52.5236441533,18.3,2,Hooded parrot; Mindanao lorikeet
+Parrots,67.0153953835,18.3,1,Olive-headed lorikeet
+Parrots,85.5055526097,18.3,3,Bluebonnet; Crimson-bellied parakeet; Orange-fronted parakeet
+Parrots,109.09731242,18.3,3,Large fig parrot; Pileated parrot; Red-capped parrot
+Parrots,139.198253376,18.3,2,Port Lincoln ringneck; Superb parrot
+Parrots,177.604317771,18.3,3,Black-capped lory; Black-winged lory; Slender-billed parakeet
+Parrots,226.606964713,18.3,1,Black lory
+Parrots,289.129887725,18.3,1,Scaly-headed parrot
+Parrots,28.5631115263,14.475,4,Blue-crowned hanging parrot; Green-rumped parrotlet; Pacific parrotlet; Yellow-faced parrotlet
+Parrots,36.4439338355,14.475,4,Colasisi; Mexican parrotlet; Scarlet-chested parrot; Vernal hanging parrot
+Parrots,46.4991467116,14.475,2,Bourke's parrot; Purple-crowned lorikeet
+Parrots,59.3286842928,14.475,6,Black-winged lovebird; Grey-cheeked parakeet; Mulga parrot; Plain parakeet; Red-rumped parrot; Tui parakeet
+Parrots,75.698008003,14.475,2,Canary-winged parakeet; Papuan lorikeet
+Parrots,96.5837770369,14.475,2,Blue-bellied parrot; Red-fronted parakeet
+Parrots,123.232119745,14.475,2,Edward's fig parrot; Salvadori's fig parrot
+Parrots,157.232982627,14.475,3,Dusky lory; Regent parrot; Short-tailed parrot
+Parrots,255.966494419,14.475,1,Blue-backed parrot
+Parrots,32.2637900223,10.65,1,Grey-hooded parakeet
+Parrots,41.1656631935,10.65,1,Andean parakeet
+Parrots,52.5236441533,10.65,1,Yellow-fronted parakeet
+Parrots,85.5055526097,10.65,1,Ground parrot
+Passerines,865.529331533,68.025,1,Common raven
+Passerines,255.966494419,37.425,1,Azure jay
+Passerines,17.5455120741,29.775,1,European goldfinch
+Passerines,22.3864784671,29.775,1,Chaffinch
+Passerines,46.4991467116,29.775,1,Northern cardinal
+Passerines,75.698008003,29.775,1,Black-naped oriole
+Passerines,7.47819833476,25.95,1,Striated thornbill
+Passerines,12.1740882882,25.95,1,Red-browed finch
+Passerines,19.8187342745,25.95,1,New holland honeyeater
+Passerines,25.2869033521,25.95,3,Garden warbler; House canary; House sparrow
+Passerines,41.1656631935,25.95,2,Black-headed grosbeak; Village weaver
+Passerines,52.5236441533,25.95,1,Rose-breasted grosbeak
+Passerines,67.0153953835,25.95,1,Superb starling
+Passerines,85.5055526097,25.95,2,Bali mynah; Blue jay
+Passerines,109.09731242,25.95,1,Common grackle
+Passerines,139.198253376,25.95,2,Apostlebird; Mexican jay
+Passerines,226.606964713,25.95,2,Alpine chough; Satin bowerbird
+Passerines,289.129887725,25.95,1,Pied currawong
+Passerines,368.903453966,25.95,1,Black currawong
+Passerines,470.687272836,25.95,2,Hawaiian crow; Rook
+Passerines,600.55417326,25.95,1,Australian raven
+Passerines,8.44708464605,22.125,1,Purple sunbird
+Passerines,13.7513809684,22.125,1,Silvereye
+Passerines,17.5455120741,22.125,1,European robin
+Passerines,22.3864784671,22.125,1,Hedge sparrow
+Passerines,36.4439338355,22.125,1,Little shrikethrush
+Passerines,59.3286842928,22.125,4,"Northern mockingbird; Red-winged blackbird; Redwing; White-billed buffalo weaver, or African ox birds"
+Passerines,75.698008003,22.125,3,European starling; Gray jay; Grey butcherbird
+Passerines,96.5837770369,22.125,1,"Common blackbird, or Eurasian blackbird"
+Passerines,123.232119745,22.125,2,Mistle thrush; Pied butcherbird
+Passerines,157.232982627,22.125,4,Black-billed magpie; Eurasian jay; Eurasian magpie; Tooth-billed bowerbird
+Passerines,200.614992885,22.125,1,Spotted nutcracker
+Passerines,255.966494419,22.125,2,"Eurasian crow, or Eurasian jackdaw; Red-billed chough"
+Passerines,326.58997876,22.125,1,American crow
+Passerines,416.699124894,22.125,2,Carrion crow; Grey currawong
+Passerines,531.670204169,22.125,2,Chihuahuan raven; Little raven
+Passerines,7.47819833476,18.3,1,Mountain thornbill
+Passerines,9.54150128459,18.3,1,Brown thornbill
+Passerines,12.1740882882,18.3,5,Blue tit; Eastern spinebill; Eurasian reed-warbler; Puerto rican vireo; Purple honeycreeper
+Passerines,15.5330299947,18.3,8,Common house-martin and northern house-martin; Elepaio; European pied flycatcher; Seychelles warbler; Small ground finch; Small tree finch; White-browed scrubwren; White-faced robin
+Passerines,19.8187342745,18.3,7,Barn swallow; Fuscous honeyeater; Great tit; Savannah sparrow; White-breasted robin; White-plumed honeyeater; Yellow-throated scrubwren
+Passerines,25.2869033521,18.3,5,Brambling; Eurasian bullfinch; Orchard oriole; Red-billed leiothrix; Rufous whistler
+Passerines,32.2637900223,18.3,7,Australian golden whistler; Gray catbird; Great crested flycatcher; Lewin's honeyeater; Puerto rican bullfinch; Western tanager; Yellow-tufted honeyeater
+Passerines,41.1656631935,18.3,3,Brown-headed cowbird; Red crossbill; White-breasted whistler
+Passerines,52.5236441533,18.3,3,Black-hooded oriole; Evening grosbeak; Hildebrandt's starling
+Passerines,67.0153953835,18.3,3,Bengal jungle babbler; Grey shrikethrush; Song thrush
+Passerines,85.5055526097,18.3,6,American robin; Eurasian golden-oriole; Scrub jay; Siberian jay; Western scrub jay; Yellow-headed blackbird
+Passerines,109.09731242,18.3,8,Fieldfare; Green figbird (hang-nest); Island scrub jay; Long-tailed glossy starling; Pearly-eyed thrasher; Pinyon jay; Regent bowerbird; Steller's jay
+Passerines,139.198253376,18.3,2,Chowchilla; Clark's nutcracker
+Passerines,289.129887725,18.3,1,Northwestern crow
+Passerines,368.903453966,18.3,2,Little crow; White-winged chough
+Passerines,470.687272836,18.3,1,Hooded crow
+Passerines,977.668577352,18.3,1,Superb lyrebird
+Passerines,6.62044393744,14.475,1,Yellow thornbill
+Passerines,8.44708464605,14.475,4,Adelaide's warbler; Dusky gerygone; Nashville warbler; Variegated fairywren
+Passerines,10.7777121431,14.475,19,Black-and-white warbler; Black-capped chickadee; Black-capped vireo; Brown honeyeater; Carolina chickadee; Common yellowthroat; Golden-cheeked warbler; Long-tailed tit; Lovely fairywren; Moustached warbler; Red-winged fairywren; Splendid fairywren; Superb fairywren; Western spinebill; White-collared seedeater; Willow warbler; Yellow warbler; Yellow-breasted boatbill; Yellow-rumped thornbill
+Passerines,13.7513809684,14.475,26,Acadian flycatcher; American goldfinch; Apapane; Bank swallow; Brown-headed honeyeater; Chipping sparrow; Common redpoll; Crested tit; Dusky myzomela; Eurasian siskin; Field sparrow; Flame robin; Hawaii amakihi; Hutton's vireo; Icterine warbler; Marsh tit; Pale-yellow robin; Pine siskin; Sedge warbler; Southern whiteface; White-eyed vireo; White-naped honeyeater; White-rumped munia; Willow flycatcher; Willow tit; Zebra finch
+Passerines,17.5455120741,14.475,19,American tree sparrow; Black redstart; Blackcap; Blue bunting; Blue-backed manakin; Bluethroat; Dusky antbird; Graceful honeyeater; Indigo bunting; Medium tree finch; Painted bunting; Saltmarsh sharp-tailed sparrow; Spotted antbird; Spotted flycatcher; Warbling vireo; Welcome swallow; White-cheeked honeyeater; Wrentit; Yellow-faced honeyeater
+Passerines,22.3864784671,14.475,21,"Barred warbler; Caribbean elaenia; Cave swallow; Cliff swallow; Common nightingale; Dark-eyed junco; Eastern yellow robin; Eurasian tree sparrow; House finch; Louisiana waterthrush; Meadow pipit; Ovenbird; Puerto rican flycatcher; Purple-gaped honeyeater; Reed bunting; Rock pipit; Song sparrow; Tree swallow; Tufted titmouse; White-throated sparrow; Wood nuthatch, or Eurasian nuthatch"
+Passerines,28.5631115263,14.475,21,Akiapolaau; Ash-throated flycatcher; Bell miner; Bicknell's thrush; Black-headed bunting; Brown treecreeper; Crested shriketit; European greenfinch; Gray-headed tanager; Hermit thrush; Nihoa finch; Purple finch; Red-whiskered bulbul; Scarlet tanager; Spanish sparrow; Swainson's thrush; White wagtail; White-crowned sparrow; White-eared honeyeater; Yellow-spotted honeyeater; Yellowhammer
+Passerines,36.4439338355,14.475,13,Baltimore oriole; Brown-crested flycatcher; Eastern towhee; Fox sparrow; Gilbert's whistler; Harris's sparrow; Jamaican oriole; Laysan finch; Olive-sided flycatcher; Palila; Tawny-winged woodcreeper; White-gaped honeyeater; Yellow-shouldered blackbird
+Passerines,46.4991467116,14.475,12,Black-billed treehunter; California towhee; Canyon towhee; Crested lark; Eastern kingbird; Loggerhead shrike; Purple martin; Spiny-cheeked honeyeater; Spot-breasted oriole; Spotted towhee; White-browed babbler; Wood thrush
+Passerines,59.3286842928,14.475,10,Bohemian waxwing; Brewer's blackbird; Hawfinch; Little friarbird; Noisy miner; Northern shrike; Tricolored blackbird; Western wattlebird; White-throated dipper; Yellow-throated miner
+Passerines,75.698008003,14.475,7,Arabian babbler; Brown thrasher; Curve-billed thrasher; Eastern whipbird; Grey-crowned babbler; Magpielark; Red-legged thrush
+Passerines,96.5837770369,14.475,2,Eastern meadowlark; Red wattlebird
+Passerines,123.232119745,14.475,1,Crested myna
+Passerines,157.232982627,14.475,2,Greater bird-of-paradise; Magnificent riflebird
+Passerines,200.614992885,14.475,2,Green catbird; Spotted catbird
+Passerines,416.699124894,14.475,1,Fish crow
+Passerines,5.86107454854,10.65,6,Brown gerygone; Bushtit; Goldcrest; Golden-crowned kinglet; Weebill; Western gerygone
+Passerines,7.47819833476,10.65,8,California gnatcatcher; Chestnut-rumped thornbill; Lucy's warbler; Magnolia warbler; Prairie warbler; Tasmanian thornbill; Western thornbill; Wilson's warbler
+Passerines,9.54150128459,10.65,26,"American redstart; Blackburnian warbler; Blue-breasted fairywren; Blue-winged warbler; Buff-rumped thornbill; Cerulean warbler; Chestnut-sided warbler; Coal tit; Common chiffchaff, or Eurasian chiffchaff; Eastern olivaceous warbler, or Olivaceous warbler; Eurasian penduline-tit; Eurasian treecreeper; Golden-winged warbler; House wren; Mistletoebird; Northern parula; Orange-crowned warbler; Red-backed fairywren; Red-headed myzomela; Rose robin; Scarlet myzomela; Tennessee warbler; Townsend's warbler; Virginia's warbler; Winter wren; Wood warbler"
+Passerines,12.1740882882,10.65,43,"Akepa; Anianiau; Bananaquit; Bell's vireo; Bewick's wren; Black-throated blue warbler; Blyth's reed-warbler; Boreal chickadee; Brewer's sparrow; Bridled titmouse; Broad-billed flycatcher; Canada warbler; Canary white-eye; Chestnut-backed chickadee; Clay-colored sparrow; Common stonechat and stonechat; Dusky flycatcher; Hammond's flycatcher; Hermit warbler; Hooded warbler; Least flycatcher; Lesser whitethroat; Macgillivray's warbler; Marsh warbler; Melodious warbler; Mexican chickadee; Mountain chickadee; Mourning warbler; Pacific-slope flycatcher; Palm warbler, or Western palm warbler; Philadelphia vireo; Pine warbler; Pygmy nuthatch; Red-breasted nuthatch; Redthroat; Rufous fantail; Rufous-throated honeyeater; Sardinian warbler; Siberian tit, or Gray-headed chickadee; Varied sittella; White-throated honeyeater; Worm-eating warbler; Yellow-rumped (myrtle) warbler"
+Passerines,15.5330299947,10.65,24,"Alder flycatcher; Bearded parrotbill; Black-headed honeyeater; Blackpoll warbler; Blue-headed vireo; Cetti's warbler; Collared flycatcher; Common redstart; Crescent honeyeater; Eastern wood pewee; Kentucky warbler; Kirtland's warbler; Lazuli bunting; Long-tailed finch; Masked finch; Nelson's sharp-tailed sparrow; Plain titmouse, or Oak titmouse; Prothonotary warbler; Rockwarbler; Savi's warbler; Swainson's warbler; Swamp sparrow; Violet-green swallow; Western wood pewee"
+Passerines,19.8187342745,10.65,29,"Black phoebe; Black-chinned honeyeater; Carolina wren; Common whitethroat, or Whitethroat; Eastern phoebe; Eurasian linnet; Grasshopper sparrow; Grey wagtail; Grey whistler; Hoary redpoll; Iiwi; Kauai amakihi; Lincoln's sparrow; Northern waterthrush; Ortolan bunting; Red-billed quelea; Red-eyed vireo; Rufous-tailed scrub-robin; Sage sparrow; Seaside sparrow; Western yellow robin; Whinchat; White-breasted nuthatch; White-browed robin; Yellow wagtail; Yellow-breasted bunting; Yellow-eyed junco; Yellow-plumed honeyeater; Yellow-throated vireo"
+Passerines,25.2869033521,10.65,20,"Akohekohe, or Crested honeycreeper; Australian reed warbler; Black rosy-finch; Clamorous reed warbler, or Indian great reed warbler; Common rosefinch; Grey-cheeked thrush; Hooded oriole; Hooded robin; Northern wheatear; Olive sparrow; Poo-uli; Red-browed treecreeper; Red-rumped swallow; Singing honeyeater; Thrush nightingale; Tree pipit; Vesper sparrow; Water pipit; Western bluebird; Yellow-breasted chat"
+Passerines,32.2637900223,10.65,19,Blue grosbeak; Cassin's finch; Cedar waxwing; Dusky woodswallow; Eastern bluebird; Golden-crowned sparrow; Great reed-warbler; Green-tailed towhee; Horned lark; Lark sparrow; Macleay's honeyeater; Mountain bluebird; Pilotbird; Red-backed shrike; Rock sparrow; Southern scrub robin; Veery; White-rumped shama; Willie wagtail
+Passerines,41.1656631935,10.65,12,Blue-grey tanager; Bobolink; Bullock's oriole; Cactus wren; Eurasian skylark; Noisy scrubbird; Olive whistler; Snow bunting; Summer tanager; Tawny-breasted honeyeater; Western kingbird; White-spectacled bulbul
+Passerines,52.5236441533,10.65,3,Abert's towhee; American dipper; Corn bunting
+Passerines,67.0153953835,10.65,7,Bendire's thrasher; Chestnut-crowned babbler; Clay-colored robin; Little wattlebird; Long-billed thrasher; Pine grosbeak; Rusty blackbird
+Passerines,85.5055526097,10.65,4,California thrasher; Spangled drongo; Victoria's riflebird; Western meadowlark
+Passerines,109.09731242,10.65,4,Black-faced cuckooshrike; Blue-faced honeyeater; Noisy friarbird; Ring ouzel
+Passerines,139.198253376,10.65,1,Yellow wattlebird
+Passerines,177.604317771,10.65,1,Guianan cock-of-the-rock
+Passerines,6.62044393744,6.825,2,Blue-grey gnatcatcher; Mangrove gerygone
+Passerines,8.44708464605,6.825,8,Fairy gerygone; Golden-headed cisticola; Large-billed gerygone; Northern beardless tyrannulet; Ruby-crowned kinglet; Southern emu-wren; Verdin; White-winged fairywren
+Passerines,10.7777121431,6.825,10,Black-throated green warbler; Brown-headed nuthatch; Fairy martin; Forty-spotted pardalote; Lesser goldfinch; Painted redstart; Red-capped robin; Red-faced warbler; Spotted pardalote; Yellow-throated warbler
+Passerines,13.7513809684,6.825,16,Bay-breasted warbler; Beautiful firetail; Black-throated sparrow; Common grasshopper-warbler; Gouldian finch; Henslow's sparrow; Japanese white-eye; Le Conte's sparrow; Leaden flycatcher; Lemon-bellied flyrobin; Pied monarch; Purple-crowned fairywren; Red-eared firetail; Striated pardalote; Vermilion flycatcher; Yellow-tinted honeyeater
+Passerines,17.5455120741,6.825,9,Diamond firetail; Grey grasswren; Jacky winter; Little grassbird; Northern rough-winged swallow; River warbler; Southern rough-winged swallow; Tree martin; Twite
+Passerines,22.3864784671,6.825,6,American pipit; Bachman's sparrow; Black-faced monarch; Fernwren; Red-throated pipit; Rufous-crowned sparrow
+Passerines,28.5631115263,6.825,9,Brown-capped rosy finch; Cirl bunting; Lapland longspur; Shining flycatcher; Smith's longspur; Tawny grassbird; Varied triller; White-winged triller; Wood lark
+Passerines,36.4439338355,6.825,6,Dickcissel; Gray-crowned rosy-finch; Lark bunting; Puerto Rican tanager; Scott's oriole; Woodchat shrike
+Passerines,46.4991467116,6.825,3,Eastern bristlebird; Mckay's bunting; Striped honeyeater
+Passerines,59.3286842928,6.825,4,Common cicadabird; Crested bellbird; Crissal thrasher; Le conte's thrasher
+Passerines,75.698008003,6.825,1,Varied thrush
+Passerines,96.5837770369,6.825,1,Noisy pitta
+Passerines,109.09731242,3,1,Russet-tailed thrush
+Passerines,139.198253376,3,1,Bassian thrush

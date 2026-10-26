@@ -13,17 +13,32 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
   <!-- Our stylesheet -->
-  <link rel="stylesheet" href="css/styles.css?v=19">
+  <link rel="stylesheet" href="css/styles.css?v=35">
 </head>
 
 <body>
 
   <header class="hero">
-    <p class="eyebrow">FIT3179 · Data Visualisation 2</p>
-    <h1>From the Wild to Our Homes</h1>
-    <p class="subtitle">
-      Exploring Australia's feathered companions.
-    </p>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-kicker">FIT3179 · DATA VISUALISATION 2</p>
+        
+        <h1>
+          From the Wild to<br> Our
+          <span class="hero-highlight"> Homes</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          The birds we keep, the lives they lead, and the care they need.
+        </p>
+      </div>
+
+      <div class="hero-divider" aria-hidden="true"></div>
+
+      <div class="hero-art" aria-hidden="true">
+        <img src="images/hero-bird.png" alt="" class="hero-bird">
+      </div>
+    </div>
   </header>
 
   <main>
@@ -469,48 +484,137 @@
             </aside>
           </div>
         </article>
+
       </div>
 
-      <div class="companion-story-phase companion-practical-phase">
-        <article class="visualisation-block bird-size-visualisation">
-          <h2>How different are these familiar companion birds?</h2>
+      <p class="section-four-transition">
+        Recorded longevity varies considerably between bird species. Body size offers another way to explore these differences, from hundreds of species to six familiar companions.
+      </p>
 
+      <div class="section-four-chart-pair">
+        <article class="visualisation-block visual-card section-four-pair-card bird-hexbin-visualisation">
+          <h2>Does a larger bird mean a longer life?</h2>
+          <p class="description">Compare body mass and maximum recorded longevity across 706 species.</p>
+
+          <div class="section-four-meta-row">
+            <p class="idiom-card-title">
+              Body mass and maximum longevity · AnAge · 706 species
+            </p>
+
+            <div class="hexbin-toolbar">
+              <span class="map-toolbar-label">BIRD GROUP</span>
+              <div id="bird_mass_longevity_controls"></div>
+            </div>
+          </div>
+
+          <figure class="section-four-chart-stage bird-hexbin-card">
+            <div class="hexbin-chart-area">
+              <div id="bird_mass_longevity_hexbin"></div>
+            </div>
+          </figure>
+
+          <div class="side-chart-key section-four-card-key" aria-label="Highlighted bird group colours">
+            <span><i class="side-key-dot side-key-dot-parrot"></i>Parrots</span>
+            <span><i class="side-key-dot side-key-dot-songbird"></i>Passerines</span>
+          </div>
+
+          <aside class="annotation-panel section-four-bottom-annotation hexbin-insight">
+            <h3 class="annotation-title">Larger species tend to show higher recorded longevity.</h3>
+            <p class="annotation-evidence">The association appears in both bird groups, with considerable variation.</p>
+            <div class="reading-note reading-note-stacked hexbin-reading-note">
+              <span class="reading-note-label">HOW TO READ</span>
+              <p>Darker hexagons contain more species. Outlined dots mark familiar companion birds.</p>
+            </div>
+          </aside>
+        </article>
+
+        <article class="visualisation-block visual-card section-four-pair-card bird-size-visualisation">
+          <h2>How different are these familiar companion birds?</h2>
           <p class="description">Compare adult body mass across six familiar companion species.</p>
 
-          <figure class="bird-size-card visual-card">
-            <figcaption class="idiom-card-title">Adult body mass · six companion bird species</figcaption>
+          <div class="section-four-meta-row">
+            <p class="idiom-card-title">Adult body mass · six companion bird species</p>
+          </div>
 
-            <div class="companion-chart-layout">
-              <div class="companion-chart-area">
-                <div id="bird-size-lollipop"></div>
-              </div>
+          <figure class="section-four-chart-stage bird-size-card">
+            <div class="companion-chart-area">
+              <div id="bird-size-lollipop"></div>
+            </div>
+          </figure>
 
-              <aside class="annotation-panel companion-chart-insight">
+          <div class="side-chart-key section-four-card-key" aria-label="Bird group colour key">
+            <span><i class="side-key-dot side-key-dot-parrot"></i>Parrots</span>
+            <span><i class="side-key-dot side-key-dot-songbird"></i>Songbirds</span>
+          </div>
+
+          <aside class="annotation-panel section-four-bottom-annotation companion-chart-insight">
+            <h3 class="annotation-title">“Small bird” covers a wide size range.</h3>
+            <p class="annotation-evidence">A lorikeet weighs nearly ten zebra finches.</p>
+            <div class="reading-note reading-note-stacked side-reading-note">
+              <span class="reading-note-label">HOW TO READ</span>
+              <p>Longer lines indicate greater adult body mass. Hover for exact weight.</p>
+            </div>
+          </aside>
+        </article>
+      </div>
+
+      <p class="section-four-transition">
+        Understanding a bird's physical characteristics is only part of the decision. What kinds of birds are kept in Australian homes, and what opportunities do owners provide for everyday activity?
+      </p>
+
+      <div class="companion-story-phase companion-practical-phase">
+        <article class="visualisation-block bird-housing-visualisation">
+
+          <h2>What kinds of birds do Australians keep?</h2>
+
+          <p class="description">
+            Compare reported bird types and living arrangements among
+            Australian bird-owning households in 2025.
+          </p>
+
+          <figure class="visual-card bird-housing-card">
+
+            <figcaption class="idiom-card-title">
+              BIRD TYPES KEPT · AUSTRALIA · 2025
+            </figcaption>
+
+            <div class="bird-housing-layout">
+
+              <!-- Left: horizontal bar chart -->
+              <div id="bird_types_2025" class="bird-housing-plot"></div>
+
+              <!-- Right: storytelling annotation -->
+              <aside class="annotation-panel bird-housing-insight">
+
                 <h3 class="annotation-title">
-                  “Small bird” covers a wide size range.
+                  Indoor caged birds are the most commonly reported type.
                 </h3>
-                <p class="annotation-evidence">
-                  A lorikeet weighs nearly ten zebra finches.
+
+                <strong class="bird-housing-big-stat">62%</strong>
+
+                <p class="bird-housing-stat-label">
+                  of bird-owning households
                 </p>
 
-                <div class="side-chart-key" aria-label="Bird group colour key">
-                  <span><i class="side-key-dot side-key-dot-parrot"></i>Parrots</span>
-                  <span><i class="side-key-dot side-key-dot-songbird"></i>Songbirds</span>
-                </div>
+                <p class="annotation-evidence">
+                  Aviary birds are reported by 26% of households,
+                  while 20% report keeping chickens.
+                </p>
 
-                <div class="reading-note side-reading-note">
-                  <span class="reading-note-label">HOW TO READ</span>
-                  <p>
-                    Each dot represents one bird species.
-                    Longer lines indicate greater adult body mass.
-                    Hover for exact weight.
-                  </p>
-                </div>
               </aside>
+
             </div>
 
+            <p class="chart-footnote">
+              Percentages are based on bird-owning households.
+              Categories may overlap and do not sum to 100%.
+              Chickens are a bird type, not a housing arrangement.
+            </p>
+
           </figure>
+
         </article>
+
 
         <article class="visualisation-block bird-care-section">
           <h2>What does everyday bird care involve?</h2>
@@ -549,13 +653,12 @@
 
           </figure>
         </article>
+
       </div>
 
       <div class="companion-choice-card">
         <h2>Choose for the care you can sustain</h2>
-        <p>Recorded longevity suggests a potentially long commitment.</p>
-        <p>Familiar species differ greatly in adult size.</p>
-        <p>Every choice requires regular enrichment and interaction.</p>
+        <p class="conclusion-copy">Birds may be familiar household companions, but their lives are far from identical. From wild observation patterns to differences in body size and recorded longevity, each species brings its own characteristics. Choosing a companion also means thinking beyond the bird itself—to its living environment, opportunities for enrichment and the care we can provide over time.</p>
       </div>
 
 
@@ -689,7 +792,7 @@
 
     vegaEmbed(
       "#bird-size-lollipop",
-      "js/bird_size_lollipop.vg.json?v=3",
+      "js/bird_size_lollipop.vg.json?v=4",
       { actions: false, renderer: "svg" }
     ).catch(console.error);
 
@@ -698,6 +801,27 @@
       "js/bird_care_radial.vg.json?v=2",
       { actions: false, renderer: "svg" }
     ).catch(console.error);
+
+    vegaEmbed(
+      "#bird_mass_longevity_hexbin",
+      "js/bird_mass_longevity_hexbin.vg.json?v=10",
+      {
+        actions: false,
+        renderer: "svg",
+        bind: document.getElementById("bird_mass_longevity_controls")
+      }
+    ).catch(console.error);
+
+    vegaEmbed(
+      "#bird_types_2025",
+      "js/bird_types_2025.vl.json?v=1",
+      {
+        actions: false,
+        renderer: "svg"
+      }
+    ).catch(console.error);
+
+
 
 
 

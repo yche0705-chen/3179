@@ -1,0 +1,275 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Interactive 2D hexagonal-binned distribution of maximum recorded longevity vs adult body mass; AnAge filtered to orders Psittaciformes and Passeriformes.",
+  "width": 400,
+  "height": 300,
+  "padding": {
+    "left": 56,
+    "right": 10,
+    "top": 10,
+    "bottom": 46
+  },
+  "autosize": {
+    "type": "pad",
+    "resize": true
+  },
+  "background": "#FFFFFF",
+  "signals": [
+    {
+      "name": "selectedGroup",
+      "value": "All birds",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All birds",
+          "Parrots",
+          "Passerines"
+        ],
+        "name": "Bird group: "
+      }
+    }
+  ],
+  "data": [
+    {
+      "name": "hexes",
+      "url": "data/bird_hexbin_counts.csv?v=3",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "mass_g": "number",
+          "longevity_years": "number",
+          "count": "number"
+        }
+      },
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.group === selectedGroup"
+        }
+      ]
+    },
+    {
+      "name": "birds",
+      "url": "data/bird_mass_longevity_highlights.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "adult_mass_g": "number",
+          "maximum_longevity_years": "number"
+        }
+      },
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "selectedGroup === \"All birds\" || datum.group === selectedGroup"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "log",
+      "domain": [
+        4.0,
+        3000.0
+      ],
+      "range": "width",
+      "nice": false
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": [
+        0.0,
+        90.0
+      ],
+      "range": "height",
+      "nice": false
+    },
+    {
+      "name": "heat",
+      "type": "sqrt",
+      "domain": {
+        "data": "hexes",
+        "field": "count"
+      },
+      "range": [
+        "#DFEDF0",
+        "#8EC3CE",
+        "#398BA3",
+        "#14566A"
+      ],
+      "zero": true
+    },
+    {
+      "name": "groupColor",
+      "type": "ordinal",
+      "domain": [
+        "Parrots",
+        "Passerines"
+      ],
+      "range": [
+        "#398BA3",
+        "#E96B73"
+      ]
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "scale": "x",
+      "title": "Adult body mass (g, logarithmic scale)",
+      "values": [
+        10,
+        30,
+        100,
+        300,
+        1000,
+        3000
+      ],
+      "labelColor": "#6C6260",
+      "titleColor": "#302D32",
+      "tickColor": "#DED6CC",
+      "domainColor": "#DED6CC",
+      "grid": false,
+      "labelFont": "Arial",
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "titleFont": "Arial"
+    },
+    {
+      "orient": "left",
+      "scale": "y",
+      "title": "Maximum recorded longevity (years)",
+      "values": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75,
+        90
+      ],
+      "labelColor": "#6C6260",
+      "titleColor": "#302D32",
+      "grid": true,
+      "gridColor": "#EEE9E3",
+      "domainColor": "#DED6CC",
+      "labelFont": "Arial",
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "titleFont": "Arial"
+    }
+  ],
+  "legends": [
+    {
+      "fill": "heat",
+      "title": "Species per hexagon",
+      "orient": "bottom",
+      "direction": "horizontal",
+      "gradientLength": 170,
+      "gradientThickness": 9,
+      "offset": 10,
+      "format": "d",
+      "labelColor": "#6C6260",
+      "titleColor": "#302D32"
+    }
+  ],
+  "marks": [
+    {
+      "type": "path",
+      "from": {
+        "data": "hexes"
+      },
+      "encode": {
+        "update": {
+          "path": {
+            "value": "M 0,-8.5 L 7.361,-4.25 L 7.361,4.25 L 0,8.5 L -7.361,4.25 L -7.361,-4.25 Z"
+          },
+          "x": {
+            "scale": "x",
+            "field": "mass_g"
+          },
+          "y": {
+            "scale": "y",
+            "field": "longevity_years"
+          },
+          "fill": {
+            "scale": "heat",
+            "field": "count"
+          },
+          "stroke": {
+            "value": "#FFFFFF"
+          },
+          "strokeWidth": {
+            "value": 0.75
+          },
+          "tooltip": {
+            "signal": "datum.group + \": \" + datum.count + \" species in this bin; centre about \" + format(datum.mass_g, \".1f\") + \" g and \" + format(datum.longevity_years, \".1f\") + \" years\""
+          }
+        },
+        "hover": {
+          "stroke": {
+            "value": "#302D32"
+          },
+          "strokeWidth": {
+            "value": 1.4
+          }
+        }
+      },
+      "clip": true
+    },
+    {
+      "type": "symbol",
+      "from": {
+        "data": "birds"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "scale": "x",
+            "field": "adult_mass_g"
+          },
+          "y": {
+            "scale": "y",
+            "field": "maximum_longevity_years"
+          },
+          "size": {
+            "value": 180
+          },
+          "shape": {
+            "value": "circle"
+          },
+          "stroke": {
+            "value": "#302D32"
+          },
+          "strokeWidth": {
+            "value": 1.8
+          },
+          "fill": {
+            "scale": "groupColor",
+            "field": "group"
+          },
+          "opacity": {
+            "value": 1
+          },
+          "tooltip": {
+            "signal": "datum.display_name + \" \u2014 \" + format(datum.adult_mass_g, \".1f\") + \" g; \" + format(datum.maximum_longevity_years, \".1f\") + \" years maximum; origin: \" + datum.specimen_origin"
+          }
+        },
+        "hover": {
+          "size": {
+            "value": 330
+          }
+        }
+      }
+    }
+  ],
+  "config": {
+    "font": "Arial",
+    "title": {
+      "font": "Arial"
+    }
+  }
+}

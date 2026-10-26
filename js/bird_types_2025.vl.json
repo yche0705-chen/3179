@@ -1,0 +1,139 @@
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bird types reported by Australian bird-owning households in 2025.",
+  "width": "container",
+  "height": 168,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "background": null,
+  "data": {
+    "url": "data/bird_types_2025.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "share_pct": "number",
+        "year": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "calculate": "format(datum.share_pct, '.0f') + '%'",
+      "as": "share_label"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "cornerRadiusEnd": 5,
+        "size": 29
+      },
+      "encoding": {
+        "y": {
+          "field": "bird_type",
+          "type": "nominal",
+          "sort": [
+            "Caged indoor birds",
+            "Aviary birds",
+            "Chickens"
+          ],
+          "axis": {
+            "title": null,
+            "labelColor": "#302D32",
+            "labelFont": "Arial",
+            "labelFontSize": 13,
+            "labelLimit": 180,
+            "ticks": false,
+            "domain": false,
+            "labelPadding": 10
+          }
+        },
+        "x": {
+          "field": "share_pct",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 75],
+            "nice": false
+          },
+          "axis": {
+            "title": "Share of bird-owning households (%)",
+            "values": [0, 20, 40, 60],
+            "labelColor": "#6C6260",
+            "titleColor": "#302D32",
+            "grid": true,
+            "gridColor": "#EEE9E3",
+            "domain": false,
+            "tickColor": "#DED6CC",
+            "labelFontSize": 11,
+            "titleFontSize": 12
+          }
+        },
+        "color": {
+          "condition": {
+            "test": "datum.bird_type === 'Caged indoor birds'",
+            "value": "#398BA3"
+          },
+          "value": "#B9C9CD"
+        },
+        "tooltip": [
+          {
+            "field": "bird_type",
+            "title": "Bird type"
+          },
+          {
+            "field": "share_pct",
+            "title": "Households (%)"
+          },
+          {
+            "field": "year",
+            "title": "Year"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 7,
+        "font": "Arial",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "color": "#302D32"
+      },
+      "encoding": {
+        "y": {
+          "field": "bird_type",
+          "type": "nominal",
+          "sort": [
+            "Caged indoor birds",
+            "Aviary birds",
+            "Chickens"
+          ]
+        },
+        "x": {
+          "field": "share_pct",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "share_label",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Arial",
+      "titleFont": "Arial"
+    }
+  }
+}

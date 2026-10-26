@@ -1,0 +1,6 @@
+display_name,species,group,adult_mass_g,maximum_longevity_years,specimen_origin
+Zebra finch,Zebra finch,Passerines,12.0,12.0,unknown
+Canary,House canary,Passerines,24.3,24.0,captivity
+Budgerigar,Budgerigar,Parrots,30.0,21.0,captivity
+Cockatiel,Cockatiel,Parrots,90.0,35.0,captivity
+Rainbow lorikeet,Rainbow lorikeet,Parrots,115.1,20.6,wild

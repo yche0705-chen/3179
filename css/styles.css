@@ -35,19 +35,140 @@ main {
   overflow-x: clip;
 }
 
+
 /* =========================
-   HERO
+   HERO — STABLE BIRD LAYOUT
 ========================= */
 
 .hero {
-  padding: 64px 24px 48px;
-  background: linear-gradient(
-    135deg,
-    #FFF9F0 0%,
-    #FCE7EE 55%,
-    #FFF2C9 100%
-  );
-  text-align: center;
+  width: 100%;
+  overflow: visible;
+  background: #FAF7F0;
+}
+
+.hero-inner {
+  position: relative;
+  width: 100%;
+  max-width: var(--content-width);
+  min-height: 390px;
+  margin: 0 auto;
+  padding: 64px 24px;
+}
+
+/* TITLE */
+.hero-text {
+  position: relative;
+  z-index: 2;
+  width: 65%;
+  max-width: 720px;
+}
+
+.hero-kicker {
+  margin: 0 0 20px;
+  color: #B66B8D;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.hero h1 {
+  max-width: 680px;
+  margin: 0 0 22px;
+  color: #302D32;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(48px, 5.2vw, 76px);
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+}
+
+
+.hero-highlight {
+  color: #A54E70;
+}
+
+.hero-subtitle {
+  max-width: 580px;
+  margin: 0;
+  color: #6C6260;
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+/* ONE LINE, SAME WIDTH AS SECTION CONTENT */
+.hero-divider {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 55px;
+  height: 1.5px;
+  background: #4B4050;
+  z-index: 1;
+}
+
+.hero-art {
+  position: absolute;
+  right: 48px;
+  top: 70px;
+  width: 420px;
+  height: 260px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.hero-bird {
+  position: absolute;
+  right: -5px;
+  bottom: -117px;
+  width: 350px;
+  height: auto;
+  display: block;
+}
+
+
+/* TABLET */
+@media (max-width: 1000px) {
+  .hero-text {
+    width: 72%;
+  }
+
+  .hero-bird {
+    width: 230px;
+    bottom: -106px;
+  }
+
+  .hero-art {
+    width: 260px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 700px) {
+  .hero-inner {
+    min-height: 360px;
+    padding: 55px 18px 105px;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: clamp(38px, 7vw, 54px);
+  }
+
+  .hero-art {
+    display: none;
+  }
+
+  .hero-divider {
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    bottom: 40px;
+    height: 1.5px;
+    background: #4B4050;
+    z-index: 1;
+  }
 }
 
 .eyebrow,
@@ -59,7 +180,7 @@ main {
 }
 
 .eyebrow {
-  color: #9D617A;
+  color: #AD6483;
 }
 
 h1 {
@@ -92,6 +213,10 @@ h1 {
   max-width: var(--content-width);
   margin: var(--section-space) auto 0;
   padding: 0 24px;
+}
+
+.hero + main > .story-section:first-child {
+  margin-top: 10px;
 }
 
 .section-label {
@@ -1621,6 +1746,12 @@ h2 {
   font-size: 15px;
 }
 
+.companion-choice-card .conclusion-copy {
+  max-width: 82ch;
+  margin-top: 0;
+  line-height: 1.65;
+}
+
 @media (max-width: 720px) {
   .companion-choice-intro h2 {
     font-size: 32px;
@@ -1863,6 +1994,308 @@ h2 {
 
   .longevity-evidence-card .bird-violin-card {
     padding: 0;
+  }
+}
+
+
+/* SECTION 4 — MASS AND LONGEVITY HEXBIN */
+
+.section-four-chart-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--layout-gap);
+  align-items: stretch;
+  width: 100%;
+  margin-top: var(--visual-space);
+}
+
+.section-four-transition {
+  max-width: 78ch;
+  margin: 22px 0 0;
+  color: var(--muted-text);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.section-four-transition + .section-four-chart-pair,
+.section-four-transition + .companion-practical-phase {
+  margin-top: 16px;
+}
+
+.section-four-transition + .companion-practical-phase {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.section-four-chart-pair > .visualisation-block + .visualisation-block {
+  margin-top: 0;
+}
+
+.section-four-pair-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 100%;
+  padding: 22px;
+}
+
+.section-four-pair-card > h2 {
+  min-height: 28px;
+  margin: 0 0 6px;
+  font-size: clamp(20px, 1.7vw, 23px);
+  line-height: 1.22;
+}
+
+.section-four-pair-card > .description {
+  min-height: 45px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.section-four-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 48px;
+  margin-bottom: 10px;
+}
+
+.section-four-meta-row > .idiom-card-title {
+  min-width: 0;
+  margin: 0;
+}
+
+.section-four-chart-stage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 410px;
+  min-width: 0;
+  margin: 0;
+}
+
+.section-four-chart-stage.bird-size-card {
+  padding: 0;
+}
+
+.section-four-chart-stage > .companion-chart-area {
+  grid-column: auto;
+  flex: 1 1 100%;
+  width: 100%;
+  min-width: 0;
+}
+
+.section-four-card-key {
+  min-height: 18px;
+  margin: 12px 0 14px;
+}
+
+.section-four-bottom-annotation {
+  margin-top: auto;
+  padding-left: 16px;
+}
+
+.section-four-bottom-annotation .annotation-title {
+  margin-top: 0;
+}
+
+.section-four-bottom-annotation .annotation-evidence {
+  margin-top: 7px;
+}
+
+.section-four-bottom-annotation .reading-note {
+  margin-top: 14px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.bird-hexbin-card {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin: 0;
+}
+
+.hexbin-toolbar {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+}
+
+#bird_mass_longevity_controls {
+  min-width: 0;
+}
+
+#bird_mass_longevity_controls .vega-bindings,
+#bird_mass_longevity_controls .vega-bind {
+  margin: 0;
+}
+
+#bird_mass_longevity_controls .vega-bind-name {
+  display: none;
+}
+
+#bird_mass_longevity_controls select {
+  min-height: 38px;
+  padding: 7px 34px 7px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 9px;
+  background: #FFFFFF;
+  color: var(--text);
+  font: inherit;
+}
+
+.hexbin-chart-area,
+#bird_mass_longevity_hexbin {
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+#bird_mass_longevity_hexbin .vega-embed {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+#bird_mass_longevity_hexbin svg,
+#bird_mass_longevity_hexbin canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.hexbin-insight {
+  margin: 0;
+}
+
+.hexbin-reading-note {
+  margin-top: 14px;
+}
+
+@media (max-width: 1100px) {
+  .section-four-chart-pair {
+    grid-template-columns: 1fr;
+  }
+
+  .section-four-chart-stage {
+    height: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .section-four-pair-card {
+    padding: 16px;
+  }
+
+  .section-four-pair-card > h2,
+  .section-four-pair-card > .description,
+  .section-four-meta-row {
+    min-height: 0;
+  }
+
+  .section-four-meta-row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hexbin-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  #bird_mass_longevity_hexbin svg,
+  #bird_mass_longevity_hexbin canvas {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+/* =========================
+   BIRD TYPES KEPT — 2025
+========================= */
+
+.bird-housing-card {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 20px;
+}
+
+.bird-housing-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(190px, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.bird-housing-plot {
+  min-width: 0;
+  width: 100%;
+}
+
+.bird-housing-plot .vega-embed {
+  width: 100%;
+}
+
+.bird-housing-plot svg {
+  display: block;
+  max-width: 100%;
+}
+
+.bird-housing-insight {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: start;
+  margin-top: 0;
+}
+
+.bird-housing-big-stat {
+  display: block;
+  margin-top: 14px;
+  color: #E96B73;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(40px, 4vw, 60px);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.bird-housing-insight .annotation-title {
+  margin-top: 0;
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.bird-housing-stat-label {
+  margin: 4px 0 0;
+  color: var(--muted-text);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.bird-housing-insight .annotation-evidence {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+@media (max-width: 850px) {
+  .bird-housing-layout {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .bird-housing-insight {
+    padding-top: 12px;
   }
 }
 
@@ -2357,10 +2790,6 @@ footer {
 
   .visual-card {
     padding: 16px;
-  }
-
-  .hero {
-    padding: 52px 20px 40px;
   }
 
   .story-section {
