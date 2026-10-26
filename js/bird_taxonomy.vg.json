@@ -1,20 +1,27 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "width": 900,
-  "height": 420,
+  "description": "Taxonomic relationships among six familiar companion bird species.",
+  "width": 1180,
+  "height": 330,
   "padding": {
-    "left": 25,
-    "right": 40,
-    "top": 20,
-    "bottom": 25
+    "left": 12,
+    "right": 12,
+    "top": 8,
+    "bottom": 8
   },
-  "autosize": "pad",
+  "autosize": {
+    "type": "fit-x",
+    "contains": "padding",
+    "resize": true
+  },
   "background": "#FFFFFF",
   "data": [
     {
       "name": "tree",
       "url": "data/bird_taxonomy.csv",
-      "format": {"type": "csv"},
+      "format": {
+        "type": "csv"
+      },
       "transform": [
         {
           "type": "stratify",
@@ -24,28 +31,44 @@
         {
           "type": "tree",
           "method": "tidy",
-          "size": [{"signal": "height"}, {"signal": "width - 150"}],
+          "size": [
+            { "signal": "height - 64" },
+            { "signal": "width - 130" }
+          ],
           "as": ["y", "x", "depth", "children"]
+        },
+        {
+          "type": "formula",
+          "expr": "datum.y + 50",
+          "as": "y"
         }
       ]
     },
     {
-    "name": "links",
-    "source": "tree",
-    "transform": [
+      "name": "links",
+      "source": "tree",
+      "transform": [
+        { "type": "treelinks" },
         {
-        "type": "treelinks"
-        },
-        {
-        "type": "linkpath",
-        "orient": "horizontal",
-        "shape": "diagonal",
-        "sourceX": "source.x",
-        "sourceY": "source.y",
-        "targetX": "target.x",
-        "targetY": "target.y"
+          "type": "linkpath",
+          "orient": "horizontal",
+          "shape": "diagonal",
+          "sourceX": "source.x",
+          "sourceY": "source.y",
+          "targetX": "target.x",
+          "targetY": "target.y"
         }
-     ]
+      ]
+    },
+    {
+      "name": "headers",
+      "values": [
+        { "depth": 0, "label": "START" },
+        { "depth": 1, "label": "GROUP" },
+        { "depth": 2, "label": "FAMILY" },
+        { "depth": 3, "label": "GENUS" },
+        { "depth": 4, "label": "SPECIES" }
+      ]
     }
   ],
   "scales": [
@@ -58,33 +81,64 @@
   ],
   "marks": [
     {
+      "type": "rule",
+      "encode": {
+        "enter": {
+          "x": { "value": 0 },
+          "x2": { "signal": "width" },
+          "y": { "value": 40 },
+          "stroke": { "value": "#EEE9E3" },
+          "strokeWidth": { "value": 1 }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": { "data": "headers" },
+      "encode": {
+        "enter": {
+          "x": {
+            "signal": "datum.depth * (width - 130) / 4"
+          },
+          "y": { "value": 20 },
+          "text": { "field": "label" },
+          "font": { "value": "Arial" },
+          "fontSize": { "value": 11 },
+          "fontWeight": { "value": "bold" },
+          "fill": { "value": "#827773" },
+          "letterSpacing": { "value": 0.7 },
+          "baseline": { "value": "middle" }
+        }
+      }
+    },
+    {
       "type": "path",
-      "from": {"data": "links"},
+      "from": { "data": "links" },
       "encode": {
         "update": {
-          "path": {"field": "path"},
+          "path": { "field": "path" },
           "stroke": {
             "scale": "branchColour",
             "field": "target.group"
           },
-          "strokeWidth": {"value": 1.6},
-          "strokeOpacity": {"value": 0.65},
-          "fill": {"value": null}
+          "strokeWidth": { "value": 1.9 },
+          "strokeOpacity": { "value": 0.78 },
+          "fill": { "value": null }
         }
       }
     },
     {
       "type": "symbol",
-      "from": {"data": "tree"},
+      "from": { "data": "tree" },
       "encode": {
         "enter": {
-          "size": {"value": 95},
-          "stroke": {"value": "#FFFFFF"},
-          "strokeWidth": {"value": 1.5}
+          "size": { "value": 100 },
+          "stroke": { "value": "#FFFFFF" },
+          "strokeWidth": { "value": 1.5 }
         },
         "update": {
-          "x": {"field": "x"},
-          "y": {"field": "y"},
+          "x": { "field": "x" },
+          "y": { "field": "y" },
           "fill": {
             "scale": "branchColour",
             "field": "group"
@@ -92,33 +146,45 @@
           "tooltip": {
             "signal": "{'Name': datum.label, 'Rank': datum.rank}"
           }
+        },
+        "hover": {
+          "size": { "value": 145 }
         }
       }
     },
-      {
-        "type": "text",
-        "from": {"data": "tree"},
-        "encode": {
-            "enter": {
-            "font": {"value": "Arial"},
-            "fontSize": {"value": 12},
-            "baseline": {"value": "bottom"},
-            "align": {"value": "left"},
-            "dx": {"value": -3},
-            "dy": {"value": -12}
-            },
-            "update": {
-            "x": {"field": "x"},
-            "y": {"field": "y"},
-            "text": {"field": "label"},
-            "fill": {
-                "signal": "datum.rank === 'Species' ? '#302D32' : '#6C6260'"
-            },
-            "fontWeight": {
-                "signal": "datum.rank === 'Species' ? 'bold' : 'normal'"
-            }
-            }
+    {
+      "type": "text",
+      "from": { "data": "tree" },
+      "encode": {
+        "enter": {
+          "font": { "value": "Arial" },
+          "fontSize": { "value": 12 }
+        },
+        "update": {
+          "x": { "field": "x" },
+          "y": { "field": "y" },
+          "text": { "field": "label" },
+          "fill": {
+            "signal": "datum.rank === 'Species' ? '#302D32' : '#6C6260'"
+          },
+          "fontWeight": {
+            "signal": "datum.rank === 'Species' ? 'bold' : 'normal'"
+          },
+          "align": { "value": "left" },
+          "baseline": {
+            "signal": "datum.rank === 'Species' ? 'middle' : 'bottom'"
+          },
+          "dx": {
+            "signal": "datum.rank === 'Species' ? 10 : -3"
+          },
+          "dy": {
+            "signal": "datum.rank === 'Species' ? 0 : -12"
+          }
         }
-        }
-  ]
+      }
+    }
+  ],
+  "config": {
+    "font": "Arial"
+  }
 }

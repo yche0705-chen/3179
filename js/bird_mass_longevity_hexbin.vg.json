@@ -136,6 +136,7 @@
       "labelFont": "Arial",
       "labelFontSize": 11,
       "titleFontSize": 12,
+      "titleFontWeight": "bold",
       "titleFont": "Arial"
     },
     {
@@ -159,23 +160,11 @@
       "labelFont": "Arial",
       "labelFontSize": 11,
       "titleFontSize": 12,
+      "titleFontWeight": "bold",
       "titleFont": "Arial"
     }
   ],
-  "legends": [
-    {
-      "fill": "heat",
-      "title": "Species per hexagon",
-      "orient": "bottom",
-      "direction": "horizontal",
-      "gradientLength": 170,
-      "gradientThickness": 9,
-      "offset": 10,
-      "format": "d",
-      "labelColor": "#6C6260",
-      "titleColor": "#302D32"
-    }
-  ],
+  "legends": [],
   "marks": [
     {
       "type": "path",

@@ -18,13 +18,6 @@
   ],
   "hconcat": [
     {
-      "title": {
-        "text": "Observation locations",
-        "anchor": "start",
-        "font": "Arial",
-        "fontSize": 17,
-        "color": "#302D32"
-      },
       "width": 700,
       "height": 360,
       "projection": {
@@ -121,13 +114,6 @@
     {
       "vconcat": [
         {
-          "title": {
-            "text": "Monthly pattern",
-            "anchor": "start",
-            "font": "Arial",
-            "fontSize": 14,
-            "color": "#5F5654"
-          },
           "width": 350,
           "height": 250,
           "data": {
@@ -284,7 +270,7 @@
     }
   },
   "config": {
-    "view": {
+   "view": {
       "stroke": null
     },
     "font": "Arial",

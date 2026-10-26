@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
-  "height": 430,
+  "height": 360,
   "autosize": {
     "type": "fit",
     "contains": "padding"
@@ -35,7 +35,7 @@
       "as": "a1"
     },
     {
-      "calculate": "52 + datum.percentage*2.2",
+      "calculate": "46 + datum.percentage*1.75",
       "as": "r"
     }
   ],
@@ -57,10 +57,10 @@
           "field": "a1"
         },
         "radius": {
-          "value": 195
+          "value": 165
         },
         "radius2": {
-          "value": 52
+          "value": 46
         },
         "color": {
           "value": "#9F9188"
@@ -89,7 +89,7 @@
           "scale": null
         },
         "radius2": {
-          "value": 52
+          "value": 46
         },
         "color": {
           "field": "category",
@@ -108,10 +108,7 @@
               "#E7B83E"
             ]
           },
-          "legend": {
-            "orient": "bottom",
-            "title": null
-          }
+          "legend": null
         },
         "tooltip": [
           {
@@ -127,6 +124,46 @@
             "title": "Care consideration"
           }
         ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.idx === 1"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dy": -8,
+        "font": "Georgia",
+        "fontSize": 36,
+        "fontWeight": "bold",
+        "color": "#E96B73"
+      },
+      "encoding": {
+        "text": {
+          "value": "62%"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.idx === 1"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dy": 20,
+        "font": "Arial",
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "color": "#6C6260"
+      },
+      "encoding": {
+        "text": {
+          "value": "TIME TO ROAM"
+        }
       }
     }
   ],

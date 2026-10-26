@@ -2,7 +2,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
-  "height": "200",
+  "height": "266",
+  "padding": 0,
   "autosize": {
     "type": "fit",
     "contains": "padding"
@@ -22,7 +23,11 @@
       "field": "column",
       "type": "ordinal",
       "sort": "ascending",
-      "axis": null
+      "axis": null,
+      "scale": {
+        "paddingInner": 0.04,
+        "paddingOuter": 0
+      }
     },
     "y": {
       "field": "row",
@@ -43,7 +48,9 @@
           "#398BA3",
           "#E7B83E",
           "#9B83BD"
-        ]
+        ],
+        "paddingInner": 0.04,
+        "paddingOuter": 0
       },
       "legend": null
     },
