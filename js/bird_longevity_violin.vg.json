@@ -806,8 +806,7 @@
             "titleFontWeight": "bold",
             "titlePadding": 14,
             "domain": false
-          },
-          "sort": "ascending"
+          }
         },
         "y": {
           "field": "y_upper",
@@ -1552,8 +1551,7 @@
             "titleFontWeight": "bold",
             "titlePadding": 14,
             "domain": false
-          },
-          "sort": "ascending"
+          }
         },
         "y": {
           "field": "y_upper",
@@ -2353,8 +2351,7 @@
       "encoding": {
         "x": {
           "field": "longevity_years",
-          "type": "quantitative",
-          "sort": "ascending"
+          "type": "quantitative"
         },
         "y": {
           "field": "y_upper",
@@ -3147,8 +3144,7 @@
       "encoding": {
         "x": {
           "field": "longevity_years",
-          "type": "quantitative",
-          "sort": "ascending"
+          "type": "quantitative"
         },
         "y": {
           "field": "y_lower",
@@ -3866,8 +3862,7 @@
       "encoding": {
         "x": {
           "field": "longevity_years",
-          "type": "quantitative",
-          "sort": "ascending"
+          "type": "quantitative"
         },
         "y": {
           "field": "y_upper",
@@ -4585,8 +4580,7 @@
       "encoding": {
         "x": {
           "field": "longevity_years",
-          "type": "quantitative",
-          "sort": "ascending"
+          "type": "quantitative"
         },
         "y": {
           "field": "y_lower",
@@ -4733,7 +4727,7 @@
               "Passerines"
             ],
             "range": [
-              "#287A93",
+              "#398BA3",
               "#E96B73"
             ]
           },

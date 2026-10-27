@@ -21,7 +21,7 @@
         "y": {
           "field": "pet_type",
           "type": "nominal",
-          "sort": "-x",
+          "sort": ["Dogs", "Cats", "Fish", "Birds", "Small mammals", "Reptiles", "Other pets"],
           "axis": {
             "title": null,
             "labelFont": "Arial",
@@ -93,7 +93,7 @@
         "y": {
           "field": "pet_type",
           "type": "nominal",
-          "sort": "-x"
+          "sort": ["Dogs", "Cats", "Fish", "Birds", "Small mammals", "Reptiles", "Other pets"]
         },
         "x": {
           "field": "percentage",
