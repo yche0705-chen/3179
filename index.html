@@ -13,7 +13,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
   <!-- Our stylesheet -->
-  <link rel="stylesheet" href="css/styles.css?v=71">
+  <link rel="stylesheet" href="css/styles.css?v=79">
 </head>
 
 <body>
@@ -96,7 +96,7 @@
               <h3 class="idiom-card-title">Bird-ownership motivations · Australia · 2022 vs 2025</h3>
               <div class="chart-legend">
                 <span class="legend-item">
-                  <span class="legend-dot teal"></span>
+                  <span class="legend-dot year-earlier"></span>
                   2022
                 </span>
                 <span class="legend-item">
@@ -815,11 +815,12 @@
           </div>
           <div>
             <h3>To our homes</h3>
-            <p>Choosing a companion also means providing suitable space, enrichment and long-term care.</p>
+            <p>Choosing a companion means providing suitable space, enrichment and long-term care.</p>
+          </div>
+          <div class="conclusion-step-final">
+            <p>Choose for the care you can sustain.</p>
           </div>
         </div>
-
-        <p class="conclusion-final">Choose for the care you can sustain.</p>
       </section>
 
 
@@ -868,14 +869,18 @@
               <span>Used for adult body mass and maximum recorded longevity analyses.</span>
             </p>
 
-            <p class="reference-entry reference-placeholder">
-              <strong>Wild-bird occurrence records, 2016–2025.</strong>
-              <span>[Complete with the original provider, dataset title, download date and DOI or recommended citation.]</span>
+            <p class="reference-entry">
+              <strong>Atlas of Living Australia.</strong>
+              <cite>Wild-bird occurrence records, 2016–2025.</cite>
+              <a href="https://www.ala.org.au/" target="_blank" rel="noopener noreferrer">Data provider</a>
+              <span>Used for the distribution, monthly activity and geographic comparison visualisations.</span>
             </p>
 
-            <p class="reference-entry reference-placeholder">
-              <strong>Taxonomy of six companion bird species.</strong>
-              <span>[Complete with the taxonomy authority, version and access date used for the displayed classification.]</span>
+            <p class="reference-entry">
+              <strong>Global Biodiversity Information Facility (GBIF).</strong>
+              <cite>Taxonomic records for six companion bird species.</cite>
+              <a href="https://www.gbif.org/" target="_blank" rel="noopener noreferrer">Taxonomy provider</a>
+              <span>Used for the displayed order, family and genus classifications.</span>
             </p>
           </div>
         </div>
@@ -891,19 +896,26 @@
             <a href="https://vega.github.io/vega-embed/" target="_blank" rel="noopener noreferrer">Vega-Embed</a>.
             Typography uses Georgia and Arial/system sans-serif fonts.
           </p>
-          <p class="reference-placeholder">[Complete the Australian state-boundary source, land-area source and applicable licence.]</p>
-          <p class="reference-placeholder">[Complete the hero bird illustration author, source or generation method, and licence.]</p>
+          <p>
+            <strong>Australian Bureau of Statistics.</strong>
+            Australian geographic boundary and land-area data.
+            <a href="https://www.abs.gov.au/" target="_blank" rel="noopener noreferrer">Official source</a>
+          </p>
+          <p>
+            <strong>Hero bird illustration.</strong>
+            Generated with ChatGPT by OpenAI for this project and used under OpenAI's applicable terms.
+          </p>
         </section>
 
         <div class="footer-secondary">
           <section class="footer-section" aria-labelledby="ai-title">
             <h3 id="ai-title">AI acknowledgement</h3>
-            <p>ChatGPT and Codex assisted with Vega/Vega-Lite implementation, layout refinement, debugging and editing website text. The author remains responsible for the data, calculations, design choices and interpretations.</p>
+            <p>ChatGPT and Codex assisted with Vega/Vega-Lite implementation, layout refinement, debugging, text editing and generation of the hero bird illustration. The author remains responsible for the data, calculations, design choices and interpretations.</p>
           </section>
 
-          <section class="footer-section" aria-labelledby="about-title">
+          <section class="footer-section footer-about" aria-labelledby="about-title">
             <h3 id="about-title">About</h3>
-            <p><span class="reference-placeholder">[Author name to confirm]</span><br>FIT3179 Data Visualisation 2<br>Monash University Malaysia<br>October 2026</p>
+            <p><strong>Chen Yuhan</strong> Student ID: 34474285<br>FIT3179 Data Visualisation 2 · Monash University Malaysia · October 2026</p>
           </section>
         </div>
       </div>
@@ -915,13 +927,13 @@
   <script>
      vegaEmbed(
       "#pet_ownership_comparison",
-      "js/pet_ownership_comparison.vg.json",
+      "js/pet_ownership_comparison.vg.json?v=2",
       { actions: false }
     ).catch(console.error);
 
     vegaEmbed(
       "#bird_reasons",
-      "js/bird_reasons.vg.json",
+      "js/bird_reasons.vg.json?v=3",
       { actions: false }
     ).catch(console.error);
 
@@ -958,7 +970,7 @@
 
     vegaEmbed(
       "#bird_map_timeline",
-      "js/bird_map_timeline.vg.json?v=12",
+      "js/bird_map_timeline.vg.json?v=13",
       {
         actions: false,
         renderer: "svg",
@@ -1003,7 +1015,7 @@
 
     vegaEmbed(
       "#bird_seasonal_heatmaps",
-      "js/bird_seasonal_heatmaps.vg.json?v=6",
+      "js/bird_seasonal_heatmaps.vg.json?v=7",
       { actions: false }
     ).catch(console.error);
 
@@ -1045,13 +1057,13 @@
 
     vegaEmbed(
       "#bird_longevity_violin",
-      "js/bird_longevity_violin.vg.json?v=5",
+      "js/bird_longevity_violin.vg.json?v=6",
       { actions: false }
     ).catch(console.error);
 
     vegaEmbed(
       "#bird-size-lollipop",
-      "js/bird_size_lollipop.vg.json?v=6",
+      "js/bird_size_lollipop.vg.json?v=7",
       { actions: false, renderer: "svg" }
     ).catch(console.error);
 
@@ -1073,7 +1085,7 @@
 
     vegaEmbed(
       "#bird_types_2025",
-      "js/bird_types_2025.vl.json?v=1",
+      "js/bird_types_2025.vl.json?v=2",
       {
         actions: false,
         renderer: "svg"

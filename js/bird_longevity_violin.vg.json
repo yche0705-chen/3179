@@ -801,7 +801,9 @@
             "labelFontSize": 12,
             "labelColor": "#6C6260",
             "titleColor": "#302D32",
-            "titleFontSize": 13,
+            "titleFont": "Arial",
+            "titleFontSize": 12,
+            "titleFontWeight": "bold",
             "titlePadding": 14,
             "domain": false
           },
@@ -1545,7 +1547,9 @@
             "labelFontSize": 12,
             "labelColor": "#6C6260",
             "titleColor": "#302D32",
-            "titleFontSize": 13,
+            "titleFont": "Arial",
+            "titleFontSize": 12,
+            "titleFontWeight": "bold",
             "titlePadding": 14,
             "domain": false
           },

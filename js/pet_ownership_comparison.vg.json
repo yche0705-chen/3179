@@ -42,7 +42,9 @@
           "axis": {
             "title": "Percentage of Australian households",
             "titleFont": "Arial",
-            "titleFontSize": 13,
+            "titleFontSize": 12,
+            "titleFontWeight": "bold",
+            "titleColor": "#302D32",
             "titlePadding": 14,
             "labelFont": "Arial",
             "labelFontSize": 12,

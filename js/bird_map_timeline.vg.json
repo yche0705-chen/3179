@@ -277,6 +277,9 @@
     "axis": {
       "labelColor": "#6C6260",
       "titleColor": "#302D32",
+      "titleFont": "Arial",
+      "titleFontSize": 12,
+      "titleFontWeight": "bold",
       "gridColor": "#EEE9E3"
     }
   }

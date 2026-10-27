@@ -120,6 +120,12 @@
     "view": {
       "stroke": null
     },
-    "font": "Arial"
+    "font": "Arial",
+    "axis": {
+      "titleFont": "Arial",
+      "titleFontSize": 12,
+      "titleFontWeight": "bold",
+      "titleColor": "#302D32"
+    }
   }
 }

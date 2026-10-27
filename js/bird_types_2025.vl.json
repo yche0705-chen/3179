@@ -133,7 +133,10 @@
     },
     "axis": {
       "labelFont": "Arial",
-      "titleFont": "Arial"
+      "titleFont": "Arial",
+      "titleFontSize": 12,
+      "titleFontWeight": "bold",
+      "titleColor": "#302D32"
     }
   }
 }

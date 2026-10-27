@@ -8,6 +8,7 @@
   --annotation-accent: var(--rose);
   --yellow: #E7B83E;
   --teal: #398BA3;
+  --year-earlier: #8A9DA3;
   --lavender: #9B83BD;
   --text: #302D32;
   --muted-text: #6C6260;
@@ -535,6 +536,10 @@ h2 {
 
 .teal {
   background: var(--teal);
+}
+
+.year-earlier {
+  background: var(--year-earlier);
 }
 
 .coral {
@@ -2109,19 +2114,19 @@ h2 {
 }
 
 .story-conclusion h2 {
-  max-width: 24ch;
+  max-width: none;
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(26px, 3vw, 34px);
   font-weight: 700;
   line-height: 1.2;
+  white-space: nowrap;
 }
 
 .conclusion-journey {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 28px 56px;
-  max-width: 980px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px 48px;
   margin-top: 22px;
 }
 
@@ -2143,8 +2148,7 @@ h2 {
   line-height: 1.55;
 }
 
-.conclusion-final {
-  margin: 20px 0 0;
+.conclusion-journey .conclusion-step-final p {
   color: var(--dusty-pink);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(19px, 2vw, 23px);
@@ -2171,11 +2175,16 @@ h2 {
     padding-top: 20px;
   }
 
+  .story-conclusion h2 {
+    white-space: normal;
+  }
+
   .conclusion-journey {
     grid-template-columns: 1fr;
     gap: 16px;
     margin-top: 18px;
   }
+
 }
 
 @media (max-width: 920px) {
@@ -3001,6 +3010,7 @@ figure > .idiom-card-title {
   margin: 0;
   color: var(--teal);
   font-size: 11px;
+  font-weight: 700;
   letter-spacing: 1.1px;
 }
 
@@ -3451,7 +3461,7 @@ figure > .idiom-card-title {
 
 .footer-inner {
   width: 100%;
-  max-width: var(--content-width);
+  max-width: calc(var(--content-width) - 48px);
   margin: 0 auto;
 }
 
@@ -3487,8 +3497,7 @@ figure > .idiom-card-title {
   text-transform: uppercase;
 }
 
-.reference-grid,
-.footer-detail-grid {
+.reference-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px 56px;
@@ -3512,6 +3521,10 @@ figure > .idiom-card-title {
   color: var(--text);
 }
 
+.footer-section p strong {
+  color: var(--text);
+}
+
 .reference-entry cite {
   font-style: italic;
 }
@@ -3531,11 +3544,10 @@ figure > .idiom-card-title {
   color: var(--dusty-pink);
 }
 
-.reference-placeholder {
-  color: #8B526A !important;
-}
-
 .footer-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 56px;
   margin-top: 30px;
   padding-top: 24px;
   border-top: 1px solid rgba(173, 100, 131, 0.3);
@@ -3544,6 +3556,10 @@ figure > .idiom-card-title {
 .footer-secondary {
   display: grid;
   gap: 24px;
+}
+
+.footer-about p {
+  line-height: 1.75;
 }
 
 @media (max-width: 760px) {

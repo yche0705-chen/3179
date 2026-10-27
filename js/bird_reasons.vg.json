@@ -103,7 +103,7 @@
           "type": "nominal",
           "scale": {
             "domain": ["2022", "2025"],
-            "range": ["#398BA3", "#E96B73"]
+            "range": ["#8A9DA3", "#E96B73"]
           },
           "legend": null
         },
@@ -141,6 +141,9 @@
     "axis": {
       "labelColor": "#302D32",
       "titleColor": "#302D32",
+      "titleFont": "Arial",
+      "titleFontSize": 12,
+      "titleFontWeight": "bold",
       "gridColor": "#EEE8E2",
       "gridWidth": 1,
       "domain": false

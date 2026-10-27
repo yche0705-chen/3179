@@ -160,6 +160,12 @@
   "config": {
     "view": {
       "stroke": null
+    },
+    "axis": {
+      "titleFont": "Arial",
+      "titleFontSize": 12,
+      "titleFontWeight": "bold",
+      "titleColor": "#302D32"
     }
   }
 }
