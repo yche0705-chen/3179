@@ -13,7 +13,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
   <!-- Our stylesheet -->
-  <link rel="stylesheet" href="css/styles.css?v=79">
+  <link rel="stylesheet" href="css/styles.css?v=80">
 </head>
 
 <body>
@@ -1057,8 +1057,8 @@
 
     vegaEmbed(
       "#bird_longevity_violin",
-      "js/bird_longevity_violin.vg.json?v=6",
-      { actions: false }
+      "js/bird_longevity_violin.vg.json?v=7",
+      { actions: false, renderer: "svg" }
     ).catch(console.error);
 
     vegaEmbed(

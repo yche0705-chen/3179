@@ -2334,6 +2334,10 @@ h2 {
   height: auto;
 }
 
+#bird_longevity_violin svg .layer_8_marks path {
+  cursor: pointer;
+}
+
 .bird-violin-insight {
   align-self: center;
   margin: 0;

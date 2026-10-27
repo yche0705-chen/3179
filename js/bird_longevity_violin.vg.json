@@ -4712,7 +4712,8 @@
         "size": 245,
         "stroke": "#302D32",
         "strokeWidth": 2.1,
-        "opacity": 1
+        "opacity": 1,
+        "cursor": "pointer"
       },
       "encoding": {
         "x": {
@@ -4771,7 +4772,7 @@
           {
             "name": "SONGBIRDS · 564 SPECIES",
             "x": 2,
-            "y": 0.42
+            "y": 0.48
           }
         ]
       },
